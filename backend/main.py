@@ -303,6 +303,16 @@ def reset_and_refetch():
         print(f"Deleted {count} old news items")
     except Exception as e:
         print(f"Error deleting news: {e}")
+    try:
+        import os
+        db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'news.db')
+        if os.path.exists(db_path):
+            os.remove(db_path)
+            print(f"Removed database file: {db_path}")
+        init_db()
+        print("Re-initialized database")
+    except Exception as e:
+        print(f"Error resetting database file: {e}")
     fetch_and_translate()
 
 
