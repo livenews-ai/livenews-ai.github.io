@@ -72,12 +72,30 @@ function isChineseSource(news: News): boolean {
   return news.title === news.title_zh
 }
 
+function isTitleHallucinated(title: string, titleZh: string): boolean {
+  if (!title || !titleZh || title === titleZh) return false
+  const zhChars = (titleZh.match(/[\u4e00-\u9fff]/g) || []).length
+  const enWords = title.split(/\s+/).length
+  if (enWords > 0 && zhChars > enWords * 4) return true
+  if (titleZh.split('\n').length > 2) return true
+  if (enWords < 10 && /[1-9][.)]|[•\-] /g.test(titleZh)) return true
+  return false
+}
+
+function getSafeTitleZh(news: News): string {
+  if (isTitleHallucinated(news.title, news.title_zh)) {
+    return news.title
+  }
+  return news.title_zh
+}
+
 export function NewsCard({ news }: NewsCardProps) {
   const publishedDate = news.published_at
     ? new Date(news.published_at).toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
     : ''
 
   const chineseSource = isChineseSource(news)
+  const safeTitleZh = getSafeTitleZh(news)
   const originalParagraphs = formatParagraphs(news.original_text)
   const translatedParagraphs = formatParagraphs(news.translated_text || '')
 
@@ -102,8 +120,8 @@ export function NewsCard({ news }: NewsCardProps) {
           </div>
         </div>
 
-        <h3 className="text-lg font-bold text-primary mb-1">{news.title_zh}</h3>
-        {!chineseSource && news.title !== news.title_zh && (
+        <h3 className="text-lg font-bold text-primary mb-1">{safeTitleZh}</h3>
+        {!chineseSource && news.title !== safeTitleZh && (
           <p className="text-sm text-gray-600 italic">{news.title}</p>
         )}
       </div>

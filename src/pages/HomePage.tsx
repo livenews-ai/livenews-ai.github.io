@@ -6,6 +6,14 @@ import { CategoryFilter } from '../components/CategoryFilter'
 import { NewsList } from '../components/NewsList'
 import { FileText, Loader2, ChevronUp, ChevronDown, ExternalLink } from 'lucide-react'
 
+function safeSummaryTitle(titleZh: string): string {
+  if (!titleZh) return titleZh
+  const zhChars = (titleZh.match(/[\u4e00-\u9fff]/g) || []).length
+  if (titleZh.split('\n').length > 2) return titleZh.split('\n')[0].trim()
+  if (zhChars > 60) return titleZh.substring(0, 60) + '...'
+  return titleZh
+}
+
 const categoryColors: Record<string, string> = {
   chip: '🔴 AI芯片动态',
   industry: '🔵 行业动态',
@@ -115,7 +123,7 @@ export default function HomePage() {
                       {cat.items.map((item, idx) => (
                       <li key={idx} className="text-sm text-gray-700 flex items-center gap-2">
                         <span className="text-gray-400 shrink-0">{idx + 1}.</span>
-                        <span className="flex-1 truncate">{item.title_zh}</span>
+                        <span className="flex-1 truncate">{safeSummaryTitle(item.title_zh)}</span>
                         <a
                           href={item.source_url}
                           target="_blank"
