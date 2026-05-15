@@ -1,0 +1,8 @@
+[project]
+name = "livenews-ai-backend"
+
+[build]
+command = "pip install -r requirements.txt"
+
+[start]
+command = "python main.py"
