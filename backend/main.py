@@ -279,6 +279,26 @@ def trigger_retranslate():
     return {"success": True, "message": "Re-translation of all news triggered in background"}
 
 
+def reset_and_refetch():
+    print(f"[{datetime.now()}] Resetting all data and re-fetching...")
+    try:
+        db = next(get_db())
+        count = db.query(News).delete()
+        db.commit()
+        db.close()
+        print(f"Deleted {count} old news items")
+    except Exception as e:
+        print(f"Error deleting news: {e}")
+    fetch_and_translate()
+
+
+@app.post("/api/admin/reset")
+def trigger_reset():
+    thread = threading.Thread(target=reset_and_refetch, daemon=True)
+    thread.start()
+    return {"success": True, "message": "Reset and re-fetch triggered in background"}
+
+
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
