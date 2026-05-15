@@ -35,17 +35,14 @@ def fetch_and_translate():
 
         db = next(get_db())
         today = date_type.today()
+
+        db.query(News).filter(News.news_date == today).delete()
+        db.commit()
+        print(f"Cleared today's old news")
+
         saved_count = 0
 
         for item in news_items:
-            existing = db.query(News).filter(
-                News.source_url == item['url'],
-                News.news_date == today
-            ).first()
-
-            if existing:
-                continue
-
             is_chinese = any('\u4e00' <= c <= '\u9fff' for c in item['title'])
 
             if is_chinese:
@@ -303,16 +300,6 @@ def reset_and_refetch():
         print(f"Deleted {count} old news items")
     except Exception as e:
         print(f"Error deleting news: {e}")
-    try:
-        import os
-        db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'news.db')
-        if os.path.exists(db_path):
-            os.remove(db_path)
-            print(f"Removed database file: {db_path}")
-        init_db()
-        print("Re-initialized database")
-    except Exception as e:
-        print(f"Error resetting database file: {e}")
     fetch_and_translate()
 
 
