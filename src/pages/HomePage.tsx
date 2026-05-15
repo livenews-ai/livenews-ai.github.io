@@ -17,7 +17,7 @@ function safeSummaryTitle(titleZh: string): string {
 const categoryColors: Record<string, string> = {
   chip: '🔴 AI芯片动态',
   industry: '🔵 行业动态',
-  tool: '🟢 工具推荐',
+  tool: '🟢 工具与实战',
   academic: '🟣 学术精选',
 }
 
