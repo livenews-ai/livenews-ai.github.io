@@ -67,10 +67,10 @@ class Translator:
         if '\n' in translated and len(translated.split('\n')) > 2:
             print(f"  Title hallucination detected: multi-line expansion, using original")
             return original
-        if any(marker in translated for marker in ['1.', '2.', '3.', '1)', '2)', '3)', '•', '- ']):
-            if en_words < 10:
-                print(f"  Title hallucination detected: list markers in short title, using original")
-                return original
+        list_marker_pattern = re.compile(r'(?:^|\s)(?:[1-9][.)]|[•\-])\s')
+        if en_words < 10 and list_marker_pattern.search(translated):
+            print(f"  Title hallucination detected: list markers in short title, using original")
+            return original
         return translated
 
     def _validate_text_translation(self, translated: str, original: str) -> str:
