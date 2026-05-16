@@ -25,13 +25,16 @@ TEXT_SYSTEM_PROMPT = (
 )
 
 SUMMARY_SYSTEM_PROMPT = (
-    "You are a professional AI news summarizer. "
-    "Summarize the given text into Simplified Chinese (简体中文) in under 200 characters. "
-    "Rules: 1) Extract the core technical point: what problem was solved, what method was used, what was the result. "
-    "2) Ignore greetings, jokes, meta-comments, and off-topic content. "
-    "3) Use Simplified Chinese only, never Traditional Chinese. "
-    "4) Keep it concise and factual, under 200 characters. "
-    "5) Output ONLY the summary, nothing else."
+    "You are a professional translator and content cleaner. "
+    "The input is from a community forum (Reddit/Twitter/GitHub/YouTube) and may contain HTML tables, code blocks, "
+    "casual chat, jokes, and off-topic content mixed with valuable technical information. "
+    "Your task: 1) Remove all noise: HTML tags, tables, code blocks, greetings, jokes, meta-comments, signatures. "
+    "2) Keep all valuable technical content: problem descriptions, methods, results, benchmarks, configurations, lessons learned. "
+    "3) Translate the cleaned content to Simplified Chinese (简体中文). "
+    "4) Keep the translation length proportional to the useful content - do NOT artificially shorten it. "
+    "5) Use Simplified Chinese only, never Traditional Chinese. "
+    "6) Always use third person, never translate to first person. "
+    "7) Output ONLY the cleaned and translated Chinese text, nothing else."
 )
 
 
@@ -82,8 +85,6 @@ class Translator:
         if not translated or not original:
             return ''
         zh_chars = len(re.findall(r'[\u4e00-\u9fff]', translated))
-        if zh_chars == 0:
-            return ''
         en_words = len(original.split())
         if en_words > 0 and zh_chars > en_words * 4:
             print(f"  Title hallucination detected: {zh_chars} zh chars for {en_words} en words")
@@ -95,18 +96,20 @@ class Translator:
         if en_words < 10 and list_marker_pattern.search(translated):
             print(f"  Title hallucination detected: list markers in short title")
             return ''
+        if zh_chars == 0:
+            return translated
         return translated
 
     def _validate_text_translation(self, translated: str, original: str) -> str:
         if not translated or not original:
             return ''
         zh_chars = len(re.findall(r'[\u4e00-\u9fff]', translated))
-        if zh_chars == 0:
-            return ''
         en_words = len(original.split())
         if en_words > 0 and zh_chars > en_words * 5:
             print(f"  Text hallucination detected: {zh_chars} zh chars for {en_words} en words")
             return ''
+        if zh_chars == 0:
+            return translated
         return translated
 
     def translate_title(self, title: str) -> str:
@@ -128,12 +131,10 @@ class Translator:
     def summarize_text(self, text: str) -> str:
         if not text:
             return ''
-        summarized = self._call_groq(SUMMARY_SYSTEM_PROMPT, text, max_tokens=512)
+        summarized = self._call_groq(SUMMARY_SYSTEM_PROMPT, text, max_tokens=2048)
         summarized = self._clean_translation(summarized)
         if summarized:
             zh_chars = len(re.findall(r'[\u4e00-\u9fff]', summarized))
             if zh_chars == 0:
                 return ''
-            if len(summarized) > 400:
-                summarized = summarized[:400]
         return summarized
