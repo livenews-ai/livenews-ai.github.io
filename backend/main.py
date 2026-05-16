@@ -202,16 +202,17 @@ def get_news(
     db: Session = Depends(get_db)
 ):
     query = db.query(News)
-    today = date_type.today()
+    today = cn_today()
+    yesterday = today - timedelta(days=1)
 
     if date:
         try:
             query_date = datetime.strptime(date, '%Y-%m-%d').date()
             query = query.filter(News.news_date == query_date)
         except:
-            query = query.filter(News.news_date == today)
+            query = query.filter(News.news_date.in_([today, yesterday]))
     else:
-        query = query.filter(News.news_date == today)
+        query = query.filter(News.news_date.in_([today, yesterday]))
 
     if category and category != 'all':
         query = query.filter(News.category == category)
