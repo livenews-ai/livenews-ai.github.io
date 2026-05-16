@@ -2,16 +2,24 @@ import { useState, useEffect, useCallback } from 'react'
 import type { News, Category, SummaryCategory } from '../types/news'
 import { api } from '../services/api'
 
+const getChinaDate = (): string => {
+  const now = new Date()
+  const offset = 8 * 60
+  const utc = now.getTime() + now.getTimezoneOffset() * 60000
+  const chinaTime = new Date(utc + offset * 60000)
+  return chinaTime.toISOString().split('T')[0]
+}
+
 export function useNews() {
   const [news, setNews] = useState<News[]>([])
   const [categories] = useState<Category[]>([
     { value: 'all', label: '全部', emoji: '📋' },
     { value: 'chip', label: 'AI芯片动态', emoji: '🔴' },
-    { value: 'tool', label: '工具推荐', emoji: '🟢' },
+    { value: 'tool', label: '工具与实战', emoji: '🟢' },
     { value: 'industry', label: '行业动态', emoji: '🔵' },
     { value: 'academic', label: '学术精选', emoji: '🟣' },
   ])
-  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0])
+  const [selectedDate, setSelectedDate] = useState(getChinaDate)
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)

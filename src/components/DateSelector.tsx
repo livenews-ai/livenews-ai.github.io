@@ -8,8 +8,15 @@ interface DateSelectorProps {
 
 const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六']
 
+const getChinaDate = (): Date => {
+  const now = new Date()
+  const offset = 8 * 60
+  const utc = now.getTime() + now.getTimezoneOffset() * 60000
+  return new Date(utc + offset * 60000)
+}
+
 export function DateSelector({ selectedDate, onDateChange }: DateSelectorProps) {
-  const today = new Date()
+  const today = getChinaDate()
   const minDate = format(subDays(today, 6), 'yyyy-MM-dd')
   const maxDate = format(today, 'yyyy-MM-dd')
 
