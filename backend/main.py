@@ -2,8 +2,11 @@ import os
 import uuid
 import threading
 import time
+from pathlib import Path
 from fastapi import FastAPI, Depends, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 from typing import Optional
 from datetime import date as date_type, datetime, timedelta, timezone
@@ -348,6 +351,12 @@ def trigger_reset():
     thread = threading.Thread(target=reset_and_refetch, daemon=True)
     thread.start()
     return {"success": True, "message": "Reset and re-fetch triggered in background"}
+
+
+STATIC_DIR = Path(__file__).parent / "static"
+
+if STATIC_DIR.is_dir():
+    app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")
 
 
 if __name__ == "__main__":
