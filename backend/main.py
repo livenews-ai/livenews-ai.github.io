@@ -89,11 +89,13 @@ def fetch_and_translate():
 
         db = next(get_db())
         try:
-            db.query(News).filter(News.news_date == today).delete()
-            db.commit()
-            print(f"Cleared today's old news")
-
+            existing_urls = set(
+                row[0] for row in db.query(News.source_url).filter(News.news_date == today).all()
+            )
+            new_count = 0
             for item in prepared_items:
+                if item['source_url'] in existing_urls:
+                    continue
                 news = News(
                     title=item['title'],
                     title_zh=item['title_zh'],
@@ -111,8 +113,9 @@ def fetch_and_translate():
                     news_date=today
                 )
                 db.add(news)
+                new_count += 1
             db.commit()
-            print(f"[{datetime.now()}] Done: saved {len(prepared_items)} items (all translated first, then replaced)")
+            print(f"[{datetime.now()}] Done: saved {new_count} new items (skipped {len(prepared_items) - new_count} duplicates)")
         finally:
             db.close()
     except Exception as e:
@@ -182,7 +185,7 @@ def startup_event():
     print("Scheduler started: fetch+translate every 2h, translate remaining every 1h")
 
     db = next(get_db())
-    today = date_type.today()
+    today = cn_today()
     has_today_news = db.query(News).filter(News.news_date == today).first()
     db.close()
 
@@ -203,26 +206,35 @@ def get_news(
 ):
     query = db.query(News)
     today = cn_today()
-    yesterday = today - timedelta(days=1)
+    query_date = today
 
     if date:
         try:
             query_date = datetime.strptime(date, '%Y-%m-%d').date()
             query = query.filter(News.news_date == query_date)
         except:
-            query = query.filter(News.news_date.in_([today, yesterday]))
+            query = query.filter(News.news_date == today)
     else:
-        query = query.filter(News.news_date.in_([today, yesterday]))
+        query = query.filter(News.news_date == today)
 
     if category and category != 'all':
         query = query.filter(News.category == category)
 
     news_items = query.order_by(News.published_at.desc()).limit(20).all()
 
+    if not news_items and date:
+        nearest = db.query(News).order_by(News.news_date.desc()).first()
+        if nearest:
+            query_date = nearest.news_date
+            query = db.query(News).filter(News.news_date == query_date)
+            if category and category != 'all':
+                query = query.filter(News.category == category)
+            news_items = query.order_by(News.published_at.desc()).limit(20).all()
+
     return {
         "success": True,
         "data": {
-            "date": date or str(today),
+            "date": str(query_date),
             "news": [item.to_dict() for item in news_items],
             "categories": [
                 {"value": "all", "label": "全部", "emoji": "📋"},
@@ -240,7 +252,7 @@ def generate_daily_summary(
     date: Optional[str] = Query(None),
     db: Session = Depends(get_db)
 ):
-    today = date_type.today()
+    today = cn_today()
     if date:
         try:
             query_date = datetime.strptime(date, '%Y-%m-%d').date()
