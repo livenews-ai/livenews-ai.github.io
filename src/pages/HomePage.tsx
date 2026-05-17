@@ -26,7 +26,6 @@ export default function HomePage() {
     news,
     categories,
     selectedDate,
-    actualDate,
     selectedCategory,
     setSelectedDate,
     setSelectedCategory,
@@ -141,12 +140,6 @@ export default function HomePage() {
                 ))}
               </div>
             )}
-          </div>
-        )}
-
-        {actualDate && actualDate !== selectedDate && (
-          <div className="mb-4 px-4 py-2 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-700">
-            {selectedDate} 暂无新闻，已自动显示 {actualDate} 的新闻
           </div>
         )}
 
