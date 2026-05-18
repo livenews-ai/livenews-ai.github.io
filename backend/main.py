@@ -42,9 +42,6 @@ def fetch_and_translate(target_date=None):
         news_items = scraper.scrape_all()
         print(f"Scraped {len(news_items)} AI-related news items")
 
-        if target_date is None:
-            target_date = cn_today()
-
         prepared_items = []
         for idx, item in enumerate(news_items):
             is_chinese = any('\u4e00' <= c <= '\u9fff' for c in item['title'])
@@ -74,6 +71,13 @@ def fetch_and_translate(target_date=None):
                 if not translated_text:
                     translated_text = ''
 
+            # 根据发布时间计算news_date（中国时区）
+            published_at = item['published']
+            if isinstance(published_at, datetime):
+                item_date = published_at.astimezone(CN_TZ).date()
+            else:
+                item_date = cn_today()
+
             prepared_items.append({
                 'title': item['title'],
                 'title_zh': title_zh,
@@ -84,43 +88,56 @@ def fetch_and_translate(target_date=None):
                 'category_emoji': item['category']['emoji'],
                 'source': item['source'],
                 'source_url': item['url'],
-                'published_at': item['published'],
+                'published_at': published_at,
                 'trust_level': item['trust_level'],
                 'ai_warning': '预印本提示：此论文来自ArXiv，未经同行评审' if item['source'] == 'ArXiv CS.AI' else None,
-                'news_date': target_date,
+                'news_date': item_date,
             })
 
-            print(f"  Prepared {idx+1}/{len(news_items)}: {item['title'][:40]}...")
+            print(f"  Prepared {idx+1}/{len(news_items)}: [{item_date}] {item['title'][:40]}...")
 
         db = next(get_db())
         try:
-            existing_urls = set(
-                row[0] for row in db.query(News.source_url).filter(News.news_date == target_date).all()
-            )
-            new_count = 0
+            # 按日期分组处理，避免全局去重逻辑问题
+            by_date = {}
             for item in prepared_items:
-                if item['source_url'] in existing_urls:
-                    continue
-                news = News(
-                    title=item['title'],
-                    title_zh=item['title_zh'],
-                    original_text=item['original_text'],
-                    translated_text=item['translated_text'],
-                    category=item['category'],
-                    category_label=item['category_label'],
-                    category_emoji=item['category_emoji'],
-                    source=item['source'],
-                    source_url=item['source_url'],
-                    published_at=item['published_at'],
-                    trust_level=item['trust_level'],
-                    multi_source_verified=False,
-                    ai_warning=item['ai_warning'],
-                    news_date=item['news_date']
+                d = item['news_date']
+                if d not in by_date:
+                    by_date[d] = []
+                by_date[d].append(item)
+            
+            new_count = 0
+            for d, items in by_date.items():
+                # 获取该日期已存在的URL
+                existing_urls = set(
+                    row[0] for row in db.query(News.source_url).filter(News.news_date == d).all()
                 )
-                db.add(news)
-                new_count += 1
+                
+                for item in items:
+                    if item['source_url'] in existing_urls:
+                        continue
+                    news = News(
+                        title=item['title'],
+                        title_zh=item['title_zh'],
+                        original_text=item['original_text'],
+                        translated_text=item['translated_text'],
+                        category=item['category'],
+                        category_label=item['category_label'],
+                        category_emoji=item['category_emoji'],
+                        source=item['source'],
+                        source_url=item['source_url'],
+                        published_at=item['published_at'],
+                        trust_level=item['trust_level'],
+                        multi_source_verified=False,
+                        ai_warning=item['ai_warning'],
+                        news_date=item['news_date']
+                    )
+                    db.add(news)
+                    new_count += 1
+                    existing_urls.add(item['source_url'])
+            
             db.commit()
-            print(f"[{datetime.now()}] Done: saved {new_count} new items for {target_date} (skipped {len(prepared_items) - new_count} duplicates)")
+            print(f"[{datetime.now()}] Done: saved {new_count} new items across {len(by_date)} dates")
         finally:
             db.close()
     except Exception as e:
