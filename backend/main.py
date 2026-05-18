@@ -34,15 +34,15 @@ app.add_middleware(
 )
 
 
-def fetch_and_translate():
-    print(f"[{datetime.now()}] Starting news fetch + translate...")
+def fetch_and_translate(target_date=None):
+    if target_date is None:
+        target_date = cn_today()
+    print(f"[{datetime.now()}] Starting news fetch + translate for {target_date}...")
     try:
         scraper = NewsScraper()
         translator = Translator()
         news_items = scraper.scrape_all()
         print(f"Scraped {len(news_items)} AI-related news items")
-
-        today = cn_today()
 
         prepared_items = []
         for idx, item in enumerate(news_items):
@@ -93,7 +93,7 @@ def fetch_and_translate():
         db = next(get_db())
         try:
             existing_urls = set(
-                row[0] for row in db.query(News.source_url).filter(News.news_date == today).all()
+                row[0] for row in db.query(News.source_url).filter(News.news_date == target_date).all()
             )
             new_count = 0
             for item in prepared_items:
@@ -113,12 +113,12 @@ def fetch_and_translate():
                     trust_level=item['trust_level'],
                     multi_source_verified=False,
                     ai_warning=item['ai_warning'],
-                    news_date=today
+                    news_date=target_date
                 )
                 db.add(news)
                 new_count += 1
             db.commit()
-            print(f"[{datetime.now()}] Done: saved {new_count} new items (skipped {len(prepared_items) - new_count} duplicates)")
+            print(f"[{datetime.now()}] Done: saved {new_count} new items for {target_date} (skipped {len(prepared_items) - new_count} duplicates)")
         finally:
             db.close()
     except Exception as e:
@@ -177,6 +177,19 @@ def background_fetch():
     thread.start()
 
 
+def cleanup_old_news():
+    try:
+        db = next(get_db())
+        cutoff_date = cn_today() - timedelta(days=7)
+        deleted = db.query(News).filter(News.news_date < cutoff_date).delete()
+        db.commit()
+        db.close()
+        if deleted > 0:
+            print(f"[{datetime.now()}] Cleaned up {deleted} news items older than 7 days")
+    except Exception as e:
+        print(f"Error cleaning up old news: {e}")
+
+
 @app.on_event("startup")
 def startup_event():
     init_db()
@@ -184,16 +197,25 @@ def startup_event():
     scheduler = BackgroundScheduler()
     scheduler.add_job(fetch_and_translate, 'interval', hours=2, id='fetch_news')
     scheduler.add_job(translate_untranslated_news, 'interval', hours=1, id='translate_news')
+    scheduler.add_job(cleanup_old_news, 'interval', hours=24, id='cleanup_news')
     scheduler.start()
-    print("Scheduler started: fetch+translate every 2h, translate remaining every 1h")
+    print("Scheduler started: fetch+translate every 2h, translate remaining every 1h, cleanup every 24h")
 
     db = next(get_db())
     today = cn_today()
-    has_today_news = db.query(News).filter(News.news_date == today).first()
+    total_count = db.query(News).count()
     db.close()
 
-    if not has_today_news:
-        background_fetch()
+    if total_count == 0:
+        print("Database is empty, fetching past 7 days of news...")
+        for i in range(7):
+            past_date = today - timedelta(days=i)
+            print(f"  Fetching news for {past_date}...")
+            fetch_and_translate(past_date)
+    else:
+        has_today_news = db.query(News).filter(News.news_date == today).first()
+        if not has_today_news:
+            background_fetch()
 
 
 @app.get("/api/news")
