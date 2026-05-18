@@ -200,7 +200,7 @@ def cleanup_old_news():
     try:
         db = next(get_db())
         cutoff_date = cn_today() - timedelta(days=7)
-        deleted = db.query(News).filter(News.news_date < cutoff_date).delete()
+        deleted = db.query(News).filter(News.news_date < cutoff_date).delete(synchronize_session=False)
         db.commit()
         db.close()
         if deleted > 0:
@@ -356,7 +356,7 @@ def reset_and_refetch():
     print(f"[{datetime.now()}] Resetting all data and re-fetching...")
     try:
         db = next(get_db())
-        count = db.query(News).delete()
+        count = db.query(News).delete(synchronize_session=False)
         db.commit()
         db.close()
         print(f"Deleted {count} old news items")
