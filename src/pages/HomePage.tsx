@@ -4,6 +4,7 @@ import { Header } from '../components/Header'
 import { DateSelector } from '../components/DateSelector'
 import { CategoryFilter } from '../components/CategoryFilter'
 import { NewsList } from '../components/NewsList'
+import { ColdStartWarning } from '../components/ColdStartWarning'
 import { FileText, Loader2, ChevronUp, ChevronDown, ExternalLink } from 'lucide-react'
 
 function safeSummaryTitle(titleZh: string): string {
@@ -143,6 +144,7 @@ export default function HomePage() {
           </div>
         )}
 
+        <ColdStartWarning loading={loading} />
         <NewsList news={news} loading={loading} error={error} onRetry={fetchNews} />
       </main>
 

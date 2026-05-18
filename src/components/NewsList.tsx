@@ -1,6 +1,6 @@
-import { Loader2 } from 'lucide-react'
 import type { News } from '../types/news'
 import { NewsCard } from './NewsCard'
+import { NewsListSkeleton } from './NewsSkeleton'
 
 interface NewsListProps {
   news: News[]
@@ -11,12 +11,7 @@ interface NewsListProps {
 
 export function NewsList({ news, loading, error, onRetry }: NewsListProps) {
   if (loading && news.length === 0) {
-    return (
-      <div className="flex flex-col items-center justify-center py-20">
-        <Loader2 className="w-12 h-12 text-accent animate-spin mb-4" />
-        <p className="text-gray-600">正在加载新闻...</p>
-      </div>
-    )
+    return <NewsListSkeleton />
   }
 
   if (error) {
