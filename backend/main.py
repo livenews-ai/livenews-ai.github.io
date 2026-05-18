@@ -356,10 +356,17 @@ def reset_and_refetch():
     print(f"[{datetime.now()}] Resetting all data and re-fetching...")
     try:
         db = next(get_db())
-        count = db.query(News).delete(synchronize_session=False)
-        db.commit()
+        # 删除所有数据，更稳妥的方式
+        while True:
+            batch = db.query(News).limit(100).all()
+            if not batch:
+                break
+            for item in batch:
+                    db.delete(item)
+            db.commit()
+        count = db.query(News).count()  # 确认计数
         db.close()
-        print(f"Deleted {count} old news items")
+        print(f"Deleted all old news items (remaining: {count})")
     except Exception as e:
         print(f"Error deleting news: {e}")
     fetch_and_translate()
