@@ -220,15 +220,6 @@ def get_news(
 
     news_items = query.order_by(News.published_at.desc()).limit(20).all()
 
-    if not news_items and date:
-        nearest = db.query(News).order_by(News.news_date.desc()).first()
-        if nearest:
-            query_date = nearest.news_date
-            query = db.query(News).filter(News.news_date == query_date)
-            if category and category != 'all':
-                query = query.filter(News.category == category)
-            news_items = query.order_by(News.published_at.desc()).limit(20).all()
-
     return {
         "success": True,
         "data": {
