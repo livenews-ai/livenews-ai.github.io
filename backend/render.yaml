@@ -8,7 +8,11 @@ services:
       npm install &&
       npm run build &&
       rm -rf backend/static &&
-      cp -r dist backend/static
+      mkdir -p backend/static &&
+      cp -r dist/* backend/static/ &&
+      echo "=== Static files ===" &&
+      ls -la backend/static/ &&
+      ls -la backend/static/assets/
     startCommand: python main.py
     envVars:
       - key: GROQ_API_KEY

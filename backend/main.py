@@ -622,12 +622,31 @@ def trigger_fill_history():
 
 STATIC_DIR = Path(__file__).parent / "static"
 
+print(f"[DEBUG] __file__ = {__file__}")
+print(f"[DEBUG] STATIC_DIR = {STATIC_DIR}")
+print(f"[DEBUG] STATIC_DIR.exists() = {STATIC_DIR.exists()}")
+print(f"[DEBUG] STATIC_DIR.is_dir() = {STATIC_DIR.is_dir()}")
+if STATIC_DIR.is_dir():
+    print(f"[DEBUG] Contents: {list(STATIC_DIR.iterdir())}")
+    index_path = STATIC_DIR / "index.html"
+    print(f"[DEBUG] index.html exists: {index_path.exists()}")
+
 @app.get("/")
 async def serve_index():
     index_path = STATIC_DIR / "index.html"
     if index_path.exists():
         return FileResponse(index_path)
-    return {"message": "LiveNews AI API", "version": "1.0.0", "hint": "Frontend not built yet"}
+    return {
+        "message": "LiveNews AI API",
+        "version": "1.0.0",
+        "hint": "Frontend not built yet",
+        "debug": {
+            "static_dir": str(STATIC_DIR),
+            "exists": STATIC_DIR.exists(),
+            "index_exists": index_path.exists(),
+            "cwd": str(Path.cwd()),
+        }
+    }
 
 
 @app.get("/{full_path:path}")
