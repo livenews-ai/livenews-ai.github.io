@@ -332,6 +332,11 @@ def get_categories():
     ]
 
 
+@app.get("/api/health")
+def health_check():
+    return {"status": "ok", "timestamp": datetime.now().isoformat()}
+
+
 @app.post("/api/admin/fetch-news")
 def trigger_fetch_news():
     background_fetch()

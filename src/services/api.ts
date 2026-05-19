@@ -1,7 +1,7 @@
 import axios from 'axios'
 import type { NewsResponse, SummaryResponse } from '../types/news'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://livenews-ai-backend.onrender.com/api'
 
 export const api = {
   getNews: async (date?: string, category?: string): Promise<NewsResponse> => {
@@ -24,5 +24,14 @@ export const api = {
   getCategories: async () => {
     const response = await axios.get(`${API_BASE_URL}/categories`)
     return response.data
+  },
+
+  healthCheck: async (): Promise<boolean> => {
+    try {
+      const response = await axios.get(`${API_BASE_URL}/health`, { timeout: 5000 })
+      return response.status === 200
+    } catch {
+      return false
+    }
   },
 }

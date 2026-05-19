@@ -25,6 +25,11 @@ export function useNews() {
   const [error, setError] = useState<string | null>(null)
   const [dailySummaryData, setDailySummaryData] = useState<SummaryCategory[] | null>(null)
   const [summaryLoading, setSummaryLoading] = useState(false)
+  const [backendReady, setBackendReady] = useState(false)
+
+  const checkBackendHealth = useCallback(async (): Promise<boolean> => {
+    return await api.healthCheck()
+  }, [])
 
   const fetchNews = useCallback(async () => {
     setLoading(true)
@@ -32,12 +37,16 @@ export function useNews() {
     try {
       const response = await api.getNews(selectedDate, selectedCategory)
       setNews(response.data.news)
+      setBackendReady(true)
     } catch (err) {
+      if (!backendReady) {
+        setBackendReady(false)
+      }
       setError(err instanceof Error ? err.message : '获取新闻失败')
     } finally {
       setLoading(false)
     }
-  }, [selectedDate, selectedCategory])
+  }, [selectedDate, selectedCategory, backendReady])
 
   const generateDailySummary = async () => {
     if (summaryLoading || dailySummaryData) return
@@ -48,15 +57,41 @@ export function useNews() {
         setDailySummaryData(response.data.summary_data)
       }
     } catch {
-      // ignore
     } finally {
       setSummaryLoading(false)
     }
   }
 
   useEffect(() => {
-    fetchNews()
-  }, [fetchNews])
+    let cancelled = false
+    let attempts = 0
+    const maxAttempts = 60
+
+    async function pollUntilReady() {
+      while (!cancelled && attempts < maxAttempts) {
+        attempts++
+        const isReady = await checkBackendHealth()
+        if (isReady && !cancelled) {
+          setBackendReady(true)
+          break
+        }
+        await new Promise(resolve => setTimeout(resolve, 5000))
+      }
+      if (!cancelled) {
+        fetchNews()
+      }
+    }
+
+    pollUntilReady()
+
+    return () => { cancelled = true }
+  }, [])
+
+  useEffect(() => {
+    if (backendReady) {
+      fetchNews()
+    }
+  }, [selectedDate, selectedCategory])
 
   useEffect(() => {
     setDailySummaryData(null)
@@ -71,6 +106,7 @@ export function useNews() {
     error,
     dailySummaryData,
     summaryLoading,
+    backendReady,
     setSelectedDate,
     setSelectedCategory,
     generateDailySummary,

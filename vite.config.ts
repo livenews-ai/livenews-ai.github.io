@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/livenews-ai/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -11,5 +12,11 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    proxy: {
+      '/api': {
+        target: 'https://livenews-ai-backend.onrender.com',
+        changeOrigin: true,
+      },
+    },
   },
 })

@@ -35,6 +35,7 @@ export default function HomePage() {
     generateDailySummary,
     loading,
     error,
+    backendReady,
     fetchNews,
   } = useNews()
 
@@ -144,7 +145,7 @@ export default function HomePage() {
           </div>
         )}
 
-        <ColdStartWarning loading={loading} />
+        <ColdStartWarning loading={loading} backendReady={backendReady} />
         <NewsList news={news} loading={loading} error={error} onRetry={fetchNews} />
       </main>
 
