@@ -1,0 +1,116 @@
+[
+  {
+    "id": "93367113-8866-4cbf-9cde-4d4d1dd5fe2f",
+    "title": "机器学习在球面流形上的应用",
+    "one_sentence_conclusion": "该研究领域对企业的核心意义在于其潜在的应用于几何深度学习，可能影响企业的核心技术选型和重要业务流程",
+    "summary": "该研究关注机器学习在球面流形上的应用，几何深度学习领域的研究人员正在探索球面流形上的机器学习问题，可能有助于解决几何数据分析和处理的挑战",
+    "why_it_matters": [
+      "该领域的研究可能影响企业的核心技术选型和重要业务流程",
+      "几何深度学习可能带来新的商业机会和竞争优势",
+      "该领域的研究可能有助于解决企业面临的数据分析和处理挑战"
+    ],
+    "enterprise_impact": {
+      "strategy": "对企业的核心技术选型和竞争格局的影响",
+      "business": "对企业的数据分析和处理能力的影响",
+      "technology": "对企业的技术架构和模型选型的影响",
+      "organization": "对企业的组织能力和流程的影响"
+    },
+    "suitable_for": [
+      "适合关注或采取行动的企业类型：技术驱动型企业、数据驱动型企业、创新型企业"
+    ],
+    "recommended_actions": [
+      {
+        "action": "跟踪几何深度学习领域的最新进展和研究成果",
+        "priority": "medium",
+        "timeframe": "1-3个月",
+        "reason": "了解该领域的最新进展和研究成果，有助于企业做出更好的技术选型和业务决策"
+      }
+    ],
+    "risks_and_limits": [
+      "该领域的研究还处于初期阶段，可能存在风险和不确定性",
+      "企业需要具备相应的技术能力和资源来跟踪和应用该领域的研究成果"
+    ],
+    "signals_to_watch": [
+      "几何深度学习领域的研究成果和应用案例",
+      "相关技术和工具的发展和推广"
+    ],
+    "credibility": {
+      "level": "medium",
+      "reason": "该领域的研究人员和机构具有相应的专业知识和经验，但该领域的研究还处于初期阶段"
+    },
+    "enterprise_value_level": "medium",
+    "information_type": "研究领域",
+    "confidence": "medium",
+    "overall_score": 60.0,
+    "scoring_detail": null,
+    "category": "research",
+    "category_label": "前沿研究与趋势信号",
+    "category_emoji": "🟣",
+    "source_name": "Reddit MachineLearning",
+    "source_url": "https://reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
+    "original_title": "Machine Learning on Spherical Manifold [R]",
+    "is_duplicate": false,
+    "duplicate_of": null,
+    "related_sources": null,
+    "multi_source_verified": false,
+    "published_at": "2026-05-20T16:13:57",
+    "intelligence_date": "2026-05-20"
+  },
+  {
+    "id": "058b2267-3a83-44f6-8ebd-75033ddcd5f2",
+    "title": "CANTANTE：解决多智能体系统配置难题",
+    "one_sentence_conclusion": "CANTANTE 可能帮助企业优化多智能体系统，提高其可靠性和可信度",
+    "summary": "CANTANTE 是一个研究项目，旨在解决多智能体系统配置难题，通过解决信贷分配问题，实现可靠和可信的系统",
+    "why_it_matters": [
+      "多智能体系统在软件工程、预测建模和检索增强生成等复杂任务中表现出强大的性能",
+      "当前配置多智能体系统的挑战在于信贷分配问题，导致手动试验和错误调整",
+      "解决信贷分配问题可以实现可靠和可信的系统"
+    ],
+    "enterprise_impact": {
+      "strategy": "对企业 AI 战略和多智能体系统配置的影响",
+      "business": "对业务场景和客户体验的影响",
+      "technology": "对技术架构和模型选型的影响",
+      "organization": "对组织能力和流程的影响"
+    },
+    "suitable_for": [
+      "关注 AI 战略和多智能体系统配置的企业"
+    ],
+    "recommended_actions": [
+      {
+        "action": "研究和评估 CANTANTE 的可行性和潜在应用",
+        "priority": "medium",
+        "timeframe": "1-3个月",
+        "reason": "了解 CANTANTE 的潜在优势和挑战"
+      }
+    ],
+    "risks_and_limits": [
+      "CANTANTE 是一个研究项目，尚未广泛应用和验证",
+      "信贷分配问题的解决可能需要大量数据和计算资源"
+    ],
+    "signals_to_watch": [
+      "CANTANTE 的应用和扩展",
+      "其他解决信贷分配问题的方法和技术"
+    ],
+    "credibility": {
+      "level": "medium",
+      "reason": "来自研究机构的研究报告，缺乏广泛应用和验证"
+    },
+    "enterprise_value_level": "medium",
+    "information_type": "研究报告",
+    "confidence": "medium",
+    "overall_score": 60.0,
+    "scoring_detail": null,
+    "category": "chip",
+    "category_label": "模型算力与芯片生态",
+    "category_emoji": "🔴",
+    "source_name": "Reddit MachineLearning",
+    "source_url": "https://reddit.com/r/MachineLearning/comments/1tij4st/cantante_optimizing_agentic_systems_via/",
+    "original_title": "CANTANTE: Optimizing Agentic Systems via Contrastive Credit Attribution [R]",
+    "is_duplicate": false,
+    "duplicate_of": null,
+    "related_sources": null,
+    "multi_source_verified": false,
+    "published_at": "2026-05-20T19:43:12",
+    "intelligence_date": "2026-05-20"
+  }
+]
