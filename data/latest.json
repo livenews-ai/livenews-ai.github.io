@@ -1,222 +1,625 @@
 {
   "latest_intelligence": [
     {
-      "id": "6b8fc796-15b7-4ece-9369-16630e5df000",
-      "title": "Nvidia推出Rubin CPX加速器",
-      "one_sentence_conclusion": "Nvidia的Rubin CPX加速器可能成为推理领域的游戏规则改变者",
-      "summary": "Nvidia宣布推出Rubin CPX，一款针对预填充阶段优化的解决方案，强调计算FLOPS而非内存带宽。该解决方案可能对推理领域产生重大影响。Rubin CPX的发布被认为是继2024年3月GB200 NVL72 Oberon机架规模形式发布后的又一重大进展",
+      "id": "9a0acb09-34c7-41fe-807d-b501512d7988",
+      "title": "ETCHR: 解决视觉推理瓶颈的图像编辑模型",
+      "one_sentence_conclusion": "ETCHR模型可以帮助企业提高视觉推理能力，改善图像编辑流程",
+      "summary": "当前的视觉推理模型存在瓶颈，特别是在需要细粒度关注或视图转换时。ETCHR模型通过将图像编辑模型与理解模型分离，来解决这一问题。",
       "why_it_matters": [
-        "Rubin CPX可能显著提高推理任务的计算效率",
-        "该解决方案可能为AI应用提供更快的处理速度和更低的延迟",
-        "Nvidia的这一举动可能会影响AI硬件市场的竞争格局"
+        "视觉推理能力对企业的核心业务场景和商业模式有重要影响",
+        "ETCHR模型可以帮助企业提高图像编辑流程的效率和准确性"
       ],
       "enterprise_impact": {
-        "strategy": "可能影响企业AI战略和技术选型",
-        "business": "可能提高AI应用的处理速度和降低延迟，改善客户体验",
-        "technology": "可能影响技术架构和模型选型，需要考虑Rubin CPX的集成和兼容性",
-        "organization": "可能需要调整组织能力和人才结构，以适应新的技术和解决方案"
+        "strategy": "对企业的视觉推理能力和图像编辑流程的影响",
+        "business": "对企业的核心业务场景和商业模式的影响",
+        "technology": "对企业的图像编辑技术架构和模型选型的影响",
+        "organization": "对企业的组织能力和流程的影响"
       },
       "suitable_for": [
-        "AI和深度学习领域的企业",
-        "需要高性能计算的行业，如金融、医疗和科学研究"
+        "适合关注的企业类型/部门/角色：技术研发部门、视觉设计团队"
       ],
       "recommended_actions": [
         {
-          "action": "关注Rubin CPX的发布和演进",
-          "priority": "medium",
-          "timeframe": "3-6个月",
-          "reason": "需要评估Rubin CPX对企业AI战略和技术选型的影响"
-        },
-        {
-          "action": "评估Rubin CPX的集成和兼容性",
+          "action": "评估和实施ETCHR模型",
           "priority": "high",
-          "timeframe": "1-3个月",
-          "reason": "需要确保Rubin CPX能够与现有技术架构和系统集成"
+          "timeframe": "1-3月",
+          "reason": "提高视觉推理能力和图像编辑流程的效率和准确性"
         }
       ],
       "risks_and_limits": [
-        "Rubin CPX的实际性能和兼容性需要进一步评估",
-        "可能存在技术和商业风险，需要仔细评估"
+        "模型训练和部署的复杂性、图像编辑流程的依赖性"
       ],
       "signals_to_watch": [
-        "Rubin CPX的发布和演进",
-        "竞争对手的反应和应对措施",
-        "行业和客户的反馈和采用情况"
+        "后续应观察的信号：模型的准确性和效率的改进、图像编辑流程的优化"
       ],
       "credibility": {
         "level": "high",
-        "reason": "Nvidia是知名的AI和深度学习解决方案提供商，具有良好的信誉"
+        "reason": "基于研究论文的模型设计和评估"
       },
       "enterprise_value_level": "high",
       "information_type": "技术进展",
       "confidence": "high",
       "overall_score": 80.0,
       "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
-      "original_title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23897v1",
+      "original_title": "ETCHR: Editing To Clarify and Harness Reasoning",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2025-09-10T19:57:18",
-      "intelligence_date": "2026-05-24"
+      "published_at": "2026-05-22T17:58:28",
+      "intelligence_date": "2026-05-25"
     },
     {
-      "id": "a056bad6-727e-47c9-9584-924703697ed2",
-      "title": "华为Ascend产量加速：Die Banks，TSMC继续生产，HBM是瓶颈",
-      "one_sentence_conclusion": "华为Ascend产量加速：Die Banks，TSMC继续生产，HBM是瓶颈",
-      "summary": "计算是人工智能的生命之血。控制计算的者，控制了宇宙的计算将控制代币的生产并获得人工智能的利益。没有计算，你就没有在桌子上坐的资格。美国的技术社区都在计算和人工智能上下注，认为这是下一个平台。",
+      "id": "a6b2aa6e-f4d6-44f1-82bf-9609b9e90328",
+      "title": "CHRONOS：解决数据市场时序知识图谱挑战",
+      "one_sentence_conclusion": "CHRONOS 提供了一个统一的解决方案，解决数据市场时序知识图谱的挑战",
+      "summary": "CHRONOS 是一个三层架构，解决了时序知识图谱数据市场的三个挑战：静态设计下的索引问题、价值分配问题和协调问题",
       "why_it_matters": [
-        "待AI分析"
+        "解决时序知识图谱数据市场的挑战，对于数据市场的发展和安全性有重要影响",
+        "提供了一个统一的解决方案，减少了开发和维护的复杂性"
       ],
       "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
+        "strategy": "对数据市场战略和竞争格局的影响",
+        "business": "对数据市场业务场景和商业模式的影响",
+        "technology": "对时序知识图谱技术架构和模型选型的影响",
+        "organization": "对组织能力和流程的影响"
       },
       "suitable_for": [
-        "待分析"
+        "数据市场企业、知识图谱技术公司"
       ],
       "recommended_actions": [
         {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
+          "action": "评估和实施CHRONOS架构",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "解决时序知识图谱数据市场的挑战"
         }
       ],
       "risks_and_limits": [
-        "待分析"
+        "实施CHRONOS架构可能需要大量的资源和时间"
       ],
       "signals_to_watch": [
-        "待分析"
+        "观察CHRONOS架构的性能和安全性"
       ],
       "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
+        "level": "high",
+        "reason": "基于学术研究和技术创新"
       },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 80.0,
       "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
-      "original_title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23887v1",
+      "original_title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2025-09-08T09:54:57",
-      "intelligence_date": "2026-05-24"
+      "published_at": "2026-05-22T17:47:45",
+      "intelligence_date": "2026-05-25"
     },
     {
-      "id": "068c3320-9852-479b-9285-8edff0b4d5c7",
-      "title": "H100 vs GB200 NVL72 训练基准 - 功耗、总成本及可靠性分析、软件改进情况",
-      "one_sentence_conclusion": "H100 vs GB200 NVL72 训练基准 - 功耗、总成本及可靠性分析、软件改进情况",
-      "summary": "边缘模型训练已经将GPU和AI系统推到了极限，使得成本、效率、功耗、每单位总成本的性能和可靠性成为有效训练的讨论中心。Hopper与Blackwell的比较并不是Nvidia想让你相信的那么简单。在本报告中，我们将首先呈现[]的结果。",
+      "id": "4da2104a-f8e4-4789-bd6d-04b2c073de22",
+      "title": "跨语言知识转移在数据约束下的研究",
+      "one_sentence_conclusion": "有效的跨语言知识转移对于多语言模型的性能至关重要",
+      "summary": "跨语言知识转移对于多语言模型的性能至关重要，尤其是在目标语言数据不足时，需要从高资源语言中获取知识，现有方法需要大量平行数据或翻译系统等资源，新研究提出了一种数据级干预方法LINK，通过词汇替换提高知识转移",
       "why_it_matters": [
-        "待AI分析"
+        "多语言模型的性能对企业的核心业务场景有影响",
+        "有效的跨语言知识转移对企业的全球化战略有重要意义"
       ],
       "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
+        "strategy": "对企业的全球化战略或多语言市场的影响",
+        "business": "对多语言客户服务或产品开发的影响",
+        "technology": "对多语言模型或知识图谱的影响",
+        "organization": "对企业的全球化组织能力或流程的影响"
       },
       "suitable_for": [
-        "待分析"
+        "适合关注的企业类型/部门/角色：全球化企业、多语言客户服务企业、产品开发企业"
       ],
       "recommended_actions": [
         {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "original_title": "H100 vs GB200 NVL72 Training Benchmarks - Power, TCO, and Reliability Analysis, Software Improvement Over Time",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-08-20T04:56:35",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "b994d560-8124-478a-92de-64779977c39a",
-      "title": "SM1：Mamba1变体在PyTorch上的实现",
-      "one_sentence_conclusion": "SM1实现了Mamba1的变体，使用纯PyTorch代码，减少了扫描内存，提高了效率",
-      "summary": "SM1是Mamba1的变体，使用两个原生PyTorch操作替换了选择性扫描，实现了d_state=1的闭式解，减少了扫描内存，提高了效率。SM1适用于d_state=1的情况，当前正在训练163K个MIDI文件，使用130M参数的模型",
-      "why_it_matters": [
-        "SM1的实现可以减少扫描内存，提高效率",
-        "SM1适用于d_state=1的情况，可以提高模型的表现",
-        "SM1的实现可以为其他模型提供参考"
-      ],
-      "enterprise_impact": {
-        "strategy": "SM1的实现可以影响企业的AI战略，特别是在语音和音乐处理领域",
-        "business": "SM1的实现可以提高企业的业务效率，特别是在处理大规模数据时",
-        "technology": "SM1的实现可以影响企业的技术架构，特别是在选择PyTorch作为深度学习框架时",
-        "organization": "SM1的实现可以影响企业的组织能力，特别是在人才和流程方面"
-      },
-      "suitable_for": [
-        "AI和深度学习领域的企业",
-        "语音和音乐处理领域的企业",
-        "需要处理大规模数据的企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究SM1的实现细节",
-          "priority": "medium",
-          "timeframe": "1-3个月",
-          "reason": "了解SM1的实现细节可以帮助企业更好地理解其优点和局限性"
+          "action": "评估和实施多语言模型和知识图谱技术",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "提高多语言客户服务和产品开发的效率和质量"
         },
         {
-          "action": "评估SM1在企业中的应用潜力",
+          "action": "建立全球化组织能力和流程",
           "priority": "medium",
-          "timeframe": "3-6个月",
-          "reason": "评估SM1在企业中的应用潜力可以帮助企业确定是否需要投资SM1的研究和开发"
+          "timeframe": "3-6月",
+          "reason": "支持多语言市场的发展"
         }
       ],
       "risks_and_limits": [
-        "SM1的实现仅适用于d_state=1的情况",
-        "SM1的实现可能需要大量的计算资源"
+        "数据约束和词汇替换的有效性",
+        "多语言模型和知识图谱的技术挑战"
       ],
       "signals_to_watch": [
-        "SM1的未来发展和更新",
-        "其他类似的模型和算法的出现"
+        "多语言模型和知识图谱的技术进展",
+        "全球化企业的多语言市场需求"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "来自顶级研究机构的研究"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "研究报告",
+      "confidence": "high",
+      "overall_score": 80.0,
+      "scoring_detail": null,
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23885v1",
+      "original_title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:45:49",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "9380602f-ebe5-4f5c-af69-1ca11ce2a0cd",
+      "title": "PGT：一种改进视觉理解的多模态语言模型",
+      "one_sentence_conclusion": "PGT可以提高多模态语言模型的视觉理解能力",
+      "summary": "PGT是一种数据驱动的框架，通过在图像上overlay无歧义几何元件来生成额外的密集监督，帮助语言模型理解视觉信息。实验结果表明，PGT可以显著提高多模态语言模型的视觉理解能力。",
+      "why_it_matters": [
+        "多模态语言模型的视觉理解能力对其应用有重要影响",
+        "PGT可以作为诊断工具，帮助识别语言模型的视觉理解能力不足"
+      ],
+      "enterprise_impact": {
+        "strategy": "PGT可以影响企业的AI战略和多模态语言模型的选型",
+        "business": "PGT可以影响企业的视觉理解能力和多模态语言模型的应用",
+        "technology": "PGT可以影响企业的技术架构和模型选型",
+        "organization": "PGT可以影响企业的组织能力和流程"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：AI技术研发部门、视觉理解应用部门"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估PGT的适用性和潜在收益",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "了解PGT的潜在影响和应用场景"
+        },
+        {
+          "action": "考虑采用PGT来改进多模态语言模型的视觉理解能力",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "PGT可以显著提高多模态语言模型的视觉理解能力"
+        }
+      ],
+      "risks_and_limits": [
+        "PGT的适用性和有效性可能受到数据质量和模型复杂度的影响"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：PGT的应用效果、视觉理解能力的改进"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "实验结果和理论依据"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 80.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23883v1",
+      "original_title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:45:01",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "11151808-79ca-4d48-bafe-ad70088636a2",
+      "title": "SkillOpt: 自适应代理技能优化器",
+      "one_sentence_conclusion": "SkillOpt 提供了一种可控的代理技能优化方法，提高技能训练的稳定性和效率",
+      "summary": "SkillOpt 是一种系统化的可控文本空间优化器，用于训练代理技能，通过编辑技能文档来提高技能的表现，提高了技能训练的稳定性和效率",
+      "why_it_matters": [
+        "SkillOpt 可以提高代理技能的训练效率和稳定性",
+        "SkillOpt 提供了一种可控的优化方法，减少了手工优化的依赖",
+        "SkillOpt 可以应用于多种代理技能和执行环境"
+      ],
+      "enterprise_impact": {
+        "strategy": "SkillOpt 可以影响企业的AI战略和技能优化方法",
+        "business": "SkillOpt 可以影响企业的代理技能训练和部署",
+        "technology": "SkillOpt 可以影响企业的技能优化技术和模型选型",
+        "organization": "SkillOpt 可以影响企业的组织能力和流程"
+      },
+      "suitable_for": [
+        "AI 研究机构",
+        "代理技能开发公司",
+        "企业AI 部门"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估 SkillOpt 的适用性和潜在收益",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "SkillOpt 可以提高代理技能的训练效率和稳定性"
+        },
+        {
+          "action": "研究 SkillOpt 的应用场景和案例",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "SkillOpt 可以应用于多种代理技能和执行环境"
+        }
+      ],
+      "risks_and_limits": [
+        "SkillOpt 的稳定性和效率取决于具体的应用场景和参数设置"
+      ],
+      "signals_to_watch": [
+        "SkillOpt 的应用案例和研究结果"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "SkillOpt 的研究论文和代码公开"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 70.0,
+      "scoring_detail": {
+        "overall_score": 70,
+        "enterprise_applicability": {
+          "score": 60,
+          "level": "medium",
+          "reason": "SkillOpt 适用于需要优化代理技能的企业，尤其是那些依赖于文本空间优化的行业，如客户服务、聊天机器人等"
+        },
+        "maturity": {
+          "score": 50,
+          "level": "early_stage",
+          "reason": "SkillOpt 尚处于早期阶段，缺乏大量的实践案例和明确的价格指标"
+        },
+        "implementation_cost": {
+          "score": 40,
+          "level": "medium",
+          "reason": "SkillOpt 的实施成本取决于企业的具体需求和规模，可能需要一定的开发和集成成本"
+        },
+        "risk_level": {
+          "score": 30,
+          "level": "low",
+          "reason": "SkillOpt 的风险相对较低，主要是由于其尚处于早期阶段，可能需要进一步的验证和测试"
+        },
+        "roi_potential": {
+          "score": 70,
+          "level": "medium",
+          "reason": "SkillOpt 有潜力提高技能训练的稳定性和效率，可能带来一定的成本节约和效率提升"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "企业可以考虑在小规模试点项目中应用 SkillOpt，以验证其效果和适用性"
+        },
+        "recommended_action": {
+          "primary_action": "进行小规模试点项目",
+          "next_steps": [
+            "评估 SkillOpt 的适用性和潜在收益",
+            "确定试点项目的范围和目标",
+            "实施和监测试点项目"
+          ],
+          "suggested_owner": [
+            "IT 部门",
+            "业务部门"
+          ],
+          "timeframe": "1-3 月"
+        },
+        "best_fit_scenarios": [
+          "客户服务",
+          "聊天机器人",
+          "文本空间优化"
+        ],
+        "not_suitable_for": [
+          "非文本空间优化的行业"
+        ],
+        "key_questions_before_adoption": [
+          "SkillOpt 的具体适用性和潜在收益",
+          "实施和集成的成本和复杂性",
+          "试点项目的范围和目标"
+        ],
+        "final_judgement": "SkillOpt 有潜力提高技能训练的稳定性和效率，企业可以考虑在小规模试点项目中应用它，以验证其效果和适用性。"
+      },
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23904v1",
+      "original_title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:59:50",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "1b6cb50c-8277-4c95-934a-4ad5e237ecff",
+      "title": "人工智能模型作为噪声信道：香农视角下的模型容量和规模定律",
+      "one_sentence_conclusion": "人工智能模型作为噪声信道：香农视角下的模型容量和规模定律",
+      "summary": "针对大型语言模型（LLM）的现有尺度定律，主要是单调的功率定律，无法解释出现的非单调现象，如灾难性过度训练和量化引起的退化，尽管计算资源增加，性能却会恶化。我们提出了一种Shannon尺度定律，一个统一的理论框架，模型了LLM训练作为信息在噪声信道上的传输，基于Shannon-Hartley定理。通过将模型参数映射到信道带宽，训练令牌映射到信号功率，我们的形式化明确捕捉了学习信号和固有噪声之间的相",
+      "why_it_matters": [
+        "待AI分析"
+      ],
+      "enterprise_impact": {
+        "strategy": "待分析",
+        "business": "待分析",
+        "technology": "待分析",
+        "organization": "待分析"
+      },
+      "suitable_for": [
+        "待分析"
+      ],
+      "recommended_actions": [
+        {
+          "action": "持续观察",
+          "priority": "low",
+          "timeframe": "持续观察",
+          "reason": "待进一步分析"
+        }
+      ],
+      "risks_and_limits": [
+        "待分析"
+      ],
+      "signals_to_watch": [
+        "待分析"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "SM1的实现细节和实验结果尚未被广泛验证"
+        "reason": "自动生成，未经AI深度分析"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "其他",
+      "confidence": "low",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23901v1",
+      "original_title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:59:38",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "2b055fb4-c317-443d-80db-1895edbf15f9",
+      "title": "模型生成技能的系统研究",
+      "one_sentence_conclusion": "模型生成技能在特定领域中表现出快速适应和可扩展性，但其成功或失败的因素尚不完全清楚",
+      "summary": "研究团队开发了一个基于实用性的评估框架，系统地研究了技能生命周期中的三个阶段：经验生成、技能提取和技能消耗。结果表明，模型生成技能在平均水平上是有益的，但表现出非平凡的负面影响",
+      "why_it_matters": [
+        "模型生成技能可能成为企业快速适应和可扩展性的关键技术",
+        "研究结果可能对企业技能开发和应用提供重要参考",
+        "理解技能成功或失败的因素对于企业技能投资和决策至关重要"
+      ],
+      "enterprise_impact": {
+        "strategy": "模型生成技能可能成为企业竞争格局中的一个关键因素",
+        "business": "技能开发和应用可能对企业业务场景和商业模式产生重大影响",
+        "technology": "模型生成技能可能对企业技术架构和模型选型产生影响",
+        "organization": "技能开发和应用可能对企业组织能力和流程产生影响"
+      },
+      "suitable_for": [
+        "适合关注技能开发和应用的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估和开发模型生成技能的潜在应用和风险",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "理解技能成功或失败的因素对于企业技能投资和决策至关重要"
+        },
+        {
+          "action": "投资于技能开发和应用的研究和培训",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "技能开发和应用可能对企业业务场景和商业模式产生重大影响"
+        }
+      ],
+      "risks_and_limits": [
+        "模型生成技能的成功或失败的因素尚不完全清楚",
+        "技能开发和应用可能存在风险和限制"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号包括技能开发和应用的进展和结果"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "研究结果基于系统的实验，但理解技能成功或失败的因素仍存在挑战"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "研究报告",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23899v1",
+      "original_title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:59:12",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "3c149d1d-08ff-4f6f-8058-6fd6ed3673a1",
+      "title": "空间数值理解：重访VLM中的空间数值理解",
+      "one_sentence_conclusion": "空间数值理解：重访VLM中的空间数值理解",
+      "summary": "视觉-语言模型（VLMs）正在越来越多地在具身环境中部署，需要产生数字输出，如动作幅度和空间坐标。尽管这些数字看起来很有意义，但仍然不清楚这些数字输出是否真正根植于空间感知。因此，在本工作中，我们重新审视了空间数字理解通过SpaceNum，一个统一的框架捕捉了两个互补的设置：数字作为空间探索中的动态转换和数字作为空间推理中的静态布局。我们制定了两个双向任务，Num2Space和Space2Num，",
+      "why_it_matters": [
+        "待AI分析"
+      ],
+      "enterprise_impact": {
+        "strategy": "待分析",
+        "business": "待分析",
+        "technology": "待分析",
+        "organization": "待分析"
+      },
+      "suitable_for": [
+        "待分析"
+      ],
+      "recommended_actions": [
+        {
+          "action": "持续观察",
+          "priority": "low",
+          "timeframe": "持续观察",
+          "reason": "待进一步分析"
+        }
+      ],
+      "risks_and_limits": [
+        "待分析"
+      ],
+      "signals_to_watch": [
+        "待分析"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "自动生成，未经AI深度分析"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "其他",
+      "confidence": "low",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "chip",
+      "category_label": "模型算力与芯片生态",
+      "category_emoji": "🔴",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23898v1",
+      "original_title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:58:36",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "4ca0fc57-3dfe-48b2-8f94-dce4005b4416",
+      "title": "Complete-muE: MoE 模型超参数转移和缩放框架",
+      "one_sentence_conclusion": "Complete-muE 提供了一种解决 MoE 模型超参数转移和缩放问题的框架",
+      "summary": "Complete-muE 是一种框架，用于在 transformer 块中实现超参数转移，解决了现有工具无法直接解决 MoE 设计的超参数转移问题",
+      "why_it_matters": [
+        "MoE 模型的超参数转移和缩放问题是当前 AI 研究中的一个重要挑战",
+        "Complete-muE 提供了一种通用的解决方案，适用于各种 MoE 设计"
+      ],
+      "enterprise_impact": {
+        "strategy": "对 AI 战略和竞争格局的影响",
+        "business": "对业务场景和商业模式的影响",
+        "technology": "对技术架构和模型选型的影响",
+        "organization": "对组织能力和流程的影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究和评估 Complete-muE 框架的有效性",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解 Complete-muE 的潜在应用和优势"
+        },
+        {
+          "action": "考虑将 Complete-muE 集成到现有 AI 模型中",
+          "priority": "low",
+          "timeframe": "3-6月",
+          "reason": "评估 Complete-muE 的整合成本和收益"
+        }
+      ],
+      "risks_and_limits": [
+        "Complete-muE 框架的有效性和稳定性尚未得到充分验证",
+        "可能存在与现有 AI 模型不兼容的问题"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "研究人员的声誉和 Complete-muE 框架的设计合理性"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23893v1",
+      "original_title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-05-22T17:56:13",
+      "intelligence_date": "2026-05-25"
+    },
+    {
+      "id": "16e95461-7935-4da2-a296-7a630d4c355a",
+      "title": "Visual Geometry Transformers Token Selection",
+      "one_sentence_conclusion": "有效的token选择策略可以提高视觉几何变换器的可扩展性和效率",
+      "summary": "视觉几何变换器由于全局注意力层的限制，其计算成本随输入序列长度的增长而迅速增加。我们提出了一种简单而通用的策略：限制每个查询与其交互的关键/值令牌数量。我们引入了一个两阶段框架：首先，跨帧选择步骤在帧级别上识别应该保留的帧；其次，跨帧选择步骤进一步丢弃帧内的冗余令牌。",
+      "why_it_matters": [
+        "视觉几何变换器在多视3D重建中变得越来越强大",
+        "有效的token选择策略可以提高视觉几何变换器的可扩展性和效率",
+        "这种策略可以应用于多个视觉几何变换器模型"
+      ],
+      "enterprise_impact": {
+        "technology": "对视觉几何变换器模型选型的影响",
+        "organization": "对组织能力或流程的影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估视觉几何变换器模型的可扩展性和效率",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "有效的token选择策略可以提高视觉几何变换器的可扩展性和效率"
+        },
+        {
+          "action": "考虑采用两阶段框架进行token选择",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "两阶段框架可以提高token选择的效率"
+        }
+      ],
+      "risks_and_limits": [
+        "潜在风险：token选择策略的有效性取决于具体场景和模型"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：视觉几何变换器模型的性能和可扩展性"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "研究论文的可信度"
       },
       "enterprise_value_level": "medium",
       "information_type": "技术进展",
@@ -226,4692 +629,72 @@
       "category": "chip",
       "category_label": "模型算力与芯片生态",
       "category_emoji": "🔴",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/",
-      "original_title": "[Reddit] I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pure PyTorch [P]",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2605.23892v1",
+      "original_title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-05-23T05:30:26",
-      "intelligence_date": "2026-05-24"
+      "published_at": "2026-05-22T17:55:13",
+      "intelligence_date": "2026-05-25"
     },
     {
-      "id": "8b3a4057-aed2-49ad-8048-5bf6c0d22899",
-      "title": "xAI的巨人2 - 全球首个吉瓦瓦特数据中心，独特的RL方法学，融资活动",
-      "one_sentence_conclusion": "xAI的巨人2 - 全球首个吉瓦瓦特数据中心，独特的RL方法学，融资活动",
-      "summary": "关于 xAI 的 Colossus 1 已经写了很多。Memphis 构建属于历史书籍：122 天内从零开始建造的最大 AI 训练集群。约有 200,000 台 H100/H200 和 ~30,000 台 GB200 NVL72，至今仍是最大的完全可操作的单一集群（与 Google，多数据中心训练的高手相比）。然而，Colossus 1 的 ~300 MW",
+      "id": "36180144-0793-4c82-a052-2f3b226d5dba",
+      "title": "Nemotron-Labs Diffusion Language Models：突破文本生成速度",
+      "one_sentence_conclusion": "这项研究可能带来更快的文本生成速度，对企业的核心意义在于提高内容创作效率",
+      "summary": "Nemotron-Labs Diffusion Language Models是一种新型的语言模型，通过diffusion过程实现快速文本生成。该模型的速度比传统模型快了数倍。研究人员表示，这项技术有望在多个应用场景中得到应用。",
       "why_it_matters": [
-        "待AI分析"
+        "这项研究可能带来更快的文本生成速度，对于内容创作和信息处理有重要影响",
+        "这项技术可能会改变语言模型的发展方向和应用场景"
       ],
       "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
+        "technology": "对技术架构或模型选型的影响",
+        "business": "对业务场景或商业模式的影响"
       },
       "suitable_for": [
-        "待分析"
+        "适合关注的企业类型/部门/角色"
       ],
       "recommended_actions": [
         {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
-      "original_title": "xAI's Colossus 2 - First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-09-16T17:38:01",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "eab06881-b49c-407d-a1d0-6f34ca24b9f9",
-      "title": "[Reddit] 这个星期有意思的紧张局势，这些准备上市的公司也在做出安全承诺 [N]",
-      "one_sentence_conclusion": "[Reddit] 这个星期有意思的紧张局势，这些准备上市的公司也在做出安全承诺 [N]",
-      "summary": "最近发生了一些值得讨论的变化。\n\n马斯克对OpenAI的诉讼在两小时的陪审团审议后被驳回。几天后，OpenAI reportedly向SEC提交了保密的S-1表格。与此同时，Anthropic发布了第二季度收入10.9亿美元，同比增长130%，并实现了首次季度盈利。SpaceX IPO招股书悄悄披露，Anthropic将通过2029年每月支付25亿美元的GPU计算费用，这使得盈利里程碑变得更加复杂",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tlkt5m/interesting_tension_this_week_the_same_companies/",
-      "original_title": "[Reddit] Interesting tension this week, the same companies racing to go public are also the ones making safety promises [N]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T16:18:23",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "1bef99d3-5204-48c1-9920-cb55615ecd21",
-      "title": "VLSI会议：芯片制造技术进展",
-      "one_sentence_conclusion": "VLSI会议揭示了芯片制造技术的最新进展，包括数字孪生、先进逻辑晶体管和DRAM技术的未来发展",
-      "summary": "VLSI会议是设计和集成的顶级会议，今年的会议涵盖了芯片制造的最新技术，包括数字孪生、先进逻辑晶体管和DRAM技术的未来发展。会议讨论了Intel 18A的细节和成本、DRAM 4F2与3D技术的比较、背面电源采用的情况以及中国的FlipFET技术等",
-      "why_it_matters": [
-        "芯片制造技术的进展将影响企业的AI战略和核心技术选型",
-        "数字孪生技术可以提高芯片制造的效率和质量",
-        "DRAM技术的未来发展将影响企业的存储解决方案"
-      ],
-      "enterprise_impact": {
-        "strategy": "芯片制造技术的进展将影响企业的AI战略和核心技术选型",
-        "business": "数字孪生技术可以提高芯片制造的效率和质量，从而影响企业的业务场景和商业模式",
-        "technology": "DRAM技术的未来发展将影响企业的存储解决方案和技术架构",
-        "organization": "芯片制造技术的进展将影响企业的组织能力和人才需求"
-      },
-      "suitable_for": [
-        "芯片制造企业",
-        "AI技术企业",
-        "存储解决方案提供商"
-      ],
-      "recommended_actions": [
-        {
-          "action": "关注芯片制造技术的最新进展",
+          "action": "评估Nemotron-Labs Diffusion Language Models的适用性和潜在应用场景",
           "priority": "medium",
-          "timeframe": "3-6个月",
-          "reason": "了解芯片制造技术的最新进展可以帮助企业做出更好的AI战略和技术选型决策"
+          "timeframe": "1-3月",
+          "reason": "了解这项技术的潜在影响和应用场景"
         }
       ],
       "risks_and_limits": [
-        "芯片制造技术的进展可能受到供应链和成本的限制",
-        "数字孪生技术的实施可能需要大量的数据和计算资源"
+        "信息不足时说明不确定性，需要进一步研究和验证"
       ],
       "signals_to_watch": [
-        "芯片制造技术的最新进展",
-        "DRAM技术的未来发展",
-        "数字孪生技术的实施案例"
+        "后续应观察的信号"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "VLSI会议是顶级的设计和集成会议，提供的信息是可靠的，但需要更多的验证和分析"
+        "reason": "研究人员来自知名机构，模型的性能表现良好"
       },
       "enterprise_value_level": "medium",
-      "information_type": "技术进展",
+      "information_type": "研究报告",
       "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "original_title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China's FlipFET, Digital Twins from Atoms to Fabs, and More",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-07-21T14:23:37",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "907fcbb8-1047-41ae-a1c9-90cf437bf1ae",
-      "title": "[Reddit] 自定义图像编码器 [P]",
-      "one_sentence_conclusion": "[Reddit] 自定义图像编码器 [P]",
-      "summary": "自建图像编码器是否是一个好的选择，取决于具体的场景和需求。您提到的使用CLIP、SigLIP/SigLIP2或DINO等预训练模型的方法已经被广泛应用于图像分类任务中。然而，考虑到您的具体用例是视频帧分类，并且您有两个主要的约束：处理速度和部署在小型CPU-only设备上，自建图像编码器可能是一个合理的选择。\n\n您的自建编码器可以根据您的数据集进行训练，仅使用几百万参数，这使得它更适合部署在小型C",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tkwnx5/custom_image_encoder_p/",
-      "original_title": "[Reddit] Custom image encoder [P]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-22T21:32:35",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "95c8205b-370e-4fad-abec-4c261c8cbad4",
-      "title": "亚马逊AI复兴：AWS & Anthropic的多吉瓦特Trainium扩张",
-      "one_sentence_conclusion": "亚马逊AI复兴：AWS & Anthropic的多吉瓦特Trainium扩张",
-      "summary": "两年半前，我们指出AWS面临着一场即将到来的“云危机”。今天，证据已经积累起来。AWS是亚马逊帝国的王牌，占集团利润的约60%，并占据着高利润的云计算市场。但是，它难以将这一优势转化为新GPU/XPU云时代。微软Azure现在领先于AWS。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
-      "original_title": "Amazon's AI Resurgence: AWS & Anthropic's Multi-Gigawatt Trainium Expansion",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-09-03T20:55:46",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "65293075-294e-4ccf-9969-d7ad1c4a8661",
-      "title": "超越内存墙：HBM的兴起与路线图",
-      "one_sentence_conclusion": "超越内存墙：HBM的兴起与路线图",
-      "summary": "本报告的第一部分将解释HBM、制造过程、供应商之间的动态、KV缓存卸载、分散式预填解码和宽/高阶EP。报告的其余部分将深入探讨HBM的未来。我们将涵盖HBM4带来的革命性变化，包括定制的基准晶片和HBM的定制基准晶片。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "original_title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-08-12T01:16:06",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "32a4e9f3-b25c-40d5-9bda-f9a3a6a068ec",
-      "title": "Meta 超级智能 - 领导计算、人才和数据",
-      "one_sentence_conclusion": "Meta 超级智能 - 领导计算、人才和数据",
-      "summary": "Meta购买了Scale AI的49%股份，估值约为3000亿美元，这表明1000亿美元年流水的广告机器对钱毫无顾虑。尽管拥有似乎无限的资源，Meta仍然落后于基金会实验室在模型性能方面。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "original_title": "Meta Superintelligence - Leadership Compute, Talent, and Data",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-07-11T20:12:19",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "ad0ae872-6f74-4921-b435-05a869f381f9",
-      "title": "[Reddit] BeeLlama v0.2.0 - 主要 DFlash 更新。单 RTX 3090：Qwen 3.6 27B 到达 164 tps (4.40x)，Gemma 4 31B 到达 177.8 tps (4.93x)。提示处理速度接近基线。",
-      "one_sentence_conclusion": "[Reddit] BeeLlama v0.2.0 - 主要 DFlash 更新。单 RTX 3090：Qwen 3.6 27B 到达 164 tps (4.40x)，Gemma 4 31B 到达 177.8 tps (4.93x)。提示处理速度接近基线。",
-      "summary": "BeeLlama v0.2.0 已发布。\n\n该版本带来了全新的 Gemma 4 31B 支持，实现了高效的 DFlash 实现和视觉功能。\n\n此外，该版本还包含了 Qwen 3.6 27B 的重大性能更新，包括降低 DFlash 消耗、清洁的预填充处理、 drafter K/V 投影缓存以及更安全的 CUDA 执行。\n\n此版本还支持 DFlash GGUFs 与上游架构的结合。\n\n此外，该版本还修",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkpz2y/beellama_v020_major_dflash_update_single_rtx_3090/",
-      "original_title": "[Reddit] BeeLlama v0.2.0 - major DFlash update. Single RTX 3090: Qwen 3.6 27B up to 164 tps (4.40x), Gemma 4 31B up to 177.8 tps (4.93x). Prompt processing speed near baseline.",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-22T17:34:59",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "67a35a3e-bf36-435e-b6a4-bdfabd9af7e1",
-      "title": "OpenAI 和马耳他合作将 ChatGPT Plus带给所有公民",
-      "one_sentence_conclusion": "OpenAI 和马耳他合作将 ChatGPT Plus带给所有公民",
-      "summary": "OpenAI和马耳他合作扩大AI的接入，提供ChatGPT Plus和培训，帮助公民掌握实用的AI技能并负责任地使用AI。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "original_title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-16T00:00:00",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "8a57e25f-7b67-4e00-a3a0-a5edcb2608e5",
-      "title": "Reddit 中最好的不需要GPU的小型语言模型是什么？",
-      "one_sentence_conclusion": "Reddit 中最好的不需要GPU的小型语言模型是什么？",
-      "summary": "最好的模型在没有GPU的情况下，速度和准确性的比较，个人认为是Hugging Face的Transformer-XL模型。它在速度和准确性方面表现出色，尤其是在长文本处理方面。\n\n在没有GPU的情况下，Transformer-XL模型的速度可以通过以下配置来实现：\n\n* CPU：Intel Xeon E5-2690 v4或类似处理器\n* 内存：64GB或更高内存\n* 硬盘：SSD或类似高速存储设备",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tli757/what_is_the_current_best_small_language_model/",
-      "original_title": "[Reddit] What is the current best Small Language Model that can be run without GPU?",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T14:36:27",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "dedf7cc7-4eee-43f4-81d8-004026042fed",
-      "title": "机器人自主度等级",
-      "one_sentence_conclusion": "机器人自主度等级",
-      "summary": "机器人已经在几十年里为制造业提供动力，但它们一直是单一目的的，仅在理想的环境中才能生存。之前的智能机器人尝试过度宣传，低估了实际效果。但是它们太早了。今天，现代人工智能范式将大多数机器人障碍转化为数据问题，并将机器推向曾经被认为是不可能的能力。随着这些模型吸收真实世界的经验，机器人[]",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "SemiAnalysis",
-      "source_url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "original_title": "Robotics Levels of Autonomy",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2025-07-30T17:02:25",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "16d1f470-e1f0-4a3a-9829-b56d76d00f9c",
-      "title": "[Reddit] Apex-Testing：真实世界，真实仓库，代理编码基准测试（更新）",
-      "one_sentence_conclusion": "[Reddit] Apex-Testing：真实世界，真实仓库，代理编码基准测试（更新）",
-      "summary": "APEX 测试项目更新了95%的内容，包括了最新的模型。该项目基于65-70个私有GitHub仓库，旨在测试模型的代理编码能力。\n\nAPEX测试项目的目的在于抵制模型的炒作和过度宣传。该项目通过将模型放入真实的代码库中，模拟开发人员的工作流程，测试模型的实际能力。该项目涵盖了8个类别，70个任务，包括平均成本、平均时间、每个类别的评分、ELO排名系统、模型比较等指标。\n\n目前，APEX测试项目仍然",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlh4vq/apextesting_realworld_real_repos_agentic_coding/",
-      "original_title": "[Reddit] Apex-Testing: real-world, real repos, agentic coding benchmark (Update)",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T13:54:08",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "1a5a7bec-a108-4077-b48d-f438de16c6bd",
-      "title": "[Reddit] 个性化AI记忆是否是一个值得解决的问题还是我只是在逃避[问题]",
-      "one_sentence_conclusion": "[Reddit] 个性化AI记忆是否是一个值得解决的问题还是我只是在逃避[问题]",
-      "summary": "这个社区的成员可能会对这个问题感兴趣：\n\n每次使用Claude或ChatGPT时，都需要重新解释自己。即使他们的记忆功能也很浅，仅仅记住了关于你的事实，而不是你实际的思维方式。\n\n提出的想法不同于仅仅“会话间的记忆”。\n\n如果系统能够动态地建立一个关于你的个人数据库，覆盖不仅仅是你提出的问题，还包括你如何思考、你经常遇到的困难、哪些解释对你有效、哪些概念你一直困惑于这些方面。\n\n随着时间的推移，这",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tl9y7h/is_personalized_ai_memory_actually_a_problem/",
-      "original_title": "[Reddit] Is personalized AI memory actually a problem worth solving or am I just coping[D]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T07:47:21",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "de757adf-8dd7-4417-bf6c-953e4a08d4be",
-      "title": "[Reddit] 机器学习模型能否将活体检测推广到它们从未训练过的合成媒体生成技术？[D]",
-      "one_sentence_conclusion": "[Reddit] 机器学习模型能否将活体检测推广到它们从未训练过的合成媒体生成技术？[D]",
-      "summary": "当前生产环境中的大多数活性检测系统都是基于一个威胁模型，攻击者提交静态图像或基本的重播视频。当前合成媒体的生成质量与训练数据捕获的内容有着本质的区别。\n\n一直以来，一个问题困扰着我：训练于历史深度假样本的模型是否能泛化到那些在训练数据汇总时尚未存在的生成技术？如果答案是否，那么供应商声称深度假检测为核心能力的更新周期又该如何？\n\n我直接向两个身份验证供应商提出了这个问题，他们的回答听起来很自信，但",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/",
-      "original_title": "[Reddit] Can liveness detection models generalise to synthetic media generation techniques they were never trained on? [D]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-21T19:24:45",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "2134c9c9-b675-421d-a9cf-9ac392600b6a",
-      "title": "OpenAI 被 Gartner 名为领导者企业编码代理",
-      "one_sentence_conclusion": "OpenAI 被 Gartner 名为领导者企业编码代理",
-      "summary": "OpenAI被评为2026年高德纳（Gartner）企业AI编码代理（Enterprise AI Coding Agents）幻象象限（Magic Quadrant）领导者，Codex因创新和企业级部署（enterprise-scale deployment）而受到认可。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "original_title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-22T00:00:00",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "67869875-6d03-401c-a7ad-dd75ef98cee5",
-      "title": "开放AI对国家教育的下一阶段",
-      "one_sentence_conclusion": "开放AI对国家教育的下一阶段",
-      "summary": "OpenAI推进了教育的全球化，通过新合作伙伴关系、教师培训和工具来扩大AI在学校的采用，改善全球学习成果。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
       "overall_score": 60.0,
       "scoring_detail": null,
       "category": "strategy",
       "category_label": "AI战略与组织变革",
       "category_emoji": "🔵",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "original_title": "The next phase of OpenAI's Education for Countries",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "original_title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-05-20T00:00:00",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "7ce0b704-187f-4fa4-b8e4-fd87427d0088",
-      "title": "[Reddit] 基准测试 Needle 26亿 vs Qwen3-60亿在CPU函数调用，50个跨5个难度等级的查询。大小23倍小的模型在准确性上获胜，并且速度快4.4倍。",
-      "one_sentence_conclusion": "[Reddit] 基准测试 Needle 26亿 vs Qwen3-60亿在CPU函数调用，50个跨5个难度等级的查询。大小23倍小的模型在准确性上获胜，并且速度快4.4倍。",
-      "summary": "针对工具调用，进行了两种开源模型的对比测试：针对函数调用的小型专家模型（Needle，26M，基于Gemini 3.1的精简版）和小型通用模型（Qwen3-0.6B）。测试目的是比较这两种模型在4核CPU上，未使用GPU，未进行 cherry-picking 的情况下，处理工具调用任务的能力。\n\n测试设置：50个查询，分为5个等级（简单、重写、隐含、模糊、边界情况，包括外语和“不要调用任何工具”的",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tljs5o/benchmarked_needle_26m_vs_qwen306b_on_cpu/",
-      "original_title": "[Reddit] Benchmarked Needle 26M vs Qwen3-0.6B on CPU function calling, 50 queries across 5 difficulty tiers. The 23x smaller model wins on accuracy and is 4.4x faster.",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T15:38:34",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "5caf63e9-b972-4d91-af05-972b97e03121",
-      "title": "[Reddit] OpenAI 声称通用推理模型发现了对Erdos单位距离界的反例 [D]",
-      "one_sentence_conclusion": "[Reddit] OpenAI 声称通用推理模型发现了对Erdos单位距离界的反例 [D]",
-      "summary": "OpenAI 公布了一项数学结果，声称其通用推理模型发现了一种构造，证明了Erdős的平面单位距离问题的 conjectured 上限界 n^{1+O(1/log log n)} 不成立。\n\n该模型的推理过程写在了一个 PDF 文件中，简要的写作可以在这里找到。根据理解，该数学结果的含义是存在一些有限的平面点集，其单位距离数量超过 n^{1+ }，其中 > 0 是一个固定值，且对于无数个 n 都成",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tiy6s4/openai_claims_a_generalpurpose_reasoning_model/",
-      "original_title": "[Reddit] OpenAI claims a general-purpose reasoning model found a counterexample to Erdos's unit-distance bound [D]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-20T20:37:12",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "602c47e6-5856-4ce4-8e60-f6dfb5d1eb29",
-      "title": "Reddit管道非常慢 - 咨询D",
-      "one_sentence_conclusion": "Reddit管道非常慢 - 咨询D",
-      "summary": "训练过程中遇到瓶颈，希望能从经验丰富的朋友那里获得帮助。\n\n目标是实现机器人imitation学习。\n\n模型/管道：\n\n观察空间：\n4个RGB机器人摄像头\n\n图像分辨率：128x128x3\n\n机器人关节速度的小向量（14维）\n\n管道：\n共享ResNet18编码器处理每个图像\n\n每个图像嵌入维度为128\n\n最终输入到策略：\n4 * 128图像嵌入\n与14维状态向量连接\n\n策略骨架：\nDiT（扩散Tr",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/",
-      "original_title": "[Reddit] pipeline is really slow - consulting [D]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T17:53:12",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "2a87c159-f969-4555-bae5-ee232a244bfd",
-      "title": "[Reddit] 人类主义者盈利了，而 xAI烧掉了 42 亿美元。 AI 利润数字终于泄露了。",
-      "one_sentence_conclusion": "[Reddit] 人类主义者盈利了，而 xAI烧掉了 42 亿美元。 AI 利润数字终于泄露了。",
-      "summary": "本周，人们对人工智能利润率的猜测基本上被打破了。三大财务现实检查同时发生：OpenAI保密提交了S-1，xAI的Q1财务报告泄露，Anthropic奇迹般地发布了实际运营利润。\n\n如果您正在构建人工智能产品，或者只是依赖这些API在日常工作流中，那么您需要了解这些数字的实际含义。VC补贴的推理时代开始破裂。我们正在看到两种完全不同的生存策略在前沿实验室中出现，这直接影响到您将在Q3支付的令牌数量。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit MachineLearning",
-      "source_url": "https://www.reddit.com/r/MachineLearning/comments/1tl4yvl/anthropic_posted_a_profit_while_xai_burned_42b/",
-      "original_title": "[Reddit] Anthropic posted a profit while xAI burned $4.2B. The AI profitability numbers finally leaked.[D]",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T03:30:29",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "65509089-54a2-45d5-bd06-50c8f1fb3996",
-      "title": "[Reddit] 我在 MI60 32gb VRAM GPU 上测试了两种模型 Gemma4 和 Qwen3.6，进行了 30 次 llama-bench 运行以找到适合我的用例（Frigate 和 HomeAssistant）的最佳设置",
-      "one_sentence_conclusion": "[Reddit] 我在 MI60 32gb VRAM GPU 上测试了两种模型 Gemma4 和 Qwen3.6，进行了 30 次 llama-bench 运行以找到适合我的用例（Frigate 和 HomeAssistant）的最佳设置",
-      "summary": "测试了两种GPU模型，Gemma4和Qwen3.6，分别在MI60 32GB VRAM GPU上运行了30次llama-bench，以找到适合Frigate和HomeAssistant的最佳设置。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlliw4/did_a_30_runs_of_llamabench_to_find_optimal/",
-      "original_title": "[Reddit] Did a 30 runs of llama-bench to find optimal settings for my use case (Frigate and HomeAssistant) on my MI60 32gb VRAM GPU - two models tested Gemma4 and Qwen3.6 - Figured I'd share in case it helps anyone else",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T16:45:24",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "a15051ca-3d4d-4510-a0b2-36f775176751",
-      "title": "Reddit ] 在 PC 上直接运行 Chrome 的小型 Gemma4（aka Gemini Nano）无需 GPU",
-      "one_sentence_conclusion": "Reddit ] 在 PC 上直接运行 Chrome 的小型 Gemma4（aka Gemini Nano）无需 GPU",
-      "summary": "Gemini Nano 的下载事件最近还在人们的记忆中。它会告诉你它是 Gemma。\n\n由于一些朋友对它感兴趣，但不想通过开发工具与之交互，就制作了一个 5 分钟的 vibe 编码扩展，以便在不通过开发工具的情况下与之交互。\n\n所需条件仅有 Google Chrome、16GB RAM 和一些磁盘空间。无需 llama.cpp、vllm 等文件或进行任何调整。\n\n该扩展运行速度快，感觉像是在 20",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlnqzj/run_chromes_tiny_gemma4_aka_gemini_nano_directly/",
-      "original_title": "[Reddit] Run Chrome's tiny Gemma4 (aka Gemini Nano) directly on PC without GPU",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T18:10:48",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "13dd7e13-61bd-44f1-8d84-3aaab40ca644",
-      "title": "[Reddit] GPU间距是否在我们低压调节时重要？",
-      "one_sentence_conclusion": "[Reddit] GPU间距是否在我们低压调节时重要？",
-      "summary": "GPU spacing通常在过载或高温下才会产生影响，但如果已经进行了下电压（undervolting），那么GPU间距的影响可能会减小。然而，GPU间距仍然可以影响GPU的温度和稳定性。过密的GPU排列可能会导致热量积聚，增加GPU温度，从而影响其稳定性和寿命。因此，即使在下电压的情况下，GPU间距仍然是一个需要考虑的因素。",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlonbw/does_gpu_spacing_matter_if_were_undervolting/",
-      "original_title": "[Reddit] Does GPU spacing matter if we're undervolting anyways?",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T18:45:50",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "773670ab-58f0-4095-90f4-7dc90101d269",
-      "title": "Reddit NVIDIA Nemotron 人物嵌入",
-      "one_sentence_conclusion": "Reddit NVIDIA Nemotron 人物嵌入",
-      "summary": "使用Nemotron-Personas数据集提取嵌入向量。\n\n该数据集是一个庞大的资源，包含数百万个合成人物，人物背景详细（姓名、年龄、职业、爱好等），但找到特定人物或聚类人物非常困难。为了解决这个问题，使用Qwen 0.6B计算嵌入向量。虽然0.6B轻量级，但在运行语义搜索或找到K-最近邻来构建人物组时，效果非常好。\n\n可以在此找到预计算的嵌入向量（韩国、日本、法国、美国）。请访问web dem",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlqcbi/embeddings_for_nvidias_nemotron_personas/",
-      "original_title": "[Reddit] Embeddings for NVIDIA's Nemotron Personas",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T19:51:58",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "09026956-f2cd-409d-9f1f-566e4d00e426",
-      "title": "Reddit寻找高效的eGPU设置",
-      "one_sentence_conclusion": "Reddit寻找高效的eGPU设置",
-      "summary": "该用户正在寻找一个外部箱子来容纳4块GPU，箱子需要支持4个x4的PCIe接口，使用passive Oculink分割器。他们的工作站支持X4X4X4X4分支，但问题在于箱子的尺寸。\n\n他们希望找到一个塔式箱子，可以放置在工作站旁边，具有单个电源输入，4个Oculink输入或类似接口，以及4块GPU各3个插槽的连接器。他们也考虑使用一个PCIe背板和交换机，但价格不超过1000美元。\n\n理想情况下",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlp1xl/looking_for_efficient_egpu_setup/",
-      "original_title": "[Reddit] Looking for efficient \"eGPU\" setup",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T19:01:43",
-      "intelligence_date": "2026-05-24"
-    },
-    {
-      "id": "17503a15-0057-4c26-bb02-4823160ea917",
-      "title": "Reddit] 对于拥有6000 PRO MaxQ 和 Workstation/SERVER 版本的用户，MaxQ相对于WS/SV在计算（Prompt处理，Diffusion等）上的速度有多慢？",
-      "one_sentence_conclusion": "Reddit] 对于拥有6000 PRO MaxQ 和 Workstation/SERVER 版本的用户，MaxQ相对于WS/SV在计算（Prompt处理，Diffusion等）上的速度有多慢？",
-      "summary": "考虑到购买RTX 6000 PRO MaxQ或等待3~月后购买RTX 6000 PRO Workstation Edition的问题。\n\n已售出3块5090，用于购买其中一块。系统已开箱。\n\n已在多个地方看到，仅依赖带宽的任务，如令牌生成，MaxQ版与Workstation Edition（或Server Edition）相比，性能差异约为-5%至-15%。这也合理，因为MaxQ版最大功耗为300",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "Reddit LocalLLaMA",
-      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tltoil/for_users_have_have_both_6000_pro_maxq_and/",
-      "original_title": "[Reddit] For users have have both 6000 PRO MaxQ and Workstation Edition (or Server Edition), how much slower is the MaxQ vs the WS/SV on compute? (Prompt processing, Diffusion, etc)",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-05-23T22:07:39",
-      "intelligence_date": "2026-05-24"
+      "published_at": "2026-05-23T00:02:03",
+      "intelligence_date": "2026-05-25"
     }
   ],
-  "people": [
-    {
-      "id": "5d4263b5-0f66-4b97-924b-c9be3f578e98",
-      "name": "Andrej Karpathy",
-      "rank": 1,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/karpathy",
-      "twitter_x": "https://x.com/karpathy",
-      "youtube": null,
-      "blog": "https://karpathy.github.io/",
-      "expertise": [
-        "大模型训练与推理",
-        "AI Coding",
-        "神经网络工程实践",
-        "教育型代码实现"
-      ],
-      "known_for": [
-        "nanoGPT",
-        "llm.c",
-        "minGPT",
-        "Neural Networks: Zero to Hero"
-      ],
-      "authority_score": 9.5,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "3e7f9819-1144-41d3-86e1-a35282100e9a",
-      "name": "Georgi Gerganov",
-      "rank": 2,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ggerganov",
-      "twitter_x": "https://x.com/ggerganov",
-      "youtube": null,
-      "blog": "https://ggerganov.com/",
-      "expertise": [
-        "本地大模型推理",
-        "高性能推理引擎",
-        "量化",
-        "C/C++ AI工程"
-      ],
-      "known_for": [
-        "llama.cpp",
-        "ggml",
-        "whisper.cpp",
-        "GGUF生态"
-      ],
-      "authority_score": 9.44,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "6171caef-bf5f-4a57-a95b-00f3509f99c7",
-      "name": "Tri Dao",
-      "rank": 3,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/tridao",
-      "twitter_x": "https://x.com/tri_dao",
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "LLM训练优化",
-        "Attention加速",
-        "GPU Kernel",
-        "高性能深度学习"
-      ],
-      "known_for": [
-        "FlashAttention",
-        "FlashAttention-2",
-        "Mamba相关高效序列建模工作"
-      ],
-      "authority_score": 9.39,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "f04eb6a0-fe66-44fd-9d3d-8052054f17f8",
-      "name": "Soumith Chintala",
-      "rank": 4,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/soumith",
-      "twitter_x": "https://x.com/soumithchintala",
-      "youtube": null,
-      "blog": "https://soumith.ch/",
-      "expertise": [
-        "深度学习框架",
-        "PyTorch工程",
-        "训练系统",
-        "开源生态建设"
-      ],
-      "known_for": [
-        "PyTorch核心贡献",
-        "Torch生态建设",
-        "深度学习工程社区推动"
-      ],
-      "authority_score": 9.33,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "8e3e4158-5b89-4383-822c-d82385bff914",
-      "name": "Tianqi Chen",
-      "rank": 5,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/tqchen",
-      "twitter_x": "https://x.com/tqchenml",
-      "youtube": null,
-      "blog": "https://tqchen.com/",
-      "expertise": [
-        "机器学习系统",
-        "编译优化",
-        "LLM部署",
-        "高性能推理"
-      ],
-      "known_for": [
-        "XGBoost",
-        "Apache TVM",
-        "MLC-LLM"
-      ],
-      "authority_score": 9.28,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "215b6a48-8f84-4f90-bd32-aebd69322b52",
-      "name": "Simon Willison",
-      "rank": 6,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/simonw",
-      "twitter_x": "https://x.com/simonw",
-      "youtube": null,
-      "blog": "https://simonwillison.net/",
-      "expertise": [
-        "LLM应用工程",
-        "提示词实践",
-        "Agent工具",
-        "AI工程技术写作"
-      ],
-      "known_for": [
-        "llm CLI",
-        "Datasette相关AI实践",
-        "大量LLM工程实践博客"
-      ],
-      "authority_score": 9.22,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "507ec347-e4d6-4ac9-b422-2cbe38a5f658",
-      "name": "Sebastian Raschka",
-      "rank": 7,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/rasbt",
-      "twitter_x": "https://x.com/rasbt",
-      "youtube": null,
-      "blog": "https://sebastianraschka.com/",
-      "expertise": [
-        "LLM训练",
-        "模型微调",
-        "深度学习教育",
-        "可复现工程实现"
-      ],
-      "known_for": [
-        "LLMs-from-scratch",
-        "Machine Learning Q and AI",
-        "大量PyTorch与LLM教程"
-      ],
-      "authority_score": 9.17,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "bf34136a-d24b-4d3a-82f6-8fcc8b20f6aa",
-      "name": "Thomas Wolf",
-      "rank": 8,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/thomwolf",
-      "twitter_x": "https://x.com/Thom_Wolf",
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "NLP工程",
-        "Transformers生态",
-        "开源模型工具链",
-        "模型训练与部署"
-      ],
-      "known_for": [
-        "Hugging Face Transformers早期核心推动",
-        "NLP开源生态建设"
-      ],
-      "authority_score": 9.11,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "6b78d447-4937-48f4-b8b6-5ea74459aed5",
-      "name": "Tim Dettmers",
-      "rank": 9,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/TimDettmers",
-      "twitter_x": "https://x.com/Tim_Dettmers",
-      "youtube": null,
-      "blog": "https://timdettmers.com/",
-      "expertise": [
-        "大模型量化",
-        "低显存训练",
-        "LLM微调",
-        "GPU训练优化"
-      ],
-      "known_for": [
-        "bitsandbytes",
-        "QLoRA相关工作",
-        "LLM量化与训练实践文章"
-      ],
-      "authority_score": 9.06,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "90bf3f80-d8d6-4331-93d2-0f92a1b8a285",
-      "name": "Mu Li",
-      "rank": 10,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/mli",
-      "twitter_x": "https://x.com/mli65",
-      "youtube": null,
-      "blog": "https://zh.d2l.ai/",
-      "expertise": [
-        "深度学习系统",
-        "分布式训练",
-        "模型工程教育",
-        "AI工程实践传播"
-      ],
-      "known_for": [
-        "Dive into Deep Learning",
-        "MXNet贡献",
-        "大模型与深度学习工程课程"
-      ],
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "1494d12e-8e5a-4d31-bd4b-886ef73fb9f7",
-      "name": "Edward Z. Yang",
-      "rank": 11,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ezyang",
-      "twitter_x": "https://x.com/ezyang",
-      "youtube": null,
-      "blog": "https://blog.ezyang.com/",
-      "expertise": [
-        "PyTorch内部机制",
-        "编译器",
-        "深度学习框架工程",
-        "系统设计"
-      ],
-      "known_for": [
-        "PyTorch核心工程贡献",
-        "PyTorch内部机制技术写作"
-      ],
-      "authority_score": 8.97,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "7f33ea40-3510-4e7d-ac5d-ff7f7e9e527c",
-      "name": "Horace He",
-      "rank": 12,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/Chillee",
-      "twitter_x": "https://x.com/cHHillee",
-      "youtube": null,
-      "blog": "https://horace.io/",
-      "expertise": [
-        "PyTorch编译优化",
-        "GPU性能优化",
-        "LLM系统",
-        "Kernel与算子优化"
-      ],
-      "known_for": [
-        "PyTorch compile相关优化",
-        "深度学习性能分析文章",
-        "高性能训练与推理实践"
-      ],
-      "authority_score": 8.95,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "24ae0fd6-7b25-4c38-91c4-b3c710967927",
-      "name": "Patrick von Platen",
-      "rank": 13,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/patrickvonplaten",
-      "twitter_x": "https://x.com/patrick_platen",
-      "youtube": null,
-      "blog": "https://huggingface.co/blog",
-      "expertise": [
-        "Diffusion模型",
-        "Transformers",
-        "开源模型工具链",
-        "推理优化"
-      ],
-      "known_for": [
-        "diffusers核心贡献",
-        "Transformers生态贡献",
-        "Hugging Face技术文章"
-      ],
-      "authority_score": 8.93,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "c4a12da5-cf4e-492b-ade2-d42d1ed5f2d0",
-      "name": "Stas Bekman",
-      "rank": 14,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/stas00",
-      "twitter_x": "https://x.com/stas00",
-      "youtube": null,
-      "blog": "https://stasosphere.com/",
-      "expertise": [
-        "LLM训练基础设施",
-        "分布式训练",
-        "DeepSpeed",
-        "训练性能优化"
-      ],
-      "known_for": [
-        "Hugging Face训练系统实践",
-        "DeepSpeed相关工程文档",
-        "大模型训练工程知识沉淀"
-      ],
-      "authority_score": 8.9,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "9db9a4c4-8757-41a0-9f66-a1f744181edd",
-      "name": "Eugene Yan",
-      "rank": 15,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/eugeneyan",
-      "twitter_x": "https://x.com/eugeneyan",
-      "youtube": null,
-      "blog": "https://eugeneyan.com/",
-      "expertise": [
-        "ML系统设计",
-        "推荐与搜索",
-        "LLM应用工程",
-        "技术写作"
-      ],
-      "known_for": [
-        "Applied ML与LLM工程实践文章",
-        "ML系统设计案例总结"
-      ],
-      "authority_score": 8.88,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "77298b4f-75d7-4701-8833-cf86268c822b",
-      "name": "Jason Liu",
-      "rank": 16,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/jxnl",
-      "twitter_x": "https://x.com/jxnlco",
-      "youtube": null,
-      "blog": "https://jxnl.co/",
-      "expertise": [
-        "结构化输出",
-        "RAG",
-        "LLM应用工程",
-        "Prompt与数据建模"
-      ],
-      "known_for": [
-        "Instructor",
-        "大量RAG与结构化输出工程文章"
-      ],
-      "authority_score": 8.85,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "58e6e172-52fb-4d9c-877d-69d1b2a9992e",
-      "name": "Hamel Husain",
-      "rank": 17,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/hamelsmu",
-      "twitter_x": "https://x.com/HamelHusain",
-      "youtube": null,
-      "blog": "https://hamel.dev/",
-      "expertise": [
-        "LLM评测",
-        "AI产品工程",
-        "AI Coding工作流",
-        "数据驱动迭代"
-      ],
-      "known_for": [
-        "LLM工程评测实践",
-        "AI Coding与LLM产品迭代文章",
-        "LLM应用开发课程与案例"
-      ],
-      "authority_score": 8.82,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "71bb489f-ebe0-497f-847e-21165a22b2c0",
-      "name": "Jay Alammar",
-      "rank": 18,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/jalammar",
-      "twitter_x": "https://x.com/JayAlammar",
-      "youtube": null,
-      "blog": "https://jalammar.github.io/",
-      "expertise": [
-        "LLM可视化讲解",
-        "Transformer",
-        "Embedding",
-        "AI技术传播"
-      ],
-      "known_for": [
-        "The Illustrated Transformer",
-        "The Illustrated GPT-2",
-        "Embedding与LLM工程图解"
-      ],
-      "authority_score": 8.8,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "a4a7efaf-bde9-49e4-8358-e9874018ac5d",
-      "name": "Philipp Schmid",
-      "rank": 19,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/philschmid",
-      "twitter_x": "https://x.com/_philschmid",
-      "youtube": null,
-      "blog": "https://www.philschmid.de/",
-      "expertise": [
-        "LLM部署",
-        "Transformers",
-        "微调",
-        "生产化推理"
-      ],
-      "known_for": [
-        "大量Hugging Face训练与部署教程",
-        "LLM微调与推理实践文章"
-      ],
-      "authority_score": 8.78,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "e1dfd330-fd7b-4962-ac5d-971606458242",
-      "name": "Paul Gauthier",
-      "rank": 20,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/paul-gauthier",
-      "twitter_x": "https://x.com/paulgauthier",
-      "youtube": null,
-      "blog": "https://aider.chat/blog/",
-      "expertise": [
-        "AI Coding",
-        "代码编辑Agent",
-        "Git工作流",
-        "开发者工具"
-      ],
-      "known_for": [
-        "aider",
-        "基于LLM的代码修改与结对编程工作流"
-      ],
-      "authority_score": 8.75,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "ad1332dc-9492-4a17-b213-f74f447135a8",
-      "name": "Maxime Labonne",
-      "rank": 21,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/mlabonne",
-      "twitter_x": "https://x.com/maximelabonne",
-      "youtube": null,
-      "blog": "https://mlabonne.github.io/blog/",
-      "expertise": [
-        "大模型微调",
-        "量化",
-        "模型合并",
-        "开源LLM实践"
-      ],
-      "known_for": [
-        "LLM Course",
-        "量化与模型合并教程",
-        "开源LLM工程实践内容"
-      ],
-      "authority_score": 8.72,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "510ab895-447e-469f-aa78-78617cbfd9c7",
-      "name": "Daniel Han",
-      "rank": 22,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/danielhanchen",
-      "twitter_x": "https://x.com/danielhanchen",
-      "youtube": null,
-      "blog": "https://unsloth.ai/blog",
-      "expertise": [
-        "LLM微调",
-        "训练加速",
-        "显存优化",
-        "开源训练工具"
-      ],
-      "known_for": [
-        "Unsloth",
-        "高效LoRA/QLoRA微调实践"
-      ],
-      "authority_score": 8.7,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "a420c941-2900-4e07-ad24-da74856640aa",
-      "name": "Sayak Paul",
-      "rank": 23,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/sayakpaul",
-      "twitter_x": "https://x.com/RisingSayak",
-      "youtube": null,
-      "blog": "https://sayak.dev/",
-      "expertise": [
-        "模型部署",
-        "Diffusion",
-        "Transformers",
-        "可复现AI工程"
-      ],
-      "known_for": [
-        "Hugging Face生态贡献",
-        "Diffusion与部署实践文章"
-      ],
-      "authority_score": 8.68,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "aa989cb5-97a6-4959-adb3-a1de067216fd",
-      "name": "Younes Belkada",
-      "rank": 24,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ybelkada",
-      "twitter_x": "https://x.com/younesbelkada",
-      "youtube": null,
-      "blog": "https://huggingface.co/blog",
-      "expertise": [
-        "LLM微调",
-        "量化",
-        "TRL",
-        "开源训练工具链"
-      ],
-      "known_for": [
-        "Hugging Face TRL生态贡献",
-        "量化与PEFT相关工程实践"
-      ],
-      "authority_score": 8.65,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "1895a3ef-e893-44b4-8fb4-211255758df5",
-      "name": "Leandro von Werra",
-      "rank": 25,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/lvwerra",
-      "twitter_x": "https://x.com/lvwerra",
-      "youtube": null,
-      "blog": "https://huggingface.co/blog",
-      "expertise": [
-        "RLHF",
-        "后训练",
-        "LLM训练工具",
-        "开源工程"
-      ],
-      "known_for": [
-        "TRL",
-        "RLHF与偏好优化工具链建设"
-      ],
-      "authority_score": 8.62,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "db2f124f-e278-4507-8514-181fb671f2ad",
-      "name": "Lianmin Zheng",
-      "rank": 26,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/lm-sys",
-      "twitter_x": "https://x.com/lmsysorg",
-      "youtube": null,
-      "blog": "https://lmsys.org/blog/",
-      "expertise": [
-        "LLM服务系统",
-        "模型评测",
-        "开源聊天系统",
-        "推理基础设施"
-      ],
-      "known_for": [
-        "FastChat",
-        "Chatbot Arena",
-        "LMSYS开源生态"
-      ],
-      "authority_score": 8.6,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "545051f9-a3d2-49e0-bbc0-ba75ecf8b1d1",
-      "name": "Zhuohan Li",
-      "rank": 27,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/zhuohan123",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "LLM推理服务",
-        "高吞吐Serving",
-        "模型系统",
-        "分布式推理"
-      ],
-      "known_for": [
-        "vLLM相关贡献",
-        "大模型服务系统研究与工程实践"
-      ],
-      "authority_score": 8.57,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "323eb459-81a9-412b-ba92-6a497d76e64d",
-      "name": "Simon Mo",
-      "rank": 28,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/simon-mo",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": "https://www.anyscale.com/blog",
-      "expertise": [
-        "模型服务",
-        "Ray Serve",
-        "LLM Infra",
-        "分布式系统"
-      ],
-      "known_for": [
-        "Ray Serve",
-        "LLM serving工程实践"
-      ],
-      "authority_score": 8.55,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "960f2716-d1ef-4031-a7b7-731f8e31e448",
-      "name": "Chi Wang",
-      "rank": 29,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/chiwang",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": "https://microsoft.github.io/autogen/",
-      "expertise": [
-        "Agent系统",
-        "多智能体协作",
-        "LLM应用框架",
-        "自动化工作流"
-      ],
-      "known_for": [
-        "AutoGen"
-      ],
-      "authority_score": 8.53,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "8bf8fa43-de19-491a-a8f8-1c4b8d76aaac",
-      "name": "Graham Neubig",
-      "rank": 30,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/neubig",
-      "twitter_x": "https://x.com/NeubigG",
-      "youtube": null,
-      "blog": "https://www.phontron.com/",
-      "expertise": [
-        "LLM Agent",
-        "代码Agent",
-        "NLP系统",
-        "开源研究工程"
-      ],
-      "known_for": [
-        "OpenHands相关工作",
-        "NLP与Agent开源实践"
-      ],
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "fa69e6e3-afb7-46bd-ad5f-3bee5c0fb85d",
-      "name": "Xingyao Wang",
-      "rank": 31,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/xingyaoww",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "软件工程Agent",
-        "代码自动修复",
-        "LLM Agent评测",
-        "AI Coding"
-      ],
-      "known_for": [
-        "OpenHands相关贡献",
-        "代码Agent研究与工程实现"
-      ],
-      "authority_score": 8.47,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "bd19a9e7-83e2-4319-b505-e81d81effe62",
-      "name": "John Yang",
-      "rank": 32,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/john-b-yang",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "AI Coding Agent",
-        "软件工程自动化",
-        "Agent环境",
-        "代码修复"
-      ],
-      "known_for": [
-        "SWE-agent"
-      ],
-      "authority_score": 8.45,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "ecdb089e-9618-4d8c-8b39-5513d52764dd",
-      "name": "Carlos E. Jimenez",
-      "rank": 33,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/princeton-nlp",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "软件工程评测",
-        "代码修复Agent",
-        "Benchmark构建",
-        "LLM评估"
-      ],
-      "known_for": [
-        "SWE-bench",
-        "SWE-agent相关工作"
-      ],
-      "authority_score": 8.43,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "70b74e75-6374-41fe-bdf1-d85474ef1f7c",
-      "name": "Omar Khattab",
-      "rank": 34,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/okhat",
-      "twitter_x": "https://x.com/lateinteraction",
-      "youtube": null,
-      "blog": "https://omarkhattab.com/",
-      "expertise": [
-        "RAG",
-        "检索增强生成",
-        "Prompt程序化",
-        "LLM系统优化"
-      ],
-      "known_for": [
-        "ColBERT",
-        "DSPy"
-      ],
-      "authority_score": 8.4,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "6c53479f-6833-4ee3-ac17-55ce9ca82e5b",
-      "name": "Shreya Shankar",
-      "rank": 35,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/shreyashankar",
-      "twitter_x": "https://x.com/sh_reya",
-      "youtube": null,
-      "blog": "https://www.sh-reya.com/",
-      "expertise": [
-        "LLM应用评测",
-        "数据与错误分析",
-        "Agent可靠性",
-        "生产化AI系统"
-      ],
-      "known_for": [
-        "LLM应用评估与数据驱动迭代实践",
-        "AI工程可靠性研究与写作"
-      ],
-      "authority_score": 8.38,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "27036a1f-f35a-4944-b7bb-8d662c0f6b31",
-      "name": "Andrew Kane",
-      "rank": 36,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ankane",
-      "twitter_x": "https://x.com/andrewkane",
-      "youtube": null,
-      "blog": "https://ankane.org/",
-      "expertise": [
-        "向量检索",
-        "数据库扩展",
-        "RAG基础设施",
-        "Ruby/PostgreSQL生态"
-      ],
-      "known_for": [
-        "pgvector相关生态贡献",
-        "多种数据与ML开源工具"
-      ],
-      "authority_score": 8.35,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "4f972fe8-a201-427e-bb7a-2e9ca5fc434c",
-      "name": "Matthijs Douze",
-      "rank": 37,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/mdouze",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "向量检索",
-        "近似最近邻搜索",
-        "RAG基础设施",
-        "大规模检索系统"
-      ],
-      "known_for": [
-        "FAISS核心贡献"
-      ],
-      "authority_score": 8.32,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "a4e8896f-c8fc-4a62-b898-427f2337faa7",
-      "name": "Alex Garcia",
-      "rank": 38,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/asg017",
-      "twitter_x": "https://x.com/alexgarcia_xyz",
-      "youtube": null,
-      "blog": "https://alexgarcia.xyz/",
-      "expertise": [
-        "SQLite扩展",
-        "向量检索",
-        "本地AI应用",
-        "轻量级RAG基础设施"
-      ],
-      "known_for": [
-        "sqlite-vec",
-        "sqlite-vss",
-        "SQLite AI扩展生态"
-      ],
-      "authority_score": 8.3,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "90c26320-f3db-42f2-8130-88f95e2e2ede",
-      "name": "Boris Cherny",
-      "rank": 39,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/bcherny",
-      "twitter_x": "https://x.com/bcherny",
-      "youtube": null,
-      "blog": "https://bcherny.com/",
-      "expertise": [
-        "开发者工具",
-        "AI Coding",
-        "编程语言与工程效率",
-        "代码生成工作流"
-      ],
-      "known_for": [
-        "Claude Code相关工程实践",
-        "TypeScript与开发工具经验"
-      ],
-      "authority_score": 8.28,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "a4aaa2ab-1808-460e-9864-33beb825c1b4",
-      "name": "Niels Rogge",
-      "rank": 40,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/NielsRogge",
-      "twitter_x": "https://x.com/NielsRogge",
-      "youtube": null,
-      "blog": "https://github.com/NielsRogge/Transformers-Tutorials",
-      "expertise": [
-        "Transformers",
-        "多模态模型",
-        "模型微调",
-        "教程型工程实践"
-      ],
-      "known_for": [
-        "Transformers-Tutorials",
-        "Hugging Face多模态与训练示例"
-      ],
-      "authority_score": 8.25,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "cb9c6084-ecee-49d1-acb3-fce00c78a042",
-      "name": "Nathan Lambert",
-      "rank": 41,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/natolambert",
-      "twitter_x": "https://x.com/natolambert",
-      "youtube": null,
-      "blog": "https://www.interconnects.ai/",
-      "expertise": [
-        "后训练",
-        "RLHF",
-        "开源LLM",
-        "模型评测与实践分析"
-      ],
-      "known_for": [
-        "RLHF与后训练实践写作",
-        "开源LLM生态分析"
-      ],
-      "authority_score": 8.22,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "727b2441-9ec7-443d-9294-92457b6d1bfe",
-      "name": "Hailey Schoelkopf",
-      "rank": 42,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/haileyschoelkopf",
-      "twitter_x": "https://x.com/haileysch_",
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "LLM评测",
-        "开源模型训练",
-        "Benchmark",
-        "语言模型工程"
-      ],
-      "known_for": [
-        "lm-evaluation-harness相关贡献",
-        "EleutherAI开源模型评测生态"
-      ],
-      "authority_score": 8.2,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "563eed34-5033-43ce-803f-ae70ca2f3a7b",
-      "name": "Elias Frantar",
-      "rank": 43,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/IST-DASLab",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "模型压缩",
-        "量化",
-        "LLM推理优化",
-        "高效推理"
-      ],
-      "known_for": [
-        "GPTQ相关工作",
-        "大模型压缩与量化研究工程"
-      ],
-      "authority_score": 8.18,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "fd58c693-dd3e-4400-8500-3998a2a93524",
-      "name": "TheBloke",
-      "rank": 44,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/TheBloke",
-      "twitter_x": "https://x.com/TheBlokeAI",
-      "youtube": null,
-      "blog": "https://huggingface.co/TheBloke",
-      "expertise": [
-        "模型量化",
-        "本地LLM",
-        "GGUF/GPTQ/AWQ模型分发",
-        "开源模型工程"
-      ],
-      "known_for": [
-        "大量量化模型发布",
-        "本地开源LLM生态推动"
-      ],
-      "authority_score": 8.15,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "99292cdc-c906-40d3-85c8-9deb90879e50",
-      "name": "Junrushao",
-      "rank": 45,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/junrushao",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "编译器",
-        "LLM部署",
-        "模型运行时",
-        "推理优化"
-      ],
-      "known_for": [
-        "MLC-LLM相关贡献",
-        "TVM生态贡献"
-      ],
-      "authority_score": 8.12,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "83657440-1b49-44d2-86cf-4f0ccce73ed2",
-      "name": "Hiyouga",
-      "rank": 46,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/hiyouga",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "LLM微调",
-        "训练工具链",
-        "参数高效训练",
-        "开源中文LLM工程"
-      ],
-      "known_for": [
-        "LLaMA-Factory"
-      ],
-      "authority_score": 8.1,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "fc4dcf1f-706e-473d-be3e-47979147f573",
-      "name": "苏剑林",
-      "rank": 47,
-      "region": "cn",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/bojone",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": "https://kexue.fm/",
-      "expertise": [
-        "NLP",
-        "生成模型",
-        "中文AI技术写作",
-        "算法与工程结合"
-      ],
-      "known_for": [
-        "科学空间",
-        "bert4keras",
-        "大量NLP与大模型技术文章"
-      ],
-      "authority_score": 8.07,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "19042aaa-6b84-4cc4-bcf6-5edd5c459022",
-      "name": "imClumsyPanda",
-      "rank": 48,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/imClumsyPanda",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "中文RAG应用",
-        "知识库问答",
-        "LangChain实践",
-        "开源AI应用工程"
-      ],
-      "known_for": [
-        "Langchain-Chatchat早期相关贡献"
-      ],
-      "authority_score": 8.05,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "7ee14aa7-dd06-4179-a9e6-8a8ae9e7858d",
-      "name": "binary-husky",
-      "rank": 49,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/binary-husky",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "AI科研助手",
-        "Agent工作流",
-        "论文与代码辅助",
-        "中文开源AI工具"
-      ],
-      "known_for": [
-        "ChatGPT Academic"
-      ],
-      "authority_score": 8.03,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "d76af8ff-d53d-4145-9ffa-2696a9fc5328",
-      "name": "Haotian Liu",
-      "rank": 50,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/haotian-liu",
-      "twitter_x": "https://x.com/haotian_liuuu",
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "多模态大模型",
-        "视觉语言模型",
-        "模型训练",
-        "开源模型工程"
-      ],
-      "known_for": [
-        "LLaVA"
-      ],
-      "authority_score": 8.0,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "af1a99b7-b2c6-49fe-a7dd-019f95955e3a",
-      "name": "Wei-Lin Chiang",
-      "rank": 51,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/Wei-Lin-Chiang",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "LLM系统",
-        "开源聊天模型",
-        "模型评测",
-        "服务系统"
-      ],
-      "known_for": [
-        "FastChat相关贡献",
-        "Vicuna相关工作"
-      ],
-      "authority_score": 7.95,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "a41236ea-6a64-418f-8eff-4e8bff9c9fb8",
-      "name": "Drew Breunig",
-      "rank": 52,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/dbreunig",
-      "twitter_x": "https://x.com/dbreunig",
-      "youtube": null,
-      "blog": "https://www.dbreunig.com/",
-      "expertise": [
-        "RAG",
-        "上下文工程",
-        "向量检索实践",
-        "LLM应用分析"
-      ],
-      "known_for": [
-        "RAG与Context Engineering技术文章",
-        "AI应用工程实践总结"
-      ],
-      "authority_score": 7.9,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "0489f9b4-5a79-47d8-81f5-d549f5934342",
-      "name": "Shahul ES",
-      "rank": 53,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/explodinggradients",
-      "twitter_x": "https://x.com/shahules786",
-      "youtube": null,
-      "blog": "https://docs.ragas.io/",
-      "expertise": [
-        "RAG评测",
-        "LLM应用质量度量",
-        "数据生成",
-        "评估框架"
-      ],
-      "known_for": [
-        "Ragas"
-      ],
-      "authority_score": 7.85,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "7982f29f-75a7-43c3-8420-65e88bcfd364",
-      "name": "Lewis Tunstall",
-      "rank": 54,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/lewtun",
-      "twitter_x": "https://x.com/_lewtun",
-      "youtube": null,
-      "blog": "https://huggingface.co/blog",
-      "expertise": [
-        "Transformers",
-        "开源LLM",
-        "模型训练",
-        "技术教育"
-      ],
-      "known_for": [
-        "Natural Language Processing with Transformers",
-        "Hugging Face开源教程与工程内容"
-      ],
-      "authority_score": 7.8,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "4de5df1f-7ba0-4878-ada9-e5b19e9862ce",
-      "name": "François Chollet",
-      "rank": 55,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/fchollet",
-      "twitter_x": "https://x.com/fchollet",
-      "youtube": null,
-      "blog": "https://fchollet.com/",
-      "expertise": [
-        "深度学习框架",
-        "模型工程",
-        "Keras生态",
-        "AI实践教育"
-      ],
-      "known_for": [
-        "Keras",
-        "Deep Learning with Python"
-      ],
-      "authority_score": 7.75,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "c3d2a748-4ddd-4f0c-af80-767bf8fee680",
-      "name": "Mark Saroufim",
-      "rank": 56,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/msaroufim",
-      "twitter_x": "https://x.com/marksaroufim",
-      "youtube": null,
-      "blog": "https://marksaroufim.substack.com/",
-      "expertise": [
-        "PyTorch工程",
-        "开源AI基础设施",
-        "模型训练",
-        "开发者教育"
-      ],
-      "known_for": [
-        "PyTorch生态贡献",
-        "AI工程实践写作"
-      ],
-      "authority_score": 7.7,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "8aa98bd8-778c-4525-9b41-ee205f4d6a57",
-      "name": "Merve Noyan",
-      "rank": 57,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/merveenoyan",
-      "twitter_x": "https://x.com/mervenoyann",
-      "youtube": null,
-      "blog": "https://huggingface.co/blog",
-      "expertise": [
-        "多模态模型",
-        "Transformers",
-        "模型部署",
-        "开源示例工程"
-      ],
-      "known_for": [
-        "Hugging Face多模态模型示例",
-        "开源AI应用教程"
-      ],
-      "authority_score": 7.65,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "e01b7b94-c985-42c8-beca-18bfb5d233c2",
-      "name": "Keshav Santhanam",
-      "rank": 58,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ksanthanam",
-      "twitter_x": null,
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "Prompt编程",
-        "RAG",
-        "LLM优化",
-        "自动化提示搜索"
-      ],
-      "known_for": [
-        "DSPy相关贡献"
-      ],
-      "authority_score": 7.6,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "d847aea7-38d3-4f38-bb13-65062320448a",
-      "name": "Malte Pietsch",
-      "rank": 59,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/pietsch",
-      "twitter_x": "https://x.com/maltepietsch",
-      "youtube": null,
-      "blog": "https://haystack.deepset.ai/blog",
-      "expertise": [
-        "RAG",
-        "搜索系统",
-        "问答系统",
-        "LLM应用框架"
-      ],
-      "known_for": [
-        "Haystack"
-      ],
-      "authority_score": 7.55,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    },
-    {
-      "id": "043f5048-9cfa-42dc-b6d5-cb4b60305a17",
-      "name": "Shivam Shrirao",
-      "rank": 60,
-      "region": "global",
-      "role": null,
-      "company": null,
-      "github": "https://github.com/ShivamShrirao",
-      "twitter_x": "https://x.com/shriraam",
-      "youtube": null,
-      "blog": null,
-      "expertise": [
-        "模型微调",
-        "Diffusion工程",
-        "训练脚本优化",
-        "开源实验复现"
-      ],
-      "known_for": [
-        "diffusers训练实践",
-        "DreamBooth相关开源实现"
-      ],
-      "authority_score": 7.5,
-      "practice_score": 0.0,
-      "source_confidence": 0.0,
-      "last_checked": null
-    }
-  ],
-  "sources": [
-    {
-      "id": "0d3e9812-5dce-45fa-9c90-357b18997897",
-      "name": "NVIDIA Technical Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "NVIDIA Developer",
-      "url": "https://developer.nvidia.com/blog/",
-      "content_direction": "GPU计算、推理优化、CUDA、TensorRT、AI基础设施、LLM训练与部署性能优化",
-      "authority_score": 9.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "41469fa9-b92d-4f94-aef6-ec809f83b622",
-      "name": "Google DeepMind Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Google DeepMind",
-      "url": "https://deepmind.google/discover/blog/",
-      "content_direction": "前沿AI研究、多模态模型、强化学习、AI安全、科学智能",
-      "authority_score": 9.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "eb7d675c-6bf9-46b8-b59f-6ebf94ca860c",
-      "name": "arXiv",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "arXiv",
-      "url": "https://arxiv.org/",
-      "content_direction": "AI、机器学习、自然语言处理、计算机视觉、系统与分布式计算预印本论文",
-      "authority_score": 9.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "a0d3c11e-dbf4-4201-922c-b90bf1947f48",
-      "name": "OpenAI Research & Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "OpenAI",
-      "url": "https://openai.com/research/",
-      "content_direction": "大模型研究、模型能力评估、安全对齐、AI产品工程、企业级AI应用趋势",
-      "authority_score": 9.4,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "09076559-6650-4a71-ae1b-8292ff03f8b8",
-      "name": "NeurIPS Proceedings",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "NeurIPS",
-      "url": "https://papers.nips.cc/",
-      "content_direction": "机器学习、深度学习、AI理论、优化、基础模型、AI系统研究",
-      "authority_score": 9.4,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "3eee1f0b-ff98-49f5-9525-85abed8c1919",
-      "name": "AWS Machine Learning Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "AWS Blog",
-      "url": "https://aws.amazon.com/blogs/machine-learning/",
-      "content_direction": "企业级机器学习、生成式AI落地、Amazon SageMaker、Bedrock、MLOps、模型部署与成本优化",
-      "authority_score": 9.3,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "45dcbf36-6706-4345-b954-61f762cc7223",
-      "name": "Google Cloud AI & Machine Learning Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Google Cloud Blog",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning",
-      "content_direction": "Vertex AI、企业AI平台、数据与AI工程、生成式AI应用架构、云上模型部署",
-      "authority_score": 9.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "b726c0f8-9224-4e3f-8b0a-81b2280288f0",
-      "name": "Anthropic Research",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Anthropic",
-      "url": "https://www.anthropic.com/research",
-      "content_direction": "大模型安全、可解释性、对齐、Claude模型实践、企业AI风险控制",
-      "authority_score": 9.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "7fce5f7d-a1a9-483d-b0f6-8bcc95be24b1",
-      "name": "Hugging Face Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "Hugging Face",
-      "url": "https://huggingface.co/blog",
-      "content_direction": "开源模型、Transformers、LLM微调、推理部署、数据集、评测与模型生态",
-      "authority_score": 9.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "6d23e3f1-38f6-4eef-ab28-b899717835c5",
-      "name": "Papers with Code",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "Papers with Code",
-      "url": "https://paperswithcode.com/",
-      "content_direction": "论文、代码实现、基准测试、模型排行榜、任务进展追踪",
-      "authority_score": 9.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "df9af075-bcc8-4a0d-a2d5-c41db3cf395e",
-      "name": "ACL Anthology",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "Association for Computational Linguistics",
-      "url": "https://aclanthology.org/",
-      "content_direction": "自然语言处理、信息抽取、机器翻译、对话系统、大模型相关论文",
-      "authority_score": 9.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "ac812ff0-dd28-42c7-a8cf-7ecb1610c070",
-      "name": "Microsoft Azure AI Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Microsoft Azure Blog",
-      "url": "https://azure.microsoft.com/en-us/blog/topics/ai-machine-learning/",
-      "content_direction": "Azure OpenAI、企业Copilot、AI应用开发、云原生AI基础设施、模型治理",
-      "authority_score": 9.1,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "2e87a419-c589-44f6-8ed3-781d353e7b56",
-      "name": "Meta AI Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Meta AI",
-      "url": "https://ai.meta.com/blog/",
-      "content_direction": "开源大模型、Llama生态、推荐系统、AI基础设施、模型训练实践",
-      "authority_score": 9.1,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "63cc7679-1019-4b58-b9ce-37b2dc3907ef",
-      "name": "MLSys Conference Proceedings",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "MLSys",
-      "url": "https://proceedings.mlsys.org/",
-      "content_direction": "机器学习系统、训练与推理优化、分布式AI系统、AI硬件与编译器",
-      "authority_score": 9.1,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "3940d266-f22b-4742-98e8-d4eba1656730",
-      "name": "Microsoft Research Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Microsoft Research",
-      "url": "https://www.microsoft.com/en-us/research/blog/",
-      "content_direction": "AI研究、系统工程、云计算、AI Agent、企业AI应用研究",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "39c1256f-70b2-422e-9c9e-182dfa82ff71",
-      "name": "Databricks Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Databricks",
-      "url": "https://www.databricks.com/blog",
-      "content_direction": "Lakehouse、数据工程、MLflow、MLOps、企业数据与AI平台建设",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "923e66b8-afa3-4e7e-9380-2b250c9ea13d",
-      "name": "CNCF Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "Cloud Native Computing Foundation",
-      "url": "https://www.cncf.io/blog/",
-      "content_direction": "云原生基础设施、Kubernetes、可观测性、服务网格、AI基础设施运行环境",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "2973de31-56da-4ade-9786-c036ed28324a",
-      "name": "The Berkeley Artificial Intelligence Research Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "UC Berkeley BAIR",
-      "url": "https://bair.berkeley.edu/blog/",
-      "content_direction": "前沿AI研究、机器人、多模态学习、强化学习、基础模型研究",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "c1da385c-024d-4ac7-82f0-451ce5075f8e",
-      "name": "Lil'Log",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "个人技术博客",
-      "url": "https://lilianweng.github.io/",
-      "content_direction": "深度学习、强化学习、大模型、Agent、RAG、AI安全综述",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "e7a3f4c6-3d5d-4613-9ce6-cba4f0e36153",
-      "name": "OpenReview",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "OpenReview",
-      "url": "https://openreview.net/",
-      "content_direction": "顶级AI会议论文评审、ICLR等会议论文、开放评审意见、研究趋势跟踪",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "bab923e3-309d-40e6-9f67-171d148012d0",
-      "name": "Kubernetes Blog",
-      "type": "技术社区",
-      "region": "cn",
-      "platform": "Kubernetes",
-      "url": "https://kubernetes.io/blog/",
-      "content_direction": "容器编排、集群管理、GPU调度、云原生部署、AI基础设施运行环境",
-      "authority_score": 9.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "3c579327-d9e9-415c-b8e0-0b79f9f000ac",
-      "name": "Uber Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Uber Blog",
-      "url": "https://www.uber.com/en-US/blog/engineering/",
-      "content_direction": "大规模机器学习平台、特征平台、实时系统、推荐与预测系统、工程组织实践",
-      "authority_score": 8.8,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "7b7361ea-4aef-4a90-9920-73c7951b53fb",
-      "name": "MLOps Community",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "社区网站 / Slack / YouTube",
-      "url": "https://mlops.community/",
-      "content_direction": "MLOps、LLMOps、模型监控、特征平台、部署流水线、企业AI平台实践",
-      "authority_score": 8.8,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "1c2c6897-7513-4395-acdf-5fe6f4daa82a",
-      "name": "Chip Huyen Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "个人技术博客",
-      "url": "https://huyenchip.com/blog/",
-      "content_direction": "机器学习系统、LLMOps、模型部署、数据工程、AI工程组织实践",
-      "authority_score": 8.8,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "47a4f0df-919f-4dc3-a6ec-4225fc7499eb",
-      "name": "Semantic Scholar",
-      "type": "论文平台",
-      "region": "cn",
-      "platform": "Allen Institute for AI",
-      "url": "https://www.semanticscholar.org/",
-      "content_direction": "论文检索、引用网络、相关研究推荐、AI与计算机科学文献发现",
-      "authority_score": 8.8,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "885dedb3-e3f4-4834-8100-1f01817e9cbb",
-      "name": "Netflix TechBlog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Medium",
-      "url": "https://netflixtechblog.com/",
-      "content_direction": "推荐系统、个性化算法、数据平台、云原生架构、工程效率",
-      "authority_score": 8.7,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "5d26f7e8-6e79-42ee-b3b8-b15dc5298f09",
-      "name": "LF AI & Data Foundation",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "Linux Foundation",
-      "url": "https://lfaidata.foundation/blog/",
-      "content_direction": "开源AI与数据项目、MLOps、数据治理、可信AI、企业开源AI基础设施",
-      "authority_score": 8.7,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "94296cc5-b180-481f-83ba-50a2a31a57d4",
-      "name": "Ray Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "Anyscale / Ray",
-      "url": "https://www.anyscale.com/blog",
-      "content_direction": "分布式训练、分布式推理、Ray Serve、RL、LLM应用扩展、AI工作负载调度",
-      "authority_score": 8.7,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "ad021a46-2121-49a0-ba89-56c06145cfdc",
-      "name": "Stanford HAI Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "Stanford HAI",
-      "url": "https://hai.stanford.edu/news",
-      "content_direction": "AI治理、可信AI、企业与社会影响、AI评估、政策与技术交叉",
-      "authority_score": 8.7,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "f1ed8811-d20f-4366-9a2b-8befec5bb29c",
-      "name": "LinkedIn Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "LinkedIn Engineering",
-      "url": "https://www.linkedin.com/blog/engineering",
-      "content_direction": "推荐系统、搜索、AI平台、数据基础设施、企业级工程实践",
-      "authority_score": 8.6,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "c194f8a1-67d6-4d68-80b1-180c097a141d",
-      "name": "Sebastian Raschka Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "个人技术博客",
-      "url": "https://sebastianraschka.com/blog/",
-      "content_direction": "机器学习、深度学习、大模型训练、模型评估、实用代码解析",
-      "authority_score": 8.6,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "cfb14e0b-0133-4e71-be8a-50966b253ee2",
-      "name": "MLflow Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "MLflow",
-      "url": "https://mlflow.org/blog/",
-      "content_direction": "实验管理、模型注册、模型部署、评测追踪、企业MLOps流程",
-      "authority_score": 8.6,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "fee9858a-9c3c-4181-96da-749dfd9a71be",
-      "name": "Snowflake Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Medium",
-      "url": "https://medium.com/snowflake",
-      "content_direction": "云数据平台、数据治理、AI数据基础设施、数据应用开发、企业级数据架构",
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "bab76aec-165c-4f04-be28-52e52b1a1e22",
-      "name": "Airbnb Engineering & Data Science",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Medium",
-      "url": "https://medium.com/airbnb-engineering",
-      "content_direction": "数据科学、实验平台、搜索推荐、机器学习平台、数据驱动组织实践",
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "71be1bb4-90ec-441a-b05f-00b53928ad2c",
-      "name": "LangChain Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "LangChain",
-      "url": "https://blog.langchain.com/",
-      "content_direction": "LLM应用开发、Agent、RAG、工具调用、LangSmith评测与可观测性",
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "24bdaecd-f31d-489a-800a-49e93bfb21c8",
-      "name": "LlamaIndex Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "LlamaIndex",
-      "url": "https://www.llamaindex.ai/blog",
-      "content_direction": "RAG、知识库问答、企业数据连接、Agent工作流、LLM应用架构",
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "a93db578-8ace-49f1-9483-4b17dc1d2ef9",
-      "name": "Eugene Yan Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "个人技术博客",
-      "url": "https://eugeneyan.com/writing/",
-      "content_direction": "推荐系统、搜索、机器学习系统设计、LLM应用、工程复盘",
-      "authority_score": 8.5,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "80d90818-1377-4d31-9a43-a260d2e5f4d5",
-      "name": "Pinterest Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Medium",
-      "url": "https://medium.com/pinterest-engineering",
-      "content_direction": "推荐系统、计算机视觉、广告系统、特征工程、机器学习基础设施",
-      "authority_score": 8.4,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "f3696133-2fb1-4c86-ba96-abb60567b558",
-      "name": "Hugging Face Forums",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "Discourse",
-      "url": "https://discuss.huggingface.co/",
-      "content_direction": "模型使用问题、微调实践、推理部署、开源工具链、社区经验交流",
-      "authority_score": 8.4,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "d4fba2cc-34d9-4b3e-b12c-778b86964aa7",
-      "name": "Elastic Search Labs",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Elastic",
-      "url": "https://www.elastic.co/search-labs",
-      "content_direction": "搜索工程、向量搜索、混合检索、RAG、日志分析与可观测性",
-      "authority_score": 8.4,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "13b62da7-ab52-45cc-b689-dfa332e3ddfe",
-      "name": "Pinecone Learning Center",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "Pinecone",
-      "url": "https://www.pinecone.io/learn/",
-      "content_direction": "向量检索、RAG、语义搜索、嵌入模型、LLM应用架构",
-      "authority_score": 8.3,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "1135b932-86e6-4c48-8f0a-54ababa02413",
-      "name": "Kubeflow Blog",
-      "type": "AI Infra社区",
-      "region": "cn",
-      "platform": "Kubeflow",
-      "url": "https://blog.kubeflow.org/",
-      "content_direction": "机器学习流水线、模型训练、模型部署、Kubernetes上的MLOps实践",
-      "authority_score": 8.3,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "db0c1578-2957-4844-b4c7-921be2272846",
-      "name": "Shopify Engineering Blog",
-      "type": "公司技术博客",
-      "region": "cn",
-      "platform": "Shopify Engineering",
-      "url": "https://shopify.engineering/",
-      "content_direction": "电商AI应用、搜索推荐、数据平台、工程效率、生产系统实践",
-      "authority_score": 8.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "7ae1786c-002b-470f-9501-58c38247917b",
-      "name": "GitHub Trending - Machine Learning",
-      "type": "技术社区",
-      "region": "cn",
-      "platform": "GitHub",
-      "url": "https://github.com/trending/python?since=daily",
-      "content_direction": "开源AI项目发现、框架源码、工程实践样例、企业技术选型参考",
-      "authority_score": 8.2,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "030cc145-4486-4223-a47b-9a366b60b964",
-      "name": "Weaviate Blog",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "Weaviate",
-      "url": "https://weaviate.io/blog",
-      "content_direction": "向量数据库、混合检索、RAG、知识检索系统、生成式AI数据架构",
-      "authority_score": 8.1,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "046ee448-835f-4c90-b573-3ef91a1a87a0",
-      "name": "Vector Database Benchmarks by Qdrant",
-      "type": "技术博客",
-      "region": "cn",
-      "platform": "Qdrant",
-      "url": "https://qdrant.tech/benchmarks/",
-      "content_direction": "向量数据库性能评测、检索系统、RAG基础设施、相似度搜索实践",
-      "authority_score": 8.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    },
-    {
-      "id": "5da88b5e-f3eb-4571-8fa7-b1a49eb1b96c",
-      "name": "Stack Overflow AI/ML Questions",
-      "type": "技术社区",
-      "region": "cn",
-      "platform": "Stack Overflow",
-      "url": "https://stackoverflow.com/questions/tagged/machine-learning",
-      "content_direction": "工程问题排障、机器学习开发、框架使用、生产环境错误定位",
-      "authority_score": 8.0,
-      "practice_score": 0.0,
-      "active_score": 0.0,
-      "reliability_score": 0.0,
-      "tags": null
-    }
-  ],
-  "projects": [
-    {
-      "id": "f4c211f4-047e-47a8-be6e-a3f25459b12d",
-      "name": "llama.cpp",
-      "category": "inference",
-      "repo_url": "https://github.com/ggerganov/llama.cpp",
-      "description": null,
-      "stars_text": "约70k+（建议实时核验）",
-      "stars": 70,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "CPU、本地设备和边缘端 LLM 推理事实标准之一，支持 GGUF 量化生态，硬件适配广泛。",
-      "use_case": "本地大模型、边缘推理、CPU 推理、低成本部署、桌面端 AI 应用。",
-      "maturity": "非常成熟；生态强，适合个人、边缘和轻量企业场景。",
-      "maturity_score": 90.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "4f69d8b2-7afa-4972-89f6-ae13fe6e0b17",
-      "name": "Ollama",
-      "category": "inference",
-      "repo_url": "https://github.com/ollama/ollama",
-      "description": null,
-      "stars_text": "约80k+（建议实时核验）",
-      "stars": 80,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "极简本地模型运行工具，封装模型下载、运行、API 服务，显著降低本地 LLM 使用门槛。",
-      "use_case": "本地模型体验、开发测试、个人 AI 助手、企业内部 PoC。",
-      "maturity": "非常成熟；易用性极强，但大规模服务端部署需结合其他方案。",
-      "maturity_score": 90.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "8c105755-8cce-4802-bf4a-f02a7251937e",
-      "name": "Triton Inference Server",
-      "category": "inference",
-      "repo_url": "https://github.com/triton-inference-server/server",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "NVIDIA 通用推理服务框架，支持多模型、多后端、动态批处理、模型仓库和生产监控。",
-      "use_case": "企业级模型服务平台、多模型部署、传统 ML + DL + LLM 混合推理。",
-      "maturity": "非常成熟；适合生产级推理基础设施。",
-      "maturity_score": 90.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "d485364e-b424-4891-a3f0-e7666a681eb0",
-      "name": "n8n",
-      "category": "workflow",
-      "repo_url": "https://github.com/n8n-io/n8n",
-      "description": null,
-      "stars_text": "约40k+（建议实时核验）",
-      "stars": 40,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源工作流自动化平台，拥有丰富 SaaS 连接器，可结合 LLM 节点构建 AI 自动化流程。",
-      "use_case": "业务流程自动化、AI+SaaS 集成、运营自动化、客服和内容生产自动化。",
-      "maturity": "非常成熟；非 AI 专用但非常适合 AI 工作流集成。",
-      "maturity_score": 90.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "1b98e6e5-dec0-4904-bc02-67d6466bda25",
-      "name": "Continue",
-      "category": "agent",
-      "repo_url": "https://github.com/continuedev/continue",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源的 VS Code / JetBrains AI 编程助手，支持代码补全、对话式改代码、本地模型与云端模型切换，适合企业自建可控的 Coding Assistant。",
-      "use_case": "企业内部代码助手、私有化代码补全、结合本地 LLM 的 IDE 编程增强。",
-      "maturity": "较成熟；社区活跃，插件生态完善，适合团队试点和中小规模落地。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "3d92c16b-3502-4a94-b0d1-f7142011590b",
-      "name": "Aider",
-      "category": "agent",
-      "repo_url": "https://github.com/Aider-AI/aider",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向真实代码仓库的命令行 AI 编程工具，支持 Git 感知、多文件修改、自动提交，特别适合和 Claude、GPT、DeepSeek 等模型配合使用。",
-      "use_case": "终端开发、快速重构、自动修 bug、小型项目自动开发、已有代码库的多文件修改。",
-      "maturity": "较成熟；开发者口碑好，适合个人与工程团队使用。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "5406ab26-65af-408d-a9bb-3f8b93eea923",
-      "name": "Tabby",
-      "category": "agent",
-      "repo_url": "https://github.com/TabbyML/tabby",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "自托管 AI 代码补全服务器，支持私有化部署，强调企业代码隐私和本地模型推理。",
-      "use_case": "企业内网代码补全、替代 GitHub Copilot 的私有化方案、对数据安全要求高的研发团队。",
-      "maturity": "较成熟；定位清晰，适合企业试点和私有化部署。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "5293d36e-3cdf-4c92-8f54-521876a7e227",
-      "name": "Cline",
-      "category": "agent",
-      "repo_url": "https://github.com/cline/cline",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "VS Code 中的自主编码 Agent，能够读取项目、编辑文件、执行命令、调用浏览器，交互体验接近‘AI 初级工程师’。",
-      "use_case": "IDE 内自动开发、前端项目生成、脚本编写、代码调试、开发者个人效率提升。",
-      "maturity": "快速成熟中；体验优秀，但复杂任务仍需人工 review。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "a8984639-54a8-4934-a509-14312c10ba28",
-      "name": "PR-Agent",
-      "category": "agent",
-      "repo_url": "https://github.com/qodo-ai/pr-agent",
-      "description": null,
-      "stars_text": "约8k+（建议实时核验）",
-      "stars": 8,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "专注 Pull Request 自动审查、总结、改进建议、变更描述生成，可与 GitHub、GitLab、Bitbucket 集成。",
-      "use_case": "代码评审自动化、PR 摘要生成、CI/CD 中的 AI Review、研发流程提效。",
-      "maturity": "较成熟；场景明确，适合直接接入工程流程。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "c38bc40e-9ec9-44a3-b1e5-68ca897fd2df",
-      "name": "LlamaIndex",
-      "category": "rag",
-      "repo_url": "https://github.com/run-llama/llama_index",
-      "description": null,
-      "stars_text": "约35k+（建议实时核验）",
-      "stars": 35,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "RAG 领域代表性框架，覆盖数据连接、索引、检索、重排、Query Engine、Agentic RAG 等完整链路。",
-      "use_case": "企业知识问答、文档问答、复杂 RAG Pipeline、Agent + RAG 应用。",
-      "maturity": "成熟；生态丰富，适合生产级 RAG 系统开发。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "4e793ba4-2b58-4f84-9197-a5aaacfcb6cb",
-      "name": "LangChain",
-      "category": "rag",
-      "repo_url": "https://github.com/langchain-ai/langchain",
-      "description": null,
-      "stars_text": "约90k+（建议实时核验）",
-      "stars": 90,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "LLM 应用开发事实标准之一，支持 RAG、工具调用、Agent、Memory、向量数据库集成等能力。",
-      "use_case": "快速构建 LLM 应用、RAG 原型、复杂链式调用、企业 AI 应用集成。",
-      "maturity": "成熟；生态最大之一，但工程复杂度较高，需要良好架构设计。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "10fd18f3-9bb5-420a-b0d3-e571a86328b3",
-      "name": "Haystack",
-      "category": "rag",
-      "repo_url": "https://github.com/deepset-ai/haystack",
-      "description": null,
-      "stars_text": "约15k+（建议实时核验）",
-      "stars": 15,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "老牌 NLP/RAG 框架，强调生产级 Pipeline、检索器、Reader、Generator 和可观测性。",
-      "use_case": "企业搜索、问答系统、可控 RAG Pipeline、传统 NLP 与 LLM 融合系统。",
-      "maturity": "成熟；适合偏工程化、可维护的生产系统。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "c5a58ea6-adbe-407e-a9fe-34701bfaf189",
-      "name": "RAGFlow",
-      "category": "rag",
-      "repo_url": "https://github.com/infiniflow/ragflow",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源 RAG 引擎，强调深度文档理解、复杂版面解析、可视化知识库构建，对中文企业文档友好。",
-      "use_case": "企业文档知识库、PDF/Word/表格问答、私有化 RAG 平台、中文知识库实践。",
-      "maturity": "快速成熟；适合企业 PoC 和知识库场景落地。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "942d7316-c2a0-4f07-a0ed-6acc0cf3ad1c",
-      "name": "txtai",
-      "category": "rag",
-      "repo_url": "https://github.com/neuml/txtai",
-      "description": null,
-      "stars_text": "约9k+（建议实时核验）",
-      "stars": 9,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "轻量级语义搜索和 RAG 框架，集成 Embedding、向量搜索、工作流、模型推理能力。",
-      "use_case": "轻量 RAG、语义搜索、离线知识检索、小型私有化问答系统。",
-      "maturity": "较成熟；适合轻量部署和嵌入式场景。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "1b1087a4-d6bb-44ef-b14f-dbcf2e553aa1",
-      "name": "Kotaemon",
-      "category": "rag",
-      "repo_url": "https://github.com/Cinnamon/kotaemon",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向文档问答的开源 RAG 应用，提供友好的 UI、多用户、引用溯源、文档管理能力。",
-      "use_case": "个人或团队知识库、文档问答系统、RAG 应用原型。",
-      "maturity": "中等成熟；应用层能力强，适合快速搭建。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "74df3c23-6bcd-4c62-8de9-c3d49e33bdb6",
-      "name": "QAnything",
-      "category": "rag",
-      "repo_url": "https://github.com/netease-youdao/QAnything",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "网易有道开源的知识库问答系统，支持多格式文档解析、检索增强、中文场景优化。",
-      "use_case": "中文企业知识库、私有文档问答、部门级知识助手。",
-      "maturity": "较成熟；适合中文场景 PoC 和私有化部署。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "3dee8026-a835-4013-b04a-1190bace0813",
-      "name": "Verba",
-      "category": "rag",
-      "repo_url": "https://github.com/weaviate/Verba",
-      "description": null,
-      "stars_text": "约5k+（建议实时核验）",
-      "stars": 5,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "Weaviate 官方推出的开源 RAG 应用，便于快速体验向量数据库 + 文档问答流程。",
-      "use_case": "基于 Weaviate 的 RAG 原型、知识库问答、向量检索实践。",
-      "maturity": "中等成熟；适合原型和中小型知识库。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "f2406cf8-4a23-4f72-8ed4-6d4a7ad92760",
-      "name": "AutoGen",
-      "category": "agent",
-      "repo_url": "https://github.com/microsoft/autogen",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "微软开源的多 Agent 协作框架，支持多角色对话、工具调用、人机协作和复杂任务编排。",
-      "use_case": "多智能体协作、代码生成、数据分析、研究型 Agent 系统、企业自动化流程。",
-      "maturity": "较成熟；社区活跃，适合 Agent 原型和部分生产场景。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "d287b1e0-6c20-48e0-9ae1-c68935102ef7",
-      "name": "LangGraph",
-      "category": "agent",
-      "repo_url": "https://github.com/langchain-ai/langgraph",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "LangChain 生态中的状态机式 Agent 编排框架，强调可控流程、循环、状态管理和持久化。",
-      "use_case": "复杂 Agent 工作流、可恢复任务、多步骤推理、企业级 Agent 编排。",
-      "maturity": "快速成熟；适合构建可控、可维护的 Agent 应用。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "8e54d934-762b-42b2-ac75-ae805110c5d3",
-      "name": "CrewAI",
-      "category": "agent",
-      "repo_url": "https://github.com/crewAIInc/crewAI",
-      "description": null,
-      "stars_text": "约25k+（建议实时核验）",
-      "stars": 25,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "以角色、任务、团队为核心抽象的多 Agent 框架，上手简单，适合业务流程自动化。",
-      "use_case": "市场研究、内容生成、报告生成、业务流程自动化、多角色协作任务。",
-      "maturity": "较成熟；开发体验好，适合快速落地和演示。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "37952780-e534-4c5d-9406-c0725e090d0c",
-      "name": "Semantic Kernel",
-      "category": "agent",
-      "repo_url": "https://github.com/microsoft/semantic-kernel",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "微软面向企业应用的 LLM 编排 SDK，支持 Planner、Memory、插件、函数调用，与 .NET / Python / Java 生态结合紧密。",
-      "use_case": "企业 Copilot、业务系统集成、插件式 Agent、微软技术栈企业应用。",
-      "maturity": "成熟；企业友好，适合严肃工程项目。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "d3e2239f-f444-40c2-841b-2d08e6e18b6f",
-      "name": "MetaGPT",
-      "category": "agent",
-      "repo_url": "https://github.com/geekan/MetaGPT",
-      "description": null,
-      "stars_text": "约40k+（建议实时核验）",
-      "stars": 40,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "将软件公司角色流程抽象为多 Agent 协作，包括产品经理、架构师、工程师、测试等角色。",
-      "use_case": "软件工程 Agent、需求分析、原型生成、多角色协作研究。",
-      "maturity": "中等成熟；研究和演示价值高，生产使用需适配。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "7c5ed75d-209f-4714-8ec6-f02f2d243470",
-      "name": "Agno",
-      "category": "agent",
-      "repo_url": "https://github.com/agno-agi/agno",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "原 Phidata，面向构建带工具、记忆、知识库和多模态能力的轻量 Agent，API 简洁。",
-      "use_case": "轻量 Agent 应用、数据分析助手、RAG Agent、内部自动化工具。",
-      "maturity": "快速成熟；适合中小型 Agent 应用快速开发。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "6239543c-1474-4ca2-9b15-f1cd0b164f9b",
-      "name": "vLLM",
-      "category": "inference",
-      "repo_url": "https://github.com/vllm-project/vllm",
-      "description": null,
-      "stars_text": "约35k+（建议实时核验）",
-      "stars": 35,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "高吞吐 LLM 推理引擎，PagedAttention、连续批处理、OpenAI API 兼容服务等能力使其成为服务端推理核心方案之一。",
-      "use_case": "大模型在线服务、高并发推理、OpenAI API 兼容私有化部署、GPU 集群推理。",
-      "maturity": "成熟；生产采用广泛，是重点关注项目。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "e6f5aa82-dd09-4437-a35d-424eff890b6f",
-      "name": "TensorRT-LLM",
-      "category": "inference",
-      "repo_url": "https://github.com/NVIDIA/TensorRT-LLM",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "NVIDIA 官方 LLM 推理优化库，针对 GPU 推理做极致性能优化，支持量化、并行、KV Cache 优化等。",
-      "use_case": "NVIDIA GPU 生产推理、低延迟高吞吐服务、企业级大模型部署。",
-      "maturity": "成熟；性能强，但工程复杂度较高，适合专业推理团队。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "639b6225-4c07-48b0-919b-fa8723bd21b7",
-      "name": "Text Generation Inference",
-      "category": "inference",
-      "repo_url": "https://github.com/huggingface/text-generation-inference",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "Hugging Face 官方 LLM 推理服务，支持流式输出、张量并行、量化、热门模型快速部署。",
-      "use_case": "Hugging Face 模型部署、企业 API 服务、标准化文本生成服务。",
-      "maturity": "成熟；适合生产环境，尤其适合 HF 生态用户。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "87cebfbf-6d45-4f2c-a751-febe694014a7",
-      "name": "SGLang",
-      "category": "inference",
-      "repo_url": "https://github.com/sgl-project/sglang",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向结构化生成和高性能推理的框架，支持 RadixAttention、并发执行、函数式提示编排，在 Agent/RAG 推理场景表现突出。",
-      "use_case": "复杂推理服务、Agent 后端、结构化输出、高并发 LLM Serving。",
-      "maturity": "快速成熟；技术创新明显，值得重点跟踪。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "4cd070a6-6aff-4af7-958e-af632379565b",
-      "name": "MLC LLM",
-      "category": "inference",
-      "repo_url": "https://github.com/mlc-ai/mlc-llm",
-      "description": null,
-      "stars_text": "约15k+（建议实时核验）",
-      "stars": 15,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "基于机器学习编译优化的 LLM 部署方案，支持多硬件后端，包括 WebGPU、移动端和边缘设备。",
-      "use_case": "跨平台 LLM 部署、浏览器/移动端推理、边缘 AI 应用。",
-      "maturity": "中高成熟；技术路线创新，适合跨端部署探索。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "44fe99f3-b998-418c-bd75-a24db4a1a8f9",
-      "name": "Dify",
-      "category": "workflow",
-      "repo_url": "https://github.com/langgenius/dify",
-      "description": null,
-      "stars_text": "约60k+（建议实时核验）",
-      "stars": 60,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源 LLMOps 与 AI 应用开发平台，支持 Prompt 编排、RAG、Agent、工作流、模型管理和 API 发布。",
-      "use_case": "企业 AI 应用平台、内部 Copilot、客服机器人、知识库问答、低代码 AI 工作流。",
-      "maturity": "成熟；商业化和社区活跃度高，适合企业落地。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "20a97512-79ea-4ec3-a5fb-759ba9155b69",
-      "name": "Flowise",
-      "category": "workflow",
-      "repo_url": "https://github.com/FlowiseAI/Flowise",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "可视化 LLM 应用编排工具，基于节点拖拽快速构建 LangChain/RAG/Agent 应用。",
-      "use_case": "低代码 RAG、AI Bot 原型、工作流演示、非专业开发者构建 LLM 应用。",
-      "maturity": "较成熟；适合快速原型和中小团队落地。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "a4444935-a01f-440e-ac5f-e864fec53639",
-      "name": "Langflow",
-      "category": "workflow",
-      "repo_url": "https://github.com/langflow-ai/langflow",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向 LangChain 生态的可视化 AI 工作流工具，支持组件化构建 LLM 应用。",
-      "use_case": "RAG 可视化编排、Agent 流程搭建、教学演示、快速验证 AI 应用。",
-      "maturity": "较成熟；适合原型开发和内部工具建设。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "405ba987-919f-4966-be77-8dfd6561315e",
-      "name": "Prompt flow",
-      "category": "workflow",
-      "repo_url": "https://github.com/microsoft/promptflow",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "微软开源的 LLM 应用开发、评估和工作流编排工具，强调可测试、可评估、可部署。",
-      "use_case": "企业 LLMOps、Prompt 评估、RAG 测试、生产前质量验证。",
-      "maturity": "较成熟；适合企业工程化流程。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "e19bd879-6b2f-4451-a0b4-a1526351c4b7",
-      "name": "ComfyUI",
-      "category": "workflow",
-      "repo_url": "https://github.com/comfyanonymous/ComfyUI",
-      "description": null,
-      "stars_text": "约50k+（建议实时核验）",
-      "stars": 50,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "节点式 AI 生成工作流工具，在图像、视频、多模态生成领域影响力巨大，工作流可复用性强。",
-      "use_case": "AIGC 工作流、图像生成、视频生成、多模型组合、设计自动化。",
-      "maturity": "成熟；多媒体生成领域事实标准之一。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "9c1b4b66-5939-4ee9-bc03-0e6324819ec7",
-      "name": "Activepieces",
-      "category": "workflow",
-      "repo_url": "https://github.com/activepieces/activepieces",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源自动化平台，类似 Zapier，支持 AI 动作和多系统连接，适合构建业务自动化。",
-      "use_case": "营销自动化、销售流程、客服流程、AI 与企业 SaaS 集成。",
-      "maturity": "较成熟；适合中小企业工作流自动化。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "2b977854-1545-44da-b0e0-40c3548df064",
-      "name": "Windmill",
-      "category": "workflow",
-      "repo_url": "https://github.com/windmill-labs/windmill",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源工作流、脚本和内部工具平台，可将 Python/TypeScript 脚本、API 和 AI 调用编排为生产流程。",
-      "use_case": "内部工具、数据自动化、AI 脚本任务、企业级任务编排。",
-      "maturity": "较成熟；适合工程团队构建 AI 自动化后台。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "89e8fa25-d1d5-4035-8488-2d5a5ab9d110",
-      "name": "AnythingLLM",
-      "category": "knowledge",
-      "repo_url": "https://github.com/Mintplex-Labs/anything-llm",
-      "description": null,
-      "stars_text": "约25k+（建议实时核验）",
-      "stars": 25,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向企业和个人的全栈知识库问答平台，支持本地部署、多模型、多向量库、工作区隔离。",
-      "use_case": "企业私有知识库、团队文档问答、个人知识管理、内部 AI 助手。",
-      "maturity": "较成熟；部署简单，适合快速落地。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "f182c2a1-e6af-41db-b591-3b1172a40ff7",
-      "name": "FastGPT",
-      "category": "knowledge",
-      "repo_url": "https://github.com/labring/FastGPT",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "中文社区活跃的知识库问答和 AI 应用编排平台，支持数据集、工作流、插件和应用发布。",
-      "use_case": "中文企业知识库、客服问答、内部助手、业务流程型 AI 应用。",
-      "maturity": "较成熟；中文生态友好，适合国内企业实践。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "37c19f9d-68f1-419c-a9e9-5d8343c919e4",
-      "name": "MaxKB",
-      "category": "knowledge",
-      "repo_url": "https://github.com/1Panel-dev/MaxKB",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "开源知识库问答系统，强调开箱即用、模型无关、文档管理和嵌入到第三方系统。",
-      "use_case": "企业知识库、官网智能客服、内部文档助手、私有化部署。",
-      "maturity": "快速成熟；适合中文企业快速 PoC。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "9073910d-e5ba-4143-bbb0-d4d91f2fa0ea",
-      "name": "Open WebUI",
-      "category": "knowledge",
-      "repo_url": "https://github.com/open-webui/open-webui",
-      "description": null,
-      "stars_text": "约60k+（建议实时核验）",
-      "stars": 60,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "流行的自托管 LLM Web UI，支持 Ollama/OpenAI API、用户管理、RAG 知识库、工具调用等。",
-      "use_case": "企业内部 ChatGPT 替代、本地模型入口、轻量知识库问答、团队 AI 门户。",
-      "maturity": "成熟；安装简单，社区非常活跃。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "edfe4a16-0763-4f8b-add8-66ae4d30f96d",
-      "name": "Quivr",
-      "category": "knowledge",
-      "repo_url": "https://github.com/QuivrHQ/quivr",
-      "description": null,
-      "stars_text": "约30k+（建议实时核验）",
-      "stars": 30,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "较早的开源第二大脑和知识库问答项目，支持文档上传、向量检索和聊天式交互。",
-      "use_case": "个人知识库、团队知识问答、知识管理产品原型。",
-      "maturity": "中等成熟；概念成熟，适合参考和二次开发。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "b8b846a1-2b74-4716-b0ed-150debdff088",
-      "name": "DocsGPT",
-      "category": "knowledge",
-      "repo_url": "https://github.com/arc53/DocsGPT",
-      "description": null,
-      "stars_text": "约15k+（建议实时核验）",
-      "stars": 15,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "专注文档问答的开源项目，适合围绕技术文档、产品文档构建智能问答系统。",
-      "use_case": "技术文档助手、开发者支持、产品帮助中心、内部文档搜索。",
-      "maturity": "较成熟；适合文档型知识库。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "10ebf6e0-38f8-4674-bbad-63de0983b85f",
-      "name": "RAGFlow",
-      "category": "knowledge",
-      "repo_url": "https://github.com/infiniflow/ragflow",
-      "description": null,
-      "stars_text": "约20k+（建议实时核验）",
-      "stars": 20,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "在企业知识库场景中对文档解析、表格、PDF 和引用溯源支持较强，适合复杂文档。",
-      "use_case": "复杂企业文档知识库、合同/制度/手册问答、中文私有知识库。",
-      "maturity": "快速成熟；适合重点调研。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "a821d3be-c72f-4bb7-b650-9d6caee4c5d9",
-      "name": "Dify",
-      "category": "knowledge",
-      "repo_url": "https://github.com/langgenius/dify",
-      "description": null,
-      "stars_text": "约60k+（建议实时核验）",
-      "stars": 60,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "不仅是 AI 应用平台，也提供成熟知识库、数据集管理、召回测试、应用发布和权限控制能力。",
-      "use_case": "企业统一 AI 应用平台、知识库问答、业务 Bot、AI 应用运营管理。",
-      "maturity": "成熟；适合企业级知识库和 AI 应用平台建设。",
-      "maturity_score": 80.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "f5a128d8-7d8a-48ba-afff-37747564b17b",
-      "name": "SWE-agent",
-      "category": "agent",
-      "repo_url": "https://github.com/SWE-agent/SWE-agent",
-      "description": null,
-      "stars_text": "约15k+（建议实时核验）",
-      "stars": 15,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "面向 SWE-bench 的软件工程 Agent，擅长读取仓库、定位 bug、修改代码、运行测试，研究价值和工程实践价值都较高。",
-      "use_case": "自动修 bug、SWE-bench 评测、代码仓库自动维护、研发智能体研究。",
-      "maturity": "研究与工程结合型；适合技术团队做 PoC 和 Benchmark。",
-      "maturity_score": 55.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "2461982e-2b5b-4d09-a801-d4d95267b1eb",
-      "name": "CAMEL",
-      "category": "agent",
-      "repo_url": "https://github.com/camel-ai/camel",
-      "description": null,
-      "stars_text": "约10k+（建议实时核验）",
-      "stars": 10,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "专注多 Agent 社会模拟、角色扮演、协作推理的研究型框架，适合探索复杂 Agent 交互机制。",
-      "use_case": "多 Agent 研究、仿真任务、角色协作、Agent Benchmark。",
-      "maturity": "研究导向；适合实验和前沿探索。",
-      "maturity_score": 40.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "dc26e6fc-4b7c-44a8-bbd9-35f083dde383",
-      "name": "OpenHands",
-      "category": "agent",
-      "repo_url": "https://github.com/All-Hands-AI/OpenHands",
-      "description": null,
-      "stars_text": "约50k+（建议实时核验）",
-      "stars": 50,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "原 OpenDevin，目标是构建可自主执行软件工程任务的 AI Agent，具备终端、浏览器、文件编辑、代码执行能力。",
-      "use_case": "自动修复 issue、端到端代码任务、研发自动化实验、AI 软件工程 Agent 平台研究。",
-      "maturity": "快速发展中；技术前沿，适合探索和内部实验，生产落地需谨慎评估。",
-      "maturity_score": 0.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "848dc71e-2eb9-4f5c-9372-7479bb6cd5be",
-      "name": "GPT Engineer",
-      "category": "agent",
-      "repo_url": "https://github.com/gpt-engineer-org/gpt-engineer",
-      "description": null,
-      "stars_text": "约50k+（建议实时核验）",
-      "stars": 50,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "早期具有代表性的自然语言生成应用原型项目，推动了从需求到代码生成的 Agent 式开发范式。",
-      "use_case": "应用原型生成、AI 编程工作流研究、需求到代码的自动化实验。",
-      "maturity": "原型和研究价值较高；生产使用需二次工程化。",
-      "maturity_score": 0.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    },
-    {
-      "id": "a444c719-472a-407c-a1bd-087f199ae209",
-      "name": "AutoGPT",
-      "category": "agent",
-      "repo_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "description": null,
-      "stars_text": "约160k+（建议实时核验）",
-      "stars": 160,
-      "stars_30d": 0,
-      "forks": 0,
-      "contributors": 0,
-      "last_commit": null,
-      "license": null,
-      "topics": null,
-      "readme_summary": null,
-      "why_watch": "早期自主 Agent 代表项目，推动了任务规划、工具调用、记忆、自主执行等 Agent 范式普及。",
-      "use_case": "Agent 概念验证、自动任务执行实验、历史架构参考。",
-      "maturity": "影响力极高；作为生产框架需谨慎，更多适合学习和研究。",
-      "maturity_score": 0.0,
-      "enterprise_value_score": 0.0,
-      "activity_score": 0.0
-    }
-  ],
-  "generated_at": "2026-05-24T13:07:51.440718+08:00",
-  "date": "2026-05-24"
+  "people": [],
+  "sources": [],
+  "projects": [],
+  "generated_at": "2026-05-25T14:11:11.522988+08:00",
+  "date": "2026-05-25"
 }
