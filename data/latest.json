@@ -1,108 +1,109 @@
 {
   "latest_intelligence": [
     {
-      "id": "5aa4bdb8-ac95-47b1-a72c-41bc36de44d7",
-      "title": "Codex成为通用产品效率工具",
-      "one_sentence_conclusion": "Codex AI将成为企业知识工作者的重要工具",
-      "summary": "Codex通过AI研究、数据分析、工作流自动化和内容创作，正在改变产品效率。Codex的应用范围正在扩展到所有人。",
+      "id": "4e32583d-ed1b-4edd-97b9-d7f036081c20",
+      "title": "Codex变为通用产品效率工具",
+      "one_sentence_conclusion": "Codex变为通用产品效率工具，对企业的核心意义在于提高工作效率和生产力",
+      "summary": "Codex报告探讨了Codex如何通过AI-powered研究、数据分析、工作流自动化和内容创作来转变产品效率。Codex的AI能力正在成为知识工作的新时代。",
       "why_it_matters": [
-        "Codex的发展将对企业知识工作者的工作方式产生重大影响",
-        "Codex的应用将提高企业的工作效率和生产力"
+        "Codex的AI能力正在成为知识工作的新时代，值得企业关注",
+        "提高工作效率和生产力对企业的核心竞争力和创新能力有重要影响"
       ],
       "enterprise_impact": {
-        "business": "对企业知识工作者的工作方式产生重大影响",
-        "technology": "对工作流自动化和内容创作技术架构产生影响"
+        "strategy": "Codex的AI能力可能会改变企业的知识工作战略和竞争格局",
+        "business": "提高工作效率和生产力对企业的业务场景和商业模式有重要影响",
+        "technology": "Codex的AI能力可能会影响企业的技术架构和模型选型",
+        "organization": "提高工作效率和生产力对企业的组织能力和流程有重要影响"
       },
       "suitable_for": [
-        "知识工作者、管理者、创新部门"
+        "适合关注的企业类型/部门/角色：所有企业，特别是知识工作相关的企业"
       ],
       "recommended_actions": [
         {
-          "action": "评估Codex在企业中的应用潜力",
+          "action": "评估Codex的AI能力对企业的影响并制定相应的战略和计划",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "了解Codex的应用范围和潜在影响"
+          "reason": "提高工作效率和生产力对企业的核心竞争力和创新能力有重要影响"
         },
         {
-          "action": "研究Codex的工作流自动化和内容创作功能",
+          "action": "研究和学习Codex的AI能力和应用",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "了解Codex的技术优势"
+          "reason": "了解Codex的AI能力和应用对企业的影响"
         }
       ],
       "risks_and_limits": [
-        "信息安全风险、数据隐私风险"
+        "Codex的AI能力可能会带来数据安全和隐私风险"
       ],
       "signals_to_watch": [
-        "Codex的应用范围扩展到更多行业和部门"
+        "Codex的AI能力对企业的影响和应用"
       ],
       "credibility": {
         "level": "high",
-        "reason": "来自知名研究机构的报告"
+        "reason": "Codex报告是由知名研究机构发布的"
       },
       "enterprise_value_level": "high",
       "information_type": "研究报告",
       "confidence": "high",
-      "overall_score": 85.0,
+      "overall_score": 80.0,
       "scoring_detail": {
-        "overall_score": 85,
+        "overall_score": 80,
         "enterprise_applicability": {
           "score": 90,
           "level": "high",
-          "reason": "Codex AI可以应用于各个行业和企业，特别是知识密集型行业"
+          "reason": "Codex可以应用于各个行业和企业，提高工作效率和生产力"
         },
         "maturity": {
-          "score": 80,
-          "level": "production_ready",
-          "reason": "Codex已经有成熟的产品和案例，能够满足企业的需求"
+          "score": 70,
+          "level": "pilot_ready",
+          "reason": "Codex的AI能力已经有一定成熟度，但仍需要更多案例和验证"
         },
         "implementation_cost": {
           "score": 40,
           "level": "medium",
-          "reason": "实施Codex可能需要一定的成本，包括软件费用、人员培训和流程调整"
+          "reason": "实施Codex可能需要一定的投资，包括软件成本、人员培训和流程调整"
         },
         "risk_level": {
-          "score": 20,
+          "score": 30,
           "level": "low",
-          "reason": "Codex是一个成熟的产品，风险相对较低"
+          "reason": "Codex的应用风险相对较低，主要是数据安全和流程调整的风险"
         },
         "roi_potential": {
-          "score": 90,
+          "score": 80,
           "level": "high",
-          "reason": "Codex可以显著提高产品效率和员工生产力，带来明显的ROI"
+          "reason": "Codex可以显著提高工作效率和生产力，带来明显的ROI"
         },
         "action_urgency": {
-          "level": "act_now",
-          "reason": "企业应该尽快评估和实施Codex，以保持竞争优势"
+          "level": "pilot_soon",
+          "reason": "企业可以在近期内开始试点应用Codex，验证其效果和价值"
         },
         "recommended_action": {
-          "primary_action": "评估Codex的适用性和实施计划",
+          "primary_action": "开始试点应用Codex",
           "next_steps": [
-            "确定实施范围和目标",
-            "评估现有流程和系统",
-            "制定实施和培训计划"
+            "评估企业的业务需求和流程",
+            "确定试点项目和目标",
+            "实施和验证Codex的效果"
           ],
           "suggested_owner": [
             "IT部门",
-            "运营部门"
+            "业务部门"
           ],
-          "timeframe": "立即"
+          "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
           "知识密集型行业",
-          "产品开发和设计",
-          "数据分析和研究"
+          "高效率和生产力要求的企业"
         ],
         "not_suitable_for": [
-          "简单的重复性任务",
-          "低技术含量的行业"
+          "低技术含量的企业",
+          "没有明确业务需求的企业"
         ],
         "key_questions_before_adoption": [
-          "Codex如何集成到现有的系统和流程中",
-          "如何评估和确保数据安全",
-          "如何制定有效的培训和支持计划"
+          "企业的业务需求和流程是什么?",
+          "Codex如何集成到现有的系统和流程中?",
+          "如何评估和验证Codex的效果和价值?"
         ],
-        "final_judgement": "Codex是一个成熟的产品，能够显著提高产品效率和员工生产力，企业应该尽快评估和实施。"
+        "final_judgement": "Codex有望成为企业的通用产品效率工具，提高工作效率和生产力，但需要试点应用和验证其效果和价值。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
@@ -115,809 +116,108 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-02T02:00:00",
-      "intelligence_date": "2026-06-02"
+      "intelligence_date": "2026-06-04"
     },
     {
-      "id": "c19163ff-efe9-43d6-a4f9-61e57bf2a7e6",
-      "title": "OpenAI前沿模型和Codex现已在AWS上可用",
-      "one_sentence_conclusion": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程",
-      "summary": "OpenAI前沿模型和Codex现已在AWS上可用，企业可以利用AWS环境、控制和采购流程来构建OpenAI。客户可以快速从评估到生产",
+      "id": "c82be16a-2a67-409a-97b5-a71f86f15edc",
+      "title": "AI 政策和政治倡导的透明度",
+      "one_sentence_conclusion": "企业致力于透明的AI政策和政治倡导",
+      "summary": "公司致力于透明的AI政策和政治倡导，支持有思维的监管和AI安全。公司不会让任何外部政治团体代表其发声。",
       "why_it_matters": [
-        "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程",
-        "企业可以快速从评估到生产"
+        "AI 政策和政治倡导对企业形象和信誉有重要影响"
       ],
       "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：增加了对OpenAI的访问",
-        "business": "对业务场景或商业模式的影响：提供了新的构建路径",
-        "technology": "对技术架构或模型选型的影响：增加了对前沿模型和Codex的选择",
-        "organization": "对组织能力或流程的影响：需要调整采购和使用流程"
+        "organization": "对企业内部沟通和外部形象的影响",
+        "strategy": "对企业的社会责任和公众关系战略的影响"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI、数据科学、开发团队"
+        "所有企业，特别是那些涉及AI技术的企业"
       ],
       "recommended_actions": [
         {
-          "action": "评估OpenAI前沿模型和Codex的潜在应用",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解OpenAI前沿模型和Codex的潜在价值"
-        },
-        {
-          "action": "调整采购和使用流程",
-          "priority": "low",
-          "timeframe": "3-6月",
-          "reason": "适应OpenAI前沿模型和Codex的可用性"
-        }
-      ],
-      "risks_and_limits": [
-        "信息安全和数据隐私的潜在风险"
-      ],
-      "signals_to_watch": [
-        "OpenAI前沿模型和Codex的更新和改进"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "来自AWS和OpenAI的官方声明"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "产品发布",
-      "confidence": "high",
-      "overall_score": 85.0,
-      "scoring_detail": {
-        "overall_score": 85,
-        "enterprise_applicability": {
-          "score": 90,
-          "level": "high",
-          "reason": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程，可以广泛应用于各个行业和场景"
-        },
-        "maturity": {
-          "score": 80,
-          "level": "production_ready",
-          "reason": "OpenAI前沿模型和Codex已经在AWS上可用，表明其已经达到成熟度，可以直接用于生产环境"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "虽然OpenAI前沿模型和Codex的可用性为企业提供了便利，但其实施成本仍然取决于企业的具体需求和规模"
-        },
-        "risk_level": {
-          "score": 20,
-          "level": "low",
-          "reason": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程，可以降低风险"
-        },
-        "roi_potential": {
-          "score": 85,
-          "level": "high",
-          "reason": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程，可以快速从评估到生产，提高ROI"
-        },
-        "action_urgency": {
-          "level": "act_now",
-          "reason": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程，企业应该立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "立即评估OpenAI前沿模型和Codex的可用性",
-          "next_steps": [
-            "评估企业的具体需求和规模",
-            "确定实施OpenAI前沿模型和Codex的成本和收益",
-            "制定实施计划和时间表"
-          ],
-          "suggested_owner": [
-            "IT部门",
-            "业务部门"
-          ],
-          "timeframe": "立即"
-        },
-        "best_fit_scenarios": [
-          "需要快速从评估到生产的企业",
-          "需要利用AWS环境、控制和采购流程的企业"
-        ],
-        "not_suitable_for": [
-          "不需要利用AWS环境、控制和采购流程的企业"
-        ],
-        "key_questions_before_adoption": [
-          "企业的具体需求和规模是什么?",
-          "实施OpenAI前沿模型和Codex的成本和收益是什么?"
-        ],
-        "final_judgement": "OpenAI前沿模型和Codex的可用性为企业提供了一个新的路径，利用AWS环境、控制和采购流程，可以快速从评估到生产，提高ROI。企业应该立即采取行动，评估和实施OpenAI前沿模型和Codex。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "original_title": "OpenAI frontier models and Codex are now available on AWS",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T10:00:00",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "54095350-723a-4030-99eb-6827c5c7d4eb",
-      "title": "减少多模态LLM评判中的感知判断偏差",
-      "one_sentence_conclusion": "通过感知扰动和奖励建模，提高多模态LLM评判的可靠性",
-      "summary": "近期的多模态大语言模型表现出强大的推理能力，但其作为自动评估者的可靠性仍受一个关键弱点的限制：当视觉证据与文本线索冲突时，MLLM评判者倾向于奖励可信的叙述而不是感知正确的答案。我们识别并系统分析了这个现象，称之为感知判断偏差。通过控制的视觉扰动，现有的多模态评判者经常将响应文本作为参考而不是自己的视觉感知，从而导致不一致和不可验证的评估。",
-      "why_it_matters": [
-        "多模态LLM评判的可靠性对自动评估和决策至关重要",
-        "感知判断偏差可能导致不一致和不可验证的评估结果",
-        "解决这个问题对提高多模态LLM评判的准确性和可靠性至关重要"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：提高多模态LLM评判的可靠性",
-        "business": "对业务场景或商业模式的影响：自动评估和决策",
-        "technology": "对技术架构或模型选型的影响：感知扰动和奖励建模",
-        "organization": "对组织能力或流程的影响：提高多模态LLM评判的准确性和可靠性"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：技术研发、AI应用、自动评估"
-      ],
-      "recommended_actions": [
-        {
-          "action": "开发和应用感知扰动和奖励建模技术",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "提高多模态LLM评判的可靠性和准确性"
-        }
-      ],
-      "risks_and_limits": [
-        "潜在风险：感知扰动和奖励建模技术的复杂性和难度"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：多模态LLM评判的准确性和可靠性"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于系统分析和实验结果"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "适用于需要多模态评估的企业，例如内容审核、产品评估等"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "虽然识别了感知判断偏差问题，但解决方案仍处于早期阶段，缺乏大规模应用案例"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "需要对现有的多模态评判系统进行修改和优化，可能需要额外的计算资源和专业知识"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "medium",
-          "reason": "如果不解决感知判断偏差问题，可能导致评估结果不准确，影响企业决策"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "通过提高评估结果的准确性，可以减少错误决策的风险和成本，但具体的ROI路径需要进一步验证"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "虽然问题已经被识别，但解决方案仍处于早期阶段，需要进行试点和验证"
-        },
-        "recommended_action": {
-          "primary_action": "进行试点项目，以验证解决方案的有效性",
-          "next_steps": [
-            "评估现有的多模态评判系统",
-            "设计和实施试点项目",
-            "评估试点项目的结果和改进方向"
-          ],
-          "suggested_owner": [
-            "AI团队",
-            "产品团队"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "内容审核",
-          "产品评估",
-          "自动化决策"
-        ],
-        "not_suitable_for": [
-          "不需要多模态评估的企业"
-        ],
-        "key_questions_before_adoption": [
-          "现有的多模态评判系统是否存在感知判断偏差问题",
-          "解决方案的成本和实施时间是否可接受",
-          "试点项目的结果是否能够验证解决方案的有效性"
-        ],
-        "final_judgement": "虽然解决方案仍处于早期阶段，但通过试点和验证，可以提高多模态评判的可靠性和准确性，减少错误决策的风险和成本。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02578v1",
-      "original_title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:59:46",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "9964153e-35b0-4476-b845-a39f895edc4a",
-      "title": "AdaCodec: 一个预测视觉编码器",
-      "one_sentence_conclusion": "AdaCodec 可以提高视频 MLLMs 的效率和准确性",
-      "summary": "AdaCodec 是一个预测视觉编码器，通过发送一个参考帧和相应的变化描述来压缩视频数据。它可以在不减少准确性的情况下减少视频数据的大小。",
-      "why_it_matters": [
-        "AdaCodec 可以提高视频 MLLMs 的效率和准确性",
-        "它可以减少视频数据的大小",
-        "AdaCodec 可以在多个基准测试中超越现有的视频 MLLMs"
-      ],
-      "enterprise_impact": {
-        "strategy": "AdaCodec 可以影响企业的视频处理和分析策略",
-        "business": "它可以影响企业的视频数据处理和分析业务",
-        "technology": "AdaCodec 可以影响企业的视频处理和分析技术",
-        "organization": "它可以影响企业的视频处理和分析组织能力"
-      },
-      "suitable_for": [
-        "视频处理和分析相关企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估 AdaCodec 的潜在应用和效益",
+          "action": "建立透明的AI政策和政治倡导流程",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "了解 AdaCodec 的潜在影响和优势"
+          "reason": "确保企业的社会责任和公众关系战略"
         },
         {
-          "action": "考虑采用 AdaCodec 来优化视频处理和分析流程",
+          "action": "定期更新外部政治倡导信息",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "评估 AdaCodec 的潜在效益和成本"
+          "reason": "保持企业形象和信誉"
         }
       ],
       "risks_and_limits": [
-        "AdaCodec 的效率和准确性可能取决于具体的应用场景和数据类型"
+        "信息不完整或不准确可能导致企业形象受损"
       ],
       "signals_to_watch": [
-        "AdaCodec 的应用和效益在不同行业和领域的表现"
+        "外部政治倡导信息的变化和企业形象的变化"
       ],
       "credibility": {
         "level": "high",
-        "reason": "AdaCodec 的研究和开发团队具有丰富的经验和成果"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 80,
-          "level": "high",
-          "reason": "AdaCodec 可以提高视频 MLLMs 的效率和准确性，对于视频处理和分析的企业具有较高的适用性"
-        },
-        "maturity": {
-          "score": 60,
-          "level": "pilot_ready",
-          "reason": "虽然 AdaCodec 的技术原理较为成熟，但缺乏大规模应用和实践案例，需要进一步验证其在实际场景中的效果"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "AdaCodec 的实现可能需要一定的算法和编码技术支持，成本取决于具体的实施方案和企业现有的技术基础"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "AdaCodec 的技术风险相对较低，主要风险在于其在实际应用中的效果和稳定性"
-        },
-        "roi_potential": {
-          "score": 80,
-          "level": "high",
-          "reason": "AdaCodec 可以提高视频 MLLMs 的效率和准确性，具有较高的 ROI 潜力，特别是在视频处理和分析的企业中"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "虽然 AdaCodec 的技术原理较为成熟，但需要进一步验证其在实际场景中的效果，建议在近期内进行试点和验证"
-        },
-        "recommended_action": {
-          "primary_action": "进行试点和验证",
-          "next_steps": [
-            "评估 AdaCodec 在实际场景中的效果",
-            "分析 AdaCodec 的实施成本和 ROI",
-            "确定 AdaCodec 的实施方案和时间表"
-          ],
-          "suggested_owner": [
-            "技术部门",
-            "产品部门"
-          ],
-          "timeframe": "1-3月"
-        },
-        "best_fit_scenarios": [
-          "视频处理和分析",
-          "多媒体传输和存储",
-          "智能监控和安防"
-        ],
-        "not_suitable_for": [
-          "非视频相关的企业",
-          "不需要高效视频处理的企业"
-        ],
-        "key_questions_before_adoption": [
-          "AdaCodec 在实际场景中的效果如何",
-          "AdaCodec 的实施成本和 ROI 是多少",
-          "AdaCodec 是否与现有的技术基础兼容"
-        ],
-        "final_judgement": "AdaCodec 是一个具有较高适用性和 ROI 潜力的技术，建议在近期内进行试点和验证，以确定其在实际场景中的效果和实施方案。"
-      },
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02569v1",
-      "original_title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:56:35",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "085e5f1e-e86f-4950-be1f-5d1bec18468b",
-      "title": "ClinEnv: 评估LLM在临床实践中的决策能力",
-      "one_sentence_conclusion": "ClinEnv评估LLM在临床实践中的决策能力，对于医疗领域的AI选型具有重要参考价值",
-      "summary": "ClinEnv是一个交互式的多阶段长期视野的电子健康记录环境，用于评估LLM作为临床医生的决策能力。它模拟了临床实践中的决策过程，评估LLM在信息收集和决策方面的能力。",
-      "why_it_matters": [
-        "评估LLM在临床实践中的决策能力对于医疗领域的AI选型具有重要参考价值",
-        "ClinEnv提供了一个真实的临床实践环境，能够评估LLM的决策能力和信息收集能力"
-      ],
-      "enterprise_impact": {
-        "strategy": "对医疗领域的AI选型具有重要影响",
-        "business": "对医疗领域的决策能力和信息收集能力具有重要影响",
-        "technology": "对医疗领域的LLM技术选型具有重要影响",
-        "organization": "对医疗领域的组织能力和流程具有重要影响"
-      },
-      "suitable_for": [
-        "医疗领域的AI选型和开发团队"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估和测试在ClinEnv中的LLM模型",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "评估LLM在临床实践中的决策能力对于医疗领域的AI选型具有重要参考价值"
-        },
-        {
-          "action": "优化和改进LLM模型的信息收集和决策能力",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "优化和改进LLM模型的信息收集和决策能力对于提高决策质量具有重要意义"
-        }
-      ],
-      "risks_and_limits": [
-        "ClinEnv的难度集中在某些特定方面，可能需要额外的训练数据和模型优化"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号包括LLM模型在ClinEnv中的决策能力和信息收集能力的改进情况"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "研究人员使用真实的临床实践数据和环境进行评估"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "研究报告",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 80,
-          "level": "high",
-          "reason": "医疗领域的AI选型具有重要参考价值，适用于医疗行业的企业"
-        },
-        "maturity": {
-          "score": 60,
-          "level": "pilot_ready",
-          "reason": "ClinEnv是一个交互式的环境，已经可以用于评估LLM的决策能力，但还需要更多的案例和验证"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "需要医疗领域的专业知识和资源来实施和使用ClinEnv"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "ClinEnv主要用于评估LLM的决策能力，风险相对较低"
-        },
-        "roi_potential": {
-          "score": 80,
-          "level": "high",
-          "reason": "ClinEnv可以帮助医疗行业的企业选型合适的AI解决方案，提高决策效率和准确性"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "医疗行业的企业可以在近期内开始试点使用ClinEnv，评估其在实际应用中的效果"
-        },
-        "recommended_action": {
-          "primary_action": "开始试点使用ClinEnv",
-          "next_steps": [
-            "评估ClinEnv在实际应用中的效果",
-            "与医疗领域的专业人员合作，改进ClinEnv的功能和准确性",
-            "将ClinEnv集成到现有的医疗信息系统中"
-          ],
-          "suggested_owner": [
-            "医疗信息部门",
-            "AI研究团队"
-          ],
-          "timeframe": "1-3月"
-        },
-        "best_fit_scenarios": [
-          "医疗行业的企业",
-          "需要评估LLM在临床实践中的决策能力的场景"
-        ],
-        "not_suitable_for": [
-          "非医疗行业的企业",
-          "不需要评估LLM在临床实践中的决策能力的场景"
-        ],
-        "key_questions_before_adoption": [
-          "ClinEnv是否适用于我们的具体医疗场景",
-          "如何集成ClinEnv到我们的现有的医疗信息系统中",
-          "ClinEnv的使用成本和收益如何"
-        ],
-        "final_judgement": "ClinEnv是一个有价值的工具，能够帮助医疗行业的企业评估LLM在临床实践中的决策能力，具有较高的ROI潜力和适用性。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02568v1",
-      "original_title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:56:26",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "212057d4-2e17-44d6-aaf5-7ca79c41d66b",
-      "title": "可信推理的安全过滤器为互动机器人提供可靠性",
-      "one_sentence_conclusion": "可信推理的安全过滤器可以提高互动机器人的可靠性和效率",
-      "summary": "互动机器人需要在人类引起的不确定性下做出安全和高效的决策。安全过滤器是确保互动机器人安全的流行方法，因为它们的模块化设计将安全与性能分开，使机器人可以在人类周围安全地操作，尽量不影响任务效率。最近提出的信念空间安全过滤器（BeliefSF）通过实时推理来减少机器人在线学习和适应的不确定性，从而减少过滤的保守性。",
-      "why_it_matters": [
-        "互动机器人安全性对人类和机器人都至关重要",
-        "可信推理的安全过滤器可以提高机器人决策的可靠性和效率",
-        "这种方法可以减少机器人在人类周围的保守性"
-      ],
-      "enterprise_impact": {
-        "strategy": "对互动机器人安全性和效率的影响",
-        "business": "对机器人行业的商业模式和竞争格局的影响",
-        "technology": "对机器人安全过滤器和推理算法的影响",
-        "organization": "对机器人开发和部署的组织能力和流程的影响"
-      },
-      "suitable_for": [
-        "机器人开发商、研究机构、安全专家"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和开发可信推理的安全过滤器",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "提高机器人决策的可靠性和效率"
-        },
-        {
-          "action": "优化机器人安全过滤器的设计和实现",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "减少机器人在人类周围的保守性"
-        }
-      ],
-      "risks_and_limits": [
-        "错误的实时推理和神经网络近似可能导致安全过滤器的不确定性"
-      ],
-      "signals_to_watch": [
-        "机器人安全过滤器的性能和可靠性"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于学术研究和专家共识"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "互动机器人在部分行业中具有较高的适用性，例如制造业、医疗保健等"
-        },
-        "maturity": {
-          "score": 50,
-          "level": "early_stage",
-          "reason": "虽然BeliefSF已经被提出，但仍然缺乏大量的实践案例和产品化的成熟度"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "实现安全过滤器需要一定的算法和软件开发成本，但不需要大量的硬件投资"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "安全过滤器的使用可以减少机器人操作的风险，但仍然需要考虑算法的鲁棒性和适应性"
-        },
-        "roi_potential": {
-          "score": 70,
-          "level": "medium",
-          "reason": "提高互动机器人的可靠性和效率可以带来一定的经济效益，但需要具体的场景和数据来验证"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "虽然安全过滤器的技术已经提出，但仍然需要进行试点和验证，以确定其在实际场景中的有效性"
-        },
-        "recommended_action": {
-          "primary_action": "进行试点和验证",
-          "next_steps": [
-            "与机器人制造商和算法提供商合作",
-            "选择适合的试点场景和数据",
-            "评估试点的结果和效果"
-          ],
-          "suggested_owner": [
-            "机器人技术部门",
-            "算法开发团队"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "制造业中的机器人操作",
-          "医疗保健中的机器人辅助"
-        ],
-        "not_suitable_for": [
-          "不需要高可靠性和效率的机器人操作"
-        ],
-        "key_questions_before_adoption": [
-          "安全过滤器的算法和实现细节",
-          "试点和验证的成本和时间",
-          "安全过滤器的长期维护和更新"
-        ],
-        "final_judgement": "安全过滤器具有较高的潜力，可以提高互动机器人的可靠性和效率，但需要进行试点和验证，以确定其在实际场景中的有效性。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02562v1",
-      "original_title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:54:00",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "874b6d1f-7a60-4ead-bc70-caeb32471f44",
-      "title": "重新思考LLM压缩的粒度：从层到子模块",
-      "one_sentence_conclusion": "重新思考LLM压缩的粒度对企业的核心意义在于提高模型压缩效率",
-      "summary": "研究提出现有基于替换的压缩方法限制于全层粒度和连续选择，提出了一种新的子模块级别的压缩方法SubFit，通过非连续选择Attention和FeedForward子模块并为每个子模块提供轻量级的替代残差来提高压缩效率",
-      "why_it_matters": [
-        "提高LLM压缩效率对企业的核心业务场景有重要影响",
-        "新方法SubFit可以更好地适应不同子模块类型的压缩需求"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的AI战略和模型选型有影响",
-        "business": "对企业的核心业务场景和商业模式有影响",
-        "technology": "对企业的技术架构和模型压缩方法有影响",
-        "organization": "对企业的组织能力和流程有影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI技术研发部门、模型压缩领域的企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估和实施SubFit压缩方法",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "提高模型压缩效率和适应不同子模块类型的需求"
-        }
-      ],
-      "risks_and_limits": [
-        "潜在风险：模型压缩效率的下降、适应性不足"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：模型压缩效率的改进、适应性增强"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "研究基于现有方法的分析和新方法的提出"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "提高模型压缩效率对企业AI应用有参考价值，但具体适用场景需进一步验证"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "SubFit方法为新提出，缺乏大规模应用案例和明确的产品化路径"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "需要对现有模型和系统进行调整和优化，成本中等"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "medium",
-          "reason": "新方法的不确定性和潜在的兼容性问题带来中等风险"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "提高模型压缩效率有潜在的ROI，但具体路径和效果需进一步验证"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "监控SubFit方法的发展和应用进展，待成熟度提高后考虑试点"
-        },
-        "recommended_action": {
-          "primary_action": "关注SubFit方法的最新研究进展和应用案例",
-          "next_steps": [
-            "评估SubFit方法对现有模型和系统的兼容性",
-            "探索潜在的应用场景和业务价值",
-            "考虑与研究机构或供应商合作进行试点"
-          ],
-          "suggested_owner": [
-            "AI研究团队",
-            "技术部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "大规模AI模型应用场景",
-          "高性能计算需求的企业"
-        ],
-        "not_suitable_for": [
-          "小规模AI应用场景",
-          "低性能计算需求的企业"
-        ],
-        "key_questions_before_adoption": [
-          "SubFit方法的兼容性和稳定性如何?",
-          "提高模型压缩效率的具体ROI路径是什么?",
-          "如何评估和缓解潜在的风险?"
-        ],
-        "final_judgement": "SubFit方法为提高模型压缩效率提供了新思路，但成熟度和应用价值需进一步验证，建议监控其发展和应用进展。"
-      },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02559v1",
-      "original_title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:52:53",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "a2d0f64f-bf98-46bc-a9b9-966dcdf29c34",
-      "title": "AI 政策和政治倡导的企业视角",
-      "one_sentence_conclusion": "企业应致力于透明的AI政策倡导和安全",
-      "summary": "公司致力于透明的AI政策倡导和安全，支持有思维的监管和AI安全，避免外部政治团体代表其利益",
-      "why_it_matters": [
-        "AI 政策和政治倡导对企业声誉和信任度有重要影响",
-        "透明的政策倡导有助于企业避免潜在风险和法律问题"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的AI战略和竞争格局有影响",
-        "business": "对企业的商业模式和客户信任度有影响",
-        "technology": "对企业的技术架构和安全措施有影响",
-        "organization": "对企业的组织能力和流程有影响"
-      },
-      "suitable_for": [
-        "所有企业，尤其是AI相关企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "制定透明的AI政策倡导计划",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "避免潜在风险和法律问题"
-        },
-        {
-          "action": "建立AI安全团队",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "确保AI安全和监管遵守"
-        }
-      ],
-      "risks_and_limits": [
-        "未能透明的政策倡导可能导致信任度下降和法律问题"
-      ],
-      "signals_to_watch": [
-        "外部政治团体的AI政策倡导活动和企业的AI安全措施"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "公司的透明度和对AI安全的承诺"
+        "reason": "公司的透明度和支持有思维的监管"
       },
       "enterprise_value_level": "high",
       "information_type": "政策监管",
       "confidence": "high",
-      "overall_score": 70.0,
+      "overall_score": 80.0,
       "scoring_detail": {
-        "overall_score": 70,
+        "overall_score": 80,
         "enterprise_applicability": {
-          "score": 80,
+          "score": 90,
           "level": "high",
-          "reason": "企业在AI政策和政治倡导方面有着广泛的适用性，尤其是在监管和安全方面"
+          "reason": "企业致力于透明的AI政策和政治倡导，对所有企业都有参考价值"
         },
         "maturity": {
-          "score": 60,
-          "level": "pilot_ready",
-          "reason": "虽然有一些企业已经开始尝试AI政策倡导和安全，但仍需要更多的案例和经验来验证其成熟度"
+          "score": 80,
+          "level": "production_ready",
+          "reason": "公司已经致力于透明的AI政策和政治倡导，表明该领域已经有成熟的实践"
         },
         "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "实施AI政策倡导和安全需要一定的成本，包括人员、培训和技术支持"
+          "score": 20,
+          "level": "low",
+          "reason": "透明的AI政策和政治倡导主要需要内部沟通和政策制定，成本较低"
         },
         "risk_level": {
-          "score": 30,
+          "score": 10,
           "level": "low",
-          "reason": "企业在AI政策和政治倡导方面的风险相对较低，主要是监管和安全方面的风险"
+          "reason": "透明的AI政策和政治倡导可以减少企业的风险，提高社会信任度"
         },
         "roi_potential": {
-          "score": 70,
-          "level": "medium",
-          "reason": "企业通过AI政策倡导和安全可以获得一定的ROI，包括提高监管合规性和安全性"
+          "score": 90,
+          "level": "high",
+          "reason": "透明的AI政策和政治倡导可以提高企业的社会责任感和信任度，带来长期的商业利益"
         },
         "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "企业应该尽快开始尝试AI政策倡导和安全，以保持竞争优势和监管合规性"
+          "level": "act_now",
+          "reason": "企业应该立即采取行动，制定和实施透明的AI政策和政治倡导"
         },
         "recommended_action": {
-          "primary_action": "成立AI政策和安全工作组",
+          "primary_action": "制定透明的AI政策和政治倡导框架",
           "next_steps": [
-            "进行AI政策和安全现状评估",
-            "制定AI政策和安全战略",
-            "建立AI政策和安全监测和评估机制"
+            "内部沟通和培训",
+            "政策实施和监控",
+            "社会责任报告和披露"
           ],
           "suggested_owner": [
-            "CIO",
-            "CDO"
+            "CEO",
+            "CFO",
+            "CSO"
           ],
-          "timeframe": "1-3月"
+          "timeframe": "立即"
         },
         "best_fit_scenarios": [
-          "监管密集的行业",
-          "安全性要求高的企业"
+          "所有企业，尤其是AI相关企业"
         ],
         "not_suitable_for": [
-          "小型企业",
-          "非监管行业"
+          "无"
         ],
         "key_questions_before_adoption": [
-          "企业的AI政策和安全现状如何?",
-          "企业的监管和安全要求是什么?",
-          "企业的AI政策和安全战略是什么?"
+          "如何制定和实施透明的AI政策和政治倡导框架",
+          "如何确保内部沟通和培训的有效性",
+          "如何监控和评估政策实施的效果"
         ],
-        "final_judgement": "企业应致力于透明的AI政策倡导和安全，支持有思维的监管和AI安全，避免外部政治团体代表其利益。"
+        "final_judgement": "企业致力于透明的AI政策和政治倡导，可以提高社会责任感和信任度，带来长期的商业利益。"
       },
       "category": "strategy",
       "category_label": "AI战略与组织变革",
@@ -930,114 +230,113 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-01T17:00:00",
-      "intelligence_date": "2026-06-02"
+      "intelligence_date": "2026-06-04"
     },
     {
-      "id": "40e65437-f6aa-4bb0-a83a-9590c9bbc9b8",
-      "title": "企业级AI广泛采用依赖于代理逻辑",
-      "one_sentence_conclusion": "企业级AI广泛采用需要依赖于代理逻辑",
-      "summary": "研究表明，当前的LLM技术难以满足企业级AI的需求，代理逻辑成为企业级AI广泛采用的一项关键技术。代理逻辑可以帮助企业级AI系统更好地处理复杂的任务和决策。",
+      "id": "aff34216-8bbd-4b42-ae21-0f85c9dc6fe0",
+      "title": "企业AI广泛采用依赖于代理逻辑",
+      "one_sentence_conclusion": "企业AI广泛采用需要依赖于代理逻辑",
+      "summary": "研究表明，企业AI广泛采用需要依赖于代理逻辑，而不是仅仅依赖于大型语言模型（LLMs）。代理逻辑可以帮助企业实现更好的可扩展性、可解释性和可信任性。",
       "why_it_matters": [
-        "企业级AI广泛采用对企业的竞争格局和业务模式有重大影响",
-        "代理逻辑可以帮助企业级AI系统提高效率和准确率"
+        "企业AI广泛采用对企业的核心竞争力和创新能力有重大影响",
+        "代理逻辑可以帮助企业实现更好的可扩展性和可解释性",
+        "企业需要依赖于代理逻辑来实现更好的可信任性和安全性"
       ],
       "enterprise_impact": {
-        "strategy": "对企业级AI战略和竞争格局的影响",
-        "business": "对企业级AI系统的效率和准确率有影响",
-        "technology": "对代理逻辑技术选型和开发有影响",
-        "organization": "对企业组织能力和流程有影响"
+        "strategy": "对企业AI战略和竞争格局的影响",
+        "business": "对企业业务场景和商业模式的影响",
+        "technology": "对企业技术架构和模型选型的影响",
+        "organization": "对企业组织能力和流程的影响"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色：企业级AI开发和实施部门"
+        "适合关注的企业类型/部门/角色：企业AI团队、技术领导层、创新部门"
       ],
       "recommended_actions": [
         {
-          "action": "研究和评估代理逻辑技术选型和开发",
+          "action": "研究和评估代理逻辑技术和框架",
           "priority": "high",
           "timeframe": "1-3月",
-          "reason": "评估代理逻辑的潜在价值和挑战"
+          "reason": "了解代理逻辑的潜在优势和挑战"
         },
         {
-          "action": "调整企业级AI战略和竞争格局",
+          "action": "建立代理逻辑的可扩展性和可解释性能力",
           "priority": "medium",
           "timeframe": "3-6月",
-          "reason": "考虑代理逻辑对企业级AI的潜在影响"
+          "reason": "实现更好的可扩展性和可解释性"
         }
       ],
       "risks_and_limits": [
-        "代理逻辑技术的发展和应用存在风险和挑战"
+        "代理逻辑的开发和实施可能需要大量资源和时间"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：代理逻辑技术的发展和应用情况"
+        "企业AI广泛采用中的代理逻辑技术和框架的发展和应用"
       ],
       "credibility": {
-        "level": "medium",
-        "reason": "研究和评估的可信度"
+        "level": "high",
+        "reason": "来自知名研究机构的研究报告"
       },
       "enterprise_value_level": "high",
       "information_type": "研究报告",
-      "confidence": "medium",
+      "confidence": "high",
       "overall_score": 70.0,
       "scoring_detail": {
         "overall_score": 70,
         "enterprise_applicability": {
           "score": 80,
           "level": "high",
-          "reason": "企业级AI广泛采用对各行业都有重要意义"
+          "reason": "企业AI广泛采用对各行各业都有重要意义，代理逻辑可以帮助企业实现更好的可扩展性、可解释性和可信任性"
         },
         "maturity": {
           "score": 60,
           "level": "pilot_ready",
-          "reason": "虽然代理逻辑是关键技术，但具体实施案例和产品还需要更多验证"
+          "reason": "虽然代理逻辑在理论上有优势，但实际应用案例和产品还不够成熟，需要进一步验证"
         },
         "implementation_cost": {
           "score": 50,
           "level": "medium",
-          "reason": "实施代理逻辑需要一定的技术和资源投入，但相比于潜在收益，成本是可控的"
+          "reason": "实施代理逻辑可能需要对现有系统进行一定的改造和投资，成本取决于具体的实施方案"
         },
         "risk_level": {
           "score": 40,
           "level": "medium",
-          "reason": "主要风险在于技术实施的复杂性和潜在的不确定性，但通过试点和测试可以降低风险"
+          "reason": "代理逻辑的实施可能会带来一定的技术风险和投资风险，但总体风险水平中等"
         },
         "roi_potential": {
-          "score": 80,
+          "score": 70,
           "level": "high",
-          "reason": "代理逻辑可以显著提高企业级AI系统的效率和决策能力，从而带来明显的ROI"
+          "reason": "代理逻辑可以帮助企业实现更好的可扩展性、可解释性和可信任性，从而带来潜在的高回报"
         },
         "action_urgency": {
           "level": "pilot_soon",
-          "reason": "虽然代理逻辑是关键技术，但企业应该在短期内开始试点和验证，以便在中长期内实现广泛采用"
+          "reason": "虽然代理逻辑有潜在的优势，但实际应用案例和产品还不够成熟，建议在近期内进行试点和验证"
         },
         "recommended_action": {
-          "primary_action": "开始试点项目，验证代理逻辑在企业级AI中的应用",
+          "primary_action": "进行代理逻辑试点项目",
           "next_steps": [
-            "组建跨部门的项目团队",
-            "选择合适的试点场景和技术平台",
-            "设计和实施试点项目"
+            "评估现有系统和数据",
+            "设计和实施代理逻辑试点项目",
+            "评估试点项目的效果和风险"
           ],
           "suggested_owner": [
-            "CIO",
-            "CDO",
-            "IT部门"
+            "IT部门",
+            "数据科学团队"
           ],
           "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "复杂决策场景",
-          "多任务处理场景",
-          "高级别自动化场景"
+          "需要高可扩展性和可解释性的企业AI应用",
+          "需要高可信任性的企业AI应用"
         ],
         "not_suitable_for": [
-          "简单的自动化场景",
-          "低风险的决策场景"
+          "小规模企业AI应用",
+          "不需要高可扩展性和可解释性的企业AI应用"
         ],
         "key_questions_before_adoption": [
-          "代理逻辑如何集成到现有的AI系统中",
-          "如何评估代理逻辑的有效性和ROI",
-          "如何确保代理逻辑的安全性和合规性"
+          "代理逻辑如何集成到现有系统和数据中",
+          "代理逻辑的实施和维护成本如何",
+          "代理逻辑的潜在风险和挑战如何"
         ],
-        "final_judgement": "代理逻辑是企业级AI广泛采用的一项关键技术，企业应该在短期内开始试点和验证，以便在中长期内实现广泛采用。"
+        "final_judgement": "代理逻辑有潜在的优势，可以帮助企业实现更好的可扩展性、可解释性和可信任性，但实际应用案例和产品还不够成熟，需要进一步验证和试点。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
@@ -1050,43 +349,49 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-01T13:51:18",
-      "intelligence_date": "2026-06-02"
+      "intelligence_date": "2026-06-04"
     },
     {
-      "id": "55bda805-c636-4d69-8f0c-39a0e560e703",
-      "title": "ProtoAda: 多模态持续指令调优新方法",
-      "one_sentence_conclusion": "ProtoAda 提出了一种多模态持续指令调优新方法，解决了任务间干扰和专家协作问题",
-      "summary": "ProtoAda 是一种多模态持续指令调优方法，通过 prototype-guided adaptive adapter expansion 和 geometric consolidation 来解决任务间干扰和专家协作问题",
+      "id": "18c53a39-3943-4aab-b701-f8430a1f8790",
+      "title": "Codex AI工具广泛应用",
+      "one_sentence_conclusion": "Codex AI工具的广泛应用对企业的核心意义在于提高工作效率和AI应用能力",
+      "summary": "Codex AI工具已扩展到多个角色、工具和工作流程，包括分析师、市场营销人员、设计师和投资者等。Codex AI工具的广泛应用有助于提高工作效率和AI应用能力。",
       "why_it_matters": [
-        "ProtoAda 可以提高多模态持续指令调优的准确率和效率",
-        "ProtoAda 可以解决任务间干扰和专家协作问题"
+        "Codex AI工具的广泛应用对企业的AI战略和竞争格局产生了影响",
+        "提高工作效率和AI应用能力对企业的核心业务场景和商业模式产生了影响"
       ],
       "enterprise_impact": {
-        "strategy": "ProtoAda 可以影响企业的 AI 战略和竞争格局",
-        "business": "ProtoAda 可以影响企业的业务场景和商业模式",
-        "technology": "ProtoAda 可以影响企业的技术架构和模型选型",
-        "organization": "ProtoAda 可以影响企业的组织能力和流程"
+        "strategy": "对AI战略和竞争格局产生了影响",
+        "business": "对核心业务场景和商业模式产生了影响",
+        "technology": "对技术架构和模型选型产生了影响",
+        "organization": "对组织能力和流程产生了影响"
       },
       "suitable_for": [
-        "适合关注 AI 战略和技术架构的企业"
+        "所有类型的企业，尤其是AI应用企业"
       ],
       "recommended_actions": [
         {
-          "action": "评估 ProtoAda 的适用性和可行性",
+          "action": "评估Codex AI工具的适用性和潜在价值",
           "priority": "high",
+          "timeframe": "立即",
+          "reason": "了解Codex AI工具的广泛应用对企业的影响"
+        },
+        {
+          "action": "考虑采用Codex AI工具来提高工作效率和AI应用能力",
+          "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "ProtoAda 可以提高多模态持续指令调优的准确率和效率"
+          "reason": "提高工作效率和AI应用能力对企业的核心业务场景和商业模式产生了影响"
         }
       ],
       "risks_and_limits": [
-        "ProtoAda 的效果取决于具体的应用场景和数据集"
+        "信息不足时可能导致不确定性，需要进一步评估Codex AI工具的适用性和潜在价值"
       ],
       "signals_to_watch": [
-        "ProtoAda 的应用效果和扩展"
+        "Codex AI工具的进一步扩展和应用，相关企业的AI战略和竞争格局的变化"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "ProtoAda 是一种新方法，需要更多的实践和验证"
+        "reason": "Codex AI工具的广泛应用和相关企业的AI战略和竞争格局的变化"
       },
       "enterprise_value_level": "medium",
       "information_type": "技术进展",
@@ -1096,452 +401,119 @@
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02576v1",
-      "original_title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "original_title": "Codex for every role, tool, and workflow",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-01T17:59:13",
-      "intelligence_date": "2026-06-02"
+      "published_at": "2026-06-02T09:00:00",
+      "intelligence_date": "2026-06-04"
     },
     {
-      "id": "63924d68-8f90-48c5-b21e-f9626fc5026e",
-      "title": "异质DP联邦学习的IntraShuffler：一种保密的框架",
-      "one_sentence_conclusion": "异质DP联邦学习的IntraShuffler：一种保密的框架",
-      "summary": "在分布式学习（Federated Learning，FL）中，异质差分隐私（Heterogeneous Differential Privacy，HDP）允许客户根据机构政策和数据敏感性选择个人隐私预算（$\\varepsilon_i$）。在实际应用中，许多HDP-FL系统使用$\\varepsilon$-感知服务器聚合来改进模型效用，通过根据客户声明的隐私预算重weight客户更新。然而，FL中的梯",
+      "id": "cbceea98-aaf8-41b2-8ca0-3bb3cb50e84f",
+      "title": "OpenAI倡导全球青年人AI安全",
+      "one_sentence_conclusion": "全球青年人AI安全倡议对企业的核心意义在于强化安全标准和机会",
+      "summary": "OpenAI呼吁全球青年人AI安全倡议，提议成立国际机构以加强安全保障、标准和机会。该倡议旨在促进全球青年人在AI领域的安全和发展。",
       "why_it_matters": [
-        "待AI分析"
+        "该倡议可能影响全球AI安全标准和竞争格局",
+        "企业应关注该倡议对其AI产品和服务的潜在影响",
+        "该倡议可能带来新的商业机会和合作伙伴关系"
       ],
       "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
+        "strategy": "该倡议可能影响企业的AI安全战略和竞争格局",
+        "business": "该倡议可能带来新的商业机会和合作伙伴关系",
+        "technology": "该倡议可能影响企业的AI技术选型和安全标准",
+        "organization": "该倡议可能影响企业的组织能力和流程"
       },
       "suitable_for": [
-        "待分析"
+        "关注AI安全和发展的企业"
       ],
       "recommended_actions": [
         {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02563v1",
-      "original_title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:54:10",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "fb65d331-b946-436f-9699-fa99251d2c61",
-      "title": "HERO'S JOURNEY：测试复杂规则归纳的文本游戏基准",
-      "one_sentence_conclusion": "HERO'S JOURNEY基准测试显示，当前LLMs在规则归纳方面存在局限性和不均匀性",
-      "summary": "HERO'S JOURNEY是一项测试复杂规则归纳的基准，评估了当前LLMs在目标导向 episodic 任务中的规则归纳能力。结果显示，模型在某些任务中表现出规则归纳能力，但能力有限且不均匀。",
-      "why_it_matters": [
-        "当前LLMs在规则归纳方面存在局限性和不均匀性，可能影响其在复杂任务中的应用",
-        "HERO'S JOURNEY基准测试提供了一个评估LLMs规则归纳能力的工具"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：当前LLMs的局限性可能影响其在竞争格局中的应用",
-        "business": "对业务场景或商业模式的影响：HERO'S JOURNEY基准测试可能影响企业在复杂任务中的决策",
-        "technology": "对技术架构或模型选型的影响：结果可能影响企业在规则归纳方面的技术选择",
-        "organization": "对组织能力或流程的影响：结果可能影响企业在规则归纳方面的组织能力和流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI研究机构、技术公司、企业AI部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估HERO'S JOURNEY基准测试对企业AI战略的影响",
+          "action": "评估企业AI安全标准和流程的适应性",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "了解当前LLMs的局限性和不均匀性"
+          "reason": "确保企业能够应对全球青年人AI安全倡议的潜在影响"
         },
         {
-          "action": "考虑使用HERO'S JOURNEY基准测试评估企业AI模型的规则归纳能力",
+          "action": "研究新的商业机会和合作伙伴关系",
           "priority": "low",
           "timeframe": "3-6月",
-          "reason": "评估企业AI模型的规则归纳能力"
+          "reason": "了解该倡议对企业的潜在商业影响"
         }
       ],
       "risks_and_limits": [
-        "潜在风险：当前LLMs的局限性可能影响其在复杂任务中的应用；限制：HERO'S JOURNEY基准测试可能需要大量数据和计算资源"
+        "信息不足时可能导致不确定性",
+        "该倡议可能受到政治和社会因素的影响"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：当前LLMs的进展和HERO'S JOURNEY基准测试的更新"
+        "全球青年人AI安全倡议的进展和影响",
+        "企业对该倡议的反应和适应"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "结果基于对当前LLMs的评估和HERO'S JOURNEY基准测试的设计"
+        "reason": "OpenAI是知名AI公司，倡议的背景和目的看似合理"
       },
       "enterprise_value_level": "medium",
-      "information_type": "技术进展",
+      "information_type": "政策监管",
       "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02556v1",
-      "original_title": "HERO'S JOURNEY: Testing Complex Rule Induction with Text Games",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:51:40",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "ab983926-744a-4ff9-a90b-d7cdb298acbe",
-      "title": "解决飞行点自由度模糊问题的混合密度表示",
-      "one_sentence_conclusion": "提出了一种混合密度表示来解决飞行点自由度模糊问题，对于深度估计的准确性有重要影响",
-      "summary": "飞行点自由度模糊问题是深度估计中的一个常见问题，现有的模型往往会在前景和背景表面的边界处预测虚假的3D点。提出了一种混合密度表示来解决这个问题，允许模型预测多个深度假设及其相关概率。这种方法可以在边界处选择正确的深度假设，避免预测虚假的3D点。",
-      "why_it_matters": [
-        "深度估计准确性对自动驾驶、机器人和计算机视觉等领域有重要影响",
-        "飞行点自由度模糊问题是深度估计中的一个常见问题，需要解决",
-        "混合密度表示是一种新的深度估计方法，可能会带来新的应用和场景"
-      ],
-      "enterprise_impact": {
-        "strategy": "可能会影响企业的AI战略和竞争格局",
-        "business": "对业务场景和商业模式的影响有限",
-        "technology": "对技术架构和模型选型的影响较大",
-        "organization": "对组织能力和流程的影响较小"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI、计算机视觉、机器学习"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估混合密度表示的深度估计方法",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解混合密度表示的潜在应用和优势"
-        },
-        {
-          "action": "考虑采用混合密度表示来改进深度估计模型",
-          "priority": "low",
-          "timeframe": "3-6月",
-          "reason": "混合密度表示可能会带来新的应用和场景"
-        }
-      ],
-      "risks_and_limits": [
-        "混合密度表示可能会增加计算成本和复杂度"
-      ],
-      "signals_to_watch": [
-        "混合密度表示的应用和场景的发展"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "论文来源，研究人员经验丰富"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "研究报告",
-      "confidence": "high",
       "overall_score": 60.0,
       "scoring_detail": null,
       "category": "strategy",
       "category_label": "AI战略与组织变革",
       "category_emoji": "🔵",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02552v1",
-      "original_title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:50:28",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "2dcd13c4-302a-454b-991a-4f5653fb8574",
-      "title": "Script-Normalized WER 提出新评估指标",
-      "one_sentence_conclusion": "新评估指标可以更准确评估多语种ASR模型的性能",
-      "summary": "Word Error Rate (WER) 在多语种环境中可能会过度估计错误率，Script-Normalized WER (SN-WER) 提出一种新的评估方法，通过将参考和假设文本转换为语言特定的标准脚本来计算 WER。",
-      "why_it_matters": [
-        "对多语种ASR模型的评估有重要影响",
-        "可以更准确地评估模型的性能",
-        "有助于减少模型间的差距"
-      ],
-      "enterprise_impact": {
-        "strategy": "对多语种ASR模型的评估策略有影响",
-        "business": "对多语种ASR业务场景有影响",
-        "technology": "对多语种ASR技术架构有影响",
-        "organization": "对多语种ASR组织能力有影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：多语种ASR模型开发和应用企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估和采用新评估指标",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "可以更准确地评估模型的性能"
-        }
-      ],
-      "risks_and_limits": [
-        "可能需要重新训练和调整模型"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：模型性能的改善和稳定"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于实验和数据的研究"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 70,
-          "level": "medium",
-          "reason": "适用于多语种ASR模型的企业，尤其是那些需要准确评估模型性能的公司"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "新评估指标尚处于初期阶段，缺乏大量的实践案例和验证"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "需要对现有的ASR模型和评估流程进行修改和适配"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "采用新评估指标的风险相对较低，主要是对模型性能的评估和优化"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "通过更准确的评估指标，可以优化ASR模型的性能和用户体验，带来潜在的ROI"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "企业可以关注该新评估指标的发展和应用，但不需要立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "关注SN-WER的发展和应用",
-          "next_steps": [
-            "评估现有的ASR模型和评估流程",
-            "研究SN-WER的适用性和潜在的ROI",
-            "考虑试点应用SN-WER"
-          ],
-          "suggested_owner": [
-            "AI/ML团队",
-            "产品经理"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "多语种ASR模型的开发和优化",
-          "需要准确评估ASR模型性能的企业"
-        ],
-        "not_suitable_for": [
-          "单语种ASR模型",
-          "不需要高精度ASR模型的企业"
-        ],
-        "key_questions_before_adoption": [
-          "SN-WER的适用性和潜在的ROI是什么?",
-          "如何集成SN-WER到现有的ASR模型和评估流程中?"
-        ],
-        "final_judgement": "SN-WER是一个有潜力的新评估指标，企业可以关注其发展和应用，但需要评估其适用性和潜在的ROI。"
-      },
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.02548v1",
-      "original_title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T17:49:10",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "125ab292-f3bb-484a-a3e8-61d82c82d5ce",
-      "title": "OpenAI在密歇根州建设1GW数据中心",
-      "one_sentence_conclusion": "OpenAI在密歇根州建设1GW数据中心，扩大AI基础设施，创造就业机会和支持社区",
-      "summary": "OpenAI在密歇根州建设1GW数据中心，作为Stargate的一部分，旨在扩大AI基础设施，创造就业机会和支持社区",
-      "why_it_matters": [
-        "密歇根州成为AI基础设施的重要中心",
-        "数据中心建设将创造就业机会",
-        "扩大AI基础设施将支持社区发展"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：扩大AI基础设施将影响竞争格局",
-        "business": "对业务场景或商业模式的影响：数据中心建设将创造就业机会",
-        "technology": "对技术架构或模型选型的影响：扩大AI基础设施将影响技术选型",
-        "organization": "对组织能力或流程的影响：数据中心建设将影响组织流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：IT、数据中心、AI相关企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估数据中心建设对企业的潜在影响",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解数据中心建设对企业的潜在影响"
-        },
-        {
-          "action": "考虑扩大AI基础设施的潜在机会",
-          "priority": "high",
-          "timeframe": "3-6月",
-          "reason": "扩大AI基础设施将支持社区发展"
-        }
-      ],
-      "risks_and_limits": [
-        "数据中心建设的潜在风险，包括环境影响和安全风险"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：数据中心建设的进展，AI基础设施的扩张"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "OpenAI是知名AI公司，数据中心建设的信息来源可靠"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 40,
-          "level": "low",
-          "reason": "该情报主要关注OpenAI的数据中心建设，企业适用性较低，仅适用于少数大型企业或云服务提供商"
-        },
-        "maturity": {
-          "score": 80,
-          "level": "production_ready",
-          "reason": "OpenAI作为领先的AI公司，具有成熟的AI基础设施建设经验"
-        },
-        "implementation_cost": {
-          "score": 90,
-          "level": "high",
-          "reason": "建设1GW数据中心需要大量投资，成本极高"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "low",
-          "reason": "OpenAI的数据中心建设主要关注扩大AI基础设施，风险相对较低"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "虽然数据中心建设可以带来就业机会和社区支持，但ROI路径不明确"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "该情报主要关注OpenAI的数据中心建设，企业可以监视该项目的进展，但无需立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "监视OpenAI数据中心建设进展",
-          "next_steps": [
-            "关注数据中心建设的进展",
-            "评估数据中心对AI基础设施的影响"
-          ],
-          "suggested_owner": [
-            "IT部门",
-            "战略规划部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "大型企业",
-          "云服务提供商"
-        ],
-        "not_suitable_for": [
-          "中小企业",
-          "非技术行业"
-        ],
-        "key_questions_before_adoption": [
-          "数据中心建设如何影响AI基础设施?",
-          "如何评估数据中心建设的ROI?"
-        ],
-        "final_judgement": "OpenAI的数据中心建设主要关注扩大AI基础设施，企业可以监视该项目的进展，但需要评估数据中心建设的ROI和适用性。"
-      },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
       "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/stargate-michigan-data-center",
-      "original_title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "source_url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "original_title": "Advancing youth safety and opportunity through global leadership",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-01T12:00:00",
-      "intelligence_date": "2026-06-02"
+      "published_at": "2026-06-02T07:00:00",
+      "intelligence_date": "2026-06-04"
     },
     {
-      "id": "46e9cf01-ee7e-412d-bb9b-57f03f7fb3ba",
+      "id": "e12e0690-b39f-4114-bb79-99e8ee7c1828",
       "title": "JetBrains推出Mellum2：12亿参数混合专家模型",
-      "one_sentence_conclusion": "JetBrains推出Mellum2，可能改善企业的AI模型选择和开发效率",
-      "summary": "JetBrains推出Mellum2，一个12亿参数的混合专家模型，用于自然语言处理和计算机视觉等任务。Mellum2基于Mixture-of-Experts架构，旨在提高模型的鲁棒性和可解释性。JetBrains表示，Mellum2将用于其产品和服务的AI能力。",
+      "one_sentence_conclusion": "JetBrains推出Mellum2模型，可能改善AI模型的性能和效率",
+      "summary": "JetBrains推出Mellum2，一个12亿参数的混合专家模型，用于改善AI模型的性能和效率。Mellum2是JetBrains研发的混合专家模型，旨在提高AI模型的准确性和效率。",
       "why_it_matters": [
-        "Mellum2可能改善企业的AI模型选择和开发效率",
-        "混合专家模型的出现可能会影响企业的AI战略和技术架构"
+        "可能改善AI模型的性能和效率",
+        "JetBrains在AI模型研发领域的进展"
       ],
       "enterprise_impact": {
-        "technology": "对技术架构或模型选型的影响",
-        "organization": "对组织能力或流程的影响"
+        "technology": "可能影响企业选择的AI模型和技术架构",
+        "organization": "可能影响企业的AI研发团队和流程"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色"
+        "关注AI模型研发和应用的企业",
+        "AI研发团队和技术领导"
       ],
       "recommended_actions": [
         {
-          "action": "评估Mellum2的适用性和潜在优势",
+          "action": "评估Mellum2的适用性和潜在收益",
           "priority": "medium",
           "timeframe": "1-3月",
           "reason": "了解Mellum2的特点和优势"
+        },
+        {
+          "action": "考虑采用Mellum2或类似模型",
+          "priority": "low",
+          "timeframe": "3-6月",
+          "reason": "评估Mellum2的成本效益和可行性"
         }
       ],
       "risks_and_limits": [
-        "Mellum2的可用性和可靠性可能存在风险"
+        "信息不足，需要进一步评估Mellum2的性能和效率"
       ],
       "signals_to_watch": [
-        "后续应观察的信号"
+        "Mellum2的性能和效率的进一步评估和应用"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "JetBrains是知名软件公司，Mellum2的推出可能具有实质性"
+        "reason": "JetBrains在AI领域的声誉和研发能力"
       },
       "enterprise_value_level": "medium",
       "information_type": "技术进展",
@@ -1559,73 +531,12 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-01T15:45:17",
-      "intelligence_date": "2026-06-02"
-    },
-    {
-      "id": "1a5e6f9f-cef2-4566-bfef-36fd563185df",
-      "title": "NVIDIA Cosmos 3：首个开放式全能模型",
-      "one_sentence_conclusion": "NVIDIA Cosmos 3 的发布对企业的核心意义在于提供一个开放式全能模型，促进物理 AI 推理和行动的发展",
-      "summary": "NVIDIA Cosmos 3 是一个开放式全能模型，旨在促进物理 AI 推理和行动的发展。它是 NVIDIA 的最新技术推出，旨在解决现有 AI 模型的局限性。",
-      "why_it_matters": [
-        "NVIDIA Cosmos 3 的发布对 AI 技术的发展有重要影响",
-        "它可能成为企业选择 AI 模型的重要参考",
-        "NVIDIA 的技术推出可能会对竞争格局产生影响"
-      ],
-      "enterprise_impact": {
-        "strategy": "对 AI 战略或竞争格局的影响",
-        "business": "对业务场景或商业模式的影响",
-        "technology": "对技术架构或模型选型的影响",
-        "organization": "对组织能力或流程的影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估 NVIDIA Cosmos 3 的潜在应用和优势",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解 NVIDIA Cosmos 3 的具体优势和应用"
-        },
-        {
-          "action": "考虑采用 NVIDIA Cosmos 3 或类似技术",
-          "priority": "low",
-          "timeframe": "3-6月",
-          "reason": "评估 NVIDIA Cosmos 3 的可行性和成本效益"
-        }
-      ],
-      "risks_and_limits": [
-        "NVIDIA Cosmos 3 的可行性和成本效益尚不明确"
-      ],
-      "signals_to_watch": [
-        "NVIDIA 的进一步技术推出和市场反应"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "NVIDIA 是一家知名的 AI 技术公司"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "original_title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-01T04:44:55",
-      "intelligence_date": "2026-06-02"
+      "intelligence_date": "2026-06-04"
     }
   ],
   "people": [],
   "sources": [],
   "projects": [],
-  "generated_at": "2026-06-02T20:58:49.024308+08:00",
-  "date": "2026-06-02"
+  "generated_at": "2026-06-04T00:08:33.511888+08:00",
+  "date": "2026-06-04"
 }
