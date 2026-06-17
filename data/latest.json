@@ -1,52 +1,51 @@
 {
   "latest_intelligence": [
     {
-      "id": "65474701-c428-4fab-a822-8c684e815345",
+      "id": "9d9efa40-37d3-48dc-b526-54627e4ef88d",
       "title": "OpenAI Partner Network正式推出",
-      "one_sentence_conclusion": "OpenAI Partner Network将加速企业AI的采用和转型",
+      "one_sentence_conclusion": "OpenAI Partner Network的推出对企业AI战略和合作伙伴选择具有重要影响",
       "summary": "OpenAI推出Partner Network，投资150亿美元，帮助全球合作伙伴加速企业AI的采用、部署和转型",
       "why_it_matters": [
-        "OpenAI Partner Network将成为企业AI转型的重要合作伙伴",
-        "投资150亿美元将带来显著的AI技术和人才支持",
-        "加速企业AI的采用和部署将带来竞争优势"
+        "OpenAI Partner Network的推出标志着企业AI合作伙伴选择的新格局",
+        "投资150亿美元的规模表明OpenAI对企业AI的推广和发展的决心",
+        "Partner Network将帮助企业加速AI的采用和部署"
       ],
       "enterprise_impact": {
-        "strategy": "对企业AI战略和竞争格局的影响",
-        "business": "对企业AI采用和部署的影响",
-        "technology": "对企业AI技术架构和模型选型的影响",
-        "organization": "对企业组织能力和流程的影响"
+        "strategy": "对企业AI战略和合作伙伴选择具有重要影响",
+        "business": "对企业AI的采用和部署具有促进作用",
+        "technology": "对企业AI技术架构和模型选型可能产生影响",
+        "organization": "对企业组织能力和流程可能产生影响"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI转型企业、技术创新企业"
+        "适合关注的企业类型/部门/角色：企业AI合作伙伴选择者、AI战略规划者、技术架构师"
       ],
       "recommended_actions": [
         {
-          "action": "评估OpenAI Partner Network的合作机会",
+          "action": "评估OpenAI Partner Network的潜在合作伙伴和技术优势",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "加速企业AI的采用和部署"
+          "reason": "了解OpenAI Partner Network的具体优势和潜在风险"
         },
         {
-          "action": "调整企业AI战略和技术架构",
+          "action": "考虑加入OpenAI Partner Network",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "适应OpenAI Partner Network的合作"
+          "reason": "评估OpenAI Partner Network的具体优势和潜在风险"
         }
       ],
       "risks_and_limits": [
-        "合作伙伴选择和管理的风险",
-        "技术和人才支持的可持续性"
+        "OpenAI Partner Network的具体优势和潜在风险尚不明确"
       ],
       "signals_to_watch": [
-        "OpenAI Partner Network的合作伙伴数量和质量的变化",
-        "OpenAI的技术和人才支持的进展"
+        "OpenAI Partner Network的具体优势和潜在风险的公布",
+        "OpenAI Partner Network的合作伙伴数量和质量的变化"
       ],
       "credibility": {
         "level": "high",
-        "reason": "OpenAI的技术和市场影响力"
+        "reason": "OpenAI是知名AI公司，Partner Network的推出表明其对企业AI的推广和发展的决心"
       },
       "enterprise_value_level": "high",
-      "information_type": "技术进展",
+      "information_type": "产品发布",
       "confidence": "high",
       "overall_score": 85.0,
       "scoring_detail": {
@@ -54,60 +53,61 @@
         "enterprise_applicability": {
           "score": 90,
           "level": "high",
-          "reason": "OpenAI Partner Network能够帮助全球合作伙伴加速企业AI的采用和转型，具有广泛的适用性"
+          "reason": "OpenAI Partner Network的推出对企业AI战略和合作伙伴选择具有重要影响，适用于大量企业和关键场景"
         },
         "maturity": {
           "score": 80,
           "level": "production_ready",
-          "reason": "OpenAI已经投资150亿美元，表明其对Partner Network的重视和成熟度"
+          "reason": "OpenAI Partner Network已经正式推出，表明其成熟度较高，具有成熟的产品和案例"
         },
         "implementation_cost": {
           "score": 40,
           "level": "medium",
-          "reason": "虽然OpenAI投资了150亿美元，但具体的实施成本还需要根据企业的实际情况来确定"
+          "reason": "虽然OpenAI Partner Network的推出可能需要一定的投资，但其带来的收益和增长潜力可能远大于成本"
         },
         "risk_level": {
           "score": 20,
           "level": "low",
-          "reason": "OpenAI Partner Network是由知名的AI公司OpenAI推出的，风险相对较低"
+          "reason": "OpenAI Partner Network的推出是由知名的AI公司OpenAI主导，风险相对较低"
         },
         "roi_potential": {
           "score": 90,
           "level": "high",
-          "reason": "OpenAI Partner Network能够帮助企业加速AI的采用和转型，具有明确的ROI路径"
+          "reason": "OpenAI Partner Network的推出可能带来显著的ROI增长，通过加速企业AI的采用、部署和转型"
         },
         "action_urgency": {
           "level": "act_now",
-          "reason": "OpenAI Partner Network的推出为企业提供了一个加速AI采用和转型的机会，需要立即关注"
+          "reason": "企业应该立即关注OpenAI Partner Network的推出，并考虑如何利用其加速自己的AI战略"
         },
         "recommended_action": {
-          "primary_action": "立即与OpenAI联系，了解Partner Network的详细信息和合作机会",
+          "primary_action": "立即与OpenAI Partner Network建立联系，探索合作机会",
           "next_steps": [
-            "评估企业的AI采用和转型需求",
-            "确定合作的重点和目标",
-            "制定合作的实施计划和时间表"
+            "评估当前的AI战略和合作伙伴选择",
+            "确定如何利用OpenAI Partner Network加速AI采用和部署",
+            "制定详细的合作计划和预算"
           ],
           "suggested_owner": [
             "CIO",
-            "CDO"
+            "CDO",
+            "AI战略团队"
           ],
           "timeframe": "立即"
         },
         "best_fit_scenarios": [
-          "大型企业",
-          "AI采用和转型的先驱者",
-          "具有明确的AI战略和目标的企业"
+          "大型企业AI战略转型",
+          "AI驱动的业务创新",
+          "全球合作伙伴网络建设"
         ],
         "not_suitable_for": [
-          "小型企业",
-          "没有明确的AI战略和目标的企业"
+          "小型企业或初创公司",
+          "非AI驱动的业务"
         ],
         "key_questions_before_adoption": [
-          "企业的AI采用和转型需求是什么?",
-          "如何确定合作的重点和目标?",
-          "如何制定合作的实施计划和时间表?"
+          "如何利用OpenAI Partner Network加速AI采用和部署",
+          "如何评估当前的AI战略和合作伙伴选择",
+          "如何确定合作的预算和资源"
         ],
-        "final_judgement": "OpenAI Partner Network的推出为企业提供了一个加速AI采用和转型的机会，具有广泛的适用性和明确的ROI路径，需要立即关注和采取行动。"
+        "final_judgement": "OpenAI Partner Network的推出是企业AI战略转型的重要机会，企业应该立即关注和利用其加速自己的AI战略。"
       },
       "category": "strategy",
       "category_label": "AI战略与组织变革",
@@ -120,161 +120,169 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-14T17:00:00",
-      "intelligence_date": "2026-06-16"
+      "intelligence_date": "2026-06-17"
     },
     {
-      "id": "d30a8bea-ca14-417c-aed1-afb2852ede69",
-      "title": "ClinHallu: 医疗MLLM阶段性幻觉诊断基准",
-      "one_sentence_conclusion": "医疗MLLM阶段性幻觉诊断基准对医疗决策支持的可靠性至关重要",
-      "summary": "现有的医疗幻觉基准主要关注数据收集，但忽略了幻觉的来源。我们发现幻觉来源在样本之间有所不同，可能来自视觉识别错误、医学知识回忆错误或推理集成错误。我们提出了ClinHallu，一个阶段性幻觉诊断基准，包含7,031个验证实例，每个实例都有一个结构化的推理跟踪，分为视觉识别、知识回忆和推理集成。我们还使用阶段替换干预来测量如何纠正特定阶段对最终答案的影响。",
+      "id": "66d1d496-0b69-4496-909e-680f7d519e4d",
+      "title": "OpenAI推出部署模拟工具预测模型行为",
+      "one_sentence_conclusion": "OpenAI的部署模拟工具可以帮助企业预测AI模型行为，提高安全性和评估准确性",
+      "summary": "OpenAI推出部署模拟工具，使用真实对话数据预测AI模型行为，提高安全性和评估准确性",
       "why_it_matters": [
-        "医疗MLLM阶段性幻觉诊断对医疗决策支持的可靠性至关重要",
-        "现有的医疗幻觉基准忽略了幻觉的来源",
-        "阶段性幻觉诊断可以帮助改善医疗MLLM的准确性"
+        "预测AI模型行为可以帮助企业避免安全风险和降低成本",
+        "提高评估准确性可以帮助企业做出更准确的决策"
       ],
       "enterprise_impact": {
-        "strategy": "对医疗决策支持的可靠性和准确性的影响",
-        "business": "对医疗行业的准确诊断和治疗的影响",
-        "technology": "对医疗MLLM的阶段性幻觉诊断的影响",
-        "organization": "对医疗组织的决策支持和准确诊断的影响"
+        "strategy": "对AI战略的影响：提高安全性和评估准确性",
+        "business": "对业务场景的影响：降低安全风险和成本",
+        "technology": "对技术架构的影响：使用部署模拟工具预测模型行为",
+        "organization": "对组织能力的影响：提高评估准确性和安全性"
       },
       "suitable_for": [
-        "医疗行业、医疗决策支持系统、医疗MLLM开发者"
+        "适合关注的企业类型/部门/角色：AI开发者、安全专家、产品经理"
       ],
       "recommended_actions": [
         {
-          "action": "采用阶段性幻觉诊断基准来改善医疗MLLM的准确性",
+          "action": "评估部署模拟工具的适用性和成本效益",
           "priority": "high",
+          "timeframe": "立即",
+          "reason": "了解部署模拟工具的潜在价值和风险"
+        },
+        {
+          "action": "考虑采用部署模拟工具预测AI模型行为",
+          "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "阶段性幻觉诊断可以帮助改善医疗MLLM的准确性"
+          "reason": "提高安全性和评估准确性"
         }
       ],
       "risks_and_limits": [
-        "信息不足时可能导致不确定性，需要进一步验证"
+        "信息不足时可能导致不确定性，需要更多数据和测试"
       ],
       "signals_to_watch": [
-        "后续应观察的信号包括医疗MLLM的准确性和可靠性"
+        "后续应观察的信号：部署模拟工具的广泛采用和行业应用"
       ],
       "credibility": {
         "level": "high",
-        "reason": "基于现有的研究和数据"
+        "reason": "OpenAI是知名AI公司，部署模拟工具的研发和推出"
       },
       "enterprise_value_level": "high",
-      "information_type": "研究报告",
+      "information_type": "技术进展",
       "confidence": "high",
-      "overall_score": 70.0,
+      "overall_score": 80.0,
       "scoring_detail": {
-        "overall_score": 70,
+        "overall_score": 80,
         "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "医疗行业的特定应用，尤其是对于需要高精度医疗决策支持的场景具有较高的适用性，但其它行业的适用性相对较低"
+          "score": 90,
+          "level": "high",
+          "reason": "该工具可以帮助企业预测AI模型行为，提高安全性和评估准确性，适用于广泛的企业应用场景"
         },
         "maturity": {
-          "score": 50,
-          "level": "early_stage",
-          "reason": "虽然提出了一种新的阶段性幻觉诊断基准，但缺乏大规模的实践案例和明确的产品化路径"
+          "score": 70,
+          "level": "pilot_ready",
+          "reason": "OpenAI推出的部署模拟工具虽然具有创新性，但仍需要更多的案例和验证来证明其成熟度"
         },
         "implementation_cost": {
           "score": 40,
           "level": "medium",
-          "reason": "需要一定的数据收集、标注和模型训练成本，但相对于整个医疗行业的投资来说不是极高"
+          "reason": "该工具的实施成本取决于企业的具体需求和规模，可能需要一定的投资来集成和维护"
         },
         "risk_level": {
-          "score": 50,
-          "level": "medium",
-          "reason": "主要风险在于新技术的不确定性和在实际医疗决策中的应用风险，但通过仔细的测试和验证可以降低"
+          "score": 20,
+          "level": "low",
+          "reason": "该工具主要用于预测AI模型行为，风险相对较低"
         },
         "roi_potential": {
-          "score": 70,
-          "level": "medium",
-          "reason": "通过提高医疗决策的准确性和可靠性，可以带来较好的ROI，但具体的路径和数字需要进一步的研究和验证"
+          "score": 80,
+          "level": "high",
+          "reason": "该工具可以帮助企业提高安全性和评估准确性，潜在的ROI路径包括减少错误率和提高效率"
         },
         "action_urgency": {
           "level": "pilot_soon",
-          "reason": "建议在医疗行业内进行试点项目，以验证ClinHallu的有效性和可行性"
+          "reason": "企业可以在近期内开始试点该工具，评估其在实际应用中的效果"
         },
         "recommended_action": {
-          "primary_action": "与医疗机构合作进行试点项目",
+          "primary_action": "开始试点该工具",
           "next_steps": [
-            "收集和标注更多的医疗数据",
-            "开发和优化ClinHallu的算法",
-            "评估试点项目的结果和反馈"
+            "评估工具的适用性和效果",
+            "确定实施的范围和规模",
+            "制定实施计划和时间表"
           ],
           "suggested_owner": [
-            "医疗机构",
-            "AI研究团队"
+            "AI项目负责人",
+            "IT部门"
           ],
-          "timeframe": "3-6月"
+          "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "需要高精度医疗决策支持的场景",
-          "具有丰富医疗数据和标注资源的医疗机构"
+          "AI模型开发和部署",
+          "企业安全和风险管理",
+          "数据分析和评估"
         ],
         "not_suitable_for": [
-          "小规模医疗机构或没有足够数据支持的场景"
+          "小规模企业或个人应用",
+          "不涉及AI模型的应用场景"
         ],
         "key_questions_before_adoption": [
-          "ClinHallu的算法和模型如何确保其在不同医疗场景下的普遍适用性?",
-          "如何衡量和验证ClinHallu在实际医疗决策中的有效性和ROI?"
+          "该工具的适用性和效果如何?",
+          "实施的成本和资源需求如何?",
+          "如何确保工具的安全性和合规性?"
         ],
-        "final_judgement": "ClinHallu具有较高的潜力，但需要进一步的验证和优化以确保其在医疗行业的广泛应用和商业成功。"
+        "final_judgement": "OpenAI的部署模拟工具具有较高的企业适用性和ROI潜力，企业可以在近期内开始试点该工具，评估其在实际应用中的效果。"
       },
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14697v1",
-      "original_title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/deployment-simulation",
+      "original_title": "Predicting model behavior before release by simulating deployment",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-12T17:58:38",
-      "intelligence_date": "2026-06-16"
+      "published_at": "2026-06-16T00:00:00",
+      "intelligence_date": "2026-06-17"
     },
     {
-      "id": "9e3e4a79-3864-4027-9d51-f2a844777db9",
-      "title": "Persona-Pruner：轻量化角色扮演模型",
-      "one_sentence_conclusion": "Persona-Pruner 可以帮助企业轻量化角色扮演模型，降低计算成本",
-      "summary": "研究人员提出 Persona-Pruner 框架，用于轻量化角色扮演模型，通过隔离角色特征子网络来降低计算成本。实验结果表明 Persona-Pruner 可以有效降低计算成本",
+      "id": "35dfa481-6cb4-49ea-9d77-2932ad2dad2f",
+      "title": "语言模型内部价值轴：是否在正确轨迹上",
+      "one_sentence_conclusion": "语言模型内部价值轴可以帮助企业评估其策略的有效性",
+      "summary": "研究发现，语言模型内部价值轴可以区分高低自信度、有无回溯、正确或错误代码等。内部价值轴可以指导模型行为，提高自信度和效率",
       "why_it_matters": [
-        "角色扮演模型的计算成本高，影响实时应用",
-        "轻量化模型可以降低计算成本和提高实时性",
-        "Persona-Pruner 可以帮助企业优化角色扮演模型"
+        "语言模型内部价值轴可以帮助企业评估其策略的有效性",
+        "内部价值轴可以指导模型行为，提高自信度和效率",
+        "研究发现语言模型内部价值轴可以区分高低自信度、有无回溯、正确或错误代码等"
       ],
       "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：提高实时性和降低计算成本",
-        "business": "对业务场景或商业模式的影响：优化角色扮演模型",
-        "technology": "对技术架构或模型选型的影响：轻量化角色扮演模型",
-        "organization": "对组织能力或流程的影响：提高实时性和降低计算成本"
+        "strategy": "对企业AI策略的影响",
+        "business": "对企业业务场景的影响",
+        "technology": "对语言模型技术架构的影响",
+        "organization": "对企业组织能力的影响"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI、游戏、虚拟助手等"
+        "适合关注的企业类型/部门/角色：AI技术研发部门、企业AI战略部门"
       ],
       "recommended_actions": [
         {
-          "action": "评估和优化角色扮演模型",
+          "action": "优化语言模型内部价值轴的设计和应用",
           "priority": "high",
-          "timeframe": "立即",
-          "reason": "降低计算成本和提高实时性"
+          "timeframe": "1-3月",
+          "reason": "内部价值轴可以指导模型行为，提高自信度和效率"
         },
         {
-          "action": "采用 Persona-Pruner 框架",
+          "action": "评估和优化企业AI策略的有效性",
           "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "轻量化角色扮演模型"
+          "timeframe": "3-6月",
+          "reason": "内部价值轴可以帮助企业评估其策略的有效性"
         }
       ],
       "risks_and_limits": [
-        "模型精度可能降低，需要进一步优化"
+        "内部价值轴的设计和应用可能存在风险和限制，需要进一步研究和验证"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：模型精度和计算成本的变化"
+        "后续应观察的信号：内部价值轴的设计和应用效果、企业AI策略的有效性"
       ],
       "credibility": {
         "level": "high",
-        "reason": "来自顶级研究机构的研究结果"
+        "reason": "研究基于合理的假设和方法，结果有可信度"
       },
       "enterprise_value_level": "high",
       "information_type": "技术进展",
@@ -285,38 +293,496 @@
         "enterprise_applicability": {
           "score": 60,
           "level": "medium",
-          "reason": "适用于需要优化计算成本的企业，尤其是那些使用角色扮演模型的行业"
+          "reason": "语言模型内部价值轴可以帮助企业评估其策略的有效性，但其应用范围可能局限于特定行业或场景"
         },
         "maturity": {
-          "score": 40,
+          "score": 50,
           "level": "early_stage",
-          "reason": "虽然实验结果表明Persona-Pruner可以有效降低计算成本，但缺乏大规模应用案例和明确的产品化计划"
+          "reason": "虽然研究发现语言模型内部价值轴可以区分高低自信度、有无回溯、正确或错误代码等，但缺乏大规模应用案例和明确的产品化路径"
         },
         "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "需要对现有的角色扮演模型进行修改和优化，可能需要一定的开发和测试成本"
-        },
-        "risk_level": {
           "score": 40,
           "level": "medium",
-          "reason": "由于Persona-Pruner仍处于早期阶段，可能存在不稳定性和兼容性问题"
+          "reason": "实施语言模型内部价值轴可能需要一定的技术和资源投入，但具体成本取决于企业现有的技术基础和应用场景"
+        },
+        "risk_level": {
+          "score": 30,
+          "level": "low",
+          "reason": "语言模型内部价值轴主要关注模型行为和自信度的改进，风险相对较低"
         },
         "roi_potential": {
           "score": 60,
           "level": "medium",
-          "reason": "通过降低计算成本，可以为企业带来一定的成本节约和效率提升，但需要进一步验证"
+          "reason": "语言模型内部价值轴可以提高模型的自信度和效率，从而可能带来一定的ROI，但具体路径和收益取决于企业的应用场景和实施效果"
         },
         "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "建议在小规模试点项目中验证Persona-Pruner的效果和稳定性"
+          "level": "monitor",
+          "reason": "语言模型内部价值轴是一个有趣的研究方向，但其应用价值和成熟度需要进一步验证和观察"
         },
         "recommended_action": {
-          "primary_action": "与研究人员合作，进行小规模试点项目",
+          "primary_action": "关注语言模型内部价值轴的研究进展和应用案例",
           "next_steps": [
-            "评估现有的角色扮演模型和计算成本",
-            "确定试点项目的范围和目标",
-            "开发和测试Persona-Pruner的集成"
+            "评估语言模型内部价值轴在企业现有应用场景中的潜在价值",
+            "探索语言模型内部价值轴的技术实现和成本",
+            "跟踪语言模型内部价值轴的最新研究成果和行业应用"
+          ],
+          "suggested_owner": [
+            "AI研究团队",
+            "技术部门"
+          ],
+          "timeframe": "3-6月"
+        },
+        "best_fit_scenarios": [
+          "语言模型应用场景",
+          "AI策略评估和优化"
+        ],
+        "not_suitable_for": [
+          "非AI相关企业",
+          "无语言模型应用场景的企业"
+        ],
+        "key_questions_before_adoption": [
+          "语言模型内部价值轴的技术实现和成本是什么?",
+          "语言模型内部价值轴在企业现有应用场景中的潜在价值是什么?",
+          "语言模型内部价值轴的应用风险和挑战是什么?"
+        ],
+        "final_judgement": "语言模型内部价值轴是一个有趣的研究方向，具有中等的企业适用性和成熟度，需要进一步验证和观察其应用价值和实施效果。"
+      },
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17056v1",
+      "original_title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:59:58",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "94c8890a-93af-4fa0-8cec-23ad01aa4a99",
+      "title": "Context-Aware RL 提升 LLM 的长期推理和多模态性能",
+      "one_sentence_conclusion": "Context-Aware RL 可以提高 LLM 的长期推理和多模态性能",
+      "summary": "研究提出了一种名为 ContextRL 的上下文感知强化学习方法，通过间接辅助目标来改善长期推理和多模态性能。该方法通过奖励模型选择支持查询-答案对的上下文来鼓励细粒度的定位。",
+      "why_it_matters": [
+        "提高 LLM 的长期推理和多模态性能对 AI 应用有重要影响",
+        "该方法可以改善 LLM 在复杂场景下的表现"
+      ],
+      "enterprise_impact": {
+        "strategy": "对 AI 战略或竞争格局的影响：提高 LLM 的性能可以改善企业的 AI 应用",
+        "business": "对业务场景或商业模式的影响：该方法可以改善 LLM 在复杂场景下的表现",
+        "technology": "对技术架构或模型选型的影响：该方法可以改善 LLM 的长期推理和多模态性能",
+        "organization": "对组织能力或流程的影响：该方法需要组织能力和流程来实施和维护"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：技术研发部门、AI 应用部门"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究和实施 ContextRL 方法",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "该方法可以改善 LLM 的长期推理和多模态性能"
+        }
+      ],
+      "risks_and_limits": [
+        "该方法需要大量数据来训练和验证",
+        "该方法可能需要组织能力和流程来实施和维护"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：该方法在不同场景下的表现"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "该方法基于强化学习和多模态性能的研究"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "研究报告",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17053v1",
+      "original_title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:59:28",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "84a57e58-0e81-4d92-b3bc-34e199cb89fb",
+      "title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
+      "one_sentence_conclusion": "Exact Posterior Score (EPS) 提供了一种精确的后验分数估计方法，用于解决线性逆问题",
+      "summary": "研究提出了一种Exact Posterior Score (EPS)方法，用于解决线性逆问题。该方法通过在标准预训练中保留输入/输出结构，提供了一种精确的后验分数估计方法。该方法可以从头开始训练或从预训练模型中微调。",
+      "why_it_matters": [
+        "该方法可以提高线性逆问题的解决效率",
+        "该方法可以提供更准确的后验分数估计",
+        "该方法可以在标准预训练中保留输入/输出结构"
+      ],
+      "enterprise_impact": {
+        "technology": "该方法可以影响技术架构或模型选型",
+        "organization": "该方法可以影响组织能力或流程"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究和评估Exact Posterior Score (EPS)方法的应用和潜在",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "评估该方法的应用和潜在"
+        }
+      ],
+      "risks_and_limits": [
+        "该方法的有效性和可行性还需要进一步研究和验证"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号包括该方法的应用和潜在"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "该方法的有效性和可行性还需要进一步研究和验证"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "chip",
+      "category_label": "模型算力与芯片生态",
+      "category_emoji": "🔴",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17048v1",
+      "original_title": "Exact Posterior Score Estimation for Solving Linear Inverse Problems",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:58:22",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "55d1968e-ed5d-40fd-bce5-7ad61685807f",
+      "title": "Geometric Action Model 提升机器人政策学习",
+      "one_sentence_conclusion": "Geometric Action Model 提供了一种直接利用 3D 几何信息的机器人政策学习方法",
+      "summary": "Geometric Action Model 是一种语言条件下的操作策略，直接利用预训练的几何基础模型作为感知、时间预测和动作解码的共享底层。该模型通过将几何基础模型切分为中间层，利用浅层作为观察编码器，预测未来的潜在令牌，条件于语言、 proprioception 和动作历史。",
+      "why_it_matters": [
+        "该模型可以直接利用 3D 几何信息，改善机器人政策学习的准确性和鲁棒性",
+        "该模型可以在多种场景中应用，包括物体识别、抓取和操作等",
+        "该模型可以作为一个共享底层，提高机器人政策学习的效率和可扩展性"
+      ],
+      "enterprise_impact": {
+        "strategy": "该模型可以为企业提供一个新的机器人政策学习策略，改善竞争格局",
+        "business": "该模型可以应用于物流、制造业等行业，提高生产效率和质量",
+        "technology": "该模型可以为企业提供一个新的技术选型，改善机器人政策学习的准确性和鲁棒性",
+        "organization": "该模型可以为企业提供一个新的组织能力，提高机器人政策学习的效率和可扩展性"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估 Geometric Action Model 的适用性和潜在收益",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "该模型可以为企业提供一个新的机器人政策学习策略，改善竞争格局"
+        },
+        {
+          "action": "开发和集成 Geometric Action Model 到企业的机器人政策学习系统",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "该模型可以提高机器人政策学习的准确性和鲁棒性"
+        }
+      ],
+      "risks_and_limits": [
+        "该模型的适用性和可扩展性还需要进一步评估和验证"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "该模型基于预训练的几何基础模型和语言条件下的操作策略"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 60.0,
+      "scoring_detail": {
+        "overall_score": 60,
+        "enterprise_applicability": {
+          "score": 50,
+          "level": "medium",
+          "reason": "Geometric Action Model 可以应用于机器人领域，但其适用范围可能有限于特定的行业或场景"
+        },
+        "maturity": {
+          "score": 40,
+          "level": "early_stage",
+          "reason": "Geometric Action Model 尚处于早期阶段，缺乏大量的实用案例和验证"
+        },
+        "implementation_cost": {
+          "score": 70,
+          "level": "high",
+          "reason": "实施 Geometric Action Model 需要大量的计算资源和专业知识，成本较高"
+        },
+        "risk_level": {
+          "score": 50,
+          "level": "medium",
+          "reason": "Geometric Action Model 的实施风险中等，需要考虑技术和业务方面的风险"
+        },
+        "roi_potential": {
+          "score": 60,
+          "level": "medium",
+          "reason": "Geometric Action Model 有潜在的 ROI 路径，但需要进一步验证和优化"
+        },
+        "action_urgency": {
+          "level": "monitor",
+          "reason": "Geometric Action Model 尚处于早期阶段，企业可以监视其发展，但不需要立即采取行动"
+        },
+        "recommended_action": {
+          "primary_action": "跟踪 Geometric Action Model 的发展和应用案例",
+          "next_steps": [
+            "评估 Geometric Action Model 在特定行业或场景中的适用性",
+            "研究 Geometric Action Model 的技术和业务风险",
+            "探索 Geometric Action Model 的潜在 ROI 路径"
+          ],
+          "suggested_owner": [
+            "机器人领域的技术负责人"
+          ],
+          "timeframe": "3-6月"
+        },
+        "best_fit_scenarios": [
+          "机器人领域的政策学习和决策"
+        ],
+        "not_suitable_for": [
+          "非机器人领域的企业或场景"
+        ],
+        "key_questions_before_adoption": [
+          "Geometric Action Model 在特定行业或场景中的适用性如何？",
+          "Geometric Action Model 的技术和业务风险如何？",
+          "Geometric Action Model 的潜在 ROI 路径是什么？"
+        ],
+        "final_judgement": "Geometric Action Model 是一个有潜力的技术，但其适用性和成熟度需要进一步验证和优化。企业可以监视其发展，但不需要立即采取行动。"
+      },
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17046v1",
+      "original_title": "Geometric Action Model for Robot Policy Learning",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:58:03",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "88fd1e8d-5abb-4ad0-949b-90682037e6b4",
+      "title": "解决在线RL优化VLAs的稀疏结果挑战",
+      "one_sentence_conclusion": "提出了Hierarchical Advantage-Weighted Behavior Cloning (HABC)方法，改善VLAs在线RL优化",
+      "summary": "现有方法将稀疏结果降低为单个标量奖励或优势信号，导致目标混淆和不准确的信用分配。HABC方法训练两个目标的独立评论头，分别处理可行性和效率。",
+      "why_it_matters": [
+        "VLAs在线RL优化面临稀疏结果挑战",
+        "现有方法存在目标混淆和不准确的信用分配问题",
+        "HABC方法提供了改善VLAs在线RL优化的解决方案"
+      ],
+      "enterprise_impact": {
+        "strategy": "对VLAs在线RL优化策略的影响",
+        "business": "对业务场景或商业模式的影响",
+        "technology": "对技术架构或模型选型的影响",
+        "organization": "对组织能力或流程的影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "采用HABC方法进行VLAs在线RL优化",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "改善VLAs在线RL优化的效果"
+        }
+      ],
+      "risks_and_limits": [
+        "HABC方法的有效性和通用性需要进一步验证"
+      ],
+      "signals_to_watch": [
+        "VLAs在线RL优化的效果和HABC方法的性能"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "方法的创新性和理论基础"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "chip",
+      "category_label": "模型算力与芯片生态",
+      "category_emoji": "🔴",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17043v1",
+      "original_title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:57:14",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "5aa8868c-d6cd-4085-b3ad-533428861686",
+      "title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+      "one_sentence_conclusion": "当前LLM在元分析文章检索和筛选方面存在瓶颈，影响其在科学推理评估中的应用",
+      "summary": "研究团队推出MetaSyn数据集，包含442篇来自Nature Portfolio期刊的元分析文章。通过对12个管道配置的benchmarking，发现当前LLM难以有效地检索和筛选相关文献，导致检索瓶颈",
+      "why_it_matters": [
+        "元分析是科学证据综合的高级形式，需要高效的检索和筛选能力",
+        "当前LLM在科学推理评估中的应用受限",
+        "MetaSyn数据集为评估系统科学推理提供了一个理想的基准"
+      ],
+      "enterprise_impact": {
+        "strategy": "对AI在科学推理评估中的应用策略产生影响",
+        "business": "对元分析和科学证据综合的商业模式产生影响",
+        "technology": "对LLM检索和筛选能力的技术架构产生影响",
+        "organization": "对组织能力和流程的影响"
+      },
+      "suitable_for": [
+        "研究机构、科学出版机构、AI应用领域"
+      ],
+      "recommended_actions": [
+        {
+          "action": "优化LLM检索和筛选算法",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "解决检索瓶颈，提高LLM在科学推理评估中的应用"
+        },
+        {
+          "action": "开发基于MetaSyn数据集的评估工具",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "为评估系统科学推理提供一个理想的基准"
+        }
+      ],
+      "risks_and_limits": [
+        "当前LLM难以有效地检索和筛选相关文献，导致检索瓶颈"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号包括LLM检索和筛选算法的进展和MetaSyn数据集的应用"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "研究团队来自知名机构，MetaSyn数据集经过专家审查"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "研究报告",
+      "confidence": "high",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17041v1",
+      "original_title": "Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:56:41",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "615a857b-9bb0-4edb-a4b8-027f673d79da",
+      "title": "神经表示中的阶段对图像分类器的重要性",
+      "one_sentence_conclusion": "神经表示中的阶段对图像分类器的准确性至关重要",
+      "summary": "研究表明，神经表示中的阶段对图像分类器的准确性至关重要，而幅值则相对无关紧要。实验结果显示，移植图像阶段后，分类器仍能准确识别图像。",
+      "why_it_matters": [
+        "理解神经表示中的阶段对图像分类器的影响有助于改进图像分类算法",
+        "阶段对图像分类器的准确性至关重要，幅值则相对无关紧要"
+      ],
+      "enterprise_impact": {
+        "strategy": "对AI战略或竞争格局的影响：改进图像分类算法",
+        "business": "对业务场景或商业模式的影响：图像分类应用",
+        "technology": "对技术架构或模型选型的影响：神经表示阶段",
+        "organization": "对组织能力或流程的影响：改进图像分类算法流程"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：图像分类应用企业/研究机构"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究神经表示阶段对图像分类器的影响",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "改进图像分类算法"
+        },
+        {
+          "action": "优化神经表示阶段的技术架构",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "提高图像分类准确性"
+        }
+      ],
+      "risks_and_limits": [
+        "潜在风险：过度依赖神经表示阶段，忽视幅值的重要性"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：神经表示阶段对图像分类器的影响"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "研究结果基于Oppenheim和Lim (1981)的工作"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "研究报告",
+      "confidence": "high",
+      "overall_score": 60.0,
+      "scoring_detail": {
+        "overall_score": 60,
+        "enterprise_applicability": {
+          "score": 50,
+          "level": "medium",
+          "reason": "图像分类器在部分行业中具有较高的应用价值，但尚未普遍适用于所有企业"
+        },
+        "maturity": {
+          "score": 40,
+          "level": "early_stage",
+          "reason": "研究结果尚处于早期阶段，缺乏大规模的实践案例和产品化的成熟度"
+        },
+        "implementation_cost": {
+          "score": 60,
+          "level": "medium",
+          "reason": "实施图像分类器可能需要一定的计算资源和专业知识，成本中等"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "图像分类器的准确性可能受到多种因素的影响，存在一定的风险"
+        },
+        "roi_potential": {
+          "score": 50,
+          "level": "medium",
+          "reason": "图像分类器在部分行业中可能带来较高的ROI，但需要具体的应用场景和实施计划"
+        },
+        "action_urgency": {
+          "level": "monitor",
+          "reason": "图像分类器的研究结果尚处于早期阶段，企业可以监视其发展，但无需立即采取行动"
+        },
+        "recommended_action": {
+          "primary_action": "关注图像分类器的研究进展和实践案例",
+          "next_steps": [
+            "评估图像分类器在自身企业中的应用潜力",
+            "探索图像分类器的实施成本和风险",
+            "监视图像分类器的发展和成熟度"
           ],
           "suggested_owner": [
             "IT部门",
@@ -325,187 +791,76 @@
           "timeframe": "3-6月"
         },
         "best_fit_scenarios": [
-          "需要优化计算成本的企业",
-          "使用角色扮演模型的行业"
+          "图像识别和分类",
+          "计算机视觉",
+          "机器学习"
         ],
         "not_suitable_for": [
-          "不需要优化计算成本的企业",
-          "没有使用角色扮演模型的行业"
+          "非图像相关的行业",
+          "不需要图像识别和分类的企业"
         ],
         "key_questions_before_adoption": [
-          "Persona-Pruner的稳定性和兼容性如何?",
-          "如何评估Persona-Pruner的成本节约和效率提升?",
-          "如何确保Persona-Pruner的安全性和数据保护?"
+          "图像分类器在自身企业中的应用潜力如何",
+          "图像分类器的实施成本和风险如何",
+          "图像分类器的成熟度和稳定性如何"
         ],
-        "final_judgement": "Persona-Pruner是一个有潜力的技术，但需要进一步验证和优化，建议在小规模试点项目中进行测试和评估。"
+        "final_judgement": "图像分类器的研究结果显示其在图像识别和分类中的重要性，但其实施成本和风险需要企业仔细评估，监视其发展和成熟度是当前的最佳行动。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14695v1",
-      "original_title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "source_url": "http://arxiv.org/abs/2606.17037v1",
+      "original_title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-12T17:58:08",
-      "intelligence_date": "2026-06-16"
+      "published_at": "2026-06-15T17:54:52",
+      "intelligence_date": "2026-06-17"
     },
     {
-      "id": "306ea462-8fa6-4bd5-a346-1644b0408418",
-      "title": "CottonLeafVision: 精确识别棉花叶病的深度学习框架",
-      "one_sentence_conclusion": "CottonLeafVision 可以帮助企业提高棉花叶病的准确识别率，减少经济损失",
-      "summary": "CottonLeafVision 是一个可解释和强大的深度学习框架，用于棉花叶病的分类和检测。该框架使用多个预训练的深度卷积神经网络，包括 DenseNet201、InceptionV3 和 VGG19，实现了 98% 的分类准确率。",
+      "id": "f76c85f1-6ff2-4d32-a705-596398bdb155",
+      "title": "Differential Privacy 不足以抵御背门攻击",
+      "one_sentence_conclusion": "Differential Privacy 不足以抵御背门攻击，对企业的核心意义在于提高安全意识和防御能力",
+      "summary": "研究表明，差分隐私（DP）不能有效抵御背门攻击，背门攻击可以通过隐私保护机制来掩盖其统计特征，现有防御措施变得无效",
       "why_it_matters": [
-        "棉花是全球经济上非常重要的作物，纺织业高度依赖于它",
-        "准确识别和检测棉花叶病对于经济稳定至关重要",
-        "CottonLeafVision 可以帮助企业提高棉花叶病的准确识别率，减少经济损失"
+        "背门攻击对企业的安全和信任有重大影响",
+        "差分隐私保护机制可能被利用来掩盖背门攻击",
+        "企业需要提高安全意识和防御能力来抵御背门攻击"
       ],
       "enterprise_impact": {
-        "strategy": "对棉花种植和加工行业的竞争格局产生影响",
-        "business": "对棉花叶病的检测和预防产生影响",
-        "technology": "对深度学习和图像处理技术产生影响",
-        "organization": "对棉花种植和加工企业的组织能力和流程产生影响"
+        "strategy": "对企业的安全战略和防御能力有影响",
+        "business": "对企业的信任和安全有影响",
+        "technology": "对差分隐私保护机制和背门攻击防御技术有影响",
+        "organization": "对企业的安全意识和防御能力有影响"
       },
       "suitable_for": [
-        "棉花种植和加工企业、农业技术公司"
+        "适合关注的企业类型/部门/角色：安全、IT、数据保护"
       ],
       "recommended_actions": [
         {
-          "action": "采用 CottonLeafVision 框架进行棉花叶病的检测和预防",
+          "action": "提高安全意识和防御能力",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "提高棉花叶病的准确识别率，减少经济损失"
-        }
-      ],
-      "risks_and_limits": [
-        "信息不足时可能导致不确定性，需要进一步验证"
-      ],
-      "signals_to_watch": [
-        "棉花价格和需求的变化、棉花叶病的新发现"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于公开的棉花叶病图像数据集和深度学习技术"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 70.0,
-      "scoring_detail": {
-        "overall_score": 70,
-        "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "主要适用于棉花种植和加工行业，其他行业的应用价值有限"
-        },
-        "maturity": {
-          "score": 50,
-          "level": "early_stage",
-          "reason": "虽然取得了较高的分类准确率，但缺乏大规模的实际应用案例和商业化产品"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "需要一定的计算资源和专业人员进行模型训练和部署"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "主要风险在于模型的泛化能力和实际应用中的稳定性"
-        },
-        "roi_potential": {
-          "score": 80,
-          "level": "high",
-          "reason": "可以帮助企业减少经济损失和提高效率，具有明确的ROI路径"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "建议在小规模试点项目中验证CottonLeafVision的效果和适用性"
-        },
-        "recommended_action": {
-          "primary_action": "与农业技术专家合作，设计和实施小规模试点项目",
-          "next_steps": [
-            "收集和标注棉花叶病的数据",
-            "训练和优化CottonLeafVision模型",
-            "评估试点项目的效果和ROI"
-          ],
-          "suggested_owner": [
-            "农业技术部门",
-            "数据科学团队"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "棉花种植和加工行业"
-        ],
-        "not_suitable_for": [
-          "其他农业行业",
-          "非农业行业"
-        ],
-        "key_questions_before_adoption": [
-          "CottonLeafVision的泛化能力如何?",
-          "如何确保模型的稳定性和准确性?",
-          "如何评估和量化ROI?"
-        ],
-        "final_judgement": "CottonLeafVision具有较高的ROI潜力和适用性，但需要在小规模试点项目中验证其效果和适用性。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14686v1",
-      "original_title": "CottonLeafVision: An Explainable and Robust Deep Learning Framework for Cotton Leaf Disease Classification",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:50:23",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "39a209ab-0226-451a-a6fa-dcf290cee1c4",
-      "title": "视觉语言模型内部描述图像的机制",
-      "one_sentence_conclusion": "视觉语言模型内部使用特定机制描述图像，影响企业的核心选型和重要流程",
-      "summary": "研究发现视觉语言模型使用小组件（gaze heads）跟踪图像区域，描述图像的过程不明显。通过简单的相关分数和前向传播，研究人员发现了这些gaze heads。",
-      "why_it_matters": [
-        "理解视觉语言模型内部机制对企业的核心选型和重要流程有影响",
-        "研究人员发现了视觉语言模型内部的特定机制",
-        "这种机制可以通过简单的相关分数和前向传播发现"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略和核心选型有影响",
-        "business": "对重要流程和图像描述有影响",
-        "technology": "对视觉语言模型和图像描述技术有影响",
-        "organization": "对组织能力和流程优化有影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI技术研发部门、视觉语言模型开发团队"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和开发视觉语言模型内部机制的应用和优化方法",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "了解视觉语言模型内部机制可以帮助企业优化图像描述和重要流程"
+          "reason": "抵御背门攻击和保护企业安全"
         },
         {
-          "action": "评估和应用视觉语言模型内部机制的技术和组织能力",
+          "action": "评估和优化差分隐私保护机制",
           "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "评估和应用视觉语言模型内部机制可以帮助企业提高组织能力和流程优化"
+          "timeframe": "1-3月",
+          "reason": "防止背门攻击利用隐私保护机制"
         }
       ],
       "risks_and_limits": [
-        "研究人员使用的测试数据和方法可能不代表实际应用场景"
+        "背门攻击可能被利用来掩盖其统计特征，现有防御措施变得无效"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：视觉语言模型的性能和图像描述能力的改进"
+        "企业安全意识和防御能力的变化，背门攻击的新技术和趋势"
       ],
       "credibility": {
         "level": "high",
-        "reason": "研究人员使用了简单的相关分数和前向传播方法发现了视觉语言模型内部的特定机制"
+        "reason": "研究结果和实验验证"
       },
       "enterprise_value_level": "high",
       "information_type": "研究报告",
@@ -514,232 +869,167 @@
       "scoring_detail": {
         "overall_score": 60,
         "enterprise_applicability": {
-          "score": 50,
+          "score": 70,
           "level": "medium",
-          "reason": "视觉语言模型的内部机制对企业的核心选型和重要流程有一定影响，但具体应用场景尚不明确"
+          "reason": "提高安全意识和防御能力，对企业数据保护有参考价值"
         },
         "maturity": {
           "score": 40,
           "level": "early_stage",
-          "reason": "研究人员发现了视觉语言模型内部的机制，但尚缺乏大量案例和产品支持"
+          "reason": "研究表明差分隐私的局限性，但缺乏成熟的替代解决方案"
         },
         "implementation_cost": {
-          "score": 70,
-          "level": "high",
-          "reason": "视觉语言模型的开发和部署需要大量的计算资源和专业知识"
-        },
-        "risk_level": {
           "score": 50,
           "level": "medium",
-          "reason": "视觉语言模型的内部机制尚不完全明确，可能存在一定的技术风险"
+          "reason": "需要重新评估和调整现有的数据保护措施，成本中等"
+        },
+        "risk_level": {
+          "score": 80,
+          "level": "high",
+          "reason": "背门攻击可能导致数据泄露和安全漏洞，风险较高"
         },
         "roi_potential": {
-          "score": 40,
-          "level": "low",
-          "reason": "视觉语言模型的内部机制对企业的核心选型和重要流程的影响尚不明确，ROI路径不清晰"
+          "score": 50,
+          "level": "medium",
+          "reason": "提高安全意识和防御能力可能带来长期的数据保护效益，但ROI路径不明确"
         },
         "action_urgency": {
           "level": "monitor",
-          "reason": "视觉语言模型的内部机制尚在研究阶段，企业可以关注其发展动态，但无需立即采取行动"
+          "reason": "需要关注差分隐私的局限性和背门攻击的风险，但不需要立即采取行动"
         },
         "recommended_action": {
-          "primary_action": "关注视觉语言模型的研究进展",
+          "primary_action": "重新评估数据保护措施",
           "next_steps": [
-            "跟踪相关研究论文和文章",
-            "评估视觉语言模型在企业中的潜在应用场景",
-            "考虑与研究机构或技术公司合作探索视觉语言模型的应用"
+            "评估现有的差分隐私机制",
+            "研究替代的数据保护解决方案",
+            "调整数据保护策略"
           ],
           "suggested_owner": [
-            "AI研究团队",
-            "技术部门"
+            "数据保护团队",
+            "安全团队"
           ],
           "timeframe": "3-6月"
         },
         "best_fit_scenarios": [
-          "图像识别和处理",
-          "视觉辅助决策"
+          "数据敏感的行业",
+          "高安全性要求的企业"
         ],
         "not_suitable_for": [
-          "短期内需要明确ROI的企业",
-          "缺乏AI研究和开发能力的企业"
+          "低安全性要求的企业"
         ],
         "key_questions_before_adoption": [
-          "视觉语言模型的内部机制如何影响企业的核心选型和重要流程?",
-          "如何评估视觉语言模型在企业中的潜在应用场景和ROI?"
+          "现有的差分隐私机制是否足够",
+          "替代的数据保护解决方案是否成熟"
         ],
-        "final_judgement": "视觉语言模型的内部机制对企业有潜在影响，但尚需进一步研究和验证，企业可以关注其发展动态，但无需立即采取行动。"
+        "final_judgement": "差分隐私不足以抵御背门攻击，企业需要提高安全意识和防御能力，但需要重新评估和调整现有的数据保护措施。"
       },
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2606.17035v1",
+      "original_title": "Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-15T17:53:12",
+      "intelligence_date": "2026-06-17"
+    },
+    {
+      "id": "76a482aa-a878-4266-9885-f09c1e2632a2",
+      "title": "KVEraser：高效局部上下文擦除的KV缓存编辑方法",
+      "one_sentence_conclusion": "KVEraser可以提高局部上下文擦除的效率，对于长文本处理有重要意义",
+      "summary": "KVEraser是一种学习的KV缓存编辑方法，用于高效局部上下文擦除。它通过学习导向状态来替换被擦除区的KV状态，而不需要重新计算后续的缓存状态。",
+      "why_it_matters": [
+        "长文本处理中，局部上下文擦除是一个挑战，尤其是在LLM应用中",
+        "KVEraser可以提高局部上下文擦除的效率，减少计算成本"
+      ],
+      "enterprise_impact": {
+        "technology": "对技术架构或模型选型的影响",
+        "organization": "对组织能力或流程的影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究和评估KVEraser的应用和效率",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解KVEraser的潜在应用和效率"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不足时，可能需要更多的研究和评估"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "基于研究论文的信息"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
       "category": "strategy",
       "category_label": "AI战略与组织变革",
       "category_emoji": "🔵",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14703v1",
-      "original_title": "Gaze Heads: How VLMs Look at What They Describe",
+      "source_url": "http://arxiv.org/abs/2606.17034v1",
+      "original_title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-12T17:59:57",
-      "intelligence_date": "2026-06-16"
+      "published_at": "2026-06-15T17:53:09",
+      "intelligence_date": "2026-06-17"
     },
     {
-      "id": "8cd8c335-d62e-492c-a910-2be3736ced6b",
-      "title": "AdaSR：动态流式推理框架",
-      "one_sentence_conclusion": "AdaSR框架可以适应动态流式推理场景，提高模型的灵活性",
-      "summary": "AdaSR框架允许模型在输入流中进行推理和更新，学习何时思考和如何分配计算资源。HRPO优化方法分解了策略优化为流式推理和最终决策阶段。",
+      "id": "5df74a09-f1ce-46d5-8e6d-e5c024099f8f",
+      "title": "DEEPRUBRIC：深度研究代理的高效强化学习框架",
+      "one_sentence_conclusion": "DEEPRUBRIC 提供了一种高效的强化学习框架，改善了深度研究代理的报告质量",
+      "summary": "DEEPRUBRIC 是一种数据构建框架，用于反转强化学习中评估标准的生成过程。它首先确定报告应该评估的内容，然后从这些评估目标中合成相应的查询-评估标准对。这种方法可以提高强化学习的效率和准确性",
       "why_it_matters": [
-        "适应动态流式推理场景的能力",
-        "提高模型的灵活性和适应能力",
-        "优化流式推理过程的方法"
+        "提高强化学习的效率和准确性",
+        "改善深度研究代理的报告质量",
+        "提供了一种高效的数据构建框架"
       ],
       "enterprise_impact": {
-        "technology": "对流式推理技术架构和模型选型的影响",
+        "strategy": "对AI战略和强化学习的影响",
+        "business": "对报告质量和数据构建的影响",
+        "technology": "对深度学习和强化学习的影响",
         "organization": "对组织能力和流程的影响"
       },
       "suitable_for": [
-        "适合关注流式推理和动态场景的企业"
+        "适合关注的企业类型/部门/角色：AI研究机构、强化学习公司、数据科学团队"
       ],
       "recommended_actions": [
         {
-          "action": "评估AdaSR框架的适用性和潜在收益",
-          "priority": "medium",
+          "action": "研究和应用DEEPRUBRIC框架",
+          "priority": "high",
           "timeframe": "1-3月",
-          "reason": "了解AdaSR框架的潜在优势和挑战"
+          "reason": "提高强化学习的效率和准确性"
         },
         {
-          "action": "研究HRPO优化方法的应用和潜在改进",
-          "priority": "low",
+          "action": "优化报告质量和数据构建流程",
+          "priority": "medium",
           "timeframe": "3-6月",
-          "reason": "深入了解HRPO优化方法的潜在优势和局限性"
+          "reason": "改善深度研究代理的报告质量"
         }
       ],
       "risks_and_limits": [
-        "AdaSR框架的复杂性和难以优化",
-        "HRPO优化方法的局限性和适用范围"
+        "潜在风险：数据质量和构建框架的复杂性"
       ],
       "signals_to_watch": [
-        "流式推理技术的发展和应用趋势",
-        "动态场景下的模型性能和适应能力"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "基于研究论文的信息，需要进一步评估和验证"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14694v1",
-      "original_title": "AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:56:25",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "29bfe180-99d3-4608-8d70-83086835d070",
-      "title": "协作多目标多智能体强化学习模型",
-      "one_sentence_conclusion": "协作多目标多智能体强化学习模型可以提高团队决策的效率和协调性",
-      "summary": "研究提出了一种协作多目标多智能体强化学习模型，通过学习协调的智能体偏好来实现团队决策的协调性和效率",
-      "why_it_matters": [
-        "该模型可以应用于多个领域，包括交通控制、协作机器人等",
-        "可以提高团队决策的效率和协调性",
-        "可以实现智能体之间的协调和合作"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的AI战略和竞争格局有潜在影响",
-        "business": "对业务场景和商业模式有潜在影响",
-        "technology": "对技术架构和模型选型有潜在影响",
-        "organization": "对组织能力和流程有潜在影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI、机器学习、强化学习、协作智能体等"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和应用协作多目标多智能体强化学习模型",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "可以提高团队决策的效率和协调性"
-        }
-      ],
-      "risks_and_limits": [
-        "模型复杂性、训练数据质量、智能体之间的协调难度等"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：模型的应用效果、智能体之间的协调程度等"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "研究基于理论模型和实验结果，但需要更多实践应用"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14693v1",
-      "original_title": "Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:55:28",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "22b776d7-cf0d-4980-8a90-e2dbe55f77ab",
-      "title": "CORA：解决多模态RLVR思考答案差距",
-      "one_sentence_conclusion": "CORA可以帮助企业优化多模态RLVR的思考答案一致性",
-      "summary": "CORA是一种新的RLVR方法，通过引入思考答案语义一致性来解决多模态RLVR思考答案差距的问题。它通过一个轻量级的插件式一致性奖励模型来实现这一点。",
-      "why_it_matters": [
-        "多模态RLVR思考答案差距是一个重要问题，需要解决",
-        "CORA可以帮助企业优化多模态RLVR的思考答案一致性",
-        "CORA可以提高多模态RLVR的准确率和可靠性"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的AI战略和多模态RLVR的应用有影响",
-        "business": "对企业的多模态RLVR业务场景和商业模式有影响",
-        "technology": "对企业的多模态RLVR技术架构和模型选型有影响",
-        "organization": "对企业的多模态RLVR组织能力和流程有影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI技术研发部门、多模态RLVR应用部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估CORA的适用性和可行性",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "CORA可以帮助企业优化多模态RLVR的思考答案一致性"
-        },
-        {
-          "action": "实施CORA并监测其效果",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "CORA可以提高多模态RLVR的准确率和可靠性"
-        }
-      ],
-      "risks_and_limits": [
-        "CORA的效果可能取决于具体的应用场景和数据集"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：CORA的效果、多模态RLVR的准确率和可靠性"
+        "后续应观察的信号：强化学习的进展和应用"
       ],
       "credibility": {
         "level": "high",
-        "reason": "CORA是基于现有RLVR方法的改进，具有科学性和可信度"
+        "reason": "基于学术研究和数据科学领域的专家共识"
       },
       "enterprise_value_level": "high",
       "information_type": "技术进展",
@@ -748,374 +1038,79 @@
       "scoring_detail": {
         "overall_score": 60,
         "enterprise_applicability": {
-          "score": 70,
+          "score": 50,
           "level": "medium",
-          "reason": "CORA可以帮助企业优化多模态RLVR的思考答案一致性，这对需要处理多模态数据的企业有参考价值"
+          "reason": "DEEPRUBRIC主要适用于强化学习领域，尤其是深度研究代理的报告质量改善，企业适用性较为特定"
         },
         "maturity": {
           "score": 40,
           "level": "early_stage",
-          "reason": "CORA是一种新的RLVR方法，缺乏大规模的应用案例和明确的产品化路径"
+          "reason": "DEEPRUBRIC作为一个研究框架，目前缺乏大量的实用案例和明确的产品化路径，成熟度有待验证"
         },
         "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "CORA需要引入轻量级的插件式一致性奖励模型，可能需要一定的开发和集成成本"
+          "score": 70,
+          "level": "high",
+          "reason": "实施DEEPRUBRIC可能需要较高的技术门槛和资源投入，包括强化学习和深度研究代理的开发和维护"
         },
         "risk_level": {
-          "score": 40,
+          "score": 50,
           "level": "medium",
-          "reason": "CORA的应用可能需要对现有的RLVR系统进行修改和调整，存在一定的技术风险"
+          "reason": "采用DEEPRUBRIC存在技术风险和实施风险，包括框架的稳定性和适用性的不确定性"
         },
         "roi_potential": {
           "score": 60,
           "level": "medium",
-          "reason": "CORA可以帮助企业优化多模态RLVR的思考答案一致性，可能带来一定的业务效率提升和成本降低"
+          "reason": "DEEPRUBRIC有潜力提高强化学习的效率和准确性，但ROI路径不明确，需要进一步验证"
         },
         "action_urgency": {
           "level": "monitor",
-          "reason": "CORA是一种新的RLVR方法，企业可以关注其发展和应用进展，暂无紧迫的实施需求"
+          "reason": "DEEPRUBRIC是一个有潜力的研究框架，但目前不需要立即采取行动，建议继续监测其发展"
         },
         "recommended_action": {
-          "primary_action": "关注CORA的发展和应用进展",
+          "primary_action": "继续监测DEEPRUBRIC的发展和应用案例",
           "next_steps": [
-            "跟踪CORA的研究和开发进展",
-            "评估CORA在企业中的潜在应用场景",
-            "与相关团队讨论CORA的实施可行性"
+            "跟踪相关研究论文和技术报告",
+            "评估DEEPRUBRIC在特定业务场景中的潜在应用",
+            "与技术团队讨论DEEPRUBRIC的实施可行性"
           ],
           "suggested_owner": [
-            "AI研究团队",
-            "技术部门"
+            "技术研究团队",
+            "业务发展团队"
           ],
           "timeframe": "3-6月"
         },
         "best_fit_scenarios": [
-          "多模态数据处理",
-          "RLVR系统优化"
+          "强化学习和深度研究代理的应用场景",
+          "需要提高报告质量和效率的企业"
         ],
         "not_suitable_for": [
-          "单模态数据处理",
-          "不需要RLVR系统的企业"
+          "技术门槛较低的企业",
+          "不需要强化学习和深度研究代理的企业"
         ],
         "key_questions_before_adoption": [
-          "CORA的技术成熟度如何?",
-          "CORA的实施成本和时间如何?",
-          "CORA的应用场景和潜在收益如何?"
+          "DEEPRUBRIC的技术稳定性和适用性如何?",
+          "实施DEEPRUBRIC的成本和资源投入如何?",
+          "DEEPRUBRIC的ROI路径和潜在收益如何?"
         ],
-        "final_judgement": "CORA是一种有潜力的RLVR方法，企业可以关注其发展和应用进展，暂无紧迫的实施需求。"
-      },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14691v1",
-      "original_title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:54:59",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "ce51075e-5219-4d98-96bc-d50645715c66",
-      "title": "多组平均估计的主动学习复杂度度量",
-      "one_sentence_conclusion": "该研究为企业提供了一个评估主动学习复杂度的框架，帮助优化资源分配",
-      "summary": "该研究提出了一种主动学习的复杂度度量方法，用于多组平均估计问题，通过分配预算来最小化最坏情况下的不确定性指标。该方法将复杂度分为三个独立因素：预算、异方差性指数和变异性局部曲率（VLC）。",
-      "why_it_matters": [
-        "该研究为企业提供了一个评估主动学习复杂度的框架，帮助优化资源分配",
-        "该方法可以用于多组平均估计问题，例如推荐系统和资源分配",
-        "该研究提供了一个新的复杂度度量方法，用于评估主动学习的难度"
-      ],
-      "enterprise_impact": {
-        "strategy": "该研究为企业提供了一个评估主动学习复杂度的框架，帮助优化资源分配",
-        "business": "该方法可以用于多组平均估计问题，例如推荐系统和资源分配",
-        "technology": "该研究提供了一个新的复杂度度量方法，用于评估主动学习的难度",
-        "organization": "该方法可以帮助企业优化资源分配和决策流程"
-      },
-      "suitable_for": [
-        "数据驱动的企业",
-        "推荐系统",
-        "资源分配"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估主动学习复杂度的框架",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "帮助优化资源分配"
-        },
-        {
-          "action": "应用变异性局部曲率（VLC）度量方法",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "评估主动学习的难度"
-        }
-      ],
-      "risks_and_limits": [
-        "信息不确定性",
-        "预算限制"
-      ],
-      "signals_to_watch": [
-        "预算分配的效果",
-        "主动学习的难度"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "该研究基于数学证明和实验结果"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "研究报告",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 70,
-          "level": "medium",
-          "reason": "该研究为企业提供了评估主动学习复杂度的框架，帮助优化资源分配，但其应用范围可能局限于特定的行业或场景"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "该研究提出了一种新的复杂度度量方法，但缺乏实际应用案例和成熟产品的支持"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "该方法需要一定的计算资源和专业知识来实施，但成本可能不高"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "medium",
-          "reason": "该方法可能存在一定的风险，例如数据质量问题或模型误差，但这些风险可以通过适当的验证和测试来缓解"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "该方法有可能带来一定的ROI，但其具体的经济效益取决于企业的实际应用和实施情况"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "企业可以考虑在特定的项目或场景中试点实施该方法，以验证其有效性和可行性"
-        },
-        "recommended_action": {
-          "primary_action": "评估该方法在企业特定场景中的适用性",
-          "next_steps": [
-            "收集和分析相关数据",
-            "开发和实施该方法",
-            "评估和优化结果"
-          ],
-          "suggested_owner": [
-            "数据科学团队",
-            "业务分析团队"
-          ],
-          "timeframe": "1-3月"
-        },
-        "best_fit_scenarios": [
-          "数据驱动的决策场景",
-          "复杂系统的优化场景"
-        ],
-        "not_suitable_for": [
-          "简单的业务场景",
-          "缺乏数据支持的场景"
-        ],
-        "key_questions_before_adoption": [
-          "该方法在企业特定场景中的适用性如何?",
-          "如何评估和优化该方法的结果?",
-          "如何确保数据质量和模型准确性?"
-        ],
-        "final_judgement": "该研究提出了一种有趣的主动学习复杂度度量方法，但其实际应用和实施需要进一步验证和优化。"
+        "final_judgement": "DEEPRUBRIC是一个有潜力的研究框架，但目前需要继续监测其发展和应用案例，企业可以在特定业务场景中评估其潜在应用。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14690v1",
-      "original_title": "A Complexity Measure for Active Learning in Multi-group Mean Estimation",
+      "source_url": "http://arxiv.org/abs/2606.17029v1",
+      "original_title": "DEEPRUBRIC: Evidence-Tree Rubric Supervision for Efficient Reinforcement Learning of Deep Research Agents",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-12T17:54:26",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "7b6c8269-c836-452e-8438-b8f612c72e6b",
-      "title": "洪水和收获：Trivia 在语言生成极限下为生成有价值数学提供了可证明的必要性",
-      "one_sentence_conclusion": "洪水和收获：Trivia 在语言生成极限下为生成有价值数学提供了可证明的必要性",
-      "summary": "人工智能系统与证明助手现在可以大规模生成形式数学，形式语言检查器可以验证的内容与数学家所重视的内容之间的差距已经成为瓶颈。我们将生成有价值的数学的生成过程模型化为嵌套语言生成的极限：通过成员oracle（形式语言检查器）访问的可验证形式语言$F$包含一个未知的有价值语言$H \\in \\mathcal{H}$，只有通过对核心$C \\subseteq H$（核心的密度为$\\alpha$，见文献）的有害",
-      "why_it_matters": [
-        "待AI分析"
-      ],
-      "enterprise_impact": {
-        "strategy": "待分析",
-        "business": "待分析",
-        "technology": "待分析",
-        "organization": "待分析"
-      },
-      "suitable_for": [
-        "待分析"
-      ],
-      "recommended_actions": [
-        {
-          "action": "持续观察",
-          "priority": "low",
-          "timeframe": "持续观察",
-          "reason": "待进一步分析"
-        }
-      ],
-      "risks_and_limits": [
-        "待分析"
-      ],
-      "signals_to_watch": [
-        "待分析"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "自动生成，未经AI深度分析"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "其他",
-      "confidence": "low",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14688v1",
-      "original_title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:52:24",
-      "intelligence_date": "2026-06-16"
-    },
-    {
-      "id": "aa7ffa51-865f-4a9d-97c3-d29ff6afe1d4",
-      "title": "HumP-KD：高效火灾分类框架",
-      "one_sentence_conclusion": "HumP-KD 提供了一种高效的火灾分类框架，适合于资源受限的硬件环境",
-      "summary": "HumP-KD 是一种混合不确定性感知的多阶段进步知识蒸馏框架，用于高效的火灾分类。它通过将知识从两个冻结的异质转换器教师中蒸馏到轻量级的 MobileViT-S 学生中，实现了高效的火灾分类。",
-      "why_it_matters": [
-        "火灾分类系统需要准确、计算效率高、可在资源受限的硬件上部署的模型",
-        "HumP-KD 提供了一种高效的解决方案，适合于资源受限的硬件环境"
-      ],
-      "enterprise_impact": {
-        "strategy": "HumP-KD 可用于优化 AI 战略和竞争格局",
-        "business": "HumP-KD 可用于改进业务场景和商业模式",
-        "technology": "HumP-KD 可用于优化技术架构和模型选型",
-        "organization": "HumP-KD 可用于改进组织能力和流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI、机器学习、深度学习、计算机视觉"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估 HumP-KD 的适用性和可行性",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "HumP-KD 可用于优化 AI 战略和竞争格局"
-        },
-        {
-          "action": "实施 HumP-KD 框架",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "HumP-KD 可用于改进业务场景和商业模式"
-        }
-      ],
-      "risks_and_limits": [
-        "HumP-KD 的性能和效率取决于数据质量和模型选择"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：HumP-KD 的性能和效率，数据质量和模型选择"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "HumP-KD 基于现有研究和技术"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 70,
-          "level": "medium",
-          "reason": "适用于资源受限的硬件环境，尤其是在工业自动化、安防等领域"
-        },
-        "maturity": {
-          "score": 50,
-          "level": "early_stage",
-          "reason": "虽然HumP-KD提供了一种高效的火灾分类框架，但缺乏大规模的实践案例和明确的产品化路径"
-        },
-        "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "需要一定的硬件和软件资源，包括异构转换器和MobileViT-S模型，但相比于传统的火灾分类方法，成本可能较低"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "主要风险在于模型的准确性和稳定性，但HumP-KD的混合不确定性感知机制可以帮助减少这些风险"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "通过提高火灾分类的效率和准确性，HumP-KD可以帮助企业减少损失和提高安全性，但具体的ROI路径需要进一步验证"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "建议在小规模试点项目中验证HumP-KD的效果和适用性"
-        },
-        "recommended_action": {
-          "primary_action": "与研发团队合作，设计和实施小规模试点项目",
-          "next_steps": [
-            "收集和标注火灾分类数据",
-            "训练和优化HumP-KD模型",
-            "评估试点项目的效果和成本"
-          ],
-          "suggested_owner": [
-            "研发团队",
-            "安防部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "工业自动化",
-          "安防",
-          "智能建筑"
-        ],
-        "not_suitable_for": [
-          "大规模的火灾分类应用",
-          "对实时性要求非常高的场景"
-        ],
-        "key_questions_before_adoption": [
-          "HumP-KD的准确性和稳定性如何?",
-          "如何优化HumP-KD模型以适应具体的应用场景?",
-          "HumP-KD的成本和ROI如何?"
-        ],
-        "final_judgement": "HumP-KD提供了一种高效的火灾分类框架，适合于资源受限的硬件环境，但需要进一步验证其效果和适用性。建议在小规模试点项目中验证其效果和成本。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.14684v1",
-      "original_title": "HumP-KD: A Hybrid Uncertainty-Aware Multi-Stage Progressive Knowledge Distillation Framework for Efficient Fire Classification",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-12T17:48:27",
-      "intelligence_date": "2026-06-16"
+      "published_at": "2026-06-15T17:52:27",
+      "intelligence_date": "2026-06-17"
     }
   ],
   "people": [],
   "sources": [],
   "projects": [],
-  "generated_at": "2026-06-16T08:28:22.242325+08:00",
-  "date": "2026-06-16"
+  "generated_at": "2026-06-17T08:13:49.177105+08:00",
+  "date": "2026-06-17"
 }
