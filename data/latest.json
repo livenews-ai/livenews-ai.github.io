@@ -1,14 +1,137 @@
 {
   "latest_intelligence": [
     {
-      "id": "d1361be8-95d7-4c06-826b-d94384f5a74d",
-      "title": "OpenAI推出新成本控制和使用分析工具",
-      "one_sentence_conclusion": "企业可以更好地管理AI成本和规模化",
-      "summary": "OpenAI推出新成本控制和使用分析工具，帮助企业管理成本和规模化AI",
+      "id": "9f8bc981-bd73-4f8f-8044-e4a1e1d8124a",
+      "title": "Samsung Electronics 部署 ChatGPT 和 Codex",
+      "one_sentence_conclusion": "Samsung Electronics 部署 ChatGPT 和 Codex，标志着 OpenAI 在企业 AI 部署中的重大突破",
+      "summary": "Samsung Electronics 部署 ChatGPT Enterprise 和 Codex 给全球员工，标志着 OpenAI 在企业 AI 部署中的重大突破。该部署将为员工提供 AI 助手和代码生成工具。",
+      "why_it_matters": [
+        "这是 OpenAI 在企业 AI 部署中的重大突破",
+        "将为员工提供 AI 助手和代码生成工具",
+        "可能影响企业 AI 战略和竞争格局"
+      ],
+      "enterprise_impact": {
+        "strategy": "可能影响企业 AI 战略和竞争格局",
+        "business": "可能影响员工工作流程和效率",
+        "technology": "可能影响企业 AI 技术架构和模型选型",
+        "organization": "可能影响企业组织能力和流程"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：科技公司、AI 企业、人工智能部门"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估 ChatGPT 和 Codex 的潜在应用和影响",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解该技术的潜在价值和风险"
+        },
+        {
+          "action": "考虑部署 ChatGPT 和 Codex 的潜在成本和收益",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "评估该技术的潜在成本和收益"
+        }
+      ],
+      "risks_and_limits": [
+        "可能存在数据安全和隐私风险",
+        "信息不足时说明不确定性"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：OpenAI 的进一步企业 AI 部署和合作",
+        "OpenAI 的技术进展和创新"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "OpenAI 是一家知名的 AI 公司，具有丰富的技术和商业经验"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 85.0,
+      "scoring_detail": {
+        "overall_score": 85,
+        "enterprise_applicability": {
+          "score": 90,
+          "level": "high",
+          "reason": "ChatGPT 和 Codex 可以应用于多个企业场景，例如客户服务、代码开发和员工辅助"
+        },
+        "maturity": {
+          "score": 80,
+          "level": "production_ready",
+          "reason": "Samsung Electronics 的部署表明 ChatGPT Enterprise 和 Codex 已经达到成熟度，可以在大规模企业中使用"
+        },
+        "implementation_cost": {
+          "score": 60,
+          "level": "medium",
+          "reason": "部署 ChatGPT Enterprise 和 Codex 需要一定的基础设施和人员成本，但可以带来长期的效率提升和成本节约"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "部署 AI 系统存在一定的安全和数据隐私风险，但可以通过适当的安全措施来缓解"
+        },
+        "roi_potential": {
+          "score": 80,
+          "level": "high",
+          "reason": "ChatGPT 和 Codex 可以帮助员工提高效率、减少错误和提高客户满意度，从而带来明显的 ROI"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "企业应该尽快开始试点部署 ChatGPT 和 Codex，以评估其在自身业务中的应用价值"
+        },
+        "recommended_action": {
+          "primary_action": "开始试点部署 ChatGPT 和 Codex",
+          "next_steps": [
+            "评估当前的业务流程和员工需求",
+            "确定试点部署的范围和目标",
+            "制定详细的实施计划和时间表"
+          ],
+          "suggested_owner": [
+            "IT 部门",
+            "业务部门"
+          ],
+          "timeframe": "1-3月"
+        },
+        "best_fit_scenarios": [
+          "大规模企业",
+          "具有复杂业务流程的企业",
+          "需要提高员工效率和客户满意度的企业"
+        ],
+        "not_suitable_for": [
+          "小型企业",
+          "没有复杂业务流程的企业"
+        ],
+        "key_questions_before_adoption": [
+          "如何确保 AI 系统的安全和数据隐私",
+          "如何评估 AI 系统的 ROI 和效率提升",
+          "如何确保员工能够有效地使用 AI 系统"
+        ],
+        "final_judgement": "Samsung Electronics 的部署表明 ChatGPT 和 Codex 已经达到成熟度，可以在大规模企业中使用。企业应该尽快开始试点部署，以评估其在自身业务中的应用价值。"
+      },
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "original_title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-21T23:00:00",
+      "intelligence_date": "2026-06-22"
+    },
+    {
+      "id": "d9239964-9eb1-47c5-b9a1-0226882755ad",
+      "title": "OpenAI推出新成本控制和使用分析功能",
+      "one_sentence_conclusion": "企业可以更好地管理ChatGPT Enterprise的成本和规模",
+      "summary": "OpenAI推出新功能，帮助企业管理ChatGPT Enterprise的成本和规模，包括新成本控制和使用分析功能",
       "why_it_matters": [
         "企业可以更好地管理AI成本",
         "企业可以更好地了解AI使用情况",
-        "企业可以更好地规模化AI"
+        "企业可以更好地规模化AI",
+        "企业可以更好地确保AI使用的安全性"
       ],
       "enterprise_impact": {
         "strategy": "对企业AI战略的影响",
@@ -17,30 +140,27 @@
         "organization": "对企业AI组织能力的影响"
       },
       "suitable_for": [
-        "企业AI部门",
-        "企业成本控制部门",
-        "企业AI决策者"
+        "适合关注的企业类型/部门/角色"
       ],
       "recommended_actions": [
         {
-          "action": "评估新工具的适用性",
+          "action": "评估新功能的适用性和成本效益",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "了解新工具的功能和优势"
+          "reason": "了解新功能的潜在价值"
         },
         {
-          "action": "调整AI成本控制策略",
+          "action": "调整AI使用策略和成本控制",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "根据新工具的数据调整成本控制策略"
+          "reason": "根据新功能的数据调整AI使用策略"
         }
       ],
       "risks_and_limits": [
         "信息不足时可能导致决策不确定性"
       ],
       "signals_to_watch": [
-        "企业对新工具的采用情况",
-        "新工具的功能和优势"
+        "后续应观察的信号"
       ],
       "credibility": {
         "level": "high",
@@ -55,58 +175,59 @@
         "enterprise_applicability": {
           "score": 90,
           "level": "high",
-          "reason": "该工具可以帮助企业更好地管理AI成本和规模化，适用于广泛的企业和行业"
+          "reason": "该功能可以帮助企业更好地管理ChatGPT Enterprise的成本和规模，适用于大量企业和关键场景"
         },
         "maturity": {
           "score": 80,
           "level": "production_ready",
-          "reason": "OpenAI推出的新工具，表明其已经具备了一定的成熟度和可靠性"
+          "reason": "OpenAI推出的新功能表明其已经成熟，具有成熟的产品和案例"
         },
         "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "虽然该工具可以帮助企业管理成本，但其自身的实施成本可能需要考虑"
-        },
-        "risk_level": {
           "score": 20,
           "level": "low",
-          "reason": "该工具主要是帮助企业管理成本和规模化AI，风险相对较低"
+          "reason": "该功能是ChatGPT Enterprise的一部分，实现成本较低"
+        },
+        "risk_level": {
+          "score": 10,
+          "level": "low",
+          "reason": "该功能是为了帮助企业管理成本和规模，风险较低"
         },
         "roi_potential": {
-          "score": 80,
+          "score": 90,
           "level": "high",
-          "reason": "通过更好地管理AI成本和规模化，企业可以获得明显的ROI"
+          "reason": "该功能可以帮助企业更好地管理成本和规模，ROI路径明确"
         },
         "action_urgency": {
           "level": "act_now",
-          "reason": "企业可以立即开始使用该工具来管理AI成本和规模化"
+          "reason": "企业可以立即开始使用该功能来管理ChatGPT Enterprise的成本和规模"
         },
         "recommended_action": {
-          "primary_action": "立即开始使用OpenAI的新成本控制和使用分析工具",
+          "primary_action": "立即开始使用新成本控制和使用分析功能",
           "next_steps": [
-            "评估当前的AI成本和使用情况",
-            "确定需要优化的领域",
-            "实施该工具并监测结果"
+            "评估当前的ChatGPT Enterprise使用情况",
+            "设置成本控制和使用分析功能",
+            "监控和调整使用情况"
           ],
           "suggested_owner": [
-            "CIO",
-            "CDO"
+            "IT部门",
+            "财务部门"
           ],
           "timeframe": "立即"
         },
         "best_fit_scenarios": [
-          "大规模AI部署的企业",
-          "需要优化AI成本的企业"
+          "大规模使用ChatGPT Enterprise的企业",
+          "需要严格管理成本和规模的企业"
         ],
         "not_suitable_for": [
-          "小规模AI部署的企业",
-          "不需要优化AI成本的企业"
+          "小规模使用ChatGPT Enterprise的企业",
+          "不需要严格管理成本和规模的企业"
         ],
         "key_questions_before_adoption": [
-          "当前的AI成本和使用情况是什么?",
-          "如何实施该工具来优化AI成本和规模化?"
+          "当前的ChatGPT Enterprise使用情况如何?",
+          "如何设置成本控制和使用分析功能?",
+          "如何监控和调整使用情况?"
         ],
-        "final_judgement": "OpenAI的新成本控制和使用分析工具可以帮助企业更好地管理AI成本和规模化，具有较高的适用性和成熟度，建议企业立即开始使用。"
+        "final_judgement": "该功能可以帮助企业更好地管理ChatGPT Enterprise的成本和规模，具有高的ROI潜力和低的风险，建议立即开始使用。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
@@ -119,793 +240,23 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-18T17:00:00",
-      "intelligence_date": "2026-06-21"
+      "intelligence_date": "2026-06-22"
     },
     {
-      "id": "d2c24e7b-8680-4042-8e4b-2f34f3503569",
-      "title": "DiffusionGemma推理透明度评估",
-      "one_sentence_conclusion": "DiffusionGemma的推理透明度存在挑战，但可通过token瓶颈进行解释",
-      "summary": "DiffusionGemma在连续潜在空间中执行更大比例的计算，导致推理透明度降低。研究表明，DiffusionGemma的变量透明度较差，但可通过token瓶颈进行解释。",
+      "id": "4e30833a-7ffa-4446-a6a0-6710913e7dfd",
+      "title": "MosaicLeaks：研究代理的保密能力",
+      "one_sentence_conclusion": "研究代理的保密能力对企业的核心意义在于确保数据安全和知识产权保护",
+      "summary": "MosaicLeaks是一项研究，探讨了研究代理的保密能力。研究发现，研究代理可能会泄露研究数据和知识产权。这种泄露可能会对企业造成严重后果，包括数据丢失和知识产权侵权。",
       "why_it_matters": [
-        "推理透明度对理解模型决策、防止滥用和调试惊讶模型行为至关重要",
-        "DiffusionGemma的透明度挑战可能影响其在关键应用中的可靠性"
+        "研究代理的保密能力对企业的数据安全和知识产权保护至关重要",
+        "泄露的研究数据和知识产权可能会对企业造成严重后果",
+        "企业需要确保研究代理的保密能力和可信度"
       ],
       "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：可能影响模型选择和应用",
-        "business": "对业务场景或商业模式的影响：可能影响关键应用的可靠性",
-        "technology": "对技术架构或模型选型的影响：可能影响DiffusionGemma的设计和实现",
-        "organization": "对组织能力或流程的影响：可能影响模型开发和部署流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI开发商、模型运营商、数据科学家"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估DiffusionGemma的透明度挑战对业务的影响",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解透明度挑战对关键应用的影响，制定适当的应对措施"
-        },
-        {
-          "action": "研究token瓶颈的应用和局限性",
-          "priority": "low",
-          "timeframe": "3-6月",
-          "reason": "了解token瓶颈的潜在优势和局限性，评估其是否适合业务需求"
-        }
-      ],
-      "risks_and_limits": [
-        "DiffusionGemma的透明度挑战可能影响其在关键应用中的可靠性",
-        "token瓶颈的局限性可能影响其在某些应用中的有效性"
-      ],
-      "signals_to_watch": [
-        "DiffusionGemma的透明度挑战对业务的影响",
-        "token瓶颈的应用和局限性"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "研究表明DiffusionGemma的透明度挑战，但token瓶颈提供了一种解释方法"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20560v1",
-      "original_title": "How Transparent is DiffusionGemma?",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:59:46",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "1ebe53dc-b0f6-4b1f-b072-579b7cbd5286",
-      "title": "UNIEGO: Egocentric 视频理解新框架",
-      "one_sentence_conclusion": "UNIEGO 框架可以提高 Egocentric 视频理解的准确性和可扩展性",
-      "summary": "UNIEGO 框架通过引入 Proxy 模型来解决 Egocentric 视频理解的局限性，提高了对多视角、多模态和基础模型的支持",
-      "why_it_matters": [
-        "Egocentric 视频理解是人机交互和智能家居等领域的关键技术",
-        "UNIEGO 框架可以提高 Egocentric 视频理解的准确性和可扩展性",
-        "框架的可扩展性和适应性可以使其应用于多个领域"
-      ],
-      "enterprise_impact": {
-        "strategy": "对 AI 战略和竞争格局的影响",
-        "business": "对业务场景和商业模式的影响",
-        "technology": "对技术架构和模型选型的影响",
-        "organization": "对组织能力和流程的影响"
-      },
-      "suitable_for": [
-        "人机交互、智能家居、智能城市等领域的企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估 UNIEGO 框架的应用和潜力",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解框架的优势和局限性"
-        },
-        {
-          "action": "考虑采用 UNIEGO 框架来改进 Egocentric 视频理解能力",
-          "priority": "high",
-          "timeframe": "3-6月",
-          "reason": "提高 Egocentric 视频理解的准确性和可扩展性"
-        }
-      ],
-      "risks_and_limits": [
-        "框架的复杂性和难以扩展可能会导致实施困难"
-      ],
-      "signals_to_watch": [
-        "UNIEGO 框架的应用和潜力在多个领域的研究和评估"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "框架的设计和实现由知名研究机构和专家团队完成"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 50,
-          "level": "medium",
-          "reason": "Egocentric 视频理解在特定行业（如智能家居、智能零售）中有应用价值，但目前尚未普遍应用"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "UNIEGO 框架是新提出，缺乏大量案例和实践验证，需要进一步的研究和开发"
-        },
-        "implementation_cost": {
-          "score": 70,
-          "level": "high",
-          "reason": "引入 Proxy 模型和多视角、多模态支持可能需要较高的计算资源和开发成本"
-        },
-        "risk_level": {
-          "score": 50,
-          "level": "medium",
-          "reason": "新框架的引入可能带来技术风险和兼容性问题，但也可能带来创新和竞争优势"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "提高 Egocentric 视频理解的准确性和可扩展性可能带来业务价值，但需要进一步的验证和量化"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "目前尚未有明确的业务需求和应用场景，需要继续监测和研究"
-        },
-        "recommended_action": {
-          "primary_action": "继续研究和监测 UNIEGO 框架的发展",
-          "next_steps": [
-            "跟踪相关研究和论文",
-            "评估框架的潜在应用场景和业务价值",
-            "考虑试点项目或合作"
-          ],
-          "suggested_owner": [
-            "AI 研究团队",
-            "业务发展团队"
-          ],
-          "timeframe": "3-6 月"
-        },
-        "best_fit_scenarios": [
-          "智能家居",
-          "智能零售",
-          "视频分析和理解"
-        ],
-        "not_suitable_for": [
-          "传统行业",
-          "非视频相关业务"
-        ],
-        "key_questions_before_adoption": [
-          "UNIEGO 框架的技术优势和局限性是什么？",
-          "如何评估框架的业务价值和 ROI？",
-          "如何确保框架的兼容性和集成性？"
-        ],
-        "final_judgement": "UNIEGO 框架具有潜在的业务价值，但需要进一步的研究和验证，目前建议继续监测和研究。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20559v1",
-      "original_title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:59:45",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "eb1ad697-2f1b-45e2-980d-c624a550bd9f",
-      "title": "确定性多重校准和万能预测算法突破",
-      "one_sentence_conclusion": "确定性多重校准算法的出现可能会影响企业选择机器学习模型的决策",
-      "summary": "研究人员开发了一种确定性多重校准算法，能够在不使用随机化的情况下达到最优样本复杂度，解决了一个长期的开源问题。该算法可以用于多种下游应用，包括可信赖的机器学习。",
-      "why_it_matters": [
-        "该算法的出现可能会影响企业选择机器学习模型的决策",
-        "确定性多重校准算法可能会提高模型的可信度和可靠性",
-        "该算法可能会影响企业的数据分析和预测决策"
-      ],
-      "enterprise_impact": {
-        "strategy": "可能会影响企业选择机器学习模型的决策",
-        "business": "可能会提高模型的可信度和可靠性",
-        "technology": "可能会影响企业的数据分析和预测决策",
-        "organization": "可能会影响企业的数据分析和预测流程"
-      },
-      "suitable_for": [
-        "数据分析和预测相关的企业部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估和测试确定性多重校准算法的可行性和有效性",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解该算法的潜在优势和挑战"
-        },
-        {
-          "action": "考虑采用确定性多重校准算法来提高模型的可信度和可靠性",
-          "priority": "high",
-          "timeframe": "3-6月",
-          "reason": "提高模型的可信度和可靠性"
-        }
-      ],
-      "risks_and_limits": [
-        "可能会遇到数据质量和样本大小的限制"
-      ],
-      "signals_to_watch": [
-        "后续的研究和应用结果"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "该研究是由知名学者和研究机构进行的"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20557v1",
-      "original_title": "Optimal Deterministic Multicalibration and Omniprediction",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:59:31",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "a598771c-0d40-4034-9644-a7abf20c8574",
-      "title": "分布式用户兴趣上下文结构化和令牌化",
-      "one_sentence_conclusion": "生成性推荐的用户兴趣上下文结构化和令牌化对企业的核心意义在于提高推荐系统的准确性和可扩展性",
-      "summary": "生成性推荐是一种新兴的推荐系统范式，通过预测用户的下一个交互来预测用户的兴趣。分布式用户兴趣上下文结构化和令牌化是生成性推荐的核心，然而现有的方法往往难以有效地组织和注入复杂的用户行为和项目语义上下文。",
-      "why_it_matters": [
-        "对推荐系统的准确性和可扩展性有重要影响",
-        "可以提高用户体验和满意度"
-      ],
-      "enterprise_impact": {
-        "strategy": "对推荐系统战略和竞争格局的影响",
-        "business": "对业务场景和商业模式的影响",
-        "technology": "对技术架构和模型选型的影响",
-        "organization": "对组织能力和流程的影响"
-      },
-      "suitable_for": [
-        "电子商务和在线服务企业",
-        "推荐系统开发和运营团队"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估G2Rec框架的可行性和有效性",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "了解G2Rec框架的潜在优势和局限性"
-        },
-        {
-          "action": "优化现有的推荐系统架构和模型",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "提高推荐系统的准确性和可扩展性"
-        }
-      ],
-      "risks_and_limits": [
-        "G2Rec框架的可行性和有效性还需进一步研究和验证",
-        "可能存在的数据质量和标注问题"
-      ],
-      "signals_to_watch": [
-        "G2Rec框架的进一步研究和应用",
-        "推荐系统的准确性和可扩展性指标"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "基于现有的研究和论文"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20554v1",
-      "original_title": "Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:58:32",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "0928f824-0b98-4fe5-a196-8ed44efcf39a",
-      "title": "推导出基于Lie群的注意力机制",
-      "one_sentence_conclusion": "基于Lie群的注意力机制可能改善图像识别和计算机视觉任务的性能",
-      "summary": "研究提出了一种基于Lie群的注意力机制，称为Lie-Algebra Attention，它将注意力token置于群元素上，利用相对几何关系计算注意力分数",
-      "why_it_matters": [
-        "该方法可能改善图像识别和计算机视觉任务的性能",
-        "基于Lie群的注意力机制可能提供更好的鲁棒性和可解释性",
-        "该方法可能适用于需要考虑相对几何关系的任务"
-      ],
-      "enterprise_impact": {
-        "strategy": "可能影响企业的AI战略和技术选型",
-        "business": "可能影响图像识别和计算机视觉业务场景",
-        "technology": "可能影响企业的技术架构和模型选型",
-        "organization": "可能影响企业的组织能力和流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：图像识别和计算机视觉领域的企业"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估基于Lie群的注意力机制的潜在应用和优势",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解该方法的潜在影响和适用范围"
-        },
-        {
-          "action": "考虑将基于Lie群的注意力机制集成到企业的AI系统中",
-          "priority": "low",
-          "timeframe": "3-6月",
-          "reason": "评估该方法的可行性和成本效益"
-        }
-      ],
-      "risks_and_limits": [
-        "该方法可能需要大量计算资源和数据",
-        "该方法可能需要专业知识和技能来实施和维护",
-        "该方法可能存在未知的风险和限制"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：该方法的性能和鲁棒性，企业的AI系统和技术架构的变化"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "该方法基于数学理论和实验结果，但需要更多的实践和验证"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "研究报告",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "strategy",
-      "category_label": "AI战略与组织变革",
-      "category_emoji": "🔵",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20547v1",
-      "original_title": "The Token Is a Group Element: On Lie-Algebra Attention over Matrix Lie Groups",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:56:17",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "c2864823-0643-4423-b861-ba2a3bc97b5b",
-      "title": "预测性作为细粒度的隐私度量",
-      "one_sentence_conclusion": "预测性作为细粒度的隐私度量，对企业的核心意义在于提供更精确的隐私风险评估",
-      "summary": "Differential privacy (DP)确保了严格的个人级别隐私保证，但其最坏情况性质可能会导致昂贵的隐私准确性权衡。我们引入了预测性作为细粒度框架，explicitly包含了攻击者的核心知识、被破坏的数据集和指定的查询家族。预测性测量隐私泄露作为攻击者在观察算法输出后对未知个体敏感信息的预测能力的增益，超过了可以从破坏的数据中推断出的信息。",
-      "why_it_matters": [
-        "预测性作为细粒度的隐私度量，对企业的核心意义在于提供更精确的隐私风险评估",
-        "预测性可以帮助企业更好地理解隐私泄露的具体风险和影响",
-        "预测性可以作为企业评估和优化隐私保护策略的依据"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的隐私保护策略和风险评估有影响",
-        "business": "对企业的数据保护和隐私管理有影响",
-        "technology": "对企业的数据安全和隐私保护技术有影响",
-        "organization": "对企业的隐私保护流程和能力有影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估和优化企业的隐私保护策略",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "预测性作为细粒度的隐私度量，可以帮助企业更好地理解隐私泄露的具体风险和影响"
-        }
-      ],
-      "risks_and_limits": [
-        "预测性作为细粒度的隐私度量，可能会增加企业的隐私保护成本和复杂性"
-      ],
-      "signals_to_watch": [
-        "企业的隐私保护策略和风险评估的变化"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于学术研究和专家共识"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 70,
-          "level": "medium",
-          "reason": "预测性作为细粒度的隐私度量，对企业的核心意义在于提供更精确的隐私风险评估，特别是在处理敏感数据的行业，如金融、医疗等"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "虽然 Differential privacy (DP) 是一个成熟的概念，但预测性作为细粒度框架仍处于早期阶段，缺乏大量的实践案例和产品支持"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "实施预测性作为细粒度的隐私度量可能需要一定的技术和资源投入，包括数据处理、算法开发和安全保障"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "预测性作为细粒度的隐私度量主要关注的是数据隐私和安全，风险主要来自于数据泄露和滥用，但可以通过适当的安全措施来控制"
-        },
-        "roi_potential": {
-          "score": 50,
-          "level": "medium",
-          "reason": "预测性作为细粒度的隐私度量可以帮助企业更好地评估和管理隐私风险，减少数据泄露和滥用的可能性，从而带来潜在的经济效益"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "预测性作为细粒度的隐私度量是一个相对新的概念，企业可以先进行监测和研究，了解其潜在的应用和价值"
-        },
-        "recommended_action": {
-          "primary_action": "成立专门的数据隐私和安全团队，负责研究和实施预测性作为细粒度的隐私度量",
-          "next_steps": [
-            "进行数据隐私和安全风险评估",
-            "开发和实施预测性作为细粒度的隐私度量框架",
-            "监测和评估实施效果"
-          ],
-          "suggested_owner": [
-            "数据隐私和安全团队",
-            "IT 部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "处理敏感数据的行业，如金融、医疗等",
-          "需要高级别数据隐私和安全保障的企业"
-        ],
-        "not_suitable_for": [
-          "小型企业或初创公司，缺乏足够的资源和技术支持"
-        ],
-        "key_questions_before_adoption": [
-          "预测性作为细粒度的隐私度量如何应用于现有的数据处理和安全系统？",
-          "如何评估和管理预测性作为细粒度的隐私度量的实施成本和风险？"
-        ],
-        "final_judgement": "预测性作为细粒度的隐私度量是一个有潜力的概念，企业可以通过监测和研究来了解其应用和价值，但需要谨慎评估实施成本和风险。"
-      },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20546v1",
-      "original_title": "Predictability as a Fine-Grained Measure for Privacy",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:55:31",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "6184f63c-e152-4b40-b4bf-c22df606bfbd",
-      "title": "研究：混合专家模型在分布变化下的校准",
-      "one_sentence_conclusion": "研究表明，混合专家模型在分布变化下需要额外的校准机制",
-      "summary": "研究团队研究了混合专家模型在分布变化下的行为，发现硬路由模型在专家级别的校准下可以确保整体模型的校准，但软路由模型则不足以实现校准",
-      "why_it_matters": [
-        "混合专家模型在分布变化下需要额外的校准机制",
-        "研究结果对理解和信任模型预测概率有重要意义"
-      ],
-      "enterprise_impact": {
-        "technology": "对混合专家模型和路由机制的影响",
-        "organization": "对组织能力和流程的影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：技术研发部门、数据科学团队"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估混合专家模型在分布变化下的校准机制",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "了解和信任模型预测概率的重要性"
-        },
-        {
-          "action": "考虑采用硬路由模型或软路由模型",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "根据具体场景选择合适的路由机制"
-        }
-      ],
-      "risks_and_limits": [
-        "研究结果可能受到特定数据集和场景的影响"
-      ],
-      "signals_to_watch": [
-        "后续研究和应用中的混合专家模型和路由机制的进展"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "研究团队的专业性和研究方法的严谨性"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "研究报告",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "strategy",
-      "category_label": "AI战略与组织变革",
-      "category_emoji": "🔵",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20544v1",
-      "original_title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:55:00",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "f31268f4-0c10-41ce-92e2-f516e7da029b",
-      "title": "多任务贝叶斯在上下文学习框架",
-      "one_sentence_conclusion": "该框架可以提高贝叶斯预测推理的鲁棒性和数据效率",
-      "summary": "贝叶斯预测推理提供了一个原则框架来量化不确定性、提高数据效率和实现鲁棒的泛化。然而，精确推理通常是不可行的，且可扩展的近似方法可能仍然是计算昂贵的或需要限制的建模假设来降低预测性能。",
-      "why_it_matters": [
-        "该框架可以提高贝叶斯预测推理的鲁棒性和数据效率",
-        "可以适应新先验的测试时间",
-        "可以提高分布变化下的预测性能"
-      ],
-      "enterprise_impact": {
-        "strategy": "该框架可以影响AI战略和竞争格局",
-        "business": "该框架可以影响业务场景和商业模式",
-        "technology": "该框架可以影响技术架构和模型选型",
-        "organization": "该框架可以影响组织能力和流程"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估该框架的潜在应用和优势",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "了解该框架的潜在影响和优势"
-        },
-        {
-          "action": "考虑将该框架集成到现有的AI系统中",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "提高贝叶斯预测推理的鲁棒性和数据效率"
-        }
-      ],
-      "risks_and_limits": [
-        "该框架可能需要大量计算资源",
-        "该框架可能需要复杂的建模假设",
-        "该框架可能需要大量数据来训练"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "该框架基于贝叶斯预测推理的原则框架"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "技术进展",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 50,
-          "level": "medium",
-          "reason": "该框架可以提高贝叶斯预测推理的鲁棒性和数据效率，但其应用范围可能局限于特定的行业或场景"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "虽然该框架提供了一个原则框架来量化不确定性，但其可扩展的近似方法可能仍然是计算昂贵的或需要限制的建模假设"
-        },
-        "implementation_cost": {
-          "score": 70,
-          "level": "high",
-          "reason": "实现该框架可能需要大量的计算资源和专业知识"
-        },
-        "risk_level": {
-          "score": 50,
-          "level": "medium",
-          "reason": "该框架的应用可能存在一定的风险，例如数据质量问题、模型过拟合等"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "虽然该框架可以提高贝叶斯预测推理的鲁棒性和数据效率，但其ROI路径可能不明确"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "该框架的应用可能需要进一步的研究和验证"
-        },
-        "recommended_action": {
-          "primary_action": "进行进一步的研究和验证",
-          "next_steps": [
-            "收集更多的数据",
-            "进行模型训练和测试",
-            "评估框架的性能"
-          ],
-          "suggested_owner": [
-            "数据科学团队"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "金融预测",
-          "医疗预测"
-        ],
-        "not_suitable_for": [
-          "实时预测",
-          "高频交易"
-        ],
-        "key_questions_before_adoption": [
-          "该框架的计算成本如何?",
-          "如何确保数据质量和模型的鲁棒性?"
-        ],
-        "final_judgement": "该框架具有提高贝叶斯预测推理的鲁棒性和数据效率的潜力，但其应用需要进一步的研究和验证。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20538v1",
-      "original_title": "Multi-Task Bayesian In-Context Learning",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:50:10",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "ac0bd38b-82bb-4af3-afd2-5914f5b939d1",
-      "title": "Execution-State Capsules: 低延迟、设备端物理AI服务的执行状态快照和恢复",
-      "one_sentence_conclusion": "Execution-State Capsules 提供了低延迟、设备端物理AI服务的执行状态快照和恢复机制，提高了响应性和可靠性",
-      "summary": "当前主流LLM服务系统主要通过缓存重用前缀工作，然而这只管理了执行状态的一部分。Execution-State Capsules 提出了一个图结构的执行状态快照和恢复机制，适用于低延迟、设备端物理AI服务",
-      "why_it_matters": [
-        "提高了设备端物理AI服务的响应性和可靠性",
-        "适用于交互式LLM代理、语音系统和机器人政策",
-        "提供了执行状态快照、恢复、分叉和回滚的机制"
-      ],
-      "enterprise_impact": {
-        "strategy": "对设备端物理AI服务的竞争格局产生了影响",
-        "business": "对设备端物理AI服务的商业模式产生了影响",
-        "technology": "对设备端物理AI服务的技术架构产生了影响",
-        "organization": "对设备端物理AI服务的组织能力产生了影响"
-      },
-      "suitable_for": [
-        "设备端物理AI服务相关企业或部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和评估Execution-State Capsules的应用场景和潜在收益",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "了解Execution-State Capsules的潜在价值和应用场景"
-        },
-        {
-          "action": "优化设备端物理AI服务的技术架构和流程",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "提高设备端物理AI服务的响应性和可靠性"
-        }
-      ],
-      "risks_and_limits": [
-        "信息不足时，难以评估Execution-State Capsules的实际效果和潜在风险"
-      ],
-      "signals_to_watch": [
-        "设备端物理AI服务的市场趋势和竞争格局"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "基于研究论文的信息，难以评估Execution-State Capsules的实际效果和潜在风险"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20537v1",
-      "original_title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:49:36",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "62340686-198f-44d9-b6a7-95b089dc84f8",
-      "title": "如何指导语音输出？跨注意力归因为风格-字幕文本到语音系统",
-      "one_sentence_conclusion": "理解单词如何影响语音输出对于诊断失败模式和改进控制性TTS至关重要",
-      "summary": "风格字幕文本到语音系统使用自然语言控制语音特征，但如何单词影响语音输出仍不清楚。我们提出跨注意力归因方法，适用于语音扩散模型，应用于CapSpeech-TTS。结果显示：风格token具有较低的时间变异性，确认全局条件；风格注意力与F0和能量相关；风格条件在早期步骤和深层次层次达到峰值；注意力熵在层17达到最小值",
-      "why_it_matters": [
-        "理解单词如何影响语音输出对于诊断失败模式和改进控制性TTS至关重要",
-        "风格字幕文本到语音系统的性能和控制性取决于单词的影响"
-      ],
-      "enterprise_impact": {
-        "technology": "对语音扩散模型和风格字幕文本到语音系统的影响",
-        "organization": "对组织能力和流程的影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：语音技术和TTS系统开发者"
-      ],
-      "recommended_actions": [
-        {
-          "action": "优化风格字幕文本到语音系统的设计和训练过程",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "改进控制性TTS的能力"
-        }
-      ],
-      "risks_and_limits": [
-        "潜在风险：过度依赖单词的影响，忽视其他因素的影响"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：风格字幕文本到语音系统的性能和控制性"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "研究方法和结果的可信度"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2606.20532v1",
-      "original_title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-06-18T17:47:32",
-      "intelligence_date": "2026-06-21"
-    },
-    {
-      "id": "cc4f8a1c-69fa-49f9-bae9-36874487229d",
-      "title": "MosaicLeaks: 研究代理是否能保密",
-      "one_sentence_conclusion": "研究代理保密能力对企业的核心意义在于确保知识产权和商业秘密的安全",
-      "summary": "MosaicLeaks是一项研究，探讨了研究代理是否能保密。研究发现，研究代理可能会泄露研究结果和数据。这种泄露可能会对企业造成损害。",
-      "why_it_matters": [
-        "研究代理保密能力对企业的知识产权和商业秘密的安全至关重要",
-        "泄露可能会导致竞争对手获取有价值的信息",
-        "企业需要确保研究代理的保密能力"
-      ],
-      "enterprise_impact": {
-        "strategy": "对企业的知识产权和商业秘密保护策略的影响",
+        "strategy": "对企业的数据安全和知识产权保护策略的影响",
         "business": "对企业的研究合作和知识产权保护的影响",
         "technology": "对企业的数据安全和保密技术的影响",
-        "organization": "对企业的保密政策和流程的影响"
+        "organization": "对企业的研究团队和保密流程的影响"
       },
       "suitable_for": [
         "研究机构",
@@ -914,94 +265,36 @@
       ],
       "recommended_actions": [
         {
-          "action": "建立严格的保密政策和流程",
+          "action": "建立严格的保密协议和流程",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "确保研究代理的保密能力"
+          "reason": "确保研究代理的保密能力和可信度"
         },
         {
-          "action": "选择可靠的研究代理",
+          "action": "培训研究团队和研究代理关于保密和数据安全",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "减少泄露的风险"
+          "reason": "提高研究团队和研究代理的保密意识和能力"
         }
       ],
       "risks_and_limits": [
-        "研究代理泄露可能会导致知识产权和商业秘密的损害",
-        "信息泄露的风险"
+        "研究代理的保密能力可能会受到测试和挑战",
+        "企业可能会面临数据丢失和知识产权侵权的风险"
       ],
       "signals_to_watch": [
-        "研究代理的保密能力",
-        "信息泄露的风险"
+        "研究代理的保密能力和可信度",
+        "数据安全和保密技术的发展",
+        "企业的研究合作和知识产权保护"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "研究方法和样本大小"
+        "reason": "研究基于现有的研究和数据"
       },
-      "enterprise_value_level": "high",
+      "enterprise_value_level": "medium",
       "information_type": "研究报告",
       "confidence": "medium",
       "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 70,
-          "level": "medium",
-          "reason": "研究代理保密能力对企业的核心意义在于确保知识产权和商业秘密的安全，适用于部分行业，如金融、科技等"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "MosaicLeaks研究仍处于早期阶段，缺乏大量案例和实践验证"
-        },
-        "implementation_cost": {
-          "score": 50,
-          "level": "medium",
-          "reason": "实施研究代理保密措施可能需要中等成本，包括人员培训、系统升级等"
-        },
-        "risk_level": {
-          "score": 80,
-          "level": "high",
-          "reason": "研究代理泄露研究结果和数据可能会对企业造成重大损害，包括知识产权丧失和商业秘密泄露"
-        },
-        "roi_potential": {
-          "score": 60,
-          "level": "medium",
-          "reason": "实施研究代理保密措施可能会带来中等程度的ROI，包括减少知识产权丧失和商业秘密泄露的风险"
-        },
-        "action_urgency": {
-          "level": "pilot_soon",
-          "reason": "企业应尽快试点实施研究代理保密措施，以评估其有效性和可行性"
-        },
-        "recommended_action": {
-          "primary_action": "实施研究代理保密措施",
-          "next_steps": [
-            "进行风险评估",
-            "制定保密协议",
-            "人员培训"
-          ],
-          "suggested_owner": [
-            "信息安全部门",
-            "研发部门"
-          ],
-          "timeframe": "1-3月"
-        },
-        "best_fit_scenarios": [
-          "金融行业",
-          "科技行业",
-          "知识产权密集型企业"
-        ],
-        "not_suitable_for": [
-          "小型企业",
-          "低风险行业"
-        ],
-        "key_questions_before_adoption": [
-          "研究代理保密措施的成本和收益",
-          "现有系统和流程的兼容性",
-          "人员培训和意识提升的计划"
-        ],
-        "final_judgement": "MosaicLeaks研究强调了研究代理保密能力的重要性，企业应尽快试点实施保密措施，以评估其有效性和可行性。"
-      },
+      "scoring_detail": null,
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
@@ -1013,12 +306,12 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-18T18:13:13",
-      "intelligence_date": "2026-06-21"
+      "intelligence_date": "2026-06-22"
     }
   ],
   "people": [],
   "sources": [],
   "projects": [],
-  "generated_at": "2026-06-21T08:03:20.095201+08:00",
-  "date": "2026-06-21"
+  "generated_at": "2026-06-22T08:04:57.139669+08:00",
+  "date": "2026-06-22"
 }
