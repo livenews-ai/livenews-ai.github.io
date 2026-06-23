@@ -1,7 +1,7 @@
 {
   "latest_intelligence": [
     {
-      "id": "9f8bc981-bd73-4f8f-8044-e4a1e1d8124a",
+      "id": "af8c39c7-9c4d-40b5-8215-a35ef52d0e1b",
       "title": "Samsung Electronics 部署 ChatGPT 和 Codex",
       "one_sentence_conclusion": "Samsung Electronics 部署 ChatGPT 和 Codex，标志着 OpenAI 在企业 AI 部署中的重大突破",
       "summary": "Samsung Electronics 部署 ChatGPT Enterprise 和 Codex 给全球员工，标志着 OpenAI 在企业 AI 部署中的重大突破。该部署将为员工提供 AI 助手和代码生成工具。",
@@ -17,36 +17,31 @@
         "organization": "可能影响企业组织能力和流程"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色：科技公司、AI 企业、人工智能部门"
+        "适合关注 AI 战略和技术架构的企业"
       ],
       "recommended_actions": [
         {
-          "action": "评估 ChatGPT 和 Codex 的潜在应用和影响",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解该技术的潜在价值和风险"
-        },
-        {
-          "action": "考虑部署 ChatGPT 和 Codex 的潜在成本和收益",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "评估该技术的潜在成本和收益"
+          "action": "评估 ChatGPT 和 Codex 的潜在应用和风险",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "了解该技术的潜在影响和风险"
         }
       ],
       "risks_and_limits": [
-        "可能存在数据安全和隐私风险",
-        "信息不足时说明不确定性"
+        "信息安全风险",
+        "技术实施难度",
+        "员工接受度"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：OpenAI 的进一步企业 AI 部署和合作",
-        "OpenAI 的技术进展和创新"
+        "OpenAI 的下一个企业 AI 部署",
+        "ChatGPT 和 Codex 的广泛采用"
       ],
       "credibility": {
         "level": "high",
-        "reason": "OpenAI 是一家知名的 AI 公司，具有丰富的技术和商业经验"
+        "reason": "来源为 Samsung Electronics 和 OpenAI"
       },
       "enterprise_value_level": "high",
-      "information_type": "技术进展",
+      "information_type": "产品发布",
       "confidence": "high",
       "overall_score": 85.0,
       "scoring_detail": {
@@ -54,60 +49,57 @@
         "enterprise_applicability": {
           "score": 90,
           "level": "high",
-          "reason": "ChatGPT 和 Codex 可以应用于多个企业场景，例如客户服务、代码开发和员工辅助"
+          "reason": "大量企业可以从ChatGPT和Codex中受益，尤其是需要自动化任务和提高员工效率的企业"
         },
         "maturity": {
           "score": 80,
           "level": "production_ready",
-          "reason": "Samsung Electronics 的部署表明 ChatGPT Enterprise 和 Codex 已经达到成熟度，可以在大规模企业中使用"
+          "reason": "ChatGPT和Codex已经被Samsung Electronics部署，表明其已经达到生产就绪状态"
         },
         "implementation_cost": {
           "score": 60,
           "level": "medium",
-          "reason": "部署 ChatGPT Enterprise 和 Codex 需要一定的基础设施和人员成本，但可以带来长期的效率提升和成本节约"
+          "reason": "部署ChatGPT和Codex可能需要中等成本，包括软件费用、人员培训和基础设施升级"
         },
         "risk_level": {
           "score": 40,
           "level": "medium",
-          "reason": "部署 AI 系统存在一定的安全和数据隐私风险，但可以通过适当的安全措施来缓解"
+          "reason": "部署ChatGPT和Codex可能存在一些风险，例如数据安全和员工适应新技术的挑战"
         },
         "roi_potential": {
           "score": 80,
           "level": "high",
-          "reason": "ChatGPT 和 Codex 可以帮助员工提高效率、减少错误和提高客户满意度，从而带来明显的 ROI"
+          "reason": "ChatGPT和Codex可以帮助企业提高员工效率、自动化任务和提高决策质量，从而带来明显的ROI"
         },
         "action_urgency": {
           "level": "pilot_soon",
-          "reason": "企业应该尽快开始试点部署 ChatGPT 和 Codex，以评估其在自身业务中的应用价值"
+          "reason": "企业应该尽快开始试点部署ChatGPT和Codex，以评估其在自身业务中的价值"
         },
         "recommended_action": {
-          "primary_action": "开始试点部署 ChatGPT 和 Codex",
+          "primary_action": "开始试点部署ChatGPT和Codex",
           "next_steps": [
-            "评估当前的业务流程和员工需求",
-            "确定试点部署的范围和目标",
-            "制定详细的实施计划和时间表"
+            "评估企业的业务需求和目标",
+            "确定需要自动化的任务和流程",
+            "开发部署和集成计划"
           ],
           "suggested_owner": [
-            "IT 部门",
+            "IT部门",
             "业务部门"
           ],
           "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "大规模企业",
-          "具有复杂业务流程的企业",
-          "需要提高员工效率和客户满意度的企业"
+          "需要自动化任务和提高员工效率的企业",
+          "需要提高决策质量和数据分析能力的企业"
         ],
         "not_suitable_for": [
-          "小型企业",
-          "没有复杂业务流程的企业"
+          "小型企业或初创公司，可能没有足够的资源和基础设施"
         ],
         "key_questions_before_adoption": [
-          "如何确保 AI 系统的安全和数据隐私",
-          "如何评估 AI 系统的 ROI 和效率提升",
-          "如何确保员工能够有效地使用 AI 系统"
+          "ChatGPT和Codex如何集成到现有的系统和流程中",
+          "如何确保数据安全和员工适应新技术的挑战"
         ],
-        "final_judgement": "Samsung Electronics 的部署表明 ChatGPT 和 Codex 已经达到成熟度，可以在大规模企业中使用。企业应该尽快开始试点部署，以评估其在自身业务中的应用价值。"
+        "final_judgement": "ChatGPT和Codex有望成为企业AI部署中的重要工具，企业应该尽快开始试点部署以评估其价值。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
@@ -120,198 +112,364 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-06-21T23:00:00",
-      "intelligence_date": "2026-06-22"
+      "intelligence_date": "2026-06-23"
     },
     {
-      "id": "d9239964-9eb1-47c5-b9a1-0226882755ad",
-      "title": "OpenAI推出新成本控制和使用分析功能",
-      "one_sentence_conclusion": "企业可以更好地管理ChatGPT Enterprise的成本和规模",
-      "summary": "OpenAI推出新功能，帮助企业管理ChatGPT Enterprise的成本和规模，包括新成本控制和使用分析功能",
+      "id": "5f2c32a8-54bb-48b0-807f-c9e7a2e8ece2",
+      "title": "OpenAI推出Daybreak工具集",
+      "one_sentence_conclusion": "OpenAI推出Daybreak工具集，帮助组织发现、验证和修复漏洞",
+      "summary": "OpenAI推出Daybreak工具集，包括Codex Security和GPT-5.5-Cyber，帮助组织发现、验证和修复漏洞",
       "why_it_matters": [
-        "企业可以更好地管理AI成本",
-        "企业可以更好地了解AI使用情况",
-        "企业可以更好地规模化AI",
-        "企业可以更好地确保AI使用的安全性"
+        "帮助组织提高安全性和漏洞修复效率",
+        "可能成为竞争对手的安全工具",
+        "可能影响组织的安全战略和流程"
       ],
       "enterprise_impact": {
-        "strategy": "对企业AI战略的影响",
-        "business": "对企业AI使用场景的影响",
-        "technology": "对企业AI技术架构的影响",
-        "organization": "对企业AI组织能力的影响"
+        "strategy": "可能影响组织的安全战略和流程",
+        "business": "可能影响组织的安全性和漏洞修复效率",
+        "technology": "可能影响组织的安全工具选择",
+        "organization": "可能影响组织的安全能力和流程"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色"
+        "IT安全部门",
+        "安全团队",
+        "组织安全负责人"
       ],
       "recommended_actions": [
         {
-          "action": "评估新功能的适用性和成本效益",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "了解新功能的潜在价值"
-        },
-        {
-          "action": "调整AI使用策略和成本控制",
+          "action": "评估Daybreak工具集的适用性和成本效益",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "根据新功能的数据调整AI使用策略"
+          "reason": "了解工具集的具体功能和优势"
+        },
+        {
+          "action": "考虑采用Daybreak工具集来提高安全性和漏洞修复效率",
+          "priority": "high",
+          "timeframe": "3-6月",
+          "reason": "提高组织的安全性和漏洞修复效率"
         }
       ],
       "risks_and_limits": [
-        "信息不足时可能导致决策不确定性"
+        "可能存在的技术风险和成本",
+        "可能存在的竞争对手的安全工具"
       ],
       "signals_to_watch": [
-        "后续应观察的信号"
+        "Daybreak工具集的市场接受度和竞争对手的反应"
       ],
       "credibility": {
         "level": "high",
-        "reason": "OpenAI是知名AI公司"
+        "reason": "OpenAI是知名的AI公司，Daybreak工具集的推出是有迹可循的"
       },
       "enterprise_value_level": "high",
-      "information_type": "产品发布",
+      "information_type": "技术进展",
       "confidence": "high",
-      "overall_score": 85.0,
+      "overall_score": 70.0,
       "scoring_detail": {
-        "overall_score": 85,
+        "overall_score": 70,
         "enterprise_applicability": {
-          "score": 90,
+          "score": 80,
           "level": "high",
-          "reason": "该功能可以帮助企业更好地管理ChatGPT Enterprise的成本和规模，适用于大量企业和关键场景"
+          "reason": "Daybreak工具集可以帮助组织发现、验证和修复漏洞，这是许多企业的关键需求"
         },
         "maturity": {
-          "score": 80,
-          "level": "production_ready",
-          "reason": "OpenAI推出的新功能表明其已经成熟，具有成熟的产品和案例"
+          "score": 60,
+          "level": "pilot_ready",
+          "reason": "虽然OpenAI推出了Daybreak工具集，但还需要更多的案例和验证来证明其成熟度"
         },
         "implementation_cost": {
-          "score": 20,
-          "level": "low",
-          "reason": "该功能是ChatGPT Enterprise的一部分，实现成本较低"
+          "score": 40,
+          "level": "medium",
+          "reason": "实施Daybreak工具集可能需要一定的成本，包括人员培训和硬件升级"
         },
         "risk_level": {
-          "score": 10,
+          "score": 30,
           "level": "low",
-          "reason": "该功能是为了帮助企业管理成本和规模，风险较低"
+          "reason": "使用Daybreak工具集可能存在一些风险，但总体上是可控的"
         },
         "roi_potential": {
-          "score": 90,
+          "score": 80,
           "level": "high",
-          "reason": "该功能可以帮助企业更好地管理成本和规模，ROI路径明确"
+          "reason": "Daybreak工具集可以帮助企业减少漏洞带来的损失和风险，ROI路径较为明确"
         },
         "action_urgency": {
-          "level": "act_now",
-          "reason": "企业可以立即开始使用该功能来管理ChatGPT Enterprise的成本和规模"
+          "level": "pilot_soon",
+          "reason": "企业可以在近期内开始试点使用Daybreak工具集，以验证其有效性和适用性"
         },
         "recommended_action": {
-          "primary_action": "立即开始使用新成本控制和使用分析功能",
+          "primary_action": "开始试点使用Daybreak工具集",
           "next_steps": [
-            "评估当前的ChatGPT Enterprise使用情况",
-            "设置成本控制和使用分析功能",
-            "监控和调整使用情况"
+            "评估当前的漏洞管理流程",
+            "确定试点项目的范围和目标",
+            "培训相关人员使用Daybreak工具集"
           ],
           "suggested_owner": [
-            "IT部门",
-            "财务部门"
+            "信息安全部门",
+            "IT部门"
           ],
-          "timeframe": "立即"
+          "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "大规模使用ChatGPT Enterprise的企业",
-          "需要严格管理成本和规模的企业"
+          "拥有大量代码库的企业",
+          "有高安全性要求的行业（如金融、医疗等）"
         ],
         "not_suitable_for": [
-          "小规模使用ChatGPT Enterprise的企业",
-          "不需要严格管理成本和规模的企业"
+          "小型企业或初创公司",
+          "没有明确安全性需求的企业"
         ],
         "key_questions_before_adoption": [
-          "当前的ChatGPT Enterprise使用情况如何?",
-          "如何设置成本控制和使用分析功能?",
-          "如何监控和调整使用情况?"
+          "Daybreak工具集的具体功能和优势是什么？",
+          "如何评估和验证Daybreak工具集的有效性？",
+          "如何确保Daybreak工具集的安全性和合规性？"
         ],
-        "final_judgement": "该功能可以帮助企业更好地管理ChatGPT Enterprise的成本和规模，具有高的ROI潜力和低的风险，建议立即开始使用。"
+        "final_judgement": "Daybreak工具集有望成为企业漏洞管理的重要工具，但需要进一步验证和评估其成熟度和适用性。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
       "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "original_title": "New usage analytics and updated spend controls for enterprises",
+      "source_url": "https://openai.com/index/daybreak-securing-the-world",
+      "original_title": "Daybreak: Tools for securing every organization in the world",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-18T17:00:00",
-      "intelligence_date": "2026-06-22"
+      "published_at": "2026-06-22T10:00:00",
+      "intelligence_date": "2026-06-23"
     },
     {
-      "id": "4e30833a-7ffa-4446-a6a0-6710913e7dfd",
-      "title": "MosaicLeaks：研究代理的保密能力",
-      "one_sentence_conclusion": "研究代理的保密能力对企业的核心意义在于确保数据安全和知识产权保护",
-      "summary": "MosaicLeaks是一项研究，探讨了研究代理的保密能力。研究发现，研究代理可能会泄露研究数据和知识产权。这种泄露可能会对企业造成严重后果，包括数据丢失和知识产权侵权。",
+      "id": "f532d86c-fff7-45a3-9ea5-c328cbb97776",
+      "title": "Hugging Face发布PP-OCRv6：50种语言OCR模型参数从1.5M到34.5M",
+      "one_sentence_conclusion": "Hugging Face发布的PP-OCRv6 OCR模型对企业的核心意义在于提供高效的多语言识别能力",
+      "summary": "Hugging Face发布了PP-OCRv6 OCR模型，支持50种语言，参数从1.5M到34.5M，提高了识别准确率和效率",
       "why_it_matters": [
-        "研究代理的保密能力对企业的数据安全和知识产权保护至关重要",
-        "泄露的研究数据和知识产权可能会对企业造成严重后果",
-        "企业需要确保研究代理的保密能力和可信度"
+        "企业可以使用此模型实现多语言识别，扩大市场覆盖范围",
+        "此模型可以提高识别准确率和效率，节省人力和资源",
+        "此模型支持50种语言，适合全球化企业"
       ],
       "enterprise_impact": {
-        "strategy": "对企业的数据安全和知识产权保护策略的影响",
-        "business": "对企业的研究合作和知识产权保护的影响",
-        "technology": "对企业的数据安全和保密技术的影响",
-        "organization": "对企业的研究团队和保密流程的影响"
+        "strategy": "此模型可以影响企业的AI战略和竞争格局",
+        "business": "此模型可以影响企业的业务场景和商业模式",
+        "technology": "此模型可以影响企业的技术架构和模型选型",
+        "organization": "此模型可以影响企业的组织能力和流程"
       },
       "suitable_for": [
-        "研究机构",
-        "企业",
-        "政府机构"
+        "全球化企业",
+        "多语言识别需求的企业"
       ],
       "recommended_actions": [
         {
-          "action": "建立严格的保密协议和流程",
+          "action": "评估此模型是否适合企业的需求",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "确保研究代理的保密能力和可信度"
+          "reason": "评估此模型的准确率和效率"
         },
         {
-          "action": "培训研究团队和研究代理关于保密和数据安全",
+          "action": "考虑采用此模型进行多语言识别",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "提高研究团队和研究代理的保密意识和能力"
+          "reason": "此模型可以提高识别准确率和效率"
         }
       ],
       "risks_and_limits": [
-        "研究代理的保密能力可能会受到测试和挑战",
-        "企业可能会面临数据丢失和知识产权侵权的风险"
+        "此模型的准确率和效率取决于数据质量和模型训练"
       ],
       "signals_to_watch": [
-        "研究代理的保密能力和可信度",
-        "数据安全和保密技术的发展",
-        "企业的研究合作和知识产权保护"
+        "此模型的准确率和效率的持续改进",
+        "此模型的应用范围的扩大"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "Hugging Face是知名的AI模型提供商"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 70.0,
+      "scoring_detail": {
+        "overall_score": 70,
+        "enterprise_applicability": {
+          "score": 80,
+          "level": "high",
+          "reason": "支持50种语言，能够满足多语言识别的需求，对于全球化企业或多语言环境的企业具有较高的适用性"
+        },
+        "maturity": {
+          "score": 60,
+          "level": "pilot_ready",
+          "reason": "虽然Hugging Face发布了PP-OCRv6 OCR模型，但具体的应用案例和企业落地情况尚不明确，需要进一步验证"
+        },
+        "implementation_cost": {
+          "score": 40,
+          "level": "medium",
+          "reason": "考虑到模型的参数规模和计算需求，落地成本可能会因硬件和人员配置而异，但整体上属于中等成本"
+        },
+        "risk_level": {
+          "score": 20,
+          "level": "low",
+          "reason": "使用成熟的OCR模型通常风险较低，主要关注点在于模型的准确性和兼容性"
+        },
+        "roi_potential": {
+          "score": 70,
+          "level": "medium",
+          "reason": "通过提高识别准确率和效率，企业可以减少人工成本和提高处理速度，但具体的ROI路径需要根据企业实际情况来评估"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "对于有多语言识别需求的企业，建议尽快进行试点和评估，以确定PP-OCRv6在实际业务中的应用价值"
+        },
+        "recommended_action": {
+          "primary_action": "进行试点评估",
+          "next_steps": [
+            "评估当前的多语言识别需求",
+            "确定试点项目的范围和目标",
+            "评估PP-OCRv6的性能和兼容性"
+          ],
+          "suggested_owner": [
+            "IT部门",
+            "业务部门"
+          ],
+          "timeframe": "1-3月"
+        },
+        "best_fit_scenarios": [
+          "全球化企业",
+          "多语言环境的企业",
+          "需要高效多语言识别的行业"
+        ],
+        "not_suitable_for": [
+          "小规模企业",
+          "单语言环境的企业"
+        ],
+        "key_questions_before_adoption": [
+          "当前的多语言识别需求是什么",
+          "PP-OCRv6的性能和兼容性如何",
+          "如何确保模型的准确性和安全性"
+        ],
+        "final_judgement": "PP-OCRv6 OCR模型具有较高的企业适用性和成熟度，建议进行试点评估以确定其在实际业务中的应用价值。"
+      },
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "original_title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-22T13:18:56",
+      "intelligence_date": "2026-06-23"
+    },
+    {
+      "id": "259d7d6e-db3c-49a2-b08e-adb465e8ccfb",
+      "title": "OpenAI推出Patch the Planet支持开源维护者",
+      "one_sentence_conclusion": "OpenAI推出Patch the Planet支持开源维护者，提高安全性和可靠性",
+      "summary": "OpenAI推出Patch the Planet，帮助开源维护者使用AI和专家审查找到、验证和修复漏洞",
+      "why_it_matters": [
+        "开源项目的安全性和可靠性对企业有重要影响",
+        "Patch the Planet可以帮助企业减少开源依赖的风险"
+      ],
+      "enterprise_impact": {
+        "technology": "Patch the Planet使用AI和专家审查技术，提高漏洞发现和修复效率",
+        "organization": "企业可以通过Patch the Planet提高开源项目的安全性和可靠性"
+      },
+      "suitable_for": [
+        "关注开源项目的企业",
+        "负责安全和可靠性的团队"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估开源项目的安全性和可靠性",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "Patch the Planet可以帮助企业减少开源依赖的风险"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不足时，可能无法评估Patch the Planet的有效性"
+      ],
+      "signals_to_watch": [
+        "Patch the Planet的使用情况和效果"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "研究基于现有的研究和数据"
+        "reason": "OpenAI是知名的AI公司，Patch the Planet是他们的官方项目"
       },
       "enterprise_value_level": "medium",
-      "information_type": "研究报告",
+      "information_type": "技术进展",
       "confidence": "medium",
       "overall_score": 60.0,
       "scoring_detail": null,
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "original_title": "MosaicLeaks: Can your research agent keep a secret?",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/patch-the-planet",
+      "original_title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-06-18T18:13:13",
-      "intelligence_date": "2026-06-22"
+      "published_at": "2026-06-22T10:00:00",
+      "intelligence_date": "2026-06-23"
+    },
+    {
+      "id": "2acaea32-6898-4710-9789-5e48622e77ad",
+      "title": "Codex-maxxing for 长期工作",
+      "one_sentence_conclusion": "Codex-maxxing 可以帮助企业提高工作效率和项目管理能力",
+      "summary": "Jason Liu 使用 Codex 来保存上下文，管理复杂项目，并帮助工作继续超过单个提示。Codex-maxxing 是一种通过 Codex 来优化工作流程的方法。",
+      "why_it_matters": [
+        "Codex-maxxing 可以提高工作效率和项目管理能力",
+        "可以帮助企业更好地管理复杂项目",
+        "可以帮助工作继续超过单个提示"
+      ],
+      "enterprise_impact": {
+        "strategy": "对企业的工作流程和项目管理能力的影响",
+        "business": "对业务场景和商业模式的影响",
+        "technology": "对技术架构和模型选型的影响",
+        "organization": "对组织能力和流程的影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：IT、项目管理、工作流程优化"
+      ],
+      "recommended_actions": [
+        {
+          "action": "尝试使用 Codex-maxxing 来优化工作流程",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "可以帮助提高工作效率和项目管理能力"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不足时可能难以确定最佳工作流程"
+      ],
+      "signals_to_watch": [
+        "Codex-maxxing 的应用范围和效果"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "Jason Liu 是 Codex 的用户，使用 Codex-maxxing 来优化工作流程"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "original_title": "Codex-maxxing for long-running work",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-06-22T00:00:00",
+      "intelligence_date": "2026-06-23"
     }
   ],
   "people": [],
   "sources": [],
   "projects": [],
-  "generated_at": "2026-06-22T08:04:57.139669+08:00",
-  "date": "2026-06-22"
+  "generated_at": "2026-06-23T08:06:18.767210+08:00",
+  "date": "2026-06-23"
 }
