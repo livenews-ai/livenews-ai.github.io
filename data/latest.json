@@ -1,50 +1,46 @@
 {
   "latest_intelligence": [
     {
-      "id": "fef48c93-98cc-4961-8529-083b521c5157",
-      "title": "教学反馈分类协议的可持续性和跨语言转移",
-      "one_sentence_conclusion": "教学反馈分类协议的可持续性和跨语言转移对教育行业的核心意义",
-      "summary": "研究团队重新运行了2019年协议的测试，发现协议在不同语言和模型上仍然有效。该协议通过对比不同模型的表现，证明其可持续性和跨语言转移能力。",
+      "id": "d9a09a17-b442-40cb-8a72-bba76d97e638",
+      "title": "AI代理缺乏任务难度估计能力",
+      "one_sentence_conclusion": "AI代理缺乏任务难度估计能力，影响其执行效率和成本",
+      "summary": "大型语言模型(LLM)代理自动化多步工程和信息学工作流，但 Rarely 询问任务实际需要的努力。代理通常采用最大上下文优先策略，重新阅读已见过的文件和依赖项，导致一行编辑变成小代码库审计。我们认为缺失的能力是任务意识执行范围估计：评估任务的难度、它真正需要的信息和最短可靠路径。",
       "why_it_matters": [
-        "教育行业需要可靠的教学反馈分类协议",
-        "协议的可持续性和跨语言转移能力对教育行业的发展有重要影响",
-        "该研究为教育行业提供了一个可靠的分类协议"
+        "AI代理缺乏任务难度估计能力，影响其执行效率和成本",
+        "当前代理执行策略可能导致不必要的资源消耗和时间浪费"
       ],
       "enterprise_impact": {
-        "strategy": "该研究对教育行业的教学反馈分类协议的可持续性和跨语言转移能力有重要影响",
-        "business": "该研究对教育行业的教学反馈分类协议的可持续性和跨语言转移能力有重要影响",
-        "technology": "该研究使用了最新的自然语言处理模型和技术",
-        "organization": "该研究对教育行业的教学反馈分类协议的可持续性和跨语言转移能力有重要影响"
+        "strategy": "对AI战略或竞争格局的影响：AI代理执行策略优化",
+        "business": "对业务场景或商业模式的影响：提高执行效率和降低成本",
+        "technology": "对技术架构或模型选型的影响：任务难度估计能力的缺失",
+        "organization": "对组织能力或流程的影响：提高执行效率和降低成本"
       },
       "suitable_for": [
-        "教育行业",
-        "教学反馈分类协议的开发者",
-        "教育行业的决策者"
+        "适合关注的企业类型/部门/角色：技术研发、AI应用、工程管理"
       ],
       "recommended_actions": [
         {
-          "action": "开发者应考虑使用最新的自然语言处理模型和技术",
+          "action": "开发任务难度估计能力和执行范围估计算法",
           "priority": "high",
-          "timeframe": "立即",
-          "reason": "以保持协议的可持续性和跨语言转移能力"
+          "timeframe": "1-3月",
+          "reason": "提高执行效率和降低成本"
         },
         {
-          "action": "教育行业的决策者应考虑使用该协议",
-          "priority": "high",
+          "action": "优化当前代理执行策略",
+          "priority": "medium",
           "timeframe": "立即",
-          "reason": "以提高教学反馈的准确性和可靠性"
+          "reason": "减少不必要的资源消耗和时间浪费"
         }
       ],
       "risks_and_limits": [
-        "该研究的结果可能受到模型和数据的限制"
+        "任务难度估计能力的缺失可能导致不必要的资源消耗和时间浪费"
       ],
       "signals_to_watch": [
-        "后续研究的结果",
-        "教育行业的发展趋势"
+        "后续应观察的信号：任务难度估计能力的开发进展和执行效率的改善"
       ],
       "credibility": {
         "level": "high",
-        "reason": "该研究使用了严格的实验设计和最新的自然语言处理模型和技术"
+        "reason": "基于研究报告和实验结果"
       },
       "enterprise_value_level": "high",
       "information_type": "研究报告",
@@ -53,75 +49,436 @@
       "scoring_detail": {
         "overall_score": 70,
         "enterprise_applicability": {
-          "score": 60,
-          "level": "medium",
-          "reason": "主要适用于教育行业，尤其是在线教育和语言学习平台"
+          "score": 80,
+          "level": "high",
+          "reason": "AI代理在自动化多步工程和信息学工作流中具有广泛的应用潜力，任务难度估计能力的缺乏会显著影响其执行效率和成本"
         },
         "maturity": {
-          "score": 50,
+          "score": 40,
           "level": "early_stage",
-          "reason": "虽然协议在不同语言和模型上表现良好，但仍需要更多的实践验证和应用案例"
+          "reason": "当前的AI代理技术尚未具备任务难度估计能力，需要进一步的研究和开发"
         },
         "implementation_cost": {
-          "score": 40,
-          "level": "medium",
-          "reason": "需要一定的技术和数据支持，成本取决于具体的实施方案"
-        },
-        "risk_level": {
-          "score": 30,
-          "level": "low",
-          "reason": "主要风险在于协议的可持续性和跨语言转移能力需要进一步验证"
-        },
-        "roi_potential": {
           "score": 60,
           "level": "medium",
-          "reason": "可以提高教育行业的教学质量和效率，但需要具体的实施方案和数据支持来评估ROI"
+          "reason": "开发和集成任务难度估计能力可能需要中等程度的投资，包括算法开发、测试和部署"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "如果不解决任务难度估计能力的缺乏，可能会导致AI代理的执行效率和成本问题，但这并不是一个高风险的问题"
+        },
+        "roi_potential": {
+          "score": 80,
+          "level": "high",
+          "reason": "开发和集成任务难度估计能力可以显著提高AI代理的执行效率和成本效益，带来高回报"
         },
         "action_urgency": {
           "level": "pilot_soon",
-          "reason": "建议在教育行业的特定场景中进行试点和验证"
+          "reason": "虽然任务难度估计能力的缺乏是一个重要问题，但当前的AI代理技术仍然可以在某些应用场景中发挥作用，建议在近期内启动试点项目来开发和测试任务难度估计能力"
         },
         "recommended_action": {
-          "primary_action": "与教育行业的合作伙伴进行讨论和试点",
+          "primary_action": "启动试点项目开发任务难度估计能力",
           "next_steps": [
-            "评估协议的可持续性和跨语言转移能力",
-            "设计和实施试点项目",
-            "评估试点项目的结果和ROI"
+            "组建跨功能团队进行任务难度估计能力的开发和测试",
+            "确定关键的应用场景和用例",
+            "评估和选择合适的算法和技术"
           ],
           "suggested_owner": [
-            "教育行业的技术和产品负责人"
+            "AI研究团队",
+            "产品管理团队"
           ],
-          "timeframe": "3-6月"
+          "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "在线教育和语言学习平台",
-          "教育行业的教学质量和效率改进"
+          "自动化多步工程和信息学工作流",
+          "需要高执行效率和成本效益的应用场景"
         ],
         "not_suitable_for": [
-          "非教育行业的企业",
-          "不需要教学反馈分类的场景"
+          "不需要高执行效率和成本效益的应用场景",
+          "当前的AI代理技术已经能够满足业务需求的场景"
         ],
         "key_questions_before_adoption": [
-          "协议的可持续性和跨语言转移能力如何验证和保证?",
-          "如何设计和实施试点项目来评估协议的效果和ROI?"
+          "任务难度估计能力的开发和集成需要什么样的资源和投资?",
+          "如何评估任务难度估计能力的有效性和效率?",
+          "任务难度估计能力如何集成到现有的AI代理技术中?"
         ],
-        "final_judgement": "教学反馈分类协议的可持续性和跨语言转移能力对教育行业具有重要意义，建议在特定场景中进行试点和验证。"
+        "final_judgement": "任务难度估计能力的缺乏是AI代理技术的一个重要问题，开发和集成这一能力可以显著提高执行效率和成本效益，但需要中等程度的投资和试点测试。"
       },
-      "category": "research",
-      "category_label": "前沿研究与趋势信号",
-      "category_emoji": "🟣",
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11873v1",
-      "original_title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
+      "source_url": "http://arxiv.org/abs/2607.13034v1",
+      "original_title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-07-13T17:56:05",
-      "intelligence_date": "2026-07-15"
+      "published_at": "2026-07-14T17:59:31",
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "02212a3c-4b84-4494-af5c-d546f93e56ca",
+      "id": "921ac8d9-dd6b-472d-9cd6-958f5ad86a15",
+      "title": "TerraZero: 一款用于大规模自我学习的零示例驾驶模拟器",
+      "one_sentence_conclusion": "TerraZero 可以帮助企业提高自主驾驶代理的训练效率和准确性",
+      "summary": "TerraZero 是一款用于大规模自我学习的零示例驾驶模拟器，能够快速、真实地模拟驾驶场景，覆盖安全关键的长尾分布",
+      "why_it_matters": [
+        "自主驾驶技术的发展对企业的核心竞争力和创新能力有重要影响",
+        "TerraZero 可以帮助企业提高自主驾驶代理的训练效率和准确性",
+        "模拟器的快速和真实性对于自主驾驶的安全性和可靠性有重要影响"
+      ],
+      "enterprise_impact": {
+        "strategy": "TerraZero 可以帮助企业优化自主驾驶策略和竞争格局",
+        "business": "TerraZero 可以帮助企业提高自主驾驶代理的训练效率和准确性",
+        "technology": "TerraZero 可以帮助企业选择和开发更好的自主驾驶技术",
+        "organization": "TerraZero 可以帮助企业优化自主驾驶团队和流程"
+      },
+      "suitable_for": [
+        "自主驾驶技术开发和应用的企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估和测试 TerraZero 的性能和适用性",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "了解 TerraZero 的潜在价值和应用场景"
+        },
+        {
+          "action": "优化自主驾驶策略和竞争格局",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "利用 TerraZero 提高自主驾驶代理的训练效率和准确性"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不足时，可能需要更多的测试和验证"
+      ],
+      "signals_to_watch": [
+        "TerraZero 的性能和适用性，自主驾驶代理的训练效率和准确性"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "TerraZero 的开发团队和技术背景"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 70.0,
+      "scoring_detail": {
+        "overall_score": 70,
+        "enterprise_applicability": {
+          "score": 60,
+          "level": "medium",
+          "reason": "适用于自动驾驶行业，尤其是需要大量训练数据的企业"
+        },
+        "maturity": {
+          "score": 50,
+          "level": "early_stage",
+          "reason": "虽然TerraZero具有创新性的零示例驾驶模拟技术，但缺乏大规模应用案例和明确的产品化路径"
+        },
+        "implementation_cost": {
+          "score": 70,
+          "level": "high",
+          "reason": "部署TerraZero可能需要大量的计算资源和专业的技术团队，成本较高"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "主要风险在于技术的不确定性和潜在的安全问题，但TerraZero的模拟环境可以帮助减少物理世界中的风险"
+        },
+        "roi_potential": {
+          "score": 80,
+          "level": "high",
+          "reason": "通过提高自主驾驶代理的训练效率和准确性，TerraZero可以帮助企业节省大量的开发和测试成本，并加速产品上市"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "虽然TerraZero具有潜力，但由于其成熟度和成本，建议在小规模试点项目中进行验证和评估"
+        },
+        "recommended_action": {
+          "primary_action": "与TerraZero的开发团队合作，设计和实施小规模试点项目",
+          "next_steps": [
+            "评估试点项目的结果和成本",
+            "根据结果，决定是否扩大TerraZero的应用",
+            "与内部团队合作，开发和优化TerraZero的应用"
+          ],
+          "suggested_owner": [
+            "自动驾驶技术团队",
+            "研发部门"
+          ],
+          "timeframe": "3-6月"
+        },
+        "best_fit_scenarios": [
+          "自动驾驶车辆的开发和测试",
+          "智能交通系统的开发和优化"
+        ],
+        "not_suitable_for": [
+          "小规模的自动驾驶项目",
+          "不需要大量训练数据的应用"
+        ],
+        "key_questions_before_adoption": [
+          "TerraZero的技术成熟度和稳定性如何?",
+          "如何评估TerraZero的成本和ROI?",
+          "如何确保TerraZero的安全性和可靠性?"
+        ],
+        "final_judgement": "TerraZero具有创新性的技术和高潜力的ROI，但其成熟度和成本需要进一步评估和验证。建议在小规模试点项目中进行验证和评估。"
+      },
+      "category": "chip",
+      "category_label": "模型算力与芯片生态",
+      "category_emoji": "🔴",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.13028v1",
+      "original_title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T17:59:02",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "a7b72dcc-4be3-4c61-ba27-28cf0177d860",
+      "title": "美国推进人工智能安全性",
+      "one_sentence_conclusion": "美国通过州和联邦行动推进人工智能安全性对企业的核心意义在于确保合规和风险管理",
+      "summary": "OpenAI提出了一种“反联邦主义”方法来规范人工智能，州法律帮助建立一个全国性的安全民主人工智能框架",
+      "why_it_matters": [
+        "人工智能安全性对企业的核心竞争力和合规风险有重大影响",
+        "美国的行动可能会影响全球人工智能安全性标准和监管",
+        "企业需要考虑如何适应和参与人工智能安全性监管"
+      ],
+      "enterprise_impact": {
+        "strategy": "对企业的AI战略和风险管理有影响",
+        "business": "对企业的商业模式和合规风险有影响",
+        "technology": "对企业的技术架构和安全性措施有影响",
+        "organization": "对企业的组织能力和流程有影响"
+      },
+      "suitable_for": [
+        "所有企业，特别是与人工智能相关的企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估和调整企业的AI安全性策略和流程",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "确保企业的AI安全性符合监管要求"
+        },
+        {
+          "action": "参与和监测美国的AI安全性监管",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解和适应全球AI安全性标准"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不充分，可能存在监管变化和不确定性"
+      ],
+      "signals_to_watch": [
+        "美国的AI安全性监管政策和州法律的变化"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "来源为OpenAI，信息来源可信但可能有偏见"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "政策监管",
+      "confidence": "medium",
+      "overall_score": 70.0,
+      "scoring_detail": {
+        "overall_score": 70,
+        "enterprise_applicability": {
+          "score": 80,
+          "level": "high",
+          "reason": "美国推进人工智能安全性对企业的核心意义在于确保合规和风险管理，适用于广泛的企业和行业"
+        },
+        "maturity": {
+          "score": 60,
+          "level": "pilot_ready",
+          "reason": "虽然美国已经开始推进人工智能安全性，但仍需要更多的试点和验证来确保其成熟度"
+        },
+        "implementation_cost": {
+          "score": 40,
+          "level": "medium",
+          "reason": "实施人工智能安全性措施可能需要中等成本，包括人员培训、技术升级和合规费用"
+        },
+        "risk_level": {
+          "score": 30,
+          "level": "low",
+          "reason": "人工智能安全性措施可以帮助企业降低风险，包括数据泄露和网络攻击等"
+        },
+        "roi_potential": {
+          "score": 80,
+          "level": "high",
+          "reason": "实施人工智能安全性措施可以帮助企业提高合规性、降低风险和提高效率，具有明确的ROI路径"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "企业应该尽快开始试点和实施人工智能安全性措施，以确保合规和风险管理"
+        },
+        "recommended_action": {
+          "primary_action": "开始试点人工智能安全性措施",
+          "next_steps": [
+            "评估当前的人工智能安全性状况",
+            "制定人工智能安全性策略和计划",
+            "实施人工智能安全性措施和技术"
+          ],
+          "suggested_owner": [
+            "CIO",
+            "CDO",
+            "安全团队"
+          ],
+          "timeframe": "1-3月"
+        },
+        "best_fit_scenarios": [
+          "金融服务",
+          "医疗保健",
+          "政府机构"
+        ],
+        "not_suitable_for": [
+          "小型企业",
+          "初创公司"
+        ],
+        "key_questions_before_adoption": [
+          "当前的人工智能安全性状况如何?",
+          "实施人工智能安全性措施的成本和收益是什么?",
+          "如何确保人工智能安全性措施的有效性和合规性?"
+        ],
+        "final_judgement": "美国推进人工智能安全性对企业具有重要意义，企业应该尽快开始试点和实施人工智能安全性措施，以确保合规和风险管理。"
+      },
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "original_title": "The US is advancing AI safety through state and federal action",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-15T12:00:00",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "47c86ab3-770e-4469-a729-bc0f37bc29e3",
+      "title": "OpenAI推出GPT-Red自我改进系统",
+      "one_sentence_conclusion": "GPT-Red系统可以帮助企业提高AI安全性和可靠性",
+      "summary": "OpenAI推出GPT-Red自我改进系统，用于提高AI安全性、对齐性和提示注入鲁棒性",
+      "why_it_matters": [
+        "GPT-Red系统可以帮助企业提高AI安全性和可靠性",
+        "系统使用自我玩耍来改进AI性能",
+        "GPT-Red系统可以帮助企业减少AI安全风险"
+      ],
+      "enterprise_impact": {
+        "technology": "对AI安全性和可靠性的影响",
+        "organization": "对组织能力和流程的影响"
+      },
+      "suitable_for": [
+        "适合关注AI安全性和可靠性的企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估GPT-Red系统的适用性和潜在收益",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解GPT-Red系统的潜在价值和限制"
+        },
+        {
+          "action": "考虑采用GPT-Red系统来改进AI安全性和可靠性",
+          "priority": "high",
+          "timeframe": "3-6月",
+          "reason": "GPT-Red系统可以帮助企业减少AI安全风险"
+        }
+      ],
+      "risks_and_limits": [
+        "GPT-Red系统的适用性和有效性还需进一步研究",
+        "系统的安全性和可靠性还需进一步评估"
+      ],
+      "signals_to_watch": [
+        "GPT-Red系统的进一步发展和应用",
+        "其他企业的GPT-Red系统采用情况"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "OpenAI是知名AI研究机构，GPT-Red系统的开发和推出值得关注"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 70.0,
+      "scoring_detail": {
+        "overall_score": 70,
+        "enterprise_applicability": {
+          "score": 80,
+          "level": "high",
+          "reason": "GPT-Red系统可以帮助企业提高AI安全性和可靠性，适用于广泛的企业应用场景"
+        },
+        "maturity": {
+          "score": 60,
+          "level": "pilot_ready",
+          "reason": "GPT-Red系统是OpenAI推出的新技术，虽然有潜力，但还需要更多的试点和验证"
+        },
+        "implementation_cost": {
+          "score": 50,
+          "level": "medium",
+          "reason": "实施GPT-Red系统可能需要一定的成本，包括人员、设备和软件的投资"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "GPT-Red系统可能存在一些技术风险和安全风险，但OpenAI的支持和维护可以降低这些风险"
+        },
+        "roi_potential": {
+          "score": 80,
+          "level": "high",
+          "reason": "GPT-Red系统可以帮助企业提高AI安全性和可靠性，带来明显的ROI提升"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "企业可以在近期内开始试点GPT-Red系统，评估其效果和适用性"
+        },
+        "recommended_action": {
+          "primary_action": "开始试点GPT-Red系统",
+          "next_steps": [
+            "评估GPT-Red系统的技术要求和成本",
+            "确定试点的范围和目标",
+            "与OpenAI合作实施和优化GPT-Red系统"
+          ],
+          "suggested_owner": [
+            "AI团队",
+            "IT部门"
+          ],
+          "timeframe": "1-3月"
+        },
+        "best_fit_scenarios": [
+          "需要提高AI安全性和可靠性的企业",
+          "已经使用AI技术的企业"
+        ],
+        "not_suitable_for": [
+          "小型企业或初创公司，资源有限",
+          "不使用AI技术的企业"
+        ],
+        "key_questions_before_adoption": [
+          "GPT-Red系统的技术要求和成本是什么?",
+          "如何确定试点的范围和目标?",
+          "如何与OpenAI合作实施和优化GPT-Red系统?"
+        ],
+        "final_judgement": "GPT-Red系统是一个有潜力的技术，可以帮助企业提高AI安全性和可靠性，建议企业开始试点和评估其效果和适用性。"
+      },
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "original_title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-15T10:00:00",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "6001e861-5a7d-4269-b735-adbd3aaf91a7",
       "title": "AI投资管理在代理时代的挑战",
       "one_sentence_conclusion": "企业应优化AI投资以提高效率和价值",
       "summary": "企业在代理时代应关注AI投资效率和价值，通过测量每美元的有用工作、提高效率和扩展高价值工作流程来管理投资。",
@@ -130,95 +487,100 @@
         "代理时代的AI投资效率和价值对企业的长期成功至关重要"
       ],
       "enterprise_impact": {
-        "strategy": "对企业的AI战略和竞争格局产生重大影响",
-        "business": "对企业的业务场景和商业模式产生重要影响",
-        "technology": "对企业的技术架构和模型选型产生重要影响",
-        "organization": "对企业的组织能力和流程产生重要影响"
+        "strategy": "AI投资管理策略的调整",
+        "business": "业务流程和工作流程的优化",
+        "technology": "AI技术选型和实施的调整",
+        "organization": "组织能力和流程的调整"
       },
       "suitable_for": [
-        "所有企业，尤其是那些已投资AI的企业"
+        "所有企业，尤其是依赖AI的企业"
       ],
       "recommended_actions": [
         {
-          "action": "优化AI投资以提高效率和价值",
+          "action": "建立AI投资效率和价值的监控系统",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "提高AI投资效率和价值对企业的长期成功至关重要"
+          "reason": "监控系统有助于企业优化AI投资"
+        },
+        {
+          "action": "优化业务流程和工作流程",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "优化流程有助于提高效率"
         }
       ],
       "risks_and_limits": [
-        "信息不足时，企业应谨慎投资AI"
+        "信息不充分可能导致投资决策的不确定性"
       ],
       "signals_to_watch": [
-        "AI投资效率和价值的监测和评估"
+        "AI技术的进展和趋势"
       ],
       "credibility": {
-        "level": "high",
-        "reason": "来自行业专家的建议"
+        "level": "medium",
+        "reason": "文章提供了基本的信息，但缺乏具体的数据和案例"
       },
       "enterprise_value_level": "high",
       "information_type": "行业应用",
-      "confidence": "high",
+      "confidence": "medium",
       "overall_score": 70.0,
       "scoring_detail": {
         "overall_score": 70,
         "enterprise_applicability": {
           "score": 80,
           "level": "high",
-          "reason": "AI投资管理在代理时代的挑战与企业的投资决策和效率优化密切相关，具有广泛的适用性"
+          "reason": "AI投资管理在代理时代的挑战与许多企业相关，尤其是那些已经或计划实施AI解决方案的企业"
         },
         "maturity": {
           "score": 60,
           "level": "pilot_ready",
-          "reason": "虽然AI投资管理的概念已经成熟，但在代理时代的具体应用和最佳实践仍需要进一步验证和探索"
+          "reason": "虽然AI投资管理的概念已经存在，但具体的实施方法和最佳实践仍在不断演进和完善中"
         },
         "implementation_cost": {
           "score": 40,
           "level": "medium",
-          "reason": "优化AI投资需要一定的成本，包括数据收集、分析工具和人员培训，但这些成本相对于潜在的收益是合理的"
+          "reason": "优化AI投资需要一定的资源投入，包括人员、技术和流程改进，但相比于潜在的收益，这些成本是合理的"
         },
         "risk_level": {
           "score": 30,
           "level": "low",
-          "reason": "优化AI投资的风险相对较低，主要关注的是投资效率和价值的提高"
+          "reason": "优化AI投资的风险相对较低，主要关注的是如何有效实施和管理这些优化"
         },
         "roi_potential": {
           "score": 80,
           "level": "high",
-          "reason": "通过优化AI投资，企业可以明显提高投资效率和价值，实现明确的ROI路径"
+          "reason": "通过优化AI投资，企业可以提高效率、降低成本和增加价值，ROI的潜力较高"
         },
         "action_urgency": {
           "level": "pilot_soon",
-          "reason": "企业应尽快开始探索和试点AI投资管理的优化，以保持竞争优势"
+          "reason": "虽然优化AI投资很重要，但这不是一个需要立即行动的紧急事项，企业可以在近期内规划和实施试点项目"
         },
         "recommended_action": {
-          "primary_action": "成立AI投资管理小组，负责优化投资策略和效率",
+          "primary_action": "进行AI投资现状评估",
           "next_steps": [
-            "收集和分析现有的AI投资数据",
-            "评估和选择合适的AI投资管理工具和平台",
-            "制定和实施优化的AI投资策略"
+            "确定优化目标和关键绩效指标",
+            "开发和实施优化策略",
+            "监测和评估优化效果"
           ],
           "suggested_owner": [
-            "CFO",
-            "CIO"
+            "CIO",
+            "投资管理部门"
           ],
           "timeframe": "1-3月"
         },
         "best_fit_scenarios": [
-          "金融机构",
-          "投资公司",
-          "拥有大量AI投资的企业"
+          "已经实施或计划实施AI解决方案的企业",
+          "希望提高AI投资效率和价值的企业"
         ],
         "not_suitable_for": [
-          "小型企业",
-          "没有AI投资的企业"
+          "尚未考虑AI解决方案的企业",
+          "没有AI投资管理需求的企业"
         ],
         "key_questions_before_adoption": [
-          "当前的AI投资策略和效率如何?",
-          "如何测量和评估AI投资的价值?",
-          "哪些工具和平台可以帮助优化AI投资管理?"
+          "当前AI投资的效率和价值如何?",
+          "优化AI投资的目标和关键绩效指标是什么?",
+          "如何开发和实施优化策略?"
         ],
-        "final_judgement": "企业应优先考虑AI投资管理的优化，以提高效率和价值，实现明确的ROI路径。"
+        "final_judgement": "优化AI投资是提高效率和价值的关键步骤，企业应积极评估和实施优化策略。"
       },
       "category": "tool",
       "category_label": "AI工具与实战",
@@ -231,391 +593,42 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-07-14T10:00:00",
-      "intelligence_date": "2026-07-15"
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "9eb2e6e6-dd79-426e-84ca-696fab9528aa",
-      "title": "Requential Coding: 新型模型压缩技术",
-      "one_sentence_conclusion": "Requential Coding 可能成为 AI 模型压缩的新方向",
-      "summary": "Requential Coding 是一种新型模型压缩技术，通过自动生成训练数据来压缩模型，避免了传统方法的局限性",
+      "id": "ed50de96-5d09-4d33-a240-cc9225589c17",
+      "title": "视频传播模型中的序列性差距",
+      "one_sentence_conclusion": "序列性差距影响了视频传播模型的性能，需要改进序列计算能力",
+      "summary": "研究发现标准双向视频扩散模型在多球硬球动力学控制实验中性能下降，单球控制实验中性能恢复，序列计算能力与视频长度相关，需要改进序列计算能力",
       "why_it_matters": [
-        "AI 模型压缩对提高模型效率和降低计算成本有重要意义",
-        "Requential Coding 可能成为 AI 模型压缩的新方向"
+        "序列性差距影响了视频传播模型的性能",
+        "需要改进序列计算能力",
+        "影响了视频预测的准确性"
       ],
       "enterprise_impact": {
-        "technology": "对 AI 模型压缩技术架构的影响",
-        "organization": "对组织能力或流程的影响"
+        "technology": "影响了视频传播模型的技术架构",
+        "organization": "需要改进序列计算能力，影响组织的能力和流程"
       },
       "suitable_for": [
-        "适合关注 AI 模型压缩和效率优化的企业"
+        "适合关注的企业类型/部门/角色：视频传播模型开发者、组织能力优化者"
       ],
       "recommended_actions": [
         {
-          "action": "研究 Requential Coding 的应用和潜在风险",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解新技术的潜在价值和风险"
-        },
-        {
-          "action": "评估 Requential Coding 对当前 AI 模型压缩方案的影响",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "确定新技术的适用范围和潜在优势"
-        }
-      ],
-      "risks_and_limits": [
-        "信息量较大，需要深入研究才能确定其有效性"
-      ],
-      "signals_to_watch": [
-        "后续应观察 Requential Coding 的应用和成果"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "来自学术研究的新技术"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11883v1",
-      "original_title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-07-13T17:58:50",
-      "intelligence_date": "2026-07-15"
-    },
-    {
-      "id": "8f81bcf7-41d9-41d2-b30a-60967e01c4f3",
-      "title": "LLMs的元认知能力：基础、进展和机遇",
-      "one_sentence_conclusion": "LLMs的元认知能力仍然是一个未解决的问题，对企业的核心意义在于提高AI系统的可靠性和智能度",
-      "summary": "LLMs的元认知能力是人工智能的关键组成部分，目前研究仍在初期阶段，尚未明确其在实践中的应用和效果",
-      "why_it_matters": [
-        "LLMs的元认知能力对提高AI系统的可靠性和智能度有重要影响",
-        "元认知能力的发展可能带来新的商业机会和竞争优势"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：元认知能力的发展可能改变企业的竞争格局",
-        "business": "对业务场景或商业模式的影响：元认知能力可能带来新的商业机会",
-        "technology": "对技术架构或模型选型的影响：元认知能力的发展可能需要新的技术架构和模型",
-        "organization": "对组织能力或流程的影响：元认知能力的发展可能需要组织能力和流程的调整"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：高科技企业、AI研究机构、企业IT部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "跟进LLMs的元认知能力的最新研究和进展",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解元认知能力的发展趋势和潜在应用"
-        },
-        {
-          "action": "评估元认知能力对企业竞争格局和商业模式的潜在影响",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "确定元认知能力的发展对企业的潜在影响"
-        }
-      ],
-      "risks_and_limits": [
-        "元认知能力的发展可能带来新的风险和挑战，例如数据安全和隐私问题"
-      ],
-      "signals_to_watch": [
-        "LLMs的元认知能力的最新研究和进展、元认知能力的应用和效果"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "研究论文的可信度和相关性"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "研究报告",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11881v1",
-      "original_title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-07-13T17:58:37",
-      "intelligence_date": "2026-07-15"
-    },
-    {
-      "id": "46da004b-9a89-4a44-be70-a53b9b47f316",
-      "title": "Transformer模型在归纳推理任务中的学习动力学",
-      "one_sentence_conclusion": "Transformer模型在归纳推理任务中的学习动力学可以被解释为一个低维可解释的不变子空间",
-      "summary": "研究团队提出了一个理论框架来解释Transformer语言模型在归纳推理任务中的学习动力学。该框架可以将多个合成任务统一起来，包括在上下文中n-grams和多跳推理。研究表明，训练动态可以被限制在一个低维可解释的不变子空间中，学习动态可以被捕捉到几个可解释的坐标中，而不是数百万个参数。",
-      "why_it_matters": [
-        "Transformer模型在归纳推理任务中的学习动力学对理解其推理能力至关重要",
-        "该研究框架可以帮助分析和理解Transformer模型的学习动态"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：提高对Transformer模型的理解和应用能力",
-        "business": "对业务场景或商业模式的影响：改进推理能力和决策质量",
-        "technology": "对技术架构或模型选型的影响：选择合适的Transformer模型和学习动态",
-        "organization": "对组织能力或流程的影响：提高团队对Transformer模型的理解和应用能力"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：AI研究机构、技术公司、金融机构"
-      ],
-      "recommended_actions": [
-        {
-          "action": "研究和应用Transformer模型的学习动力学框架",
+          "action": "改进序列计算能力，例如使用自回归/块级生成和架构深度方法",
           "priority": "high",
           "timeframe": "1-3月",
-          "reason": "提高对Transformer模型的理解和应用能力"
+          "reason": "序列性差距影响了视频传播模型的性能"
         }
       ],
       "risks_and_limits": [
-        "潜在风险：过度依赖Transformer模型，学习动态分析复杂性"
+        "序列性差距可能导致视频预测的准确性下降"
       ],
       "signals_to_watch": [
-        "Transformer模型在其他任务中的学习动力学研究进展"
+        "后续应观察的信号：序列计算能力的改进效果"
       ],
       "credibility": {
         "level": "high",
-        "reason": "来自顶级研究机构的研究成果"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "研究报告",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 40,
-          "level": "low",
-          "reason": "当前研究主要针对Transformer模型在归纳推理任务中的学习动力学，企业适用性较低，主要适用于研究机构或AI相关企业"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "研究团队提出的理论框架还处于早期阶段，缺乏大规模的实践案例和应用验证"
-        },
-        "implementation_cost": {
-          "score": 80,
-          "level": "high",
-          "reason": "实施该技术需要高昂的研究和开发成本，包括高性能计算资源和专业的AI研究团队"
-        },
-        "risk_level": {
-          "score": 60,
-          "level": "medium",
-          "reason": "该技术仍处于早期阶段，存在不确定性和潜在风险，包括理论框架的有效性和实践中的可行性"
-        },
-        "roi_potential": {
-          "score": 40,
-          "level": "low",
-          "reason": "当前阶段难以评估该技术的ROI潜力，需要进一步的研究和实践验证"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "企业可以关注该技术的发展动态，但不需要立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "关注该技术的发展动态",
-          "next_steps": [
-            "跟踪相关研究论文和会议",
-            "评估该技术在企业中的潜在应用场景"
-          ],
-          "suggested_owner": [
-            "AI研究团队",
-            "技术创新部门"
-          ],
-          "timeframe": "6月+"
-        },
-        "best_fit_scenarios": [
-          "AI研究机构",
-          "技术创新企业"
-        ],
-        "not_suitable_for": [
-          "传统行业企业",
-          "非AI相关企业"
-        ],
-        "key_questions_before_adoption": [
-          "该技术的理论框架是否有效?",
-          "该技术在实践中的可行性如何?"
-        ],
-        "final_judgement": "该技术仍处于早期阶段，企业可以关注其发展动态，但不需要立即采取行动。"
-      },
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11875v1",
-      "original_title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-07-13T17:56:11",
-      "intelligence_date": "2026-07-15"
-    },
-    {
-      "id": "ebb1fed9-556e-4031-b77b-be5a8cb33faa",
-      "title": "LLM-as-Judge偏差的机制解释",
-      "one_sentence_conclusion": "LLM-as-Judge偏差可以通过模型内部状态的机制解释来理解",
-      "summary": "研究人员提出了LLM-as-Judge偏差的机制解释，通过分析模型内部状态来理解偏差的原因",
-      "why_it_matters": [
-        "LLM-as-Judge偏差对AI决策的影响",
-        "偏差的机制解释可以帮助开发更公平的模型",
-        "研究结果可以应用于各种领域"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略的影响",
-        "business": "对业务场景的影响",
-        "technology": "对模型选型的影响",
-        "organization": "对组织能力的影响"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色"
-      ],
-      "recommended_actions": [
-        {
-          "action": "开发机制解释模型",
-          "priority": "high",
-          "timeframe": "1-3月",
-          "reason": "通过机制解释模型可以更好地理解偏差的原因并开发更公平的模型"
-        },
-        {
-          "action": "应用研究结果",
-          "priority": "medium",
-          "timeframe": "3-6月",
-          "reason": "研究结果可以应用于各种领域"
-        }
-      ],
-      "risks_and_limits": [
-        "模型内部状态的解释可能存在困难",
-        "偏差的机制解释可能不完全准确"
-      ],
-      "signals_to_watch": [
-        "模型内部状态的变化",
-        "偏差的变化"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "研究人员使用了严格的方法"
-      },
-      "enterprise_value_level": "high",
-      "information_type": "研究报告",
-      "confidence": "high",
-      "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 40,
-          "level": "low",
-          "reason": "LLM-as-Judge偏差的机制解释主要适用于AI模型开发和优化领域，企业适用性有限"
-        },
-        "maturity": {
-          "score": 40,
-          "level": "early_stage",
-          "reason": "当前研究仍处于早期阶段，缺乏大规模应用案例和明确的商业化路径"
-        },
-        "implementation_cost": {
-          "score": 60,
-          "level": "medium",
-          "reason": "实施LLM-as-Judge偏差的机制解释可能需要一定的技术和人力资源投入"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "medium",
-          "reason": "LLM-as-Judge偏差的机制解释可能存在一定的技术风险和模型优化挑战"
-        },
-        "roi_potential": {
-          "score": 40,
-          "level": "low",
-          "reason": "当前研究的ROI路径不明确，需要进一步的商业化探索"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "企业可以关注LLM-as-Judge偏差的机制解释的研究进展，但无需立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "关注LLM-as-Judge偏差的机制解释的研究进展",
-          "next_steps": [
-            "跟踪相关研究论文和会议",
-            "评估该技术在企业中的潜在应用场景"
-          ],
-          "suggested_owner": [
-            "AI研究团队",
-            "技术创新部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "AI模型开发和优化",
-          "机器学习研究"
-        ],
-        "not_suitable_for": [
-          "非AI相关企业",
-          "短期商业化需求"
-        ],
-        "key_questions_before_adoption": [
-          "LLM-as-Judge偏差的机制解释如何应用于企业现有的AI系统",
-          "该技术的商业化路径和潜在ROI"
-        ],
-        "final_judgement": "LLM-as-Judge偏差的机制解释是一个有趣的研究方向，但当前其企业适用性和成熟度有限，需要进一步的探索和验证。"
-      },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11871v1",
-      "original_title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-07-13T17:55:19",
-      "intelligence_date": "2026-07-15"
-    },
-    {
-      "id": "ee1948ea-326a-47ed-85e2-103e85575103",
-      "title": "Evidence-Backed Video Question Answering",
-      "one_sentence_conclusion": "新型视频问答任务提出，要求模型输出答案和精确的空间时间证据",
-      "summary": "当前视频大语言模型在问答任务中表现出色，但主要是作为黑盒子，提供不可验证的文本答案。现有可解释性努力依赖于文本理由或稀疏边界框，难以捕捉复杂的视频动态，如遮挡和非刚性变形。我们提出Evidence-Backed Video Question Answering（E-VQA），一个新型任务，要求模型同时输出语义答案和精确的空间时间证据：时间段和密集的跟踪对象分割掩码。",
-      "why_it_matters": [
-        "当前视频问答模型存在可解释性问题",
-        "新型任务提出新的挑战和要求",
-        "有助于改进视频问答模型的可解释性"
-      ],
-      "enterprise_impact": {
-        "strategy": "对AI战略或竞争格局的影响：提高视频问答模型的可解释性",
-        "business": "对业务场景或商业模式的影响：改进视频问答模型的可解释性",
-        "technology": "对技术架构或模型选型的影响：开发新的视频问答模型",
-        "organization": "对组织能力或流程的影响：提高组织对视频问答模型的可解释性"
-      },
-      "suitable_for": [
-        "适合关注的企业类型/部门/角色：技术研发部门、AI应用部门"
-      ],
-      "recommended_actions": [
-        {
-          "action": "开发新的视频问答模型，支持Evidence-Backed Video Question Answering任务",
-          "priority": "high",
-          "timeframe": "3-6月",
-          "reason": "提高视频问答模型的可解释性"
-        }
-      ],
-      "risks_and_limits": [
-        "潜在风险：模型复杂度增加，开发难度提高"
-      ],
-      "signals_to_watch": [
-        "后续应观察的信号：模型性能的改进，新型任务的应用"
-      ],
-      "credibility": {
-        "level": "high",
-        "reason": "基于现有研究和技术进展"
+        "reason": "研究结果基于控制实验和单球控制实验"
       },
       "enterprise_value_level": "high",
       "information_type": "技术进展",
@@ -624,221 +637,401 @@
       "scoring_detail": {
         "overall_score": 60,
         "enterprise_applicability": {
-          "score": 50,
-          "level": "medium",
-          "reason": "当前视频问答任务主要应用于特定领域，如视频分析和理解，企业适用性尚待验证"
+          "score": 40,
+          "level": "low",
+          "reason": "序列性差距主要影响视频传播模型的性能，企业适用性有限，主要适用于视频处理和分析领域"
         },
         "maturity": {
           "score": 40,
           "level": "early_stage",
-          "reason": "E-VQA任务提出较新，缺乏大量成熟产品和案例，需要进一步验证和开发"
+          "reason": "研究结果表明序列计算能力需要改进，但缺乏具体的解决方案和产品支持"
         },
         "implementation_cost": {
-          "score": 70,
-          "level": "high",
-          "reason": "实现E-VQA任务需要大量的计算资源和数据集，成本较高"
-        },
-        "risk_level": {
-          "score": 50,
-          "level": "medium",
-          "reason": "E-VQA任务的开发和实施存在一定的技术风险和不确定性"
-        },
-        "roi_potential": {
           "score": 60,
           "level": "medium",
-          "reason": "E-VQA任务有潜在的商业价值，特别是在视频分析和理解领域，但需要进一步验证"
+          "reason": "改进序列计算能力可能需要额外的计算资源和算法优化，成本中等"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "low",
+          "reason": "序列性差距主要影响视频传播模型的性能，风险相对较低"
+        },
+        "roi_potential": {
+          "score": 40,
+          "level": "low",
+          "reason": "ROI路径不清晰，需要进一步研究和验证"
         },
         "action_urgency": {
           "level": "monitor",
-          "reason": "E-VQA任务尚处于早期阶段，企业可以关注其发展动态，但无需立即采取行动"
+          "reason": "序列性差距影响视频传播模型的性能，但不需要立即采取行动"
         },
         "recommended_action": {
-          "primary_action": "关注E-VQA任务的发展动态",
+          "primary_action": "跟踪研究进展",
           "next_steps": [
-            "跟踪相关研究和开发进展",
-            "评估E-VQA任务在企业中的潜在应用场景",
-            "考虑参与相关的试点项目或合作"
+            "关注相关研究论文和项目",
+            "评估改进序列计算能力的潜在价值"
           ],
           "suggested_owner": [
             "AI研究团队",
-            "业务发展团队"
+            "数据科学部门"
           ],
           "timeframe": "3-6月"
         },
         "best_fit_scenarios": [
-          "视频分析和理解",
-          "智能监控",
-          "媒体内容理解"
+          "视频处理和分析领域"
         ],
         "not_suitable_for": [
-          "低计算资源的企业",
-          "无视频分析需求的企业"
+          "非视频相关的企业和应用场景"
         ],
         "key_questions_before_adoption": [
-          "E-VQA任务的技术成熟度如何",
-          "E-VQA任务在企业中的应用场景和商业价值如何",
-          "实施E-VQA任务的成本和风险如何"
+          "改进序列计算能力的具体方案和成本",
+          "序列性差距对视频传播模型的性能影响"
         ],
-        "final_judgement": "E-VQA任务具有潜在的商业价值，但尚处于早期阶段，企业需要关注其发展动态并评估其在企业中的应用场景和商业价值。"
+        "final_judgement": "序列性差距影响视频传播模型的性能，但企业适用性和成熟度有限，需要进一步研究和验证。"
       },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11862v1",
-      "original_title": "Evidence-Backed Video Question Answering",
+      "source_url": "http://arxiv.org/abs/2607.13031v1",
+      "original_title": "The Seriality Gap in Video Diffusion Models",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-07-13T17:49:10",
-      "intelligence_date": "2026-07-15"
+      "published_at": "2026-07-14T17:59:22",
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "3aa9ba1b-6518-4bd4-8b7e-98762cb05f12",
-      "title": "AdvancedMathBench：评估高级数学推理能力的新基准",
-      "one_sentence_conclusion": "AdvancedMathBench 提供了评估高级数学推理能力的新基准，填补了现有基准的缺陷",
-      "summary": "AdvancedMathBench 是一个基准套件，旨在评估大型语言模型 (LLMs) 在高级数学推理方面的能力。它包含 296 个问题，涵盖了本科和博士资格考试的水平。",
+      "id": "d1593499-1c26-48a5-8daf-eec9672b2478",
+      "title": "PalmClaw：移动设备原生代理框架",
+      "one_sentence_conclusion": "PalmClaw为企业提供了一个原生移动代理框架，提高了移动设备的可用性和设备能力的访问性",
+      "summary": "PalmClaw是移动设备原生代理框架，支持设备能力的直接访问和管理，提高了移动设备的可用性和设备能力的访问性",
       "why_it_matters": [
-        "评估高级数学推理能力对于 AI 的发展至关重要",
-        "现有基准不足以评估 LLMs 在高级数学中的表现",
-        "AdvancedMathBench 提供了一个更细致的评估框架"
+        "移动设备的广泛普及和用户数据的重要性",
+        "现有移动代理主要依赖图形用户界面（GUI）操作，限制了设备能力的访问和执行的灵活性"
       ],
       "enterprise_impact": {
-        "strategy": "对 AI 研究和开发战略的影响",
-        "business": "对教育和研究领域的影响",
-        "technology": "对大型语言模型的评估和改进",
-        "organization": "对研究团队和开发人员的影响"
+        "strategy": "对移动设备和设备能力的访问性有影响",
+        "business": "对移动设备和设备能力的访问性有影响",
+        "technology": "对移动设备和设备能力的访问性有影响",
+        "organization": "对移动设备和设备能力的访问性有影响"
       },
       "suitable_for": [
-        "研究机构、教育机构、AI 开发公司"
+        "移动设备相关企业/部门/角色"
       ],
       "recommended_actions": [
         {
-          "action": "采用 AdvancedMathBench 进行评估和改进 LLMs 的高级数学推理能力",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "评估和改进 LLMs 的高级数学推理能力对于 AI 的发展至关重要"
+          "action": "评估PalmClaw的适用性和潜在应用场景",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解PalmClaw的优势和局限性"
         }
       ],
       "risks_and_limits": [
-        "信息量较大，需要专门的资源和专业知识进行评估"
+        "PalmClaw的可用性和兼容性可能受到限制",
+        "设备能力的直接访问可能带来安全风险"
       ],
       "signals_to_watch": [
-        "后续的研究和应用结果"
+        "PalmClaw的社区支持和开发动态"
       ],
       "credibility": {
-        "level": "high",
-        "reason": "来自顶级研究机构的研究结果"
+        "level": "medium",
+        "reason": "PalmClaw是开源项目，社区支持和开发动态是重要参考"
       },
-      "enterprise_value_level": "high",
-      "information_type": "研究报告",
-      "confidence": "high",
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
       "overall_score": 60.0,
-      "scoring_detail": {
-        "overall_score": 60,
-        "enterprise_applicability": {
-          "score": 40,
-          "level": "low",
-          "reason": "主要适用于教育和研究领域，企业应用场景有限"
-        },
-        "maturity": {
-          "score": 60,
-          "level": "pilot_ready",
-          "reason": "虽然AdvancedMathBench是一个新的基准，但其在评估高级数学推理能力方面的有效性仍需要进一步验证"
-        },
-        "implementation_cost": {
-          "score": 80,
-          "level": "high",
-          "reason": "实施AdvancedMathBench可能需要大量的计算资源和专业知识"
-        },
-        "risk_level": {
-          "score": 40,
-          "level": "low",
-          "reason": "主要风险在于AdvancedMathBench的有效性和可靠性尚未得到充分验证"
-        },
-        "roi_potential": {
-          "score": 40,
-          "level": "low",
-          "reason": "ROI路径不清晰，主要应用场景在教育和研究领域，企业应用价值有限"
-        },
-        "action_urgency": {
-          "level": "monitor",
-          "reason": "企业可以关注AdvancedMathBench的发展和应用，但无需立即采取行动"
-        },
-        "recommended_action": {
-          "primary_action": "关注AdvancedMathBench的发展和应用",
-          "next_steps": [
-            "评估AdvancedMathBench在教育和研究领域的应用价值",
-            "探索AdvancedMathBench在企业应用场景中的潜在价值"
-          ],
-          "suggested_owner": [
-            "研发部门",
-            "教育培训部门"
-          ],
-          "timeframe": "3-6月"
-        },
-        "best_fit_scenarios": [
-          "教育和研究领域"
-        ],
-        "not_suitable_for": [
-          "大多数企业应用场景"
-        ],
-        "key_questions_before_adoption": [
-          "AdvancedMathBench在评估高级数学推理能力方面的有效性如何?",
-          "AdvancedMathBench的实施成本和风险如何?",
-          "AdvancedMathBench在企业应用场景中的潜在价值是什么?"
-        ],
-        "final_judgement": "AdvancedMathBench是一个有潜力的基准套件，但其在企业应用场景中的价值和有效性仍需要进一步验证和探索。"
-      },
+      "scoring_detail": null,
       "category": "tool",
       "category_label": "AI工具与实战",
       "category_emoji": "🟢",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11849v1",
-      "original_title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
+      "source_url": "http://arxiv.org/abs/2607.13027v1",
+      "original_title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-07-13T17:38:22",
-      "intelligence_date": "2026-07-15"
+      "published_at": "2026-07-14T17:58:57",
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "17cc15e8-635d-4232-91b3-d68c975433d8",
-      "title": "量子神经网络面临输入感知动态后门攻击风险",
-      "one_sentence_conclusion": "量子神经网络的安全风险需要企业关注",
-      "summary": "量子神经网络易受后门攻击，现有量子后门攻击主要依赖固定的触发器，易被防御措施检测或削弱。研究人员提出了Q-DIBA，第一种量子输入感知动态后门攻击方法，解决了量子学习引入的新障碍。",
+      "id": "459bfd4a-f014-4a8c-b2c4-9b8f6ff14c7e",
+      "title": "直接建模湍流稳态分布",
+      "one_sentence_conclusion": "新方法可以有效降低计算成本，适用于某些复杂流体动力学系统",
+      "summary": "研究提出了一种直接建模湍流稳态分布的方法，避免了传统的自回归模型的累积误差问题，适用于某些复杂流体动力学系统",
       "why_it_matters": [
-        "量子神经网络的安全风险可能对企业的核心业务造成影响",
-        "输入感知动态后门攻击可能对企业的竞争格局产生影响"
+        "该方法可以有效降低计算成本，适用于某些复杂流体动力学系统",
+        "该方法可以提供湍流稳态分布的准确建模"
       ],
       "enterprise_impact": {
-        "strategy": "对企业的AI战略或竞争格局的影响",
-        "business": "对业务场景或商业模式的影响",
-        "technology": "对技术架构或模型选型的影响",
-        "organization": "对组织能力或流程的影响"
+        "technology": "该方法可以应用于流体动力学领域的计算模拟，降低计算成本和提高准确性",
+        "organization": "该方法可以帮助流体动力学领域的研究人员和工程师更好地理解和模拟复杂流体动力学系统"
       },
       "suitable_for": [
-        "适合关注的企业类型/部门/角色"
+        "流体动力学领域的研究人员和工程师"
       ],
       "recommended_actions": [
         {
-          "action": "评估企业的量子神经网络安全风险",
+          "action": "研究和应用该方法来降低计算成本和提高准确性",
           "priority": "high",
-          "timeframe": "立即",
-          "reason": "了解企业的量子神经网络安全风险"
+          "timeframe": "1-3月",
+          "reason": "该方法可以有效降低计算成本和提高准确性"
         }
       ],
       "risks_and_limits": [
-        "潜在风险：量子神经网络的安全风险可能对企业造成重大损失"
+        "该方法可能不适用于所有复杂流体动力学系统，需要进一步研究和验证"
       ],
       "signals_to_watch": [
-        "后续应观察的信号：量子神经网络的安全风险可能会随着技术进展而增加"
+        "该方法的应用和扩展，特别是在流体动力学领域的其他领域"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "该方法基于数学理论和计算模拟，需要进一步研究和验证"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.13022v1",
+      "original_title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T17:58:13",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "65c69601-7a9a-42ea-b596-6c0509644f5f",
+      "title": "音频本地语音识别模型：DiffusionGemma",
+      "one_sentence_conclusion": "音频本地语音识别模型DiffusionGemma可能成为替代传统自回归解码器的选择",
+      "summary": "研究团队开发了一个音频本地语音识别模型DiffusionGemma，使用离散扩散语言模型替代传统自回归解码器，提高了语音识别效率",
+      "why_it_matters": [
+        "可能成为替代传统自回归解码器的选择",
+        "提高了语音识别效率",
+        "扩大了离散扩散语言模型的应用范围"
+      ],
+      "enterprise_impact": {
+        "strategy": "可能影响企业的AI战略和竞争格局",
+        "business": "可能影响企业的语音识别业务场景和商业模式",
+        "technology": "可能影响企业的技术架构和模型选型",
+        "organization": "可能影响企业的组织能力和流程"
+      },
+      "suitable_for": [
+        "语音识别领域的企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估DiffusionGemma的适用性和可行性",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "了解DiffusionGemma的优势和局限性"
+        },
+        {
+          "action": "研究和实验DiffusionGemma的应用",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "评估DiffusionGemma在语音识别领域的潜在应用"
+        }
+      ],
+      "risks_and_limits": [
+        "DiffusionGemma的训练数据和参数量较大",
+        "DiffusionGemma的性能和稳定性还需进一步验证"
+      ],
+      "signals_to_watch": [
+        "DiffusionGemma的性能和稳定性",
+        "DiffusionGemma的应用范围和适用性"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "研究团队的声誉和研究成果"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.13013v1",
+      "original_title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T17:53:22",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "0a930df9-244d-4bb1-86d5-aedb34adae9f",
+      "title": "动态资源分配增强MCTS算法",
+      "one_sentence_conclusion": "动态资源分配增强MCTS算法可以提高在不确定环境下的决策效率",
+      "summary": "该论文提出了一系列增强MCTS算法的方法，包括动态确定化树数量和动态模拟分配，旨在提高在不确定环境下的决策效率",
+      "why_it_matters": [
+        "适合于高不确定性环境下的决策",
+        "可以提高在不确定环境下的决策效率",
+        "可以应用于广泛的领域，包括游戏和决策系统"
+      ],
+      "enterprise_impact": {
+        "technology": "对MCTS算法和动态资源分配的影响",
+        "organization": "对决策系统和游戏开发的影响"
+      },
+      "suitable_for": [
+        "游戏开发公司",
+        "决策系统开发公司"
+      ],
+      "recommended_actions": [
+        {
+          "action": "研究和测试动态资源分配增强MCTS算法",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "了解算法的潜在优势和应用场景"
+        },
+        {
+          "action": "应用动态资源分配增强MCTS算法到实际项目中",
+          "priority": "medium",
+          "timeframe": "3-6月",
+          "reason": "验证算法的实用性和有效性"
+        }
+      ],
+      "risks_and_limits": [
+        "算法复杂度增加，可能导致计算资源占用增加"
+      ],
+      "signals_to_watch": [
+        "相关领域的研究进展和应用案例"
       ],
       "credibility": {
         "level": "high",
-        "reason": "研究人员提出的Q-DIBA方法解决了量子学习引入的新障碍"
+        "reason": "论文来源于学术期刊，研究方法和结果有可信度"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "技术进展",
+      "confidence": "high",
+      "overall_score": 60.0,
+      "scoring_detail": {
+        "overall_score": 60,
+        "enterprise_applicability": {
+          "score": 70,
+          "level": "medium",
+          "reason": "该算法可以应用于需要在不确定环境下做出决策的企业，例如金融、供应链管理等行业"
+        },
+        "maturity": {
+          "score": 40,
+          "level": "early_stage",
+          "reason": "虽然该算法有一定的理论基础，但缺乏实际应用案例和产品化的成熟度"
+        },
+        "implementation_cost": {
+          "score": 50,
+          "level": "medium",
+          "reason": "实现该算法需要一定的开发和测试成本，包括数据准备、算法优化和系统集成"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "该算法的应用可能面临数据质量、算法稳定性和系统集成等风险"
+        },
+        "roi_potential": {
+          "score": 60,
+          "level": "medium",
+          "reason": "该算法可以提高决策效率和准确性，从而带来潜在的经济效益，但需要进一步验证"
+        },
+        "action_urgency": {
+          "level": "pilot_soon",
+          "reason": "建议在特定业务场景中进行试点应用和验证"
+        },
+        "recommended_action": {
+          "primary_action": "进行试点应用和验证",
+          "next_steps": [
+            "确定适合的业务场景",
+            "收集和准备数据",
+            "开发和测试算法"
+          ],
+          "suggested_owner": [
+            "数据科学团队",
+            "业务部门"
+          ],
+          "timeframe": "3-6月"
+        },
+        "best_fit_scenarios": [
+          "金融风险管理",
+          "供应链优化",
+          "推荐系统"
+        ],
+        "not_suitable_for": [
+          "简单的决策场景",
+          "数据质量较差的场景"
+        ],
+        "key_questions_before_adoption": [
+          "该算法是否适合我们的业务场景",
+          "如何确保数据质量和算法稳定性",
+          "如何评估算法的经济效益"
+        ],
+        "final_judgement": "动态资源分配增强MCTS算法具有潜在的应用价值，但需要进一步验证和优化。建议在特定业务场景中进行试点应用和验证。"
+      },
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.13007v1",
+      "original_title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T17:51:15",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "b39ff60b-29c8-468e-ada5-25fa9f3df916",
+      "title": "时序预测中上下文的重要性",
+      "one_sentence_conclusion": "上下文在时序预测中的重要性取决于操作点",
+      "summary": "研究表明，时序预测中上下文的价值取决于操作点，而不是时间序列本身。任何基于功率谱的指数都对相位随机化无效，而检索和基础模型提供的超高阶价值不受此影响。",
+      "why_it_matters": [
+        "理解时序预测中上下文的重要性对于选择合适的预测方法至关重要",
+        "上下文的价值取决于操作点，这意味着不同的操作点可能需要不同的预测方法"
+      ],
+      "enterprise_impact": {
+        "strategy": "影响企业的AI战略和预测方法选择",
+        "business": "影响企业的业务场景和预测结果",
+        "technology": "影响企业的技术架构和模型选型",
+        "organization": "影响企业的组织能力和流程"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：AI、预测分析、数据科学"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估当前预测方法的有效性并考虑上下文的价值",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "确保预测方法的有效性"
+        },
+        {
+          "action": "调整预测方法以考虑上下文的价值",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "提高预测准确性"
+        }
+      ],
+      "risks_and_limits": [
+        "潜在风险：过度依赖上下文的价值，忽视其他重要因素"
+      ],
+      "signals_to_watch": [
+        "观察预测结果的变化，调整预测方法以考虑上下文的价值"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "研究结果基于严格的数学证明"
       },
       "enterprise_value_level": "high",
       "information_type": "研究报告",
@@ -847,245 +1040,297 @@
       "scoring_detail": {
         "overall_score": 60,
         "enterprise_applicability": {
-          "score": 40,
-          "level": "low",
-          "reason": "量子神经网络尚未在大多数企业中广泛应用，主要适用于特定领域的研究和开发"
+          "score": 70,
+          "level": "medium",
+          "reason": "时序预测在多个行业中都有应用，例如金融、物流、能源等，但上下文的重要性取决于操作点，这可能需要根据具体业务场景进行调整"
         },
         "maturity": {
-          "score": 20,
+          "score": 50,
           "level": "early_stage",
-          "reason": "量子神经网络和相关攻击方法仍处于早期研究阶段，缺乏成熟的产品和案例"
+          "reason": "虽然时序预测技术已经比较成熟，但上下文在时序预测中的应用仍然处于早期阶段，需要更多的研究和验证"
         },
         "implementation_cost": {
-          "score": 80,
-          "level": "high",
-          "reason": "开发和实施量子神经网络以及防御措施需要高昂的成本和专业知识"
+          "score": 40,
+          "level": "medium",
+          "reason": "实现上下文在时序预测中的应用可能需要一定的数据准备和模型调整，成本取决于具体的业务场景和技术实现"
         },
         "risk_level": {
-          "score": 70,
-          "level": "high",
-          "reason": "量子神经网络面临的后门攻击风险可能导致敏感信息泄露和安全漏洞"
-        },
-        "roi_potential": {
           "score": 30,
           "level": "low",
-          "reason": "量子神经网络的商业应用尚不明确，ROI路径不清晰"
+          "reason": "上下文在时序预测中的应用主要是技术风险，可能需要调整模型和算法，但不涉及重大业务风险"
+        },
+        "roi_potential": {
+          "score": 60,
+          "level": "medium",
+          "reason": "上下文在时序预测中的应用可能带来一定的预测准确性提高和业务价值，但 ROI 的实现取决于具体的业务场景和技术实现"
         },
         "action_urgency": {
           "level": "monitor",
-          "reason": "虽然量子神经网络的安全风险需要关注，但当前尚不需要立即采取行动"
+          "reason": "虽然上下文在时序预测中的应用有潜在价值，但仍然处于早期阶段，建议监控技术发展和行业应用情况"
         },
         "recommended_action": {
-          "primary_action": "关注量子神经网络的安全研究和发展",
+          "primary_action": "跟踪上下文在时序预测中的最新研究和应用进展",
           "next_steps": [
-            "跟踪量子神经网络的最新研究进展",
-            "评估量子神经网络在企业中的潜在应用和风险",
-            "考虑参与量子神经网络的安全标准和规范的制定"
+            "评估当前时序预测模型的性能和局限性",
+            "探索上下文在时序预测中的潜在应用场景",
+            "与数据科学和业务团队讨论上下文在时序预测中的潜在价值和挑战"
           ],
           "suggested_owner": [
-            "信息安全部门",
-            "研发部门"
+            "数据科学团队",
+            "业务分析团队"
           ],
-          "timeframe": "6月+"
+          "timeframe": "3-6月"
         },
         "best_fit_scenarios": [
-          "高安全性要求的行业，如金融、国防等"
+          "金融领域的时序预测",
+          "物流和供应链管理中的时序预测"
         ],
         "not_suitable_for": [
-          "大多数中小企业和非高安全性行业"
+          "没有明确时序预测需求的企业"
         ],
         "key_questions_before_adoption": [
-          "量子神经网络在企业中的具体应用场景是什么？",
-          "如何评估和缓解量子神经网络的安全风险？",
-          "量子神经网络的开发和实施需要什么样的专业知识和资源？"
+          "上下文在时序预测中的应用如何提高预测准确性和业务价值",
+          "如何评估和选择合适的上下文特征和模型",
+          "如何确保上下文在时序预测中的应用与业务目标和需求相符"
         ],
-        "final_judgement": "量子神经网络的安全风险需要企业关注，但当前尚不需要立即采取行动，应继续关注相关研究和发展。"
+        "final_judgement": "上下文在时序预测中的应用有潜在价值，但仍然处于早期阶段，需要监控技术发展和行业应用情况，并评估具体的业务场景和技术实现。"
       },
-      "category": "chip",
-      "category_label": "模型算力与芯片生态",
-      "category_emoji": "🔴",
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
       "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11843v1",
-      "original_title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
+      "source_url": "http://arxiv.org/abs/2607.13006v1",
+      "original_title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-07-13T17:34:17",
-      "intelligence_date": "2026-07-15"
+      "published_at": "2026-07-14T17:50:28",
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "eeb1a8b8-dec7-4dc6-a4f4-b007b2ad0c98",
-      "title": "LoRA-Based Cascaded Multimodal Fusion Framework for Medical Training Environments",
-      "one_sentence_conclusion": "LoRA-Based Cascaded Multimodal Fusion Framework 提供了一个可扩展的多模态融合框架，适用于医疗培训环境中的行为识别",
-      "summary": "该论文提出了一种基于LoRA的级联多模态融合框架，用于医疗培训环境中的行为和活动识别。该框架结合了参数高效的模态特定适应性和序列融合，允许模态在阶段之间集成而无需重新训练之前学习的组件。",
+      "id": "2c3eaacf-d91a-406f-a65e-5a13e7d9686b",
+      "title": "水印法在生成模型中的应用：信息论的视角",
+      "one_sentence_conclusion": "水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分",
+      "summary": "水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分。水印法的信息论视角可以帮助我们理解水印法的成本和效率。",
       "why_it_matters": [
-        "该框架提供了一个可扩展的多模态融合解决方案，适用于医疗培训环境中的行为识别",
-        "该框架可以支持可扩展的适应性，适用于不同数据集的模态集"
+        "水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分",
+        "水印法的信息论视角可以帮助我们理解水印法的成本和效率"
       ],
       "enterprise_impact": {
-        "strategy": "该框架可能会影响医疗培训环境中的行为识别策略",
-        "business": "该框架可能会影响医疗培训环境中的业务场景",
-        "technology": "该框架可能会影响多模态融合技术的选型",
-        "organization": "该框架可能会影响医疗培训环境中的组织能力"
+        "strategy": "对AI战略或竞争格局的影响：水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分",
+        "business": "对业务场景或商业模式的影响：水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分",
+        "technology": "对技术架构或模型选型的影响：水印法的信息论视角可以帮助我们理解水印法的成本和效率",
+        "organization": "对组织能力或流程的影响：水印法可以用于生成模型的输出中，用于识别机器生成的文本、属性用户、提取隐藏信息或定位编辑后的部分"
       },
       "suitable_for": [
-        "医疗培训机构",
-        "医疗设备制造商",
-        "医疗技术开发商"
+        "适合关注的企业类型/部门/角色：AI、机器学习、自然语言处理"
       ],
       "recommended_actions": [
         {
-          "action": "评估该框架在医疗培训环境中的应用潜力",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解该框架的可扩展性和适应性"
-        },
-        {
-          "action": "研究该框架的多模态融合技术",
+          "action": "研究水印法的应用和成本效率",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "了解该框架的技术优势"
+          "reason": "了解水印法的潜在应用和成本效率"
+        },
+        {
+          "action": "评估水印法对业务场景的影响",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解水印法对业务场景的潜在影响"
         }
       ],
       "risks_and_limits": [
-        "该框架的可扩展性和适应性还需要进一步评估"
+        "信息论视角可能过于复杂，难以理解"
       ],
       "signals_to_watch": [
-        "该框架在医疗培训环境中的应用案例",
-        "该框架的多模态融合技术的进一步发展"
+        "水印法的应用和成本效率的研究结果"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "该论文的结果还需要进一步验证"
+        "reason": "研究论文的可信度"
       },
       "enterprise_value_level": "medium",
       "information_type": "研究报告",
       "confidence": "medium",
       "overall_score": 60.0,
       "scoring_detail": null,
-      "category": "tool",
-      "category_label": "AI工具与实战",
-      "category_emoji": "🟢",
-      "source_name": "ArXiv CS.AI",
-      "source_url": "http://arxiv.org/abs/2607.11839v1",
-      "original_title": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
-      "is_duplicate": false,
-      "duplicate_of": null,
-      "related_sources": null,
-      "multi_source_verified": false,
-      "published_at": "2026-07-13T17:27:58",
-      "intelligence_date": "2026-07-15"
-    },
-    {
-      "id": "b7b3d120-5186-4ba1-b14a-119064b45150",
-      "title": "数据科学团队如何使用ChatGPT Work",
-      "one_sentence_conclusion": "ChatGPT Work 可以帮助数据科学团队提高工作效率和生产力",
-      "summary": "ChatGPT Work 是一个工具，允许数据科学团队从真实工作输入中构建根因分析、影响读取、KPI备忘录、范围分析和仪表板规范",
-      "why_it_matters": [
-        "数据科学团队可以利用 ChatGPT Work 提高工作效率和生产力",
-        "ChatGPT Work 可以帮助数据科学团队更好地管理和分析数据"
-      ],
-      "enterprise_impact": {
-        "technology": "ChatGPT Work 可以影响数据科学团队的技术架构和模型选型",
-        "organization": "ChatGPT Work 可以影响数据科学团队的组织能力和流程"
-      },
-      "suitable_for": [
-        "数据科学团队",
-        "分析师",
-        "数据科学家"
-      ],
-      "recommended_actions": [
-        {
-          "action": "评估 ChatGPT Work 的潜在应用和好处",
-          "priority": "medium",
-          "timeframe": "1-3月",
-          "reason": "了解 ChatGPT Work 的潜在影响和好处"
-        },
-        {
-          "action": "考虑采用 ChatGPT Work 来提高工作效率和生产力",
-          "priority": "high",
-          "timeframe": "立即",
-          "reason": "ChatGPT Work 可以帮助数据科学团队提高工作效率和生产力"
-        }
-      ],
-      "risks_and_limits": [
-        "信息不足时可能难以评估 ChatGPT Work 的潜在风险和限制"
-      ],
-      "signals_to_watch": [
-        "后续应观察 ChatGPT Work 的更新和改进"
-      ],
-      "credibility": {
-        "level": "medium",
-        "reason": "ChatGPT Work 是一个有潜力的工具，但需要更多信息来评估其可靠性"
-      },
-      "enterprise_value_level": "medium",
-      "information_type": "技术进展",
-      "confidence": "medium",
-      "overall_score": 60.0,
-      "scoring_detail": null,
       "category": "chip",
       "category_label": "模型算力与芯片生态",
       "category_emoji": "🔴",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "original_title": "How data science teams use ChatGPT Work",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.13003v1",
+      "original_title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
       "is_duplicate": false,
       "duplicate_of": null,
       "related_sources": null,
       "multi_source_verified": false,
-      "published_at": "2026-07-14T00:00:00",
-      "intelligence_date": "2026-07-15"
+      "published_at": "2026-07-14T17:49:52",
+      "intelligence_date": "2026-07-16"
     },
     {
-      "id": "68ed530e-19ad-4fe9-9e3e-1a60532e9775",
-      "title": "销售团队如何利用ChatGPT Work",
-      "one_sentence_conclusion": "销售团队可以利用ChatGPT Work提高工作效率和销售成果",
-      "summary": "ChatGPT Work是一种AI工具，用于销售团队创建管道简报、会议准备包、预测评估、账户计划和滞后交易诊断等内容。销售团队可以通过ChatGPT Work提高工作效率和销售成果。ChatGPT Work可以从真实工作输入中创建这些内容。",
+      "id": "e860e71c-2557-4a30-a15c-80786d9b5858",
+      "title": "LLM 计划评估中的静默收益：删除非单调性、自主利用和类型状态门控",
+      "one_sentence_conclusion": "LLM 计划评估中静默收益的发现对企业的核心意义在于优化策略评估和结构重构",
+      "summary": "研究发现，计划评估器可以通过删除内部转换来奖励战略计划变得更具隐蔽性。该研究在 LLM 生成的企业路线评估中研究了这一失败。研究人员提出了一个分期预期值评分器，并证明了删除内部转换的分数变化公式。",
       "why_it_matters": [
-        "销售团队可以利用ChatGPT Work提高工作效率和销售成果",
-        "ChatGPT Work可以帮助销售团队创建高质量的销售材料",
-        "销售团队可以通过ChatGPT Work获得更准确的销售预测和评估"
+        "LLM 计划评估中的静默收益对企业的策略评估和结构重构有重要影响",
+        "研究发现可以通过删除内部转换来奖励战略计划变得更具隐蔽性",
+        "该研究对 LLM 生成的企业路线评估有重要参考价值"
       ],
       "enterprise_impact": {
-        "business": "对销售场景和商业模式的影响",
-        "technology": "对销售工具和模型选型的影响"
+        "strategy": "对企业的策略评估和结构重构有重要影响",
+        "business": "对企业路线评估和优化有重要影响",
+        "technology": "对 LLM 生成的企业路线评估有重要参考价值",
+        "organization": "对企业的组织能力和流程有重要影响"
+      },
+      "suitable_for": [
+        "适合关注的企业类型/部门/角色：技术研发部门、企业路线评估团队"
+      ],
+      "recommended_actions": [
+        {
+          "action": "优化策略评估和结构重构",
+          "priority": "high",
+          "timeframe": "1-3月",
+          "reason": "通过删除内部转换来奖励战略计划变得更具隐蔽性"
+        }
+      ],
+      "risks_and_limits": [
+        "潜在风险：过度依赖 LLM 生成的企业路线评估"
+      ],
+      "signals_to_watch": [
+        "后续应观察的信号：企业路线评估的效果和效率"
+      ],
+      "credibility": {
+        "level": "high",
+        "reason": "研究人员提出了一个分期预期值评分器，并证明了删除内部转换的分数变化公式"
+      },
+      "enterprise_value_level": "high",
+      "information_type": "研究报告",
+      "confidence": "high",
+      "overall_score": 60.0,
+      "scoring_detail": {
+        "overall_score": 60,
+        "enterprise_applicability": {
+          "score": 70,
+          "level": "medium",
+          "reason": "该研究对企业路线评估和策略优化有参考价值，但应用范围可能有限于特定行业或场景"
+        },
+        "maturity": {
+          "score": 40,
+          "level": "early_stage",
+          "reason": "研究仍处于早期阶段，缺乏大规模应用案例和明确的实施指南"
+        },
+        "implementation_cost": {
+          "score": 50,
+          "level": "medium",
+          "reason": "实施该技术可能需要一定的算法开发和数据准备成本，但具体成本取决于企业现有的技术基础"
+        },
+        "risk_level": {
+          "score": 40,
+          "level": "medium",
+          "reason": "采用新技术和算法总是伴有一定的风险，特别是当其应用于关键的商业决策时"
+        },
+        "roi_potential": {
+          "score": 60,
+          "level": "medium",
+          "reason": "优化策略评估和结构重构有可能带来显著的商业价值，但具体的ROI路径需要进一步验证"
+        },
+        "action_urgency": {
+          "level": "monitor",
+          "reason": "虽然该技术有潜力，但由于其仍处于早期阶段，企业可以先观察其发展和应用案例"
+        },
+        "recommended_action": {
+          "primary_action": "关注该技术的进一步发展和应用案例",
+          "next_steps": [
+            "评估内部技术基础和潜在的实施成本",
+            "寻找相关的应用案例和行业报告",
+            "考虑与研究机构或技术供应商合作进行试点项目"
+          ],
+          "suggested_owner": [
+            "IT部门",
+            "战略规划团队"
+          ],
+          "timeframe": "3-6月"
+        },
+        "best_fit_scenarios": [
+          "拥有复杂决策过程和策略规划的企业",
+          "需要优化内部流程和结构的组织"
+        ],
+        "not_suitable_for": [
+          "小型企业或初创公司，技术基础较弱",
+          "对新技术采用较为保守的行业"
+        ],
+        "key_questions_before_adoption": [
+          "该技术如何集成到现有的技术基础和商业流程中",
+          "如何评估和确保该技术的安全性和可靠性",
+          "采用该技术的潜在ROI和投资回报期是多少"
+        ],
+        "final_judgement": "该技术有潜力优化企业的策略评估和结构重构，但其应用仍处于早期阶段，企业需要谨慎评估其成熟度、实施成本和潜在风险。"
+      },
+      "category": "research",
+      "category_label": "前沿研究与趋势信号",
+      "category_emoji": "🟣",
+      "source_name": "ArXiv CS.AI",
+      "source_url": "http://arxiv.org/abs/2607.12986v1",
+      "original_title": "Win by Silence: Deletion Non-Monotonicity, Autonomous Exploitation, and Typed-State Gating in LLM Plan Evaluation",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T17:29:28",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "5e399ff1-3250-4413-ac42-f25e770ad6dc",
+      "title": "销售团队如何利用ChatGPT Work",
+      "one_sentence_conclusion": "销售团队可以利用ChatGPT Work提高工作效率和客户服务质量",
+      "summary": "ChatGPT Work是一种AI工具，用于帮助销售团队创建销售管道简报、会议准备包、预测评估、客户计划和滞销案件诊断等内容。销售团队可以通过ChatGPT Work提高工作效率和客户服务质量。",
+      "why_it_matters": [
+        "销售团队可以通过ChatGPT Work节省时间和提高工作效率",
+        "ChatGPT Work可以帮助销售团队提供更好的客户服务和支持",
+        "销售团队可以通过ChatGPT Work提高销售管道的透明度和可追踪性"
+      ],
+      "enterprise_impact": {
+        "business": "销售团队的工作流程和客户服务质量可能会受到影响",
+        "technology": "销售团队可能会采用新的AI工具和技术",
+        "organization": "销售团队的组织结构和流程可能会发生变化"
       },
       "suitable_for": [
         "销售团队",
-        "销售管理",
-        "销售培训"
+        "客户服务团队",
+        "营销团队"
       ],
       "recommended_actions": [
         {
-          "action": "评估ChatGPT Work的适用性和潜在收益",
+          "action": "评估ChatGPT Work的潜在价值和成本",
           "priority": "high",
           "timeframe": "立即",
-          "reason": "了解ChatGPT Work的潜在价值和应用场景"
+          "reason": "了解ChatGPT Work的潜在影响和成本"
         },
         {
           "action": "测试ChatGPT Work的功能和效果",
           "priority": "medium",
           "timeframe": "1-3月",
-          "reason": "评估ChatGPT Work的实际效果和改进空间"
+          "reason": "评估ChatGPT Work的实际效果"
         }
       ],
       "risks_and_limits": [
-        "信息安全风险",
-        "依赖AI工具的风险",
-        "适用性和可靠性限制"
+        "ChatGPT Work可能会取代部分销售团队的工作",
+        "ChatGPT Work可能会增加销售团队的成本和负担",
+        "ChatGPT Work的效果可能会受到销售团队的使用和管理方式的影响"
       ],
       "signals_to_watch": [
-        "ChatGPT Work的更新和改进",
-        "销售团队的使用和反馈",
-        "竞争对手的AI工具和策略"
+        "销售团队对ChatGPT Work的采用率和效果",
+        "客户对ChatGPT Work的反馈和评价",
+        "ChatGPT Work的市场和竞争格局"
       ],
       "credibility": {
         "level": "medium",
-        "reason": "来自ChatGPT Work开发者的宣传和案例分享"
+        "reason": "ChatGPT Work是一种AI工具，但其效果和影响可能会受到多种因素的影响"
       },
       "enterprise_value_level": "medium",
-      "information_type": "产品发布",
+      "information_type": "技术进展",
       "confidence": "medium",
       "overall_score": 60.0,
       "scoring_detail": null,
@@ -1100,12 +1345,181 @@
       "related_sources": null,
       "multi_source_verified": false,
       "published_at": "2026-07-14T00:00:00",
-      "intelligence_date": "2026-07-15"
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "45850da7-19ab-4949-8d84-5010fb2f49e6",
+      "title": "数据科学团队如何使用ChatGPT Work",
+      "one_sentence_conclusion": "ChatGPT Work 可以帮助数据科学团队提高工作效率和生产力",
+      "summary": "ChatGPT Work 是一个工具，允许数据科学团队从真实工作输入中构建根因分析、影响读数、KPI备忘录、范围分析和仪表板规范",
+      "why_it_matters": [
+        "数据科学团队可以利用 ChatGPT Work 提高工作效率和生产力",
+        "ChatGPT Work 可以帮助数据科学团队更好地管理和分析数据"
+      ],
+      "enterprise_impact": {
+        "technology": "ChatGPT Work 可以影响数据科学团队的技术架构和模型选型",
+        "organization": "ChatGPT Work 可以影响数据科学团队的组织能力和流程"
+      },
+      "suitable_for": [
+        "数据科学团队",
+        "分析部门",
+        "数据驱动决策"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估 ChatGPT Work 的潜在应用和收益",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "了解 ChatGPT Work 的潜在价值和限制"
+        },
+        {
+          "action": "考虑采用 ChatGPT Work 来提高工作效率和生产力",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "ChatGPT Work 可以帮助数据科学团队提高工作效率和生产力"
+        }
+      ],
+      "risks_and_limits": [
+        "信息安全风险",
+        "依赖度过高",
+        "学习曲线陡峭"
+      ],
+      "signals_to_watch": [
+        "ChatGPT Work 的更新和新功能",
+        "数据科学团队的采用和反馈"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "ChatGPT Work 是一个受欢迎的工具，但其具体应用和收益仍需要进一步评估"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "产品发布",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "chip",
+      "category_label": "模型算力与芯片生态",
+      "category_emoji": "🔴",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "original_title": "How data science teams use ChatGPT Work",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-14T00:00:00",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "13a891c6-097d-47b2-920b-f6593f847fa5",
+      "title": "Shippy项目对构建智能代理的启发",
+      "one_sentence_conclusion": "Shippy项目提供了构建智能代理的经验教训，对企业的核心意义在于提高智能决策能力",
+      "summary": "Shippy项目是一项智能代理项目，通过模拟人类行为来学习和改进智能决策能力。项目中使用了强化学习和深度学习等技术来实现智能代理的构建。",
+      "why_it_matters": [
+        "智能代理技术在企业中有广泛的应用潜力，尤其是在智能客服、智能供应链等领域。",
+        "Shippy项目的经验教训可以帮助企业在构建智能代理时避免常见的陷阱和错误。"
+      ],
+      "enterprise_impact": {
+        "strategy": "对企业的智能代理战略和竞争格局有影响",
+        "business": "对智能客服和智能供应链等业务场景有影响",
+        "technology": "对强化学习和深度学习等技术的选型和应用有影响",
+        "organization": "对企业的组织能力和流程有影响"
+      },
+      "suitable_for": [
+        "适合关注智能代理技术和智能决策能力的企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "学习和分析Shippy项目的经验教训",
+          "priority": "high",
+          "timeframe": "立即",
+          "reason": "通过学习和分析Shippy项目的经验教训，可以帮助企业在构建智能代理时避免常见的陷阱和错误。"
+        }
+      ],
+      "risks_and_limits": [
+        "项目的成功经验可能过于乐观，需要在实际应用中进行验证。"
+      ],
+      "signals_to_watch": [
+        "后续应观察智能代理技术在企业中的应用和发展趋势。"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "项目的经验教训来源于实际的项目实施，但需要在实际应用中进行验证。"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "tool",
+      "category_label": "AI工具与实战",
+      "category_emoji": "🟢",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "original_title": "What building Shippy taught us about building agents",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-15T17:29:41",
+      "intelligence_date": "2026-07-16"
+    },
+    {
+      "id": "99a23cb8-b28e-4584-9836-6913e95c97cc",
+      "title": "声 AI 人性化度评估工具 Real World VoiceEQ 发布",
+      "one_sentence_conclusion": "声 AI 人性化度评估工具的出现对企业的核心意义在于提高声 AI 产品的质量和用户体验",
+      "summary": "声 AI 人性化度评估工具 Real World VoiceEQ 由一家公司开发，旨在评估声 AI 的人性化度，帮助企业提高声 AI 产品的质量和用户体验",
+      "why_it_matters": [
+        "声 AI 人性化度评估工具的出现对企业的声 AI 产品质量和用户体验有重要影响",
+        "企业可以通过使用此工具提高声 AI 产品的质量和用户体验"
+      ],
+      "enterprise_impact": {
+        "technology": "对声 AI 技术架构或模型选型的影响",
+        "business": "对声 AI 产品质量和用户体验的影响"
+      },
+      "suitable_for": [
+        "声 AI 产品开发和运营相关企业"
+      ],
+      "recommended_actions": [
+        {
+          "action": "评估和采用 Real World VoiceEQ 工具",
+          "priority": "medium",
+          "timeframe": "1-3月",
+          "reason": "提高声 AI 产品的质量和用户体验"
+        }
+      ],
+      "risks_and_limits": [
+        "信息不足时可能无法评估声 AI 人性化度"
+      ],
+      "signals_to_watch": [
+        "声 AI 人性化度评估工具的广泛采用和行业应用"
+      ],
+      "credibility": {
+        "level": "medium",
+        "reason": "工具开发公司的声誉和专业性"
+      },
+      "enterprise_value_level": "medium",
+      "information_type": "技术进展",
+      "confidence": "medium",
+      "overall_score": 60.0,
+      "scoring_detail": null,
+      "category": "strategy",
+      "category_label": "AI战略与组织变革",
+      "category_emoji": "🔵",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog/real-world-voiceeq",
+      "original_title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "is_duplicate": false,
+      "duplicate_of": null,
+      "related_sources": null,
+      "multi_source_verified": false,
+      "published_at": "2026-07-15T00:00:00",
+      "intelligence_date": "2026-07-16"
     }
   ],
   "people": [],
   "sources": [],
   "projects": [],
-  "generated_at": "2026-07-15T07:47:14.388886+08:00",
-  "date": "2026-07-15"
+  "generated_at": "2026-07-16T07:56:48.968781+08:00",
+  "date": "2026-07-16"
 }
